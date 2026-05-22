@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "title": "TPU v5p | Google Cloud Documentation",
+    "url": "https://docs.cloud.google.com/tpu/docs/v5p",
+    "source_type": "official_docs",
+    "topics": ["TPU", "Google", "systolic-array"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Official Google TPU v5p architecture docs. 8,960 chips per pod, 460 petaFLOPS, 4,800 Gbps per chip via 3D torus interconnect"
+  },
+  {
+    "id": 2,
+    "title": "Introducing Trillium, sixth-generation TPUs | Google Cloud Blog",
+    "url": "https://cloud.google.com/blog/products/compute/introducing-trillium-6th-gen-tpus",
+    "source_type": "vendor_blog",
+    "topics": ["TPU", "Google", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "TPU v6 Trillium: 4.7x peak compute vs v5e, 256x256 systolic array, 918 BF16 TFLOPS per chip, 2.1x perf/dollar over v5e"
+  },
+  {
+    "id": 3,
+    "title": "Google TPU Architecture: 7 Generations Explained | Introl Blog",
+    "url": "https://introl.com/blog/google-tpu-architecture-complete-guide-7-generations",
+    "source_type": "technical_blog",
+    "topics": ["TPU", "Google", "systolic-array"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Comprehensive multi-generation TPU analysis including v5p, v6e Trillium, and v7 Ironwood specifications"
+  },
+  {
+    "id": 4,
+    "title": "Ironwood: The first Google TPU for the age of inference",
+    "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/",
+    "source_type": "vendor_blog",
+    "topics": ["TPU", "Google", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "TPU v7 Ironwood: 4,614 TFLOPs per chip, 192GB HBM3e, 9,216-chip pods at 42.5 Exaflops, 9.6 Tb/s ICI"
+  },
+  {
+    "id": 5,
+    "title": "TPU7x (Ironwood) | Google Cloud Documentation",
+    "url": "https://docs.cloud.google.com/tpu/docs/tpu7x",
+    "source_type": "official_docs",
+    "topics": ["TPU", "Google", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Official specs: 256x256 MXU array, 7.4 TB/s HBM3e bandwidth, 1.77 PB shared HBM across full pod"
+  },
+  {
+    "id": 6,
+    "title": "Google TPUv7: The 900lb Gorilla In the Room | SemiAnalysis",
+    "url": "https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the",
+    "source_type": "analyst_report",
+    "topics": ["TPU", "Google", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Deep competitive analysis vs NVIDIA GB300, claims Ironwood pod beats GB300 on inference workloads"
+  },
+  {
+    "id": 7,
+    "title": "Groq LPU Architecture | Groq",
+    "url": "https://groq.com/lpu-architecture",
+    "source_type": "official_docs",
+    "topics": ["LPU", "Groq", "LLM-inference", "dataflow"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Deterministic, static-schedule SIMD conveyor architecture, hundreds MB on-chip SRAM, plesiosynchronous multi-chip protocol"
+  },
+  {
+    "id": 8,
+    "title": "Groq AI in 2026: Nvidia Deal, LPU Architecture | Voiceflow Blog",
+    "url": "https://www.voiceflow.com/blog/groq",
+    "source_type": "technical_blog",
+    "topics": ["LPU", "Groq", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Nvidia $20B non-exclusive LPU license (Dec 24 2025), Groq 3 LPU integrated into Vera Rubin platform"
+  },
+  {
+    "id": 9,
+    "title": "Inside the LPU: Deconstructing Groq's Speed | Groq Blog",
+    "url": "https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed",
+    "source_type": "vendor_blog",
+    "topics": ["LPU", "Groq", "dataflow"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Architecture breakdown: SIMD function units, static scheduling compiler, 20+ TOPS/W efficiency"
+  },
+  {
+    "id": 10,
+    "title": "LPU: A Latency-Optimized Processor for Large Language Model Inference | arXiv",
+    "url": "https://arxiv.org/html/2408.07326v1",
+    "source_type": "arxiv_paper",
+    "topics": ["LPU", "Groq", "LLM-inference", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Academic paper characterizing LPU latency and scalability for LLM inference at chip and system level"
+  },
+  {
+    "id": 11,
+    "title": "Cerebras WSE-3 - The Wafer-Scale AI Engine",
+    "url": "https://awesomeagents.ai/hardware/cerebras-wse-3/",
+    "source_type": "technical_blog",
+    "topics": ["WSE", "Cerebras", "wafer-scale"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "WSE-3 specs: 4T transistors, 900k AI cores, 44GB on-chip SRAM, 21 PB/s memory bandwidth, 125 PFLOPS, 5nm TSMC"
+  },
+  {
+    "id": 12,
+    "title": "Cerebras Delivers Record-Breaking Performance with Llama 3.1-405B",
+    "url": "https://www.cerebras.ai/press-release/cerebras-inference-llama-405b",
+    "source_type": "press_release",
+    "topics": ["WSE", "Cerebras", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "2,500 tokens/sec/user on Llama 4 Maverick (400B params), 2x DGX B200; $510M 2025 revenue"
+  },
+  {
+    "id": 13,
+    "title": "A Comparison of Cerebras Wafer-Scale Integration with Nvidia GPU Systems | arXiv",
+    "url": "https://arxiv.org/html/2503.11698v1",
+    "source_type": "arxiv_paper",
+    "topics": ["WSE", "Cerebras", "wafer-scale"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Peer-reviewed comparison study of WSE-3 vs GPU-based AI systems across training and inference"
+  },
+  {
+    "id": 14,
+    "title": "Nvidia B200 GPU: Specs, VRAM, Price, and AI Performance | RunPod",
+    "url": "https://www.runpod.io/articles/guides/nvidia-b200",
+    "source_type": "technical_blog",
+    "topics": ["NVIDIA", "Blackwell", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "B200: 208B transistors, 180GB HBM3e, 8 TB/s bandwidth, 4x H100 training throughput, 3.1x H200 inference"
+  },
+  {
+    "id": 15,
+    "title": "NVIDIA Blackwell Architecture | NVIDIA",
+    "url": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+    "source_type": "official_docs",
+    "topics": ["NVIDIA", "Blackwell", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "GB200 NVL72 achieves 1.5M tokens/sec on GPT-120B; NVLink 5th gen at 1.8 TB/s per GPU bidirectional"
+  },
+  {
+    "id": 16,
+    "title": "NVIDIA Blackwell Enables 3x Faster Training | NVIDIA Technical Blog",
+    "url": "https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/",
+    "source_type": "vendor_blog",
+    "topics": ["NVIDIA", "Blackwell", "systolic-array"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Blackwell 3x training vs Hopper, 2x perf/dollar; GB200 NVL72 = 4x GPT-MoE-1.8T training speedup"
+  },
+  {
+    "id": 17,
+    "title": "AWS Trainium3 UltraServer | HPCwire",
+    "url": "https://www.hpcwire.com/2025/12/02/aws-brings-the-trainium3-chip-to-market-with-new-ec2-ultraservers/",
+    "source_type": "news",
+    "topics": ["AWS", "Trainium", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Trainium3 (Dec 2025): 2.52 PFLOPS FP8, 144GB HBM3e, 4.9 TB/s bandwidth; 144-chip UltraServer = 362 PFLOPS"
+  },
+  {
+    "id": 18,
+    "title": "With Trainium4, AWS Will Crank Up Everything But The Clocks | NextPlatform",
+    "url": "https://www.nextplatform.com/2025/12/03/with-trainium4-aws-will-crank-up-everything-but-the-clocks/",
+    "source_type": "analyst_report",
+    "topics": ["AWS", "Trainium", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Trainium4 roadmap: 6x FP4 throughput, 3x FP8, 4x memory bandwidth vs Trainium3"
+  },
+  {
+    "id": 19,
+    "title": "AMD Instinct MI355X GPUs | AMD",
+    "url": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html",
+    "source_type": "official_docs",
+    "topics": ["AMD", "MI355X", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "MI355X: CDNA 4, 185B transistors, 288GB HBM3E, 10 PFLOPS FP4, 5 PFLOPS FP8; 4.2x vs MI300X on agent workloads"
+  },
+  {
+    "id": 20,
+    "title": "ISSCC 2026: AMD MI355X doubled per-CU throughput | Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/inside-the-instinct-mi355x",
+    "source_type": "news",
+    "topics": ["AMD", "MI355X", "systolic-array"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "ISSCC 2026 paper: 32 active CUs (down from 38), doubled per-CU FP8 throughput; matches GB200 cost-effectively"
+  },
+  {
+    "id": 21,
+    "title": "AMD MLPerf Inference 6.0 Results | AMD Blog",
+    "url": "https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html",
+    "source_type": "vendor_blog",
+    "topics": ["AMD", "MI355X", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "First AMD result exceeding 1M tokens/sec in MLPerf inference; MI355X on Llama 3.1-405B FP4"
+  },
+  {
+    "id": 22,
+    "title": "Intel Gaudi 3 AI Accelerator White Paper | Intel",
+    "url": "https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf",
+    "source_type": "official_docs",
+    "topics": ["Intel", "Gaudi3", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Gaudi 3: 1.8 PFLOPS FP8/BF16, 128GB HBM2e, 3.7 TB/s, 95-170% H100 performance on Llama benchmarks"
+  },
+  {
+    "id": 23,
+    "title": "SambaNova RDU Reconfigurable Architectures | Medium",
+    "url": "https://medium.com/@leosorge/sambanova-rdu-reconfigurable-architectures-for-inferencefor-inference-training-and-agentic-ai-5088b5ca400b",
+    "source_type": "technical_blog",
+    "topics": ["SambaNova", "dataflow", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "SN50 RDU fifth-gen, three-tier memory (on-chip SRAM, HBM, DDR DRAM), 1 TB/s bandwidth, agentic AI focus"
+  },
+  {
+    "id": 24,
+    "title": "SambaNova SN40L RDU | arXiv",
+    "url": "https://arxiv.org/pdf/2405.07518",
+    "source_type": "arxiv_paper",
+    "topics": ["SambaNova", "dataflow", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Peer-reviewed architecture paper on SN40L dataflow accelerator; three-tier memory co-design for enterprise inference"
+  },
+  {
+    "id": 25,
+    "title": "52nd ISCA 2025: Tokyo, Japan | DBLP",
+    "url": "https://dblp.org/db/conf/isca/isca2025.html",
+    "source_type": "conference_proceedings",
+    "topics": ["transformer-accelerator", "systolic-array", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "ISCA 2025 Tokyo proceedings; papers on wafer-scale cabinet co-exploration, RRAM PIM for transformers, LLM CPU-GPU inference"
+  },
+  {
+    "id": 26,
+    "title": "Hardware Acceleration for Neural Networks: A Comprehensive Survey | arXiv 2512.23914",
+    "url": "https://arxiv.org/abs/2512.23914",
+    "source_type": "arxiv_paper",
+    "topics": ["transformer-accelerator", "sparsity", "NPU"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Dec 2025 comprehensive survey across CNNs, RNNs, GNNs, Transformers/LLMs covering sparsity, pruning, quantization"
+  },
+  {
+    "id": 27,
+    "title": "Analog AI Chip Market Size to Hit USD 2450.81 Million by 2035 | Precedence Research",
+    "url": "https://www.precedenceresearch.com/analog-ai-chip-market",
+    "source_type": "market_research",
+    "topics": ["analog-AI"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "IMC segment 38% market share 2025; inference acceleration 52% of market; IBM and academic pioneer status"
+  },
+  {
+    "id": 28,
+    "title": "Analog in-memory Computing for LLMs | IBM Research Blog",
+    "url": "https://research.ibm.com/blog/how-can-analog-in-memory-computing-power-transformer-models",
+    "source_type": "vendor_blog",
+    "topics": ["analog-AI", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "IBM AIMC: 3D analog in-memory architecture for MoE transformers; outperforms GPUs on multiple measures per study"
+  },
+  {
+    "id": 29,
+    "title": "All-in-One Analog AI Hardware: On-Chip Training and Inference | arXiv",
+    "url": "https://arxiv.org/pdf/2502.04524",
+    "source_type": "arxiv_paper",
+    "topics": ["analog-AI"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Feb 2025 paper: HfOx ReRAM on-chip training and inference demonstration; conductive-metal-oxide architecture"
+  },
+  {
+    "id": 30,
+    "title": "AI PC Buying Guide 2025: NPU TOPS Ratings | NewTechGuy",
+    "url": "https://www.newtechguy.com/ai-pc-buying-guide-2025-npu-tops-ratings-performance-benchmarks-and-what-actually-matters/",
+    "source_type": "technical_blog",
+    "topics": ["NPU"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "Apple M4: 38 TOPS, Snapdragon X Elite Hexagon: 45 TOPS INT8; real-world vs synthetic TOPS comparison"
+  },
+  {
+    "id": 31,
+    "title": "Scaling LLM Test-Time Compute with Mobile NPU on Smartphones | arXiv",
+    "url": "https://arxiv.org/pdf/2509.23324",
+    "source_type": "arxiv_paper",
+    "topics": ["NPU", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Sep 2025 paper: mobile NPU deployment strategies for on-device LLM inference via test-time compute scaling"
+  },
+  {
+    "id": 32,
+    "title": "Hybrid Systolic Array Accelerator for Edge LLM Inference | arXiv 2507.09010",
+    "url": "https://arxiv.org/abs/2507.09010",
+    "source_type": "arxiv_paper",
+    "topics": ["systolic-array", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "247/117 token/s/mm² on 1.3B LLM; MXINT4 quantization, hybrid systolic+vector hybrid; 2.45x-13.5x over prior work"
+  },
+  {
+    "id": 33,
+    "title": "NVIDIA Vera Rubin NVL72 Detailed | VideoCardz",
+    "url": "https://videocardz.com/newz/nvidia-vera-rubin-nvl72-detailed-72-gpus-36-cpus-260-tb-s-scale-up-bandwidth",
+    "source_type": "news",
+    "topics": ["NVIDIA", "Rubin", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Rubin: 336B transistors, 50 PFLOPS NVFP4, 288GB HBM4, 22 TB/s; NVL72 = 3.6 EFLOPS NVFP4, NVLink 6 @ 3.6 TB/s/GPU"
+  },
+  {
+    "id": 34,
+    "title": "NVIDIA Rubin Enters Full Production | Introl Blog",
+    "url": "https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure",
+    "source_type": "news",
+    "topics": ["NVIDIA", "Rubin", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Rubin full production at CES 2026; 10x lower inference token cost and 4x fewer GPUs for MoE vs Blackwell"
+  },
+  {
+    "id": 35,
+    "title": "Qualcomm Cloud AI 100 Ultra LLM Comparison | arXiv 2507.00418",
+    "url": "https://arxiv.org/abs/2507.00418",
+    "source_type": "arxiv_paper",
+    "topics": ["NPU", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "HPC cluster comparison of QAic vs NVIDIA GPUs for 12 LLMs 124M-70B; QAic 20x lower power than 8x A100"
+  },
+  {
+    "id": 36,
+    "title": "Processing-In-Memory HBM PIM for AI | Samsung Semiconductor",
+    "url": "https://semiconductor.samsung.com/news-events/tech-blog/hbm-pim-cutting-edge-memory-technology-to-accelerate-next-generation-ai/",
+    "source_type": "vendor_blog",
+    "topics": ["analog-AI", "systolic-array"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Samsung HBM-PIM: 2.5x system performance gain, >60% energy reduction in Xilinx Alveo test"
+  },
+  {
+    "id": 37,
+    "title": "HPIM: Heterogeneous Processing-In-Memory Accelerator for LLMs | arXiv 2509.12993",
+    "url": "https://arxiv.org/abs/2509.12993",
+    "source_type": "arxiv_paper",
+    "topics": ["analog-AI", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "HPIM integrates SRAM-PIM + HBM-PIM; 34.3x peak speedup vs NVIDIA A100 for LLM inference"
+  },
+  {
+    "id": 38,
+    "title": "Breakthrough Optical Processor for AI | ScienceDaily",
+    "url": "https://www.sciencedaily.com/releases/2025/10/251027224833.htm",
+    "source_type": "news",
+    "topics": ["analog-AI"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "Oct 2025: Tsinghua OFE2 optical feature extraction engine; 30x energy reduction vs CMOS; imaging & trading demos"
+  },
+  {
+    "id": 39,
+    "title": "Chiplet Revolution: UCIe and Advanced Packaging 2025 | Design Reuse",
+    "url": "https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/",
+    "source_type": "technical_blog",
+    "topics": ["transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "UCIe 3.0 ratified Aug 2025; UCIe-3D with hybrid bonding; TSMC targeting 130k CoWoS wafers/month by late 2026"
+  },
+  {
+    "id": 40,
+    "title": "MLPerf Training v5.0 Results | MLCommons",
+    "url": "https://mlcommons.org/2025/06/mlperf-training-v5-0-results/",
+    "source_type": "benchmark_results",
+    "topics": ["transformer-accelerator", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Jun 2025: new Llama 3.1-405B pretraining benchmark; record submissions; surpasses Moore's Law improvement rate"
+  },
+  {
+    "id": 41,
+    "title": "MLPerf Inference v5.1 Results | MLCommons",
+    "url": "https://mlcommons.org/2025/09/mlperf-inference-v5-1-results/",
+    "source_type": "benchmark_results",
+    "topics": ["LLM-inference", "NPU"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Sep 2025: 50% improvement over v5.0 in 6 months; new DeepSeek-R1, Llama-3.1-8B, Whisper benchmarks added"
+  },
+  {
+    "id": 42,
+    "title": "TSMC 3nm Capacity May Hit 180K Wafers by 2026 | TrendForce",
+    "url": "https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/",
+    "source_type": "market_research",
+    "topics": ["transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Apr 2026: TSMC N3 at 180k wafers/month, constrained by AI demand; N2 mass production Dec 2025, 70-80% yields"
+  },
+  {
+    "id": 43,
+    "title": "AI-Driven DRAM Shortage HBM | Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond",
+    "source_type": "news",
+    "topics": ["transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "HBM3E prices up 171.8% YoY late 2025; 20% price hike for 2026; shortage persisting to 2027-2030; HBM4 transition"
+  },
+  {
+    "id": 44,
+    "title": "MoE Infrastructure Scaling Guide | Introl Blog",
+    "url": "https://intuitionlabs.ai/articles/llm-inference-hardware-enterprise-guide",
+    "source_type": "technical_blog",
+    "topics": ["LLM-inference", "sparsity"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "60% of 2025 open-source model releases use MoE; DeepSeek-V3 671B total / 37B active params"
+  },
+  {
+    "id": 45,
+    "title": "Prefill-Decode Disaggregation Architecture | Groundy",
+    "url": "https://groundy.com/articles/prefill-decode-disaggregation-the-architecture-shift-redefining-llm-serving-at-scale/",
+    "source_type": "technical_blog",
+    "topics": ["LLM-inference", "dataflow"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "PD disaggregation default at every major hyperscaler 2025; 52.3k input TPS + 22.3k output TPS on 96 H100s"
+  },
+  {
+    "id": 46,
+    "title": "SPAD: Specialized Prefill and Decode Hardware | arXiv 2510.08544",
+    "url": "https://arxiv.org/pdf/2510.08544",
+    "source_type": "arxiv_paper",
+    "topics": ["LLM-inference", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Oct 2025 paper proposing custom ASIC designs tailored for disaggregated prefill vs decode hardware requirements"
+  },
+  {
+    "id": 47,
+    "title": "Tenstorrent Wormhole Architecture Analysis | SemiAnalysis",
+    "url": "https://newsletter.semianalysis.com/p/tenstorrent-wormhole-analysis-a-scale",
+    "source_type": "analyst_report",
+    "topics": ["dataflow", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "Wormhole: 16x 100Gb Ethernet for scale-out, 384 GB/s GDDR6 bandwidth, 150W TDP; Blackhole taped out 2025"
+  },
+  {
+    "id": 48,
+    "title": "CXL Memory Expansion for AI Inference 2025 | Introl Blog",
+    "url": "https://introl.com/blog/cxl-memory-expansion-pooling-disaggregated-memory-ai-data-center-2025",
+    "source_type": "technical_blog",
+    "topics": ["LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "CXL pools reaching 100 TiB 2025; MS launching CXL cloud instances Nov 2025; 21.9x throughput, 60x lower energy/token"
+  },
+  {
+    "id": 49,
+    "title": "RISC-V Open-Source AI Chip Revolution 2025 | FinancialContent",
+    "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-11-6-risc-v-the-open-source-revolution-reshaping-ai-hardware-innovation",
+    "source_type": "news",
+    "topics": ["NPU", "dataflow"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "RISC-V AI: Tenstorrent, Esperanto, Axelera AI; Google SiFive X280 cores in TPUs; $92.7B SoC market by 2030"
+  },
+  {
+    "id": 50,
+    "title": "AI Data Center Energy Consumption 2026 | Presenc AI",
+    "url": "https://presenc.ai/research/ai-data-center-energy-consumption-2026",
+    "source_type": "market_research",
+    "topics": ["transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "medium",
+    "notes": "Global DC demand: 460-490 TWh 2025; >500 TWh projected 2026; NVIDIA roadmap 1,500W per chip by 2026; liquid cooling 47% market share"
+  },
+  {
+    "id": 51,
+    "title": "Intelligence Per Watt Study | Hazy Research Stanford",
+    "url": "https://hazyresearch.stanford.edu/blog/2025-11-11-ipw",
+    "source_type": "research_blog",
+    "topics": ["NPU", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Nov 2025: systematic efficiency analysis across AI hardware; local inference efficiency per watt metric framework"
+  },
+  {
+    "id": 52,
+    "title": "ML Hardware Energy Efficiency 40% per Year | Epoch AI",
+    "url": "https://epoch.ai/data-insights/ml-hardware-energy-efficiency",
+    "source_type": "research_blog",
+    "topics": ["transformer-accelerator", "NPU"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "ML hardware becomes 40% more energy-efficient each year; compute grows 80x last decade but memory bandwidth only 17x"
+  },
+  {
+    "id": 53,
+    "title": "AI Accelerators for LLM Inference: Architecture Analysis | arXiv 2506.00008",
+    "url": "https://arxiv.org/pdf/2506.00008",
+    "source_type": "arxiv_paper",
+    "topics": ["LLM-inference", "transformer-accelerator"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Jun 2025 comprehensive survey of AI accelerator architectures and scaling strategies for LLM inference"
+  },
+  {
+    "id": 54,
+    "title": "AxLLM: Accelerator Architecture with Computation Reuse | arXiv 2509.22512",
+    "url": "https://arxiv.org/abs/2509.22512",
+    "source_type": "arxiv_paper",
+    "topics": ["transformer-accelerator", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Sep 2025: 90% reduction in computations via reuse, 28% lower energy, 1.7x speedup over baseline"
+  },
+  {
+    "id": 55,
+    "title": "Microsoft Maia 200 AI Accelerator for Inference | Microsoft Blog",
+    "url": "https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/",
+    "source_type": "vendor_blog",
+    "topics": ["transformer-accelerator", "LLM-inference"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Jan 2026: Maia 200 inference-specific chip; Maia 100 (820mm² N5, 1.8 TB/s BW, 64GB HBM2E) used only internally"
+  },
+  {
+    "id": 56,
+    "title": "Wafer-Scale AI GPU Impossible Performance | Hot Chips 2024",
+    "url": "https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf",
+    "source_type": "conference_proceedings",
+    "topics": ["WSE", "Cerebras", "wafer-scale"],
+    "date_accessed": "2026-05-22",
+    "relevance": "high",
+    "notes": "Hot Chips 2024 Cerebras presentation: architectural rationale and performance claims for WSE-3"
+  }
+]

@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "sector": "datacenter_hardware",
+    "generated": "2026-05-22",
+    "window": "2025-11-22 to 2026-05-22",
+    "total_sources": 52
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "The data center cooling state of play (2025) — Liquid cooling is on the rise",
+      "url": "https://www.tomshardware.com/pc-components/cooling/the-data-center-cooling-state-of-play-2025-liquid-cooling-is-on-the-rise-thermal-density-demands-skyrocket-in-ai-data-centers-and-tsmc-leads-with-direct-to-silicon-solutions",
+      "domain": "tomshardware.com",
+      "tags": ["liquid-cooling", "thermal-management", "direct-to-chip"],
+      "date_approx": "2025-Q1",
+      "relevance": "high"
+    },
+    {
+      "id": 2,
+      "title": "Rethinking data center cooling for AI: The rise of direct-to-chip liquid cooling",
+      "url": "https://blog.se.com/datacenter/2026/01/16/rethinking-data-center-cooling-ai-direct-to-chip-liquid-cooling/",
+      "domain": "blog.se.com",
+      "tags": ["liquid-cooling", "direct-to-chip", "AI-cluster"],
+      "date_approx": "2026-01-16",
+      "relevance": "high"
+    },
+    {
+      "id": 3,
+      "title": "Why liquid cooling will dominate AI data centres in 2026",
+      "url": "https://www.lombardodier.com/insights/2026/january/ai-supercharges-the-race.html",
+      "domain": "lombardodier.com",
+      "tags": ["liquid-cooling", "market-forecast"],
+      "date_approx": "2026-01",
+      "relevance": "medium"
+    },
+    {
+      "id": 4,
+      "title": "Single-phase direct liquid cooling emerges as the most efficient thermal solution for AI data centers",
+      "url": "https://blog.se.com/datacenter/2026/03/10/single-phase-direct-liquid-cooling-efficient-thermal-solution-ai-data-centers/",
+      "domain": "blog.se.com",
+      "tags": ["liquid-cooling", "immersion-cooling", "single-phase"],
+      "date_approx": "2026-03-10",
+      "relevance": "high"
+    },
+    {
+      "id": 5,
+      "title": "Closed-loop cooling in Oracle AI data centers",
+      "url": "https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09/",
+      "domain": "oracle.com",
+      "tags": ["liquid-cooling", "thermal-management"],
+      "date_approx": "2026-02-09",
+      "relevance": "high"
+    },
+    {
+      "id": 6,
+      "title": "AI-driven cooling technologies for high-performance data centres: state-of-the-art review",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221313882500342X",
+      "domain": "sciencedirect.com",
+      "tags": ["thermal-management", "liquid-cooling", "research-paper"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 7,
+      "title": "Two-Phase Cold Plate Cooling Will Take Off as Early as 2026-2027",
+      "url": "https://www.idtechex.com/en/research-article/two-phase-cold-plate-cooling-will-take-off-as-early-as-2026-2027/34068",
+      "domain": "idtechex.com",
+      "tags": ["immersion-cooling", "two-phase", "thermal-management"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 8,
+      "title": "Data Center Immersion Cooling Market Forecast 2026-2035",
+      "url": "https://www.researchnester.com/reports/data-center-immersion-cooling-market/6893",
+      "domain": "researchnester.com",
+      "tags": ["immersion-cooling", "market-forecast"],
+      "date_approx": "2026",
+      "relevance": "medium"
+    },
+    {
+      "id": 9,
+      "title": "Thermal Management For Data Centers 2026-2036: Technologies, Markets, and Opportunities",
+      "url": "https://www.idtechex.com/en/research-report/thermal-management-for-data-centers/1128",
+      "domain": "idtechex.com",
+      "tags": ["thermal-management", "market-forecast"],
+      "date_approx": "2026",
+      "relevance": "high"
+    },
+    {
+      "id": 10,
+      "title": "Plan Liquid Cooling for 100kW+ AI Data Center Racks",
+      "url": "https://archilabs.ai/posts/plan-liquid-cooling-for-100kw-ai-data-center-racks",
+      "domain": "archilabs.ai",
+      "tags": ["rack-scale", "liquid-cooling", "AI-cluster"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 11,
+      "title": "Designing for 100 kW to 1 MW Racks: Why AI Infrastructure Is Breaking Old Distribution Assumptions",
+      "url": "https://moonshotus.com/designing-for-100-kw-to-1-mw-racks-why-ai-infrastructure-is-breaking-old-distribution-assumptions/",
+      "domain": "moonshotus.com",
+      "tags": ["rack-scale", "power-delivery"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 12,
+      "title": "Building 100kW+ GPU Racks",
+      "url": "https://introl.com/blog/building-100kw-gpu-racks-power-cooling-architecture",
+      "domain": "introl.com",
+      "tags": ["rack-scale", "power-delivery", "liquid-cooling"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 13,
+      "title": "NVIDIA DGX GB200 NVL72 Rack User Guide",
+      "url": "https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html",
+      "domain": "docs.nvidia.com",
+      "tags": ["rack-scale", "liquid-cooling", "AI-cluster"],
+      "date_approx": "2026-03",
+      "relevance": "high"
+    },
+    {
+      "id": 14,
+      "title": "GB200 NVL72 Product Page — NVIDIA",
+      "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
+      "domain": "nvidia.com",
+      "tags": ["rack-scale", "liquid-cooling", "AI-cluster"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 15,
+      "title": "NVIDIA GB200 NVL72 Cooling Requirements: What OEMs Need to Know",
+      "url": "https://tonecooling.com/nvidia-gb200-nvl72-cooling-requirements/",
+      "domain": "tonecooling.com",
+      "tags": ["liquid-cooling", "thermal-management", "rack-scale"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 16,
+      "title": "Fat-Tree vs. Dragonfly: The Topologies of the Multi-Cluster AI Network",
+      "url": "https://pingdo.net/ai-infrastructure/fat-tree-vs-dragonfly/",
+      "domain": "pingdo.net",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 17,
+      "title": "GPU Cluster Network Topology Design: Fat-Tree vs Dragonfly vs Rail-Optimized 2025",
+      "url": "https://introl.com/blog/gpu-cluster-network-topology-fat-tree-dragonfly-rail-optimized-2025",
+      "domain": "introl.com",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 18,
+      "title": "GPU Cluster Network Topologies: Fat-Tree vs Spine-Leaf vs Dragonfly+",
+      "url": "https://luxoptx.com/blogs/news/dgx-hgx-gpu-cluster-network-topologies-fat-tree-spine-leaf-and-dragonfly-compared",
+      "domain": "luxoptx.com",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025",
+      "relevance": "medium"
+    },
+    {
+      "id": 19,
+      "title": "Beyond capex: Closing the power efficiency gap in AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/opinions/beyond-capex-closing-the-power-efficiency-gap-in-ai-data-centers/",
+      "domain": "datacenterdynamics.com",
+      "tags": ["power-delivery", "PUE"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 20,
+      "title": "AI data center energy in 2026",
+      "url": "https://www.devsustainability.com/p/ai-data-center-energy-in-2026",
+      "domain": "devsustainability.com",
+      "tags": ["power-delivery", "PUE", "sustainability"],
+      "date_approx": "2026",
+      "relevance": "medium"
+    },
+    {
+      "id": 21,
+      "title": "Meta's Infrastructure Evolution and the Advent of AI",
+      "url": "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
+      "domain": "engineering.fb.com",
+      "tags": ["AI-cluster", "rack-scale", "hyperscale"],
+      "date_approx": "2025-09-29",
+      "relevance": "high"
+    },
+    {
+      "id": 22,
+      "title": "Meta establishes 'Meta Compute,' plans multiple gigawatt-plus scale AI data centers",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-establishes-meta-compute-plans-multiple-gigawatt-plus-scale-ai-data-centers/",
+      "domain": "datacenterdynamics.com",
+      "tags": ["AI-cluster", "power-delivery", "hyperscale"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 23,
+      "title": "Accelerating open-source infrastructure development for frontier AI at scale — Microsoft Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/accelerating-open-source-infrastructure-development-for-frontier-ai-at-scale/",
+      "domain": "azure.microsoft.com",
+      "tags": ["AI-cluster", "hyperscale"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 24,
+      "title": "Google Ironwood TPUs and new Axion-based VMs",
+      "url": "https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads",
+      "domain": "cloud.google.com",
+      "tags": ["AI-cluster", "rack-scale"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 25,
+      "title": "Google TPUv7: The 900lb Gorilla In the Room — SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the",
+      "domain": "newsletter.semianalysis.com",
+      "tags": ["AI-cluster", "rack-scale"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 26,
+      "title": "How rear door heat exchangers (RDHx) support high-density rack cooling — Vertiv",
+      "url": "https://www.vertiv.com/en-asia/about/news-and-events/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling/",
+      "domain": "vertiv.com",
+      "tags": ["thermal-management", "rack-scale"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 27,
+      "title": "Data Center Rear Door Heat Exchanger (RDHx) Cooling Market 2026 to 2035",
+      "url": "https://www.insightaceanalytic.com/report/data-center-rear-door-heat-exchanger-rdhx-cooling-market/3130",
+      "domain": "insightaceanalytic.com",
+      "tags": ["thermal-management", "market-forecast"],
+      "date_approx": "2026",
+      "relevance": "medium"
+    },
+    {
+      "id": 28,
+      "title": "2026 OCP Global Summit",
+      "url": "https://www.opencompute.org/summit/global-summit",
+      "domain": "opencompute.org",
+      "tags": ["rack-scale", "power-delivery"],
+      "date_approx": "2026",
+      "relevance": "medium"
+    },
+    {
+      "id": 29,
+      "title": "Open Rack V3 Base Specification Revision 1.0",
+      "url": "https://www.opencompute.org/documents/open-rack-base-specification-version-3-pdf",
+      "domain": "opencompute.org",
+      "tags": ["rack-scale", "power-delivery"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 30,
+      "title": "Data Center World 2026: AI Pushes Infrastructure to New Limits",
+      "url": "https://www.datacenterknowledge.com/build-design/data-center-world-2026-ai-pushes-infrastructure-to-new-limits",
+      "domain": "datacenterknowledge.com",
+      "tags": ["rack-scale", "power-delivery", "AI-cluster"],
+      "date_approx": "2026",
+      "relevance": "high"
+    },
+    {
+      "id": 31,
+      "title": "Data Center World 2026: Power Architecture Pushed Beyond the Rack",
+      "url": "https://www.datacenterknowledge.com/build-design/data-center-world-2026-new-limits-push-power-architecture-beyond-the-rack",
+      "domain": "datacenterknowledge.com",
+      "tags": ["power-delivery", "rack-scale"],
+      "date_approx": "2026",
+      "relevance": "high"
+    },
+    {
+      "id": 32,
+      "title": "SC25: Beyond Super Computing — NAND Research",
+      "url": "https://nand-research.com/sc25-beyond-super-computing/",
+      "domain": "nand-research.com",
+      "tags": ["AI-cluster", "power-delivery", "liquid-cooling"],
+      "date_approx": "2025-11-17",
+      "relevance": "high"
+    },
+    {
+      "id": 33,
+      "title": "Supermicro Showcases the Future of HPC Clusters and AI Infrastructure at SC25",
+      "url": "https://www.hpcwire.com/aiwire/2025/11/17/supermicro-showcases-the-future-of-hpc-clusters-and-ai-infrastructure-at-sc25/",
+      "domain": "hpcwire.com",
+      "tags": ["rack-scale", "liquid-cooling", "AI-cluster"],
+      "date_approx": "2025-11-17",
+      "relevance": "high"
+    },
+    {
+      "id": 34,
+      "title": "Powering AI's future: Vertiv at SuperComputing 2025",
+      "url": "https://www.vertiv.com/en-us/about/news-and-events/events/sc25-supercomputing/",
+      "domain": "vertiv.com",
+      "tags": ["thermal-management", "power-delivery"],
+      "date_approx": "2025-11",
+      "relevance": "medium"
+    },
+    {
+      "id": 35,
+      "title": "NVIDIA Vera Rubin NVL144 Platform — Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidias-vera-rubin-platform-in-depth-inside-nvidias-most-complex-ai-and-hpc-platform-to-date",
+      "domain": "tomshardware.com",
+      "tags": ["rack-scale", "AI-cluster"],
+      "date_approx": "2026-01",
+      "relevance": "high"
+    },
+    {
+      "id": 36,
+      "title": "Nvidia unpacks Vera Rubin rack system at CES 2026",
+      "url": "https://www.theregister.com/2026/01/05/ces_rubin_nvidia/",
+      "domain": "theregister.com",
+      "tags": ["rack-scale", "liquid-cooling", "AI-cluster"],
+      "date_approx": "2026-01-05",
+      "relevance": "high"
+    },
+    {
+      "id": 37,
+      "title": "NVIDIA Quantum-X800 InfiniBand Platform",
+      "url": "https://www.nvidia.com/en-us/networking/products/infiniband/quantum-x800/",
+      "domain": "nvidia.com",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 38,
+      "title": "AWS activates Project Rainier: One of the world's largest AI compute clusters",
+      "url": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "domain": "aboutamazon.com",
+      "tags": ["AI-cluster", "rack-scale", "hyperscale"],
+      "date_approx": "2025-10-29",
+      "relevance": "high"
+    },
+    {
+      "id": 39,
+      "title": "xAI's Colossus 2 — First Gigawatt Datacenter — SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter",
+      "domain": "newsletter.semianalysis.com",
+      "tags": ["power-delivery", "AI-cluster", "rack-scale"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 40,
+      "title": "Vertiv CoolChip CDU 70-1350 kW Specifications",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu/",
+      "domain": "vertiv.com",
+      "tags": ["liquid-cooling", "thermal-management"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 41,
+      "title": "NVLink and scale-up networking 2025",
+      "url": "https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025",
+      "domain": "introl.com",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 42,
+      "title": "How Much Power Does a Hyperscale Data Center Use? In-Depth Analysis",
+      "url": "https://cc-techgroup.com/how-much-power-does-a-hyperscale-data-center-use/",
+      "domain": "cc-techgroup.com",
+      "tags": ["power-delivery", "PUE"],
+      "date_approx": "2025",
+      "relevance": "medium"
+    },
+    {
+      "id": 43,
+      "title": "2026 Global AI Data Center Construction: Costs, Timelines, Outlook",
+      "url": "https://archdesk.com/blog/global-ai-data-center-construction-2026",
+      "domain": "archdesk.com",
+      "tags": ["rack-scale", "power-delivery", "hyperscale"],
+      "date_approx": "2026",
+      "relevance": "high"
+    },
+    {
+      "id": 44,
+      "title": "Silicon photonics and co-packaged optics at the heart of next-generation AI-driven data infrastructure",
+      "url": "https://www.yolegroup.com/press-release/silicon-photonics-and-co-packaged-optics-at-the-heart-of-next-generation-ai-driven-data-infrastructure/",
+      "domain": "yolegroup.com",
+      "tags": ["AI-cluster", "network-topology"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 45,
+      "title": "Scaling AI Factories with Co-Packaged Optics for Better Power Efficiency — NVIDIA",
+      "url": "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/",
+      "domain": "developer.nvidia.com",
+      "tags": ["AI-cluster", "power-delivery"],
+      "date_approx": "2025-2026",
+      "relevance": "high"
+    },
+    {
+      "id": 46,
+      "title": "PEM Fuel Cells 2026: Inside the Data Center Power War",
+      "url": "https://enkiai.com/proton-exchange-membrane-fuel-cells-top-10-projects-and-companies-for-data-centers-application/",
+      "domain": "enkiai.com",
+      "tags": ["power-delivery", "sustainability"],
+      "date_approx": "2026",
+      "relevance": "medium"
+    },
+    {
+      "id": 47,
+      "title": "AMD Instinct MI350 Series — Accelerating Data Center AI Leadership",
+      "url": "https://www.amd.com/en/blogs/2025/amd-instinct-mi350-series-and-beyond-accelerating-the-future-of-ai-and-hpc.html",
+      "domain": "amd.com",
+      "tags": ["rack-scale", "AI-cluster"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 48,
+      "title": "ORv3 HPR Power Shelf — Advanced Energy",
+      "url": "https://www.advancedenergy.com/en-us/products/ac-dc-power-supply-units/power-shelves/orv3-high-power-rack-(hpr)/",
+      "domain": "advancedenergy.com",
+      "tags": ["power-delivery", "rack-scale"],
+      "date_approx": "2025",
+      "relevance": "high"
+    },
+    {
+      "id": 49,
+      "title": "Oracle Cloud Infrastructure Zettascale10 Cluster for AI",
+      "url": "https://www.oracle.com/news/announcement/ai-world-oracle-unveils-next-generation-oci-zettascale10-cluster-for-ai-2025-10-14/",
+      "domain": "oracle.com",
+      "tags": ["AI-cluster", "rack-scale", "hyperscale"],
+      "date_approx": "2025-10-14",
+      "relevance": "high"
+    },
+    {
+      "id": 50,
+      "title": "Thermal interface material slashes AI data center cooling cost",
+      "url": "https://techxplore.com/news/2025-02-thermal-interface-material-slashes-ai.html",
+      "domain": "techxplore.com",
+      "tags": ["thermal-management", "liquid-cooling"],
+      "date_approx": "2025-02",
+      "relevance": "high"
+    },
+    {
+      "id": 51,
+      "title": "Announcing The Stargate Project — OpenAI",
+      "url": "https://openai.com/index/announcing-the-stargate-project/",
+      "domain": "openai.com",
+      "tags": ["AI-cluster", "power-delivery", "hyperscale"],
+      "date_approx": "2025-01-21",
+      "relevance": "high"
+    },
+    {
+      "id": 52,
+      "title": "Supermicro GB200 NVL72 — Rack-Scale Liquid-Cooled AI Servers",
+      "url": "https://www.supermicro.com/en/products/system/gpu/48u/srs-gb200-nvl72",
+      "domain": "supermicro.com",
+      "tags": ["liquid-cooling", "rack-scale", "AI-cluster"],
+      "date_approx": "2025",
+      "relevance": "high"
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "collection_date": "2026-05-22",
+    "window_start": "2025-11-22",
+    "window_end": "2026-05-22",
+    "topic": "Advanced Chip Packaging",
+    "total_sources": 54
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "TSMC CoWoS Wafer ASP Reportedly Nears 7nm; Advanced Packaging to Become a Key Profit Driver",
+      "url": "https://www.trendforce.com/news/2026/04/28/news-tsmc-cowos-wafer-asp-reportedly-nears-7nm-levels-advanced-packaging-poised-to-become-a-key-profit-driver/",
+      "publisher": "TrendForce",
+      "date": "2026-04-28",
+      "tags": ["CoWoS", "TSMC", "market", "pricing"],
+      "relevance": "high"
+    },
+    {
+      "id": 2,
+      "title": "The Great Packaging Pivot: How TSMC is Doubling CoWoS Capacity to Break the AI Supply Bottleneck through 2026",
+      "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-1-1-the-great-packaging-pivot-how-tsmc-is-doubling-cowos-capacity-to-break-the-ai-supply-bottleneck-through-2026",
+      "publisher": "FinancialContent",
+      "date": "2026-01-01",
+      "tags": ["CoWoS", "TSMC", "capacity-expansion", "AI"],
+      "relevance": "high"
+    },
+    {
+      "id": 3,
+      "title": "TSMC to Quadruple Advanced Packaging Capacity: Reaching 130,000 CoWoS Wafers Monthly by Late 2026",
+      "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-tsmc-to-quadruple-advanced-packaging-capacity-reaching-130000-cowos-wafers-monthly-by-late-2026",
+      "publisher": "FinancialContent",
+      "date": "2026-02-05",
+      "tags": ["CoWoS", "TSMC", "capacity", "wafer-output"],
+      "relevance": "high"
+    },
+    {
+      "id": 4,
+      "title": "CoWoS and Advanced Packaging | Introl Blog",
+      "url": "https://introl.com/blog/cowos-advanced-packaging-chip-architecture-data-center-2025",
+      "publisher": "Introl",
+      "date": "2025-11",
+      "tags": ["CoWoS", "TSMC", "advanced-packaging", "explainer"],
+      "relevance": "medium"
+    },
+    {
+      "id": 5,
+      "title": "TSMC Advances Panel-Level Packaging, CoPoS Pilot Line Reportedly Set for June Completion, 2028-29 Ramp Eyed",
+      "url": "https://www.trendforce.com/news/2026/04/13/news-tsmc-advances-panel-level-packaging-copos-pilot-line-reportedly-set-for-june-completion-2028-29-ramp-eyed/",
+      "publisher": "TrendForce",
+      "date": "2026-04-13",
+      "tags": ["panel-level-packaging", "TSMC", "CoPoS"],
+      "relevance": "high"
+    },
+    {
+      "id": 6,
+      "title": "The Great Unclogging: TSMC Commits $56 Billion Capex to Double CoWoS Capacity for NVIDIA's Rubin Era",
+      "url": "https://www.financialcontent.com/article/tokenring-2026-1-26-the-great-unclogging-tsmc-commits-56-billion-capex-to-double-cowos-capacity-for-nvidias-rubin-era",
+      "publisher": "FinancialContent",
+      "date": "2026-01-26",
+      "tags": ["CoWoS", "TSMC", "capex", "NVIDIA", "Rubin"],
+      "relevance": "high"
+    },
+    {
+      "id": 7,
+      "title": "TSMC Sees AI Wafer Demand Rising 11x From 2022-2026, Targets CoWoS With 24 HBM Stacks in 2029",
+      "url": "https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/",
+      "publisher": "TrendForce",
+      "date": "2026-05-14",
+      "tags": ["CoWoS", "TSMC", "HBM", "roadmap"],
+      "relevance": "high"
+    },
+    {
+      "id": 8,
+      "title": "TSMC's 3D Stacked SoIC Packaging Making Quick Progress, Eyeing Ultra-Dense 3μm Pitch In 2027",
+      "url": "https://akex.ca/tech/tsmcs-3d-stacked-soic-packaging-making-quick-progress-eyeing-ultra-dense-3%CE%BCm-pitch-in-2027/",
+      "publisher": "AKEX Solutions",
+      "date": "2025-12",
+      "tags": ["SoIC", "TSMC", "3D-stacking", "hybrid-bonding"],
+      "relevance": "high"
+    },
+    {
+      "id": 9,
+      "title": "TSMC SoIC 3D stacking roadmap: path from 6-micron pitches today to 4.5-micron in 2029",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-soic-3d-stacking-roadmap-outlines-path-from-6-micron-pitches-today-to-4-5-micron-in-2029-fujitsus-monaka-cpu-to-benefit-from-face-to-face-chiplet-stacking",
+      "publisher": "Tom's Hardware",
+      "date": "2025-12",
+      "tags": ["SoIC", "TSMC", "roadmap", "3D-stacking", "pitch"],
+      "relevance": "high"
+    },
+    {
+      "id": 10,
+      "title": "The 3D Revolution: How TSMC's SoIC and the UCIe 2.0 Standard are Redefining the Limits of AI Silicon",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-3d-revolution-how-tsmcs-soic-and-the-ucie-20-standard-are-redefining-the-limits-of-ai-silicon",
+      "publisher": "FinancialContent",
+      "date": "2026-01-16",
+      "tags": ["SoIC", "TSMC", "UCIe", "3D-stacking"],
+      "relevance": "high"
+    },
+    {
+      "id": 11,
+      "title": "Taiwan Industry 101: SoIC Packaging Technology",
+      "url": "https://fiisual.com/blog/post/2025/taiwan-industry-101-soic-packaging-technology",
+      "publisher": "Fiisual",
+      "date": "2025-11",
+      "tags": ["SoIC", "TSMC", "explainer"],
+      "relevance": "medium"
+    },
+    {
+      "id": 12,
+      "title": "Apple May Adopt TSMC's SoIC-MH Packaging for M5 Pro Performance Boost",
+      "url": "https://www.packnode.org/en/innovation/apple-tsmc-soic-mh-m5-pro-boost",
+      "publisher": "PackNode",
+      "date": "2025-11",
+      "tags": ["SoIC", "TSMC", "Apple", "M5"],
+      "relevance": "high"
+    },
+    {
+      "id": 13,
+      "title": "Engineering Copper Grain Structure for High-Yield Hybrid Bonding in 3D Packaging",
+      "url": "https://www.3dincites.com/2025/09/engineering-copper-grain-structure-for-high-yield-hybrid-bonding-in-3d-packaging/",
+      "publisher": "3D InCites / IMAPS",
+      "date": "2025-09",
+      "tags": ["hybrid-bonding", "copper", "yield", "3D-stacking"],
+      "relevance": "high"
+    },
+    {
+      "id": 14,
+      "title": "Making Hybrid Bonding Better",
+      "url": "https://semiengineering.com/making-hybrid-bonding-better/",
+      "publisher": "Semiconductor Engineering",
+      "date": "2025",
+      "tags": ["hybrid-bonding", "interconnect", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 15,
+      "title": "D2W hybrid bonding with 2-μm Cu interconnect pad pitch",
+      "url": "https://www.imec-int.com/en/press/imec-demonstrates-die-wafer-hybrid-bonding-cu-interconnect-pad-pitch-2mm",
+      "publisher": "imec",
+      "date": "2025",
+      "tags": ["hybrid-bonding", "imec", "D2W", "pitch"],
+      "relevance": "high"
+    },
+    {
+      "id": 16,
+      "title": "Hybrid Bonding: The Next Frontier in Semiconductor Interconnects",
+      "url": "https://tspasemiconductor.substack.com/p/hybrid-bonding-the-next-frontier",
+      "publisher": "TSPASemiconductor / Substack",
+      "date": "2025-12",
+      "tags": ["hybrid-bonding", "interconnect", "roadmap"],
+      "relevance": "high"
+    },
+    {
+      "id": 17,
+      "title": "A Selective Deposition Strategy for Sub-Micrometer-Pitch Cu Interconnection for Low-Temperature Hybrid Bonding",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12915207/",
+      "publisher": "NCBI / PMC",
+      "date": "2025",
+      "tags": ["hybrid-bonding", "sub-micron", "copper", "research"],
+      "relevance": "high"
+    },
+    {
+      "id": 18,
+      "title": "Hybrid Bonding Process Flow - Advanced Packaging Part 5",
+      "url": "https://newsletter.semianalysis.com/p/hybrid-bonding-process-flow-advanced",
+      "publisher": "SemiAnalysis",
+      "date": "2025",
+      "tags": ["hybrid-bonding", "process-flow", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 19,
+      "title": "Semiconductor's New Frontier: Fan-Out Wafer Level Packaging Market Explodes, Driven by AI and 5G",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-10-21-semiconductors-new-frontier-fan-out-wafer-level-packaging-market-explodes-driven-by-ai-and-5g",
+      "publisher": "FinancialContent",
+      "date": "2025-10-21",
+      "tags": ["FOWLP", "fan-out", "market", "AI", "5G"],
+      "relevance": "medium"
+    },
+    {
+      "id": 20,
+      "title": "Fan-Out Packaging Gets Competitive",
+      "url": "https://semiengineering.com/fan-out-packaging-gets-competitive/",
+      "publisher": "Semiconductor Engineering",
+      "date": "2025",
+      "tags": ["FOWLP", "fan-out", "competition"],
+      "relevance": "medium"
+    },
+    {
+      "id": 21,
+      "title": "2.5D and 3D IC Packaging | ASE",
+      "url": "https://ase.aseglobal.com/3d-ic-packaging/",
+      "publisher": "ASE Global",
+      "date": "2025",
+      "tags": ["2.5D", "3D-stacking", "interposer", "OSAT"],
+      "relevance": "medium"
+    },
+    {
+      "id": 22,
+      "title": "Emerging Trends and Key Markets in 2.5D and 3D Semiconductor Packaging",
+      "url": "https://www.idtechex.com/en/research-article/emerging-trends-and-key-markets-in-2-5d-and-3d-semiconductor-packaging/31994",
+      "publisher": "IDTechEx",
+      "date": "2025",
+      "tags": ["2.5D", "3D-stacking", "interposer", "market"],
+      "relevance": "high"
+    },
+    {
+      "id": 23,
+      "title": "Glass Substrates: The Breakthrough Material for Next-Generation AI Chip Packaging",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-2-glass-substrates-the-breakthrough-material-for-next-generation-ai-chip-packaging",
+      "publisher": "FinancialContent",
+      "date": "2026-01-02",
+      "tags": ["glass-substrate", "Intel", "AMD", "AI"],
+      "relevance": "high"
+    },
+    {
+      "id": 24,
+      "title": "Glass Substrates Are Breaking Through the AI Chip Packaging Bottleneck",
+      "url": "https://insights.trendforce.com/p/glass-substrate-development",
+      "publisher": "TrendForce Insights",
+      "date": "2026-01",
+      "tags": ["glass-substrate", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 25,
+      "title": "AMD to adopt glass substrate semiconductor tech with its next-gen chips by 2025-2026",
+      "url": "https://www.tweaktown.com/news/99304/amd-to-adopt-glass-substrate-semiconductor-tech-with-its-next-gen-chips-by-2025-2026/index.html",
+      "publisher": "TweakTown",
+      "date": "2025-11",
+      "tags": ["glass-substrate", "AMD"],
+      "relevance": "high"
+    },
+    {
+      "id": 26,
+      "title": "Glass Substrates Emerge as AI Semiconductor Game Changer",
+      "url": "https://economy.ac/news/2026/02/202602288429",
+      "publisher": "The Economy",
+      "date": "2026-02",
+      "tags": ["glass-substrate", "AI", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 27,
+      "title": "UCIe Full SI Analysis Flow with Compliance Check for Heterogeneous Integration",
+      "url": "https://chiplet-marketplace.com/insights/expert-perspectives/ucie-full-si-analysis-flow-with-compliance-check",
+      "publisher": "Chiplet Marketplace",
+      "date": "2025",
+      "tags": ["UCIe", "chiplet", "heterogeneous-integration"],
+      "relevance": "medium"
+    },
+    {
+      "id": 28,
+      "title": "From manageability to 3.0: Unlocking the future with UCIe verification",
+      "url": "https://blogs.sw.siemens.com/verificationhorizons/2025/09/26/from-manageability-to-3-0-unlocking-the-future-with-ucie-verification/",
+      "publisher": "Siemens EDA",
+      "date": "2025-09-26",
+      "tags": ["UCIe", "chiplet", "verification"],
+      "relevance": "medium"
+    },
+    {
+      "id": 29,
+      "title": "Intel Eyes EMIB to Ramp up in 2H26; 18A-P/18A-PT Moves Toward External Adoption",
+      "url": "https://www.trendforce.com/news/2025/12/05/news-intel-eyes-emib-to-ramp-up-in-2h26-18a%E2%80%91p18a%E2%80%91pt-moves-toward-external-adoption/",
+      "publisher": "TrendForce",
+      "date": "2025-12-05",
+      "tags": ["EMIB", "Intel", "roadmap", "chiplet"],
+      "relevance": "high"
+    },
+    {
+      "id": 30,
+      "title": "Revolutionizing Chip Packaging: The Impact of Intel's Embedded Multi-Die Interconnect Bridge (EMIB)",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/intel/360571-revolutionizing-chip-packaging-the-impact-of-intels-embedded-multi-die-interconnect-bridge-emib/",
+      "publisher": "Semiwiki",
+      "date": "2025",
+      "tags": ["EMIB", "Intel", "2.5D", "chiplet"],
+      "relevance": "high"
+    },
+    {
+      "id": 31,
+      "title": "Foveros Direct 3D Technology Brief",
+      "url": "https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/foveros-direct-3d-tech-brief.pdf",
+      "publisher": "Intel",
+      "date": "2025-11",
+      "tags": ["Foveros", "Intel", "3D-stacking", "hybrid-bonding"],
+      "relevance": "high"
+    },
+    {
+      "id": 32,
+      "title": "Intel Advanced Packaging Reportedly Gains Traction, with Apple and Qualcomm Seeking EMIB Expertise",
+      "url": "https://www.trendforce.com/news/2025/11/18/news-intel-advanced-packaging-reportedly-gains-traction-with-apple-and-qualcomm-seeking-emib-expertise/",
+      "publisher": "TrendForce",
+      "date": "2025-11-18",
+      "tags": ["EMIB", "Foveros", "Intel", "Apple", "Qualcomm"],
+      "relevance": "high"
+    },
+    {
+      "id": 33,
+      "title": "Intel Showcases Massively Scalable Packaging Capabilities: >12X Reticle, 16 Compute Tiles, 24 HBM Sites",
+      "url": "https://wccftech.com/intel-next-level-advanced-packaging-capabilities-12x-reticle-16-compute-tiles-18a-14a-nodes-up-to-24-hbm-foveros-3d-emib/",
+      "publisher": "WCCFTech",
+      "date": "2025-12",
+      "tags": ["Foveros", "EMIB", "Intel", "HBM5", "chiplet"],
+      "relevance": "high"
+    },
+    {
+      "id": 34,
+      "title": "Samsung X-Cube (eXtended-Cube) Advanced Packaging",
+      "url": "https://semiwiki.com/wikis/industry-wikis/samsung-x-cube-extended-cube/",
+      "publisher": "Semiwiki",
+      "date": "2025",
+      "tags": ["X-Cube", "Samsung", "3D-stacking", "chiplet"],
+      "relevance": "high"
+    },
+    {
+      "id": 35,
+      "title": "Samsung Announces Availability of Leading-Edge 2.5D Integration H-Cube Solution",
+      "url": "https://semiconductor.samsung.com/news-events/news/samsung-announces-availability-of-its-leading-edge-2-5d-integration-h-cube-solution-for-high-performance-applications/",
+      "publisher": "Samsung Semiconductor",
+      "date": "2025",
+      "tags": ["H-Cube", "Samsung", "2.5D", "interposer"],
+      "relevance": "high"
+    },
+    {
+      "id": 36,
+      "title": "2025 IEEE 75th ECTC: Electronic Components and Technology Conference Highlights",
+      "url": "https://www.3dincites.com/2025/02/2025-ieee-electronic-components-and-technology-conference-highlights-microelectronics-packaging-and-component-breakthroughs/",
+      "publisher": "3D InCites / IMAPS",
+      "date": "2025-05",
+      "tags": ["ECTC", "conference", "research", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 37,
+      "title": "Thermal Management for Advanced Semiconductor Packaging 2026-2036: IDTechEx",
+      "url": "https://www.idtechex.com/en/research-report/thermal-management-for-advanced-semiconductor-packaging/1106",
+      "publisher": "IDTechEx",
+      "date": "2025",
+      "tags": ["thermal-management", "3D-stacking", "advanced-packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 38,
+      "title": "Advanced thermal design strategies for 3D IC systems",
+      "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/27/3d-ic-thermal-design-packaging-strategies/",
+      "publisher": "Siemens EDA Blog",
+      "date": "2026-02-27",
+      "tags": ["thermal-management", "3D-IC", "design"],
+      "relevance": "high"
+    },
+    {
+      "id": 39,
+      "title": "Thermal Management Challenges in 2.5D and 3D Chiplet Integration: Architecture-Cooling Co-Design",
+      "url": "https://www.mdpi.com/2673-4117/6/12/373",
+      "publisher": "MDPI",
+      "date": "2025-12",
+      "tags": ["thermal-management", "chiplet", "2.5D", "3D-stacking"],
+      "relevance": "high"
+    },
+    {
+      "id": 40,
+      "title": "2025 Advanced Packaging Outlook Report",
+      "url": "https://www.techinsights.com/blog/2025-advanced-packaging-outlook-report",
+      "publisher": "TechInsights",
+      "date": "2025",
+      "tags": ["advanced-packaging", "market", "outlook", "yield"],
+      "relevance": "high"
+    },
+    {
+      "id": 41,
+      "title": "High-Bandwidth Chiplet Interconnects for Advanced Packaging Technologies in AI/ML Applications",
+      "url": "https://www.researchgate.net/publication/386162569_High-Bandwidth_Chiplet_Interconnects_for_Advanced_Packaging_Technologies_in_AIML_Applications_Challenges_and_Solutions",
+      "publisher": "ResearchGate / IEEE",
+      "date": "2025",
+      "tags": ["chiplet", "bandwidth", "AI", "interconnect"],
+      "relevance": "high"
+    },
+    {
+      "id": 42,
+      "title": "Alphawave Semi Scales UCIe to 64 Gbps Enabling >20 Tbps/mm Bandwidth Density",
+      "url": "https://awavesemi.com/press-release/alphawave-semi-scales-ucie-to-64-gbps-enabling-20-tbps-mm-bandwidth-density-for-die-to-die-chiplet-connectivity/",
+      "publisher": "Alphawave Semi",
+      "date": "2025",
+      "tags": ["UCIe", "bandwidth", "chiplet", "die-to-die"],
+      "relevance": "high"
+    },
+    {
+      "id": 43,
+      "title": "JEDEC HBM4 Specification — April 2025 Release",
+      "url": "https://introl.com/blog/hbm-evolution-hbm3-hbm3e-hbm4-memory-ai-gpu-2025",
+      "publisher": "Introl Blog",
+      "date": "2025-04",
+      "tags": ["HBM4", "memory", "stacking", "JEDEC"],
+      "relevance": "high"
+    },
+    {
+      "id": 44,
+      "title": "The Great Memory Pivot: HBM4 and the 3D Stacking Revolution of 2026",
+      "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-30-the-great-memory-pivot-hbm4-and-the-3d-stacking-revolution-of-2026",
+      "publisher": "FinancialContent",
+      "date": "2025-12-30",
+      "tags": ["HBM4", "3D-stacking", "memory"],
+      "relevance": "high"
+    },
+    {
+      "id": 45,
+      "title": "HBM3e and HBM4: IC Design Guide for Next-Generation High Bandwidth Memory",
+      "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/",
+      "publisher": "Siemens EDA Blog",
+      "date": "2026-04-24",
+      "tags": ["HBM4", "HBM3e", "design", "stacking"],
+      "relevance": "high"
+    },
+    {
+      "id": 46,
+      "title": "The Rise of Panel-Level Packaging",
+      "url": "https://semiengineering.com/the-rise-of-panel-level-packaging/",
+      "publisher": "Semiconductor Engineering",
+      "date": "2025",
+      "tags": ["panel-level-packaging", "FOWLP", "FO-PLP"],
+      "relevance": "medium"
+    },
+    {
+      "id": 47,
+      "title": "Trends in Semiconductor Manufacturing: Wafer-Level and Panel-Level Packaging",
+      "url": "https://www.3dincites.com/2026/04/trends-in-semiconductor-manufacturing-wafer-level-and-panel-level-packaging/",
+      "publisher": "3D InCites",
+      "date": "2026-04",
+      "tags": ["panel-level-packaging", "wafer-level", "trends"],
+      "relevance": "high"
+    },
+    {
+      "id": 48,
+      "title": "imec Wafer-to-wafer Hybrid Bonding: Pushing Boundaries to 400nm Interconnect Pitch",
+      "url": "https://www.imec-int.com/en/articles/wafer-wafer-hybrid-bonding-pushing-boundaries-400nm-interconnect-pitch",
+      "publisher": "imec",
+      "date": "2025",
+      "tags": ["hybrid-bonding", "imec", "W2W", "400nm"],
+      "relevance": "high"
+    },
+    {
+      "id": 49,
+      "title": "Fine-pitch RDL and D2W Hybrid Bonding Interconnect PDKs from NanoIC",
+      "url": "https://www.imec-int.com/en/press/nanoic-opens-access-first-ever-fine-pitch-rdl-and-d2w-hybrid-bonding-interconnect-pdks",
+      "publisher": "imec / NanoIC",
+      "date": "2026-03-02",
+      "tags": ["hybrid-bonding", "RDL", "PDK", "imec"],
+      "relevance": "high"
+    },
+    {
+      "id": 50,
+      "title": "Marvell Package Integrated Voltage Regulator (PIVR) Power Solutions",
+      "url": "https://www.marvell.com/company/newsroom/marvell-pivr-package-integrated-voltage-regulator-power-solution.html",
+      "publisher": "Marvell",
+      "date": "2025-06",
+      "tags": ["power-delivery", "IVR", "advanced-packaging"],
+      "relevance": "medium"
+    },
+    {
+      "id": 51,
+      "title": "TSMC Speeds Advanced Packaging: AP7 Targets 2026 Output; Arizona P6 Eyed for U.S. Packaging Hub",
+      "url": "https://www.trendforce.com/news/2025/12/04/news-tsmc-speeds-advanced-packaging-ap7-targets-2026-output-arizona-p6-eyed-for-u-s-packaging-hub/",
+      "publisher": "TrendForce",
+      "date": "2025-12-04",
+      "tags": ["TSMC", "AP7", "capacity", "US-expansion"],
+      "relevance": "high"
+    },
+    {
+      "id": 52,
+      "title": "TSMC Advanced Packaging CapEx Projected to Grow 24% CAGR in 2025-27; AP7 Eyes WMCM, CoPoS",
+      "url": "https://www.trendforce.com/news/2026/01/21/news-tsmc-advanced-packaging-capex-projected-to-grow-24-cagr-in-2025-27-chiayi-ap7-targets-wmcm-and-copos/",
+      "publisher": "TrendForce",
+      "date": "2026-01-21",
+      "tags": ["TSMC", "capex", "AP7", "CoPoS", "WMCM"],
+      "relevance": "high"
+    },
+    {
+      "id": 53,
+      "title": "Lightmatter Unveils Passage M1000 Photonic Superchip: 3D Photonic Interposer for AI",
+      "url": "https://lightmatter.co/press-release/lightmatter-unveils-passage-m1000-photonic-superchip-worlds-fastest-ai-interconnect/",
+      "publisher": "Lightmatter",
+      "date": "2025-12",
+      "tags": ["silicon-photonics", "active-interposer", "3D-stacking", "AI"],
+      "relevance": "high"
+    },
+    {
+      "id": 54,
+      "title": "Broadcom Rolls Out 3.5D XDSiP Packaging Tech for Next-Gen AI Chips",
+      "url": "https://www.electronicdesign.com/technologies/embedded/article/55261561/electronic-design-broadcom-rolls-out-35d-packaging-tech-to-enable-next-gen-chips-for-ai",
+      "publisher": "Electronic Design",
+      "date": "2026-02",
+      "tags": ["3.5D", "Broadcom", "SoIC", "CoWoS", "AI"],
+      "relevance": "high"
+    },
+    {
+      "id": 55,
+      "title": "AMD Instinct MI300X Accelerator: Packaging and Architecture Co-Optimization",
+      "url": "https://ieeexplore.ieee.org/document/10631545/",
+      "publisher": "IEEE Xplore / ECTC",
+      "date": "2025",
+      "tags": ["chiplet", "AMD", "3D-stacking", "interposer", "SoIC"],
+      "relevance": "high"
+    },
+    {
+      "id": 56,
+      "title": "Geopolitics and AI is Redrawing the Global Chip Packaging Landscape",
+      "url": "https://www.digitimes.com/news/a20260408PD218/packaging-capacity-intel-demand-production.html",
+      "publisher": "Digitimes",
+      "date": "2026-04-08",
+      "tags": ["geopolitics", "supply-chain", "advanced-packaging"],
+      "relevance": "medium"
+    },
+    {
+      "id": 57,
+      "title": "The Chiplet Shift: Evolving Interface Standards and Commercial Ecosystems",
+      "url": "https://www.bakerbotts.com/thought-leadership/publications/2025/august/the-chiplet-shift",
+      "publisher": "Baker Botts",
+      "date": "2025-08",
+      "tags": ["chiplet", "UCIe", "standards", "ecosystem"],
+      "relevance": "medium"
+    },
+    {
+      "id": 58,
+      "title": "SK Hynix Approves $13 Billion for World's Largest HBM Packaging Plant",
+      "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-1-23-sk-hynix-approves-13-billion-for-worlds-largest-hbm-packaging-plant",
+      "publisher": "FinancialContent",
+      "date": "2026-01-23",
+      "tags": ["SK-Hynix", "HBM4", "packaging", "investment"],
+      "relevance": "high"
+    },
+    {
+      "id": 59,
+      "title": "Scaling Bump Pitches In Advanced Packaging",
+      "url": "https://semiengineering.com/scaling-bump-pitches-in-advanced-packaging/",
+      "publisher": "Semiconductor Engineering",
+      "date": "2025",
+      "tags": ["micro-bump", "copper-pillar", "pitch", "packaging"],
+      "relevance": "high"
+    },
+    {
+      "id": 60,
+      "title": "Co-Packaged Optics Market to Grow at 37% CAGR to $20bn by 2036",
+      "url": "https://www.semiconductor-today.com/news_items/2025/dec/idtechex-291225.shtml",
+      "publisher": "Semiconductor Today / IDTechEx",
+      "date": "2025-12",
+      "tags": ["CPO", "co-packaged-optics", "silicon-photonics", "market"],
+      "relevance": "high"
+    },
+    {
+      "id": 61,
+      "title": "Five Key Trends of Co-Packaged Optics in 2026",
+      "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/",
+      "publisher": "Siemens EDA Blog",
+      "date": "2026-02-05",
+      "tags": ["CPO", "silicon-photonics", "packaging", "trends"],
+      "relevance": "high"
+    },
+    {
+      "id": 62,
+      "title": "Next-Generation RDL Materials in Advanced Semiconductor Packaging",
+      "url": "https://www.idtechex.com/en/research-article/next-generation-rdl-materials-in-advanced-semiconductor-packaging/29722",
+      "publisher": "IDTechEx",
+      "date": "2025",
+      "tags": ["RDL", "materials", "advanced-packaging"],
+      "relevance": "medium"
+    },
+    {
+      "id": 63,
+      "title": "Wafer Bonding Technologies for MEMS and 3D ICs: Advances, Challenges, and Trends 2025",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adem.202500342",
+      "publisher": "Wiley / Advanced Engineering Materials",
+      "date": "2025",
+      "tags": ["wafer-bonding", "3D-IC", "MEMS", "research"],
+      "relevance": "high"
+    },
+    {
+      "id": 64,
+      "title": "First Truly 3D Chip Fabbed at US Foundry: Carbon Nanotube Transistors and RAM on a Single Die",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/stanford-led-team-builds-3d-ai-chip-at-us-foundry-reports-4x-performance-gains",
+      "publisher": "Tom's Hardware",
+      "date": "2025",
+      "tags": ["monolithic-3D", "CNT", "research", "US-foundry"],
+      "relevance": "medium"
+    },
+    {
+      "id": 65,
+      "title": "NVIDIA GB200 Supply Chain: The Global Ecosystem Explained",
+      "url": "https://intuitionlabs.ai/articles/nvidia-gb200-supply-chain",
+      "publisher": "IntuitionLabs",
+      "date": "2025-12",
+      "tags": ["CoWoS-L", "NVIDIA", "Blackwell", "HBM3e", "supply-chain"],
+      "relevance": "high"
+    },
+    {
+      "id": 66,
+      "title": "ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6, TSMC Active LSI",
+      "url": "https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo",
+      "publisher": "SemiAnalysis",
+      "date": "2026-02",
+      "tags": ["CPO", "HBM4", "TSMC", "NVIDIA", "Broadcom", "die-to-die"],
+      "relevance": "high"
+    }
+  ]
+}

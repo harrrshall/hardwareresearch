@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "generated": "2026-05-22",
+    "window": "2025-11-22 to 2026-05-22",
+    "total_sources": 52,
+    "domain_tags": ["silicon-photonics", "co-packaged-optics", "optical-interconnect", "photonic-compute", "optical-IO"]
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Silicon photonics set to make commercial breakthrough in 2026",
+      "url": "https://www.digitimes.com/news/a20251229PD203/siph-cpo-optical-communications-broadcom-nvidia-2026.html",
+      "source": "Digitimes",
+      "date": "2025-12-29",
+      "tags": ["silicon-photonics", "co-packaged-optics"],
+      "key_finding": "TSMC, NVIDIA, and Broadcom driving CPO commercialization; silicon photonics breakthrough expected in 2026"
+    },
+    {
+      "id": 2,
+      "title": "Where co-packaged optics (CPO) technology stands in 2026 - EDN",
+      "url": "https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/",
+      "source": "EDN",
+      "date": "2026-01",
+      "tags": ["co-packaged-optics", "optical-interconnect"],
+      "key_finding": "CPO transitions from pilot to actual AI cluster deployments in 2026; comprehensive status review"
+    },
+    {
+      "id": 3,
+      "title": "Five Key Trends of Co-Packaged Optics (CPO) in 2026 - Siemens",
+      "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/",
+      "source": "Siemens EDA Blog",
+      "date": "2026-02-05",
+      "tags": ["co-packaged-optics"],
+      "key_finding": "Five CPO trends: substrate integration, TSMC COUPE, laser supply, OCS overlay, LPO competition"
+    },
+    {
+      "id": 4,
+      "title": "Co-Packaged Optics Gain Traction in Data Centers - Mitsui",
+      "url": "https://www.mitsui.com/mgssi/en/report/detail/__icsFiles/afieldfile/2026/04/01/2601bt_tsuji_e.pdf",
+      "source": "Mitsui MGSSI",
+      "date": "2026-04",
+      "tags": ["co-packaged-optics", "optical-interconnect"],
+      "key_finding": "CPO data center traction accelerating; power savings of 60-70% vs pluggable modules"
+    },
+    {
+      "id": 5,
+      "title": "LightCounting: 2026 - The Year of Silicon Photonics",
+      "url": "https://www.lightcounting.com/newsletter/en/november-2025-the-year-of-silicon-photonics-2026-436",
+      "source": "LightCounting",
+      "date": "2025-11",
+      "tags": ["silicon-photonics"],
+      "key_finding": "LightCounting forecast: 2026 marks commercial silicon photonics inflection point across multiple markets"
+    },
+    {
+      "id": 6,
+      "title": "NVIDIA Announces Spectrum-X Photonics, Co-Packaged Optics Networking Switches",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-spectrum-x-co-packaged-optics-networking-switches-ai-factories",
+      "source": "NVIDIA Newsroom",
+      "date": "2025-03",
+      "tags": ["co-packaged-optics", "optical-interconnect"],
+      "key_finding": "NVIDIA Spectrum-X and Quantum-X Photonics switches: 400 Tb/s aggregate, 3.5x power efficiency vs traditional"
+    },
+    {
+      "id": 7,
+      "title": "Scaling AI Factories with Co-Packaged Optics for Better Power Efficiency - NVIDIA Technical Blog",
+      "url": "https://developer.nvidia.com/blog/scaling-ai-factories-with-co-packaged-optics-for-better-power-efficiency/",
+      "source": "NVIDIA Developer Blog",
+      "date": "2025-03",
+      "tags": ["co-packaged-optics", "optical-IO"],
+      "key_finding": "NVIDIA CPO technical deep-dive: 4x fewer lasers, 3.5x power efficiency, 63x signal integrity improvement"
+    },
+    {
+      "id": 8,
+      "title": "Broadcom Announces Tomahawk 6 – Davisson, First 102.4 Tbps CPO Ethernet Switch",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-announces-tomahawkr-6-davisson-industrys-first-1024",
+      "source": "Broadcom Investor Relations",
+      "date": "2025-10-08",
+      "tags": ["co-packaged-optics", "silicon-photonics"],
+      "key_finding": "TH6-Davisson: 102.4 Tbps CPO Ethernet switch, 70% power reduction vs traditional, uses TSMC COUPE"
+    },
+    {
+      "id": 9,
+      "title": "Broadcom's CPO Strategy and Its Implications for the Future of Optical Interconnects",
+      "url": "https://tspasemiconductor.substack.com/p/broadcoms-cpo-strategy-and-its-implications",
+      "source": "TSPASemiconductor Substack",
+      "date": "2025-10",
+      "tags": ["co-packaged-optics", "silicon-photonics"],
+      "key_finding": "Broadcom CPO roadmap analysis: 51.2T to 102.4T, third-generation CPO platform details"
+    },
+    {
+      "id": 10,
+      "title": "Intel Demonstrates First Fully Integrated Optical I/O Chiplet",
+      "url": "https://newsroom.intel.com/artificial-intelligence/intel-unveils-first-integrated-optical-io-chiplet",
+      "source": "Intel Newsroom",
+      "date": "2025",
+      "tags": ["optical-IO", "silicon-photonics"],
+      "key_finding": "Intel OCI chiplet: 4 Tbps bidirectional, ~5 pJ/bit, on-chip InP lasers + silicon photonics integration"
+    },
+    {
+      "id": 11,
+      "title": "Ayar Labs Unveils World's First UCIe Optical Chiplet for AI Scale-Up Architectures",
+      "url": "https://ayarlabs.com/news/ayar-labs-unveils-worlds-first-ucie-optical-chiplet-for-ai-scale-up-architectures/",
+      "source": "Ayar Labs",
+      "date": "2025-03-31",
+      "tags": ["optical-IO", "silicon-photonics"],
+      "key_finding": "TeraPHY UCIe chiplet: 8 Tbps/port, 16-wavelength DWDM, 5 pJ/bit, protocol-agnostic (CXL, NVLink, UALink)"
+    },
+    {
+      "id": 12,
+      "title": "OFC 2025: Ayar Labs first UCIe with optical chiplet for AI scale-up",
+      "url": "https://opticalconnectionsnews.com/2025/04/ofc-2025-ayar-labs-first-ucie-with-optical-chiplet-for-ai-scale-up-architectures/",
+      "source": "Optical Connections News",
+      "date": "2025-04",
+      "tags": ["optical-IO"],
+      "key_finding": "OFC 2025 demonstration: TeraPHY UCIe integration details, GUC packaging workflow"
+    },
+    {
+      "id": 13,
+      "title": "Ayar Labs UCIe Optical IO Retimer at Hot Chips 2025",
+      "url": "https://www.servethehome.com/ayar-labs-ucie-optical-io-retimer-at-hot-chips-2025/",
+      "source": "ServeTheHome",
+      "date": "2025-08",
+      "tags": ["optical-IO"],
+      "key_finding": "Hot Chips 2025: Ayar Labs UCIe optical retimer implementation details and performance data"
+    },
+    {
+      "id": 14,
+      "title": "Ayar Labs Raises $500M to Replace Copper With Light in AI Chips",
+      "url": "https://ai2.work/blog/ayar-labs-raises-500m-to-replace-copper-with-light-in-ai-chips-2026",
+      "source": "AI2Work",
+      "date": "2026",
+      "tags": ["optical-IO"],
+      "key_finding": "Ayar Labs $500M raise; production samples of TeraPHY UCIe chiplet expected in 2026"
+    },
+    {
+      "id": 15,
+      "title": "Lightmatter Unveils Passage M1000 Photonic Superchip - World's Fastest AI Interconnect",
+      "url": "https://lightmatter.co/press-release/lightmatter-unveils-passage-m1000-photonic-superchip-worlds-fastest-ai-interconnect/",
+      "source": "Lightmatter",
+      "date": "2025-03",
+      "tags": ["photonic-compute", "optical-interconnect"],
+      "key_finding": "Passage M1000: 114 Tbps total bandwidth, 3D photonic interposer for AI accelerator packages"
+    },
+    {
+      "id": 16,
+      "title": "Lightmatter Achieves Record 1.6 Tbps Per Fiber for AI Optical Interconnect",
+      "url": "https://lightmatter.co/press-release/lightmatter-achieves-record-1-6-tbps-per-fiber-to-accelerate-ai-optical-interconnect/",
+      "source": "Lightmatter",
+      "date": "2026-03",
+      "tags": ["optical-interconnect", "co-packaged-optics"],
+      "key_finding": "Record 1.6 Tbps/fiber via 16-wavelength DWDM; 8x bandwidth density vs prior NPO solutions"
+    },
+    {
+      "id": 17,
+      "title": "Lightmatter Aims to Leapfrog I/O Limitations with 3D Photonic Interconnect - HPCwire",
+      "url": "https://www.hpcwire.com/2025/12/04/lightmatter-aims-to-leapfrog-i-o-limitations-with-3d-photonic-interconnect/",
+      "source": "HPCwire",
+      "date": "2025-12-04",
+      "tags": ["optical-interconnect", "photonic-compute"],
+      "key_finding": "Passage technology deep-dive: SC25 demonstration of 4 racks, M1000 and Passage 50 production hardware"
+    },
+    {
+      "id": 18,
+      "title": "Global AI Optical Transceiver Market to Reach $26B in 2026 - TrendForce",
+      "url": "https://www.trendforce.com/presscenter/news/20260420-13017.html",
+      "source": "TrendForce",
+      "date": "2026-04-20",
+      "tags": ["optical-interconnect"],
+      "key_finding": "AI optical transceiver market: $16.5B (2025) to $26B (2026), 57% YoY growth; EML supply bottleneck"
+    },
+    {
+      "id": 19,
+      "title": "800G Optical Modules Drive Market Recovery in 2025",
+      "url": "https://www.hyc-system.com/news/Industry/7177.html",
+      "source": "HYC",
+      "date": "2025",
+      "tags": ["optical-interconnect"],
+      "key_finding": "24M+ 800G units shipped in 2025; 63M projected for 2026; OSFP-XD 92% hyperscale contract share"
+    },
+    {
+      "id": 20,
+      "title": "Optical Communication Industry Trends 2026: AI, 800G/1.6T, and Future Data Center Connectivity",
+      "url": "https://adtek-fiber.com/optical-communication-industry-trends-2026-ai-800g-1-6t-and-future-data-center-connectivity/",
+      "source": "ADTEK",
+      "date": "2026",
+      "tags": ["optical-interconnect"],
+      "key_finding": "Comprehensive 2026 trends: 200G/lane EML enabling 1.6T; CPO timeline; LPO market segmentation"
+    },
+    {
+      "id": 21,
+      "title": "Marvell Completes Acquisition of Celestial AI - $3.25B",
+      "url": "https://www.marvell.com/company/newsroom/marvell-completes-acquisition-of-celestial-ai.html",
+      "source": "Marvell",
+      "date": "2026-02-02",
+      "tags": ["optical-interconnect", "silicon-photonics"],
+      "key_finding": "Marvell acquires Celestial AI for $3.25B; Photonic Fabric technology for 25x off-package bandwidth increase"
+    },
+    {
+      "id": 22,
+      "title": "Ultra-Efficient 0.1 V cm Lithium Niobate Modulator with >200 GHz Bandwidth",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adpr.202500237",
+      "source": "Advanced Photonics Research (Wiley)",
+      "date": "2026",
+      "tags": ["silicon-photonics"],
+      "key_finding": "TFLN modulator: 0.1 V·cm Vπ·L, >200 GHz bandwidth, 1V drive voltage, 1 mm device length"
+    },
+    {
+      "id": 23,
+      "title": "Top Thin-Film Lithium Niobate (TFLN) Modulator Companies in 2026",
+      "url": "https://en.liobate.com/news/top-tfln-modulator-companies-2026",
+      "source": "Liobate",
+      "date": "2026",
+      "tags": ["silicon-photonics"],
+      "key_finding": "TFLN market leaders; HyperLight 400G single-lane at OFC 2025; Liobate 1.6T coherent modulator at OFC 2026"
+    },
+    {
+      "id": 24,
+      "title": "400Gbps per Wavelength Ultrafast Silicon Microring Modulator",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.202502840",
+      "source": "Laser & Photonics Reviews",
+      "date": "2025",
+      "tags": ["silicon-photonics"],
+      "key_finding": "Silicon microring modulator: >110 GHz EO bandwidth, 400 Gbps/λ; 4×400G WDM on 300mm CMOS platform"
+    },
+    {
+      "id": 25,
+      "title": "TSMC Silicon Photonics COUPE Targets 2026 Production, Samsung Eyes 2029 CPO",
+      "url": "https://www.trendforce.com/news/2026/04/01/news-silicon-photonics-race-intensifies-as-tsmc-targets-2026-coupe-production-samsung-eyes-2029-cpo-turnkey/",
+      "source": "TrendForce",
+      "date": "2026-04-01",
+      "tags": ["co-packaged-optics", "silicon-photonics"],
+      "key_finding": "TSMC COUPE volume production 2026; SoIC-X stacking; 5-10x power efficiency improvement"
+    },
+    {
+      "id": 26,
+      "title": "Photonic chips advance real-time learning in spiking neural systems - Optica",
+      "url": "https://www.optica.org/about/newsroom/news_releases/2026/photonic_chips_advance_real-time_learning_in_spiking_neural_systems/",
+      "source": "Optica",
+      "date": "2026",
+      "tags": ["photonic-compute"],
+      "key_finding": "Nonlinear photonic neuromorphic chips for spiking reinforcement learning; 128-channel SNN chip roadmap"
+    },
+    {
+      "id": 27,
+      "title": "Scaling up for end-to-end on-chip photonic neural network inference",
+      "url": "https://www.nature.com/articles/s41377-025-02029-z",
+      "source": "Light: Science & Applications (Nature)",
+      "date": "2025",
+      "tags": ["photonic-compute"],
+      "key_finding": "17 mm² silicon photonic DNN chip: 64-channel input, on-chip optoelectronic nonlinear activation, largest to date"
+    },
+    {
+      "id": 28,
+      "title": "Beyond Terabit/s Integrated Neuromorphic Photonic Processor for DSP-Free Optical Interconnects",
+      "url": "https://arxiv.org/html/2504.15044v1",
+      "source": "arXiv",
+      "date": "2025-04",
+      "tags": ["photonic-compute", "optical-interconnect"],
+      "key_finding": "Neuromorphic photonic processor for DSP-free optical interconnects; terabit-scale signal processing"
+    },
+    {
+      "id": 29,
+      "title": "GlobalFoundries Acquires Advanced Micro Foundry, Accelerating Silicon Photonics Leadership",
+      "url": "https://gf.com/gf-press-release/globalfoundries-acquires-advanced-micro-foundry-accelerating-silicon-photonics-global-leadership-and-expanding-ai-infrastructure-portfolio/",
+      "source": "GlobalFoundries",
+      "date": "2025-11-17",
+      "tags": ["silicon-photonics"],
+      "key_finding": "GF acquires AMF (Singapore); becomes largest pure-play SiPho foundry; doubled revenue to $200M+ in 2025"
+    },
+    {
+      "id": 30,
+      "title": "GF Accelerates 400G Silicon Photonics Roadmap as AI Optics Demand Surges",
+      "url": "https://convergedigest.com/gf-accelerates-400g-silicon-photonics-roadmap-as-ai-optics-demand-surges/",
+      "source": "Converge Digest",
+      "date": "2025",
+      "tags": ["silicon-photonics"],
+      "key_finding": "GF roadmap: 200G/lane in production; 400G/lane target; $1B silicon photonics run-rate by end 2028"
+    },
+    {
+      "id": 31,
+      "title": "UMC Licenses imec's iSiPP300 Technology for Silicon Photonics",
+      "url": "https://www.businesswire.com/news/home/20251207617476/en/UMC-Licenses-imecs-iSiPP300-Technology-to-Extend-Silicon-Photonics-Capabilities-for-Next-Generation-Connectivity",
+      "source": "BusinessWire / imec",
+      "date": "2025-12-07",
+      "tags": ["silicon-photonics"],
+      "key_finding": "UMC licenses imec iSiPP300; risk production 2026-27; iSiPP400 (400Gbps/lane) in development by mid-2026"
+    },
+    {
+      "id": 32,
+      "title": "Imec debuted beyond-110GHz GeSi EAM at ECOC 2025",
+      "url": "https://www.imec-int.com/en/articles/imec-2025-overview",
+      "source": "imec",
+      "date": "2025",
+      "tags": ["silicon-photonics"],
+      "key_finding": "imec 300mm: GeSi EAM >110 GHz bandwidth, 400 Gbps/lane net rate; C-band operation"
+    },
+    {
+      "id": 33,
+      "title": "Tower Semiconductor 400G Lane Modulator Demonstration - PH18DA Platform",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000928876/000117891325000998/zk2532915.htm",
+      "source": "Tower Semiconductor (SEC)",
+      "date": "2025",
+      "tags": ["silicon-photonics"],
+      "key_finding": "Tower 400G/lane modulator on PH18DA; >3.5 dB extinction ratio; CPO Foundry launched Nov 2025"
+    },
+    {
+      "id": 34,
+      "title": "Novel hollow-core optical fiber transmits data 45% faster with record low loss",
+      "url": "https://phys.org/news/2025-09-hollow-core-optical-fiber-transmits.html",
+      "source": "Phys.org",
+      "date": "2025-09",
+      "tags": ["optical-interconnect"],
+      "key_finding": "Southampton/Microsoft HCF: 0.091 dB/km loss at 1550nm; 45% faster propagation vs silica fiber"
+    },
+    {
+      "id": 35,
+      "title": "Avicena LightBundle: >1Tbps/mm I/O density and <1pJ/bit",
+      "url": "https://avicena.tech/avicena-announces-modular-lightbundle-optical-interconnect-platform-with-1tbps-mm-i-o-density-and-1pj-bit/",
+      "source": "Avicena",
+      "date": "2025-03-31",
+      "tags": ["optical-IO"],
+      "key_finding": "microLED LightBundle: >1 Tbps/mm shoreline, <1 pJ/bit, 200 fJ/bit Tx demonstrated; >10m reach"
+    },
+    {
+      "id": 36,
+      "title": "Avicena Launches World's First microLED Optical Interconnect Evaluation Kit",
+      "url": "https://avicena.tech/avicena-launches-the-worlds-first-microled-optical-interconnect-eval-kit/",
+      "source": "Avicena",
+      "date": "2026-03",
+      "tags": ["optical-IO"],
+      "key_finding": "LightBundle eKit launched March 2026; 4Gbps/lane, 100µA/LED, 80 fJ/bit equivalent energy"
+    },
+    {
+      "id": 37,
+      "title": "Avicena Works with TSMC to Enable PD Arrays for LightBundle MicroLED-Based Interconnects",
+      "url": "https://avicena.tech/avicena-works-with-tsmc-to-enable-pd-arrays-for-lightbundle-microled-based-interconnects/",
+      "source": "Avicena / Optica",
+      "date": "2025",
+      "tags": ["optical-IO"],
+      "key_finding": "TSMC PD array integration for LightBundle; wafer-level microLED-PD co-fabrication"
+    },
+    {
+      "id": 38,
+      "title": "OFC 2025 Looks to the Future with Optical Breakthroughs",
+      "url": "https://connectorsupplier.com/ofc-2025-looks-to-the-future-with-optical-breakthroughs/",
+      "source": "Connector Supplier",
+      "date": "2025-04",
+      "tags": ["optical-interconnect", "silicon-photonics"],
+      "key_finding": "OFC 2025 highlights: silicon photonics to 1.6T, InP low-energy membrane devices, CPO deployments"
+    },
+    {
+      "id": 39,
+      "title": "OFC 2026 – AI Forces Optics Into the Spotlight - Woodside Capital",
+      "url": "https://woodsidecap.com/ofc-2026-ai-forces-optics-into-the-spotlight/",
+      "source": "Woodside Capital Partners",
+      "date": "2026",
+      "tags": ["optical-interconnect", "co-packaged-optics"],
+      "key_finding": "OFC 2026: ~18,000 attendees; AI data center as primary theme; 1.6T/3.2T coherent advances showcased"
+    },
+    {
+      "id": 40,
+      "title": "From Packets to Light Paths: OCS Reshaping AI Data Center Architecture at OFC 2026",
+      "url": "https://tspasemiconductor.substack.com/p/from-packets-to-light-paths-ocs-reshaping",
+      "source": "TSPASemiconductor Substack",
+      "date": "2026",
+      "tags": ["optical-interconnect"],
+      "key_finding": "OFC 2026 OCS theme; MEMS switches for GPU fabric; nanosecond reconfiguration for AI training jobs"
+    },
+    {
+      "id": 41,
+      "title": "Large-scale silicon photonics switches for AI/ML interconnections based on a 300mm CMOS pilot line",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12717882/",
+      "source": "PMC / Nature",
+      "date": "2025-2026",
+      "tags": ["silicon-photonics", "optical-interconnect"],
+      "key_finding": "Si photonic OCS on 300mm CMOS; O-band operation; wafer-scale silicon photonic switching for AI/ML fabrics"
+    },
+    {
+      "id": 42,
+      "title": "NTT IOWN All-Photonics Network Evolves - IEEE ComSoc Blog",
+      "url": "https://techblog.comsoc.org/2026/05/09/ntts-iown-is-finally-evolving-to-an-all-photonic-network-apn-physics-based-ai-for-enterprise-ot/",
+      "source": "IEEE ComSoc Technology Blog",
+      "date": "2026-05-09",
+      "tags": ["optical-interconnect"],
+      "key_finding": "NTT APN: 1Tbps optical paths at OFC 2025; PEC-2 switch 102.4 Tbps commercial release in 2026"
+    },
+    {
+      "id": 43,
+      "title": "Harnessing Photonics for Machine Intelligence",
+      "url": "https://arxiv.org/html/2604.10841v1",
+      "source": "arXiv",
+      "date": "2026-04",
+      "tags": ["photonic-compute"],
+      "key_finding": "Comprehensive review of photonic AI: MACs at sub-1 pJ; optical matrix multiply architectures; hybrid OE systems"
+    },
+    {
+      "id": 44,
+      "title": "A 262 TOPS Hyperdimensional Photonic AI Accelerator powered by Si3N4 microcomb laser",
+      "url": "https://arxiv.org/pdf/2503.03263",
+      "source": "arXiv",
+      "date": "2025-03",
+      "tags": ["photonic-compute"],
+      "key_finding": "262 TOPS photonic AI accelerator using Si3N4 frequency comb; hyperdimensional computing architecture"
+    },
+    {
+      "id": 45,
+      "title": "Photonic integrated circuit technology landscape 2026 - PatSnap",
+      "url": "https://www.patsnap.com/resources/blog/articles/photonic-integrated-circuit-technology-landscape-2026/",
+      "source": "PatSnap",
+      "date": "2026",
+      "tags": ["silicon-photonics"],
+      "key_finding": "PIC market $18.73B in 2026 to $42.21B by 2030; AI/data center primary growth driver"
+    },
+    {
+      "id": 46,
+      "title": "Analog nanophotonic computing: silicon photonic deep learning engines for tiled optical matrix multiplication",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11501591/",
+      "source": "PMC",
+      "date": "2025",
+      "tags": ["photonic-compute"],
+      "key_finding": "Tiled optical matrix multiply: 96.6% accuracy in experimental inference; 50 Gbaud compute rate"
+    },
+    {
+      "id": 47,
+      "title": "Reconfigurable Integrated Silicon Photonic Analog-to-Digital Converter",
+      "url": "https://opg.optica.org/jlt/abstract.cfm?uri=jlt-44-8-2996",
+      "source": "Journal of Lightwave Technology (Optica)",
+      "date": "2025-2026",
+      "tags": ["silicon-photonics"],
+      "key_finding": "Silicon photonic ADC on 300mm; reconfigurable 2-4 bit resolution; 321 MHz RF at 40 MS/s"
+    },
+    {
+      "id": 48,
+      "title": "AI Networking Arms Race: 800G Today, 1.6T Tomorrow",
+      "url": "https://tspasemiconductor.substack.com/p/ai-networking-arms-race-heats-up",
+      "source": "TSPASemiconductor Substack",
+      "date": "2025-2026",
+      "tags": ["optical-interconnect"],
+      "key_finding": "Market analysis: 800G to 1.6T transition; 200G/lane EML as enabling technology; supply chain analysis"
+    },
+    {
+      "id": 49,
+      "title": "LPO MSA Releases Linear Pluggable Optics Specification",
+      "url": "https://newphotonics.com/lpo-msa-membership-group-releases-linear-pluggable-optics-lpo-specification/",
+      "source": "NewPhotonics",
+      "date": "2025",
+      "tags": ["optical-interconnect"],
+      "key_finding": "LPO spec complete: 100G/lane standard; eliminates DSP; 50% power reduction vs DSP modules; <8.5W at 800G"
+    },
+    {
+      "id": 50,
+      "title": "Photonic neuromorphic computing landscape 2026 - PatSnap",
+      "url": "https://www.patsnap.com/resources/blog/articles/photonic-neuromorphic-computing-landscape-2026/",
+      "source": "PatSnap",
+      "date": "2026",
+      "tags": ["photonic-compute"],
+      "key_finding": "Photonic neuromorphic: <1 pJ/MAC target; IP landscape overview; spiking photonic networks"
+    },
+    {
+      "id": 51,
+      "title": "Co-Packaged Optics (CPO) 2026-2036 Market Forecast - IDTechEx",
+      "url": "https://www.idtechex.com/en/research-report/co-packaged-optics-cpo/1138",
+      "source": "IDTechEx",
+      "date": "2026",
+      "tags": ["co-packaged-optics"],
+      "key_finding": "CPO market: $122M (2025) to $20B+ (2036); 37% CAGR; TSMC COUPE central to growth"
+    },
+    {
+      "id": 52,
+      "title": "STARLight European Project: Silicon Photonics on 300mm for AI Datacenters",
+      "url": "https://www.imec-int.com/en/articles/imec-2025-overview",
+      "source": "imec",
+      "date": "2025-09",
+      "tags": ["silicon-photonics"],
+      "key_finding": "EU STARLight consortium: imec + partners; 300mm SiPho advances for AI, telecom, automotive LiDAR"
+    }
+  ]
+}

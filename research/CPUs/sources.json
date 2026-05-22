@@ -1,0 +1,522 @@
+[
+  {
+    "id": "src-001",
+    "title": "Intel Launches Core Ultra 200S Arrow Lake — Productivity and Efficiency Gains, Gaming Underwhelms",
+    "authors": ["Paul Alcorn"],
+    "venue": "Tom's Hardware",
+    "date": "2024-10-24",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-launches-arrow-lake-core-ultra-200s-big-gains-in-productivity-and-power-efficiency-but-not-in-gaming",
+    "tier": 3,
+    "abstract": "Comprehensive review of Intel Arrow Lake Core Ultra 200S desktop CPUs showing strong power efficiency improvements (147W vs 198W for Core i9-14900K) but disappointing gaming performance relative to AMD's Ryzen 9000 and Intel's own prior Raptor Lake generation."
+  },
+  {
+    "id": "src-002",
+    "title": "Intel Arrow Lake Refresh Core Ultra 200S Plus Reviews: Arrow Lake Gets Its Redemption Arc",
+    "authors": ["Tom's Hardware Staff", "Register Staff"],
+    "venue": "Tom's Hardware / The Register",
+    "date": "2026-03-24",
+    "url": "https://www.thefpsreview.com/2026/03/24/intel-core-ultra-200s-plus-reviews-are-in-arrow-lake-gets-its-redemption-arc/",
+    "tier": 3,
+    "abstract": "Launch reviews for Arrow Lake Refresh (Core Ultra 200S Plus) — Core Ultra 7 270K Plus ($299) and 250K Plus ($199) — showing 15% average gaming performance lift via Intel Binary Optimization Tool and higher core counts, with official DDR5-7200 support."
+  },
+  {
+    "id": "src-003",
+    "title": "Intel Announces Arrow Lake Refresh CPUs: 15% Higher Gaming Performance and Multi-threaded Boost",
+    "authors": ["Mark Tyson"],
+    "venue": "Tom's Hardware",
+    "date": "2026-03-01",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intel-claims-arrow-lake-refresh-cpus-deliver-15-percent-higher-gaming-performance-and-multi-threaded-boost-core-ultra-7-270k-and-core-ultra-5-250k-come-with-more-cores-faster-memory-and-a-price-cut",
+    "tier": 3,
+    "abstract": "Intel official announcement of Arrow Lake Refresh with Core Ultra 7 270K Plus and Core Ultra 5 250K Plus, featuring more cores, DDR5-7200 support, Intel Binary Optimization Tool (iBOT), and up to 39% improvement in Shadow of the Tomb Raider over original Arrow Lake."
+  },
+  {
+    "id": "src-004",
+    "title": "AMD Deep-Dives Zen 5 Architecture — Ryzen 9000 Benchmarks and Architectural Analysis",
+    "authors": ["Paul Alcorn", "AMD Engineering Team"],
+    "venue": "Tom's Hardware / AMD",
+    "date": "2024-07-29",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-deep-dives-zen-5-ryzen-9000-and-strix-point-cpu-rdna-35-gpu-and-xdna-2-architectures",
+    "tier": 3,
+    "abstract": "AMD's architectural disclosure of Zen 5 detailing 16% average IPC uplift over Zen 4, 8-wide execution engine, 6 ALUs (up from 4), doubled front-end instruction bandwidth, and first microarchitecture to implement two-ahead branch prediction. Built on TSMC N4P."
+  },
+  {
+    "id": "src-005",
+    "title": "Disabling Zen 5's Op Cache and Exploring its Clustered Decoder",
+    "authors": ["Chips and Cheese"],
+    "venue": "Chips and Cheese (Independent Microarchitecture Analysis)",
+    "date": "2025-01-15",
+    "url": "https://chipsandcheese.com/p/disabling-zen-5s-op-cache-and-exploring",
+    "tier": 3,
+    "abstract": "Deep technical investigation of Zen 5's clustered decode architecture showing a 6K-entry op cache, 32 KB L1i, 24K BTB entries, and analysis of how the clustered decoder architecture targets high-IPC workloads differently from Intel Lion Cove's plain 8-wide decode at 5.7 GHz."
+  },
+  {
+    "id": "src-006",
+    "title": "Running Gaming Workloads Through AMD's Zen 5",
+    "authors": ["Chips and Cheese"],
+    "venue": "Chips and Cheese",
+    "date": "2025-08-02",
+    "url": "https://chipsandcheese.com/p/running-gaming-workloads-through",
+    "tier": 3,
+    "abstract": "Analysis of Zen 5's gaming performance characteristics, showing that gaming represents a 'low-IPC' workload where Zen 5's clustered decoder architecture does not achieve maximum throughput, explaining mixed gaming benchmark results despite strong productivity gains."
+  },
+  {
+    "id": "src-007",
+    "title": "AMD EPYC Turin 9005 Series — 192-Core Zen 5 Benchmarks and Review",
+    "authors": ["Anton Shilov"],
+    "venue": "Tom's Hardware",
+    "date": "2024-10-10",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-launches-epyc-turin-9005-series-our-benchmarks-of-fifth-gen-zen-5-chips-with-up-to-192-cores-500w-tdp",
+    "tier": 3,
+    "abstract": "Full benchmark review of AMD EPYC 9005 Turin series with up to 192 Zen 5/5c cores, 500W TDP on TSMC 3nm, showing 17% IPC uplift, 2.7x speedup vs Intel Xeon Platinum 8952+, 35% AES-XTS encryption improvement, and 1.55x perf/watt over prior-gen Genoa."
+  },
+  {
+    "id": "src-008",
+    "title": "AMD EPYC 9965 Turin Dense Delivers Better Performance/Power Efficiency vs. AmpereOne 192-Core ARM CPU",
+    "authors": ["Michael Larabel"],
+    "venue": "Phoronix",
+    "date": "2025-02-10",
+    "url": "https://www.phoronix.com/review/amd-epyc-9965-ampereone/5",
+    "tier": 3,
+    "abstract": "Comparative review showing AMD EPYC 9965 (192 Zen 5c cores, TSMC 3nm) achieving 5.740 estimated SPECrate2017_int_base/CPU W vs. comparable ARM server processor, demonstrating 1.8x more integer performance per CPU watt than Intel Xeon 8592+."
+  },
+  {
+    "id": "src-009",
+    "title": "Intel Panther Lake Deep-Dive: 18A Compute Tile, Cougar Cove P-Cores, Darkmont E-Cores — 50% Faster Than Lunar Lake",
+    "authors": ["Wccftech Staff"],
+    "venue": "Wccftech",
+    "date": "2026-01-05",
+    "url": "https://wccftech.com/intel-panther-lake-deep-dive-18a-compute-tile-cougar-cove-p-cores-darkmont-e-cores/",
+    "tier": 3,
+    "abstract": "Technical deep-dive revealing Panther Lake's 18A compute tile with Cougar Cove P-cores (improved branch predictor, larger TLB) and Darkmont E-cores outperforming previous Raptor Cove P-cores, delivering 50%+ CPU performance and GPU improvement over Lunar Lake predecessor."
+  },
+  {
+    "id": "src-010",
+    "title": "Intel Launches Core Ultra Series 3 Mobile Processors — Panther Lake Roars to Life",
+    "authors": ["ServeTheHome Staff"],
+    "venue": "ServeTheHome",
+    "date": "2026-01-27",
+    "url": "https://www.servethehome.com/intel-launches-core-ultra-series-3-mobile-processors-panther-lake-roars-to-life/",
+    "tier": 3,
+    "abstract": "Coverage of Intel's Panther Lake CES 2026 launch: first 18A-process product, Core Ultra Series 3, with up to 4 Cougar Cove P-cores, 8 Darkmont E-cores, NPU 5 at 50 TOPS, 180 TOPS total platform AI throughput, 76% gaming uplift claimed. Global retail availability January 27, 2026."
+  },
+  {
+    "id": "src-011",
+    "title": "Panther Lake's Reveal at ITT 2025",
+    "authors": ["George Cozma"],
+    "venue": "Chips and Cheese",
+    "date": "2025-09-20",
+    "url": "https://chipsandcheese.com/p/panther-lakes-reveal-at-itt-2025",
+    "tier": 3,
+    "abstract": "Technical preview of Panther Lake architecture before launch, analyzing Intel's Intel Technology Tour disclosures about Cougar Cove P-core improvements, Darkmont E-core design, 18A process integration, and chiplet packaging combining 18A compute tile with TSMC N3E graphics tile."
+  },
+  {
+    "id": "src-012",
+    "title": "Arm's Cortex X925: Reaching Desktop Performance",
+    "authors": ["Chips and Cheese"],
+    "venue": "Chips and Cheese",
+    "date": "2024-08-05",
+    "url": "https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop",
+    "tier": 3,
+    "abstract": "Microarchitectural analysis of ARM Cortex-X925 (ARMv9.2, 3nm), showing 10-wide decode/dispatch, doubled instruction window, 3 MB L2 (up from 2 MB), 17% IPC improvement over Cortex-X4 at ISO-frequency, and 36% aggregate single-thread uplift combining IPC and clock rate increases to 4 GHz."
+  },
+  {
+    "id": "src-013",
+    "title": "The Ultimate CPU: Arm Cortex-X925's Breakthrough with a 15 Percent IPC Improvement",
+    "authors": ["ARM Newsroom"],
+    "venue": "ARM Newsroom",
+    "date": "2024-05-31",
+    "url": "https://newsroom.arm.com/blog/armv9-cortex-x925-cpu-performance",
+    "tier": 4,
+    "abstract": "Official ARM disclosure of Cortex-X925 performance characteristics: 15% IPC improvement on Geekbench 6.2 vs Cortex-X4, 10-wide decode width, 3 MB private L2 cache, 3.8–4.0 GHz operation on 3nm SoCs, and 30% average performance/efficiency improvement targeting desktop-class performance in mobile."
+  },
+  {
+    "id": "src-014",
+    "title": "Qualcomm Takes RISC on Arm Alternative with Ventana Buy",
+    "authors": ["The Register Staff"],
+    "venue": "The Register",
+    "date": "2025-12-10",
+    "url": "https://www.theregister.com/2025/12/10/qualcomm_riscv_arm_ventana",
+    "tier": 3,
+    "abstract": "Coverage of Qualcomm's $2.4 billion acquisition of Ventana Micro Systems, integrating high-performance RISC-V Veyron V2 cores (32 cores, 3.85 GHz, 512-bit vector units, 0.5 TOPS/GHz INT8) into Qualcomm's 'Oryon' CPU lineage and signaling major industry shift toward RISC-V server silicon."
+  },
+  {
+    "id": "src-015",
+    "title": "Ventana Introduces Veyron V2 — World's Highest Performance Data Center-Class RISC-V Processor",
+    "authors": ["RISC-V International"],
+    "venue": "RISC-V International",
+    "date": "2025-03-15",
+    "url": "https://riscv.org/blog/ventana-introduces-veyron-v2-worlds-highest-performance-data-center-class-risc-v-processor-and-platform/",
+    "tier": 3,
+    "abstract": "Announcement of Ventana Veyron V2 featuring 32 RISC-V RVA23-compatible cores at 3.85 GHz, UCIe chiplet architecture, 1.5 MB L2 per core, 128 MB shared L3, 512-bit RVV 1.0 vector units, custom matrix accelerator. Targeting 192-core server configurations competitive with AMD EPYC Bergamo and Intel Xeon Sapphire Rapids on SpecInt2017."
+  },
+  {
+    "id": "src-016",
+    "title": "Condor's Cuzco RISC-V Core at Hot Chips 2025",
+    "authors": ["George Cozma"],
+    "venue": "Chips and Cheese",
+    "date": "2025-08-29",
+    "url": "https://chipsandcheese.com/p/condors-cuzco-risc-v-core-at-hot",
+    "tier": 3,
+    "abstract": "Technical analysis of Condor Computing's Cuzco RISC-V core presented at Hot Chips 2025: RVA-23 compliant, 12-stage pipeline, 8 cores/cluster with 8 MB private L2 and 256 MB shared L3, novel time-based instruction scheduling eliminating CAM circuits, 17.5+ SpecInt2006/GHz with only 5.3% throughput penalty vs. ideal Tomasulo scheduler."
+  },
+  {
+    "id": "src-017",
+    "title": "SiFive Sets New Bar for High-Performance RISC-V with Third-Generation Performance P550 and P570 IP",
+    "authors": ["SiFive Press"],
+    "venue": "SiFive / BusinessWire",
+    "date": "2026-05-12",
+    "url": "https://www.sifive.com/press/sifive-sets-new-bar-for-high-performance-risc-v-with-third-generation-performance-p550-and-p570-ip",
+    "tier": 4,
+    "abstract": "Announcement of SiFive P570 Gen 3: 3-wide 13-stage fully out-of-order pipeline, 128-bit VLEN vector engine, 7–13% SpecInt improvement vs P550 Gen 1, 13% dynamic power reduction, 2x Geekbench improvement, up to 21x AI workload improvement vs Gen 1, 4.5x vs Gen 2. RVA23 compliant, scalable to 16 cores."
+  },
+  {
+    "id": "src-018",
+    "title": "Hot Chips 2025: Session 1 — CPUs",
+    "authors": ["George Cozma"],
+    "venue": "Chips and Cheese / Hot Chips 2025",
+    "date": "2025-08-30",
+    "url": "https://chipsandcheese.com/p/hot-chips-2025-session-1-cpus",
+    "tier": 1,
+    "abstract": "Summary of Hot Chips 2025 CPU session featuring Condor's Cuzco RISC-V core, IBM Power11, Intel Clearwater Forest Xeon preview, and PEZY SC4s. Highlights time-based microarchitecture scheduling innovation, IBM Power11's 4x AI matrix operation performance, and Intel's 18A multi-chiplet Xeon roadmap."
+  },
+  {
+    "id": "src-019",
+    "title": "IBM's Power11 Processor Architecture at Hot Chips 2025",
+    "authors": ["Patrick Kennedy"],
+    "venue": "ServeTheHome",
+    "date": "2025-08-28",
+    "url": "https://www.servethehome.com/ibms-power11-processor-architecture-at-hot-chips-2025/",
+    "tier": 3,
+    "abstract": "Detailed analysis of IBM Power11 presented at Hot Chips 2025: 3x per-core performance vs Power9, 2x per-thread performance, 4x AI matrix operations, 10x AI gains with Spyre integration, DDIMM memory, Samsung 7nm process, stacked silicon interposer design, 99.9999% uptime reliability target."
+  },
+  {
+    "id": "src-020",
+    "title": "IBM Power11 Raises the Bar for Enterprise IT",
+    "authors": ["IBM Newsroom"],
+    "venue": "IBM Newsroom",
+    "date": "2025-07-08",
+    "url": "https://newsroom.ibm.com/2025-07-08-ibm-power11-raises-the-bar-for-enterprise-it",
+    "tier": 4,
+    "abstract": "Official IBM Power11 launch announcement: launched July 8 / GA July 25, 2025. Samsung 7nm with silicon interposer, OMI memory architecture (up to 32 DDR5 ports), 2x SIMD throughput vs Power10, 4x AI matrix operation throughput, 25% more cores per die than Power10, Spyre AI accelerator integration."
+  },
+  {
+    "id": "src-021",
+    "title": "Intel Reveals 288-Core Clearwater Forest Xeon at Hot Chips — 18A Process Promises Big Efficiency and Performance Gains",
+    "authors": ["Anton Shilov"],
+    "venue": "Tom's Hardware",
+    "date": "2025-08-26",
+    "url": "https://www.tomshardware.com/desktops/servers/intel-reveals-288-core-xeon",
+    "tier": 3,
+    "abstract": "Hot Chips 2025 preview of Intel Clearwater Forest Xeon 6+: 288 Darkmont E-cores across 12 compute tiles on 18A, 17% IPC improvement over Sierra Forest, 2x L2 cache bandwidth, DDR5-8000 on 12 channels, 1,152 MB combined L3, targeting network/cloud scale-out workloads. Expected H1 2026 launch."
+  },
+  {
+    "id": "src-022",
+    "title": "Intel 18A Xeon 6+ Clearwater Forest CPUs Debut With Up To 288 Cores At MWC 2026",
+    "authors": ["HotHardware Staff"],
+    "venue": "HotHardware",
+    "date": "2026-03-03",
+    "url": "https://hothardware.com/news/intel-clearwater-forest-xeon-6-plus-launch",
+    "tier": 3,
+    "abstract": "Official launch coverage of Intel Clearwater Forest Xeon 6+ at MWC 2026: first Intel 18A server product, 288 cores (12 compute tiles + 3 Intel 3 base tiles + 2 Intel 7 I/O tiles), 12-channel DDR5-8000, 3 TB max memory, 1,300 GB/s bandwidth, dual-socket 576-core configuration. Intel 18A foundry milestone."
+  },
+  {
+    "id": "src-023",
+    "title": "AMD Ryzen 9 9950X3D Review — Stunning Gaming Performance Meets Top-Tier Productivity",
+    "authors": ["Tom's Hardware Staff"],
+    "venue": "Tom's Hardware",
+    "date": "2025-03-05",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-9-9950x3d-review",
+    "tier": 3,
+    "abstract": "Full review of AMD Ryzen 9 9950X3D (16-core Zen 5 with 128 MB 3D V-Cache): 37% faster than Intel Core 9 285K in 1080p gaming, ties Ryzen 7 9800X3D in gaming, 6.6-minute Blender render near 9950X parity, 206,643 MIPs in 7-Zip. L3 cache stacked below CPU die for improved thermals enabling 170/230W TDP, $700 MSRP."
+  },
+  {
+    "id": "src-024",
+    "title": "AMD's Dual-Cache Ryzen 9 9950X3D2 Appears in First Benchmark Leaks — 192MB L3 Cache",
+    "authors": ["Mark Tyson"],
+    "venue": "Tom's Hardware",
+    "date": "2026-04-01",
+    "url": "https://www.tomshardware.com/pc-components/cpus/amds-dual-cache-ryzen-9-9950x3d2-appears-in-first-benchmark-leaks-gaming-focused-cpu-features-192mb-of-l3-cache-stacked-across-both-ccds",
+    "tier": 3,
+    "abstract": "Early benchmark leak of AMD Ryzen 9 9950X3D2 featuring 192 MB L3 cache stacked across both CCDs (dual-cache 3D V-Cache), targeting extreme gaming performance with full 16 Zen 5 cores benefiting from large cache hierarchy. Represents next iteration of AMD's cache-stacking strategy."
+  },
+  {
+    "id": "src-025",
+    "title": "AMD Introduces Zen 5 Based Ryzen Threadripper PRO 9000 WX-Series",
+    "authors": ["AMD"],
+    "venue": "AMD Corporate Blog",
+    "date": "2025-07-23",
+    "url": "https://www.amd.com/en/blogs/2025/amd-introduces-new-zen-5-based-ryzen-threadripper-pro.html",
+    "tier": 4,
+    "abstract": "Official launch of AMD Threadripper PRO 9000 WX-Series (up to 96 Zen 5 cores): 16% IPC uplift vs Threadripper PRO 7000, 25% improvement in SPECworkstation 4.0 AI/ML, 96-core 9995WX outpaces Intel 60-core Xeon W9-3595X by 28-145% depending on task, 8-channel DDR5-6400, PCIe 5.0. Available from Dell, HP, Lenovo, Supermicro."
+  },
+  {
+    "id": "src-026",
+    "title": "Apple Debuts M5 Pro and M5 Max to Supercharge Pro Workflows",
+    "authors": ["Apple Newsroom"],
+    "venue": "Apple Newsroom",
+    "date": "2026-03-03",
+    "url": "https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/",
+    "tier": 4,
+    "abstract": "Official announcement of Apple M5 Pro and M5 Max chips using 'Fusion Architecture' bonding two 3nm dies: M5 Pro with 6 Super Cores (10-wide, 4.6 GHz) + 12 Performance Cores (7-wide, 4.4 GHz), up to 30% faster CPU multithreaded vs M4 Pro, 307 GB/s memory bandwidth, 50 TOPS NPU."
+  },
+  {
+    "id": "src-027",
+    "title": "Apple M5 Max Achieves New Record in First Geekbench Benchmark",
+    "authors": ["MacRumors Staff"],
+    "venue": "MacRumors",
+    "date": "2026-03-05",
+    "url": "https://www.macrumors.com/2026/03/05/m5-max-geekbench-benchmarks/",
+    "tier": 3,
+    "abstract": "First Geekbench results for Apple M5 Max 18-core CPU: 29,233 multi-core score surpassing M3 Ultra (27,726). Single-core performance also improved. M5 Pro 14-core/18-core Geekbench breakdowns showing 15% multithreaded improvement for base M5, 30% for M5 Pro/Max vs M4 counterparts."
+  },
+  {
+    "id": "src-028",
+    "title": "Apple Unveils M5 Pro and M5 Max With New Fusion Architecture",
+    "authors": ["TechCrunch Staff"],
+    "venue": "TechCrunch",
+    "date": "2026-03-03",
+    "url": "https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/",
+    "tier": 3,
+    "abstract": "Analysis of Apple M5 Pro/Max 'Fusion Architecture' using die-bonding for unprecedented scale: two 3nm dies bonded with high-bandwidth low-latency interconnect, unifying CPU/GPU/NPU in shared memory. Enables M5 Max to reach 128 GB with 614 GB/s bandwidth, demonstrating advanced packaging as CPU scaling vector."
+  },
+  {
+    "id": "src-029",
+    "title": "Qualcomm's New Snapdragon X2 Elite Extreme: 18-core 5GHz 3nm ARM with Oryon Prime Cores",
+    "authors": ["Mark Tyson"],
+    "venue": "Tom's Hardware",
+    "date": "2025-11-15",
+    "url": "https://www.tomshardware.com/pc-components/cpus/qualcomms-new-snapdragon-x2-elite-extreme-and-elite-chips-for-pcs-stretch-up-to-a-record-5-ghz-3nm-arm-chips-sport-new-oryon-prime-cores",
+    "tier": 3,
+    "abstract": "Announcement of Qualcomm Snapdragon X2 Elite Extreme: 18 Oryon Prime cores, 5.0 GHz top speed, TSMC 3nm, ~31 billion transistors, 80 TOPS NPU, 48 GB on-package memory on 192-bit bus at 9,533 MT/s. 35% single-core uplift, 43% lower power vs first-gen Snapdragon X. 31 billion transistors."
+  },
+  {
+    "id": "src-030",
+    "title": "Qualcomm Snapdragon X2 Elite Extreme Analysis, Benchmarks & Efficiency — Serious Rival for Apple",
+    "authors": ["Notebookcheck Staff"],
+    "venue": "Notebookcheck",
+    "date": "2026-04-10",
+    "url": "https://www.notebookcheck.net/Qualcomm-Snapdragon-X2-Elite-Extreme-Analysis-Benchmarks-Efficiency-Serious-rival-for-Apple-and-a-problem-for-AMD-Intel.1266974.0.html",
+    "tier": 3,
+    "abstract": "Full review of Snapdragon X2 Elite Extreme: 24% single-core advantage vs Intel Panther Lake, 45% multi-core advantage over M5 MacBook Air in certain tests, significantly better CPU multi-core and GPU efficiency vs predecessor. ARM laptops projected to reach 30% PC market share by end of 2026."
+  },
+  {
+    "id": "src-031",
+    "title": "Intel CPU Roadmap 2025-2026: Arrow Lake Refresh, Panther Lake, Nova Lake",
+    "authors": ["HardwareTimes Staff"],
+    "venue": "Hardware Times",
+    "date": "2025-09-15",
+    "url": "https://hardwaretimes.com/intel-cpu-roadmap-2025-2026-arrow-lake-refresh-panther-lake-nova-lake/",
+    "tier": 3,
+    "abstract": "Comprehensive Intel roadmap analysis covering Arrow Lake Refresh (Q1 2026), Panther Lake 18A (Q1 2026), and Nova Lake desktop (H2 2026) with Coyote Cove P-cores, Arctic Wolf E-cores, up to 52 cores, LGA 1954 socket, Xe3 GPU integration, and AMD-inspired big last-level cache architecture."
+  },
+  {
+    "id": "src-032",
+    "title": "Intel Confirms Nova Lake CPU Launch in 2026: Up to 52 Cores, Xe3 GPU, LGA 1954 Socket",
+    "authors": ["TechSpot Staff"],
+    "venue": "TechSpot",
+    "date": "2025-12-10",
+    "url": "https://www.techspot.com/news/109998-intel-confirms-nova-lake-cpu-launch-2026-up.html",
+    "tier": 3,
+    "abstract": "Intel official confirmation of Nova Lake desktop platform for H2 2026: 8–52 cores (Coyote Cove P-cores + Arctic Wolf E-cores), LGA 1954, Xe3 GPU, Thunderbolt 5, Wi-Fi 7, 35–175W TDP range, AMD-style big L3 cache architecture, 10–60% performance improvement over Arrow Lake depending on workload."
+  },
+  {
+    "id": "src-033",
+    "title": "JEDEC Finalizes HBM4 Standard: 2 TB/s Per Stack, 2048-bit Interface",
+    "authors": ["Tom's Hardware Staff"],
+    "venue": "Tom's Hardware",
+    "date": "2025-04-15",
+    "url": "https://www.tomshardware.com/pc-components/ddr5/micron-plans-hbm4e-in-2028-256gb-ddr5-12800-ram-sticks-in-2026",
+    "tier": 3,
+    "abstract": "Coverage of JEDEC HBM4 standard finalization (April 15, 2025): 2048-bit interface (double HBM3), 8 Gb/s per pin yielding ~2 TB/s per stack, up to 64 GB per stack with 16-Hi stacking. First products from SK Hynix and Micron shipping late 2025/early 2026. Micron also plans 256 GB DDR5-12800 server DIMMs in 2026."
+  },
+  {
+    "id": "src-034",
+    "title": "UCIe 3.0 Standard Ratified: 64 GT/s Die-to-Die Interconnect for Chiplet Ecosystem",
+    "authors": ["PatSnap Staff"],
+    "venue": "PatSnap / Design-Reuse",
+    "date": "2025-08-20",
+    "url": "https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/",
+    "tier": 3,
+    "abstract": "Coverage of UCIe 3.0 ratification in August 2025: 64 GT/s per lane (doubling previous gen), UCIe-3D hybrid bonding support for 1-micron bump pitch copper-to-copper connections, enabling heterogeneous chiplet integration at unprecedented bandwidth. Patent filings in chiplet domain grew from 152 (2017) to 1,070 (2024)."
+  },
+  {
+    "id": "src-035",
+    "title": "Intel CEO Recognizes 18A Node for External Customers as Yields Improve",
+    "authors": ["Tom's Hardware Staff"],
+    "venue": "Tom's Hardware",
+    "date": "2026-01-30",
+    "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-ceo-recognizes-its-18a-node-for-external-customers-as-18a-p-gets-inbound-interest-company-cites-increasing-yields",
+    "tier": 3,
+    "abstract": "Intel CEO Lip-Bu Tan confirms 18A yields on industry-standard improvement curve (~7% monthly), Panther Lake production ramping at Fab 52 Arizona, 18A-P PDK released for external customers, Apple reportedly considering 18A-P, Google exploring advanced packaging. Steady path but peak supply not until end of decade."
+  },
+  {
+    "id": "src-036",
+    "title": "TSMC N2 Process Enters Volume Production Q4 2025: 15% Performance, 25-30% Power Reduction vs N3E",
+    "authors": ["TSMC"],
+    "venue": "TSMC Official",
+    "date": "2025-10-01",
+    "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+    "tier": 4,
+    "abstract": "TSMC 2nm (N2) process enters volume production Q4 2025 as planned: 10-15% higher performance, 25-30% power reduction, 15% density improvement vs N3E. ARM Cortex-A715 on N2 shows 16.4% speed uplift at same power, 37.2% power saving at same speed. N2P variant with further improvements planned H2 2026."
+  },
+  {
+    "id": "src-037",
+    "title": "AMD EPYC 9005 Turin — Leadership HPC Performance with 5th Generation EPYC",
+    "authors": ["AMD"],
+    "venue": "AMD Corporate Blog",
+    "date": "2025-03-15",
+    "url": "https://www.amd.com/en/blogs/2025/leadership-hpc-performance-with-5th-generation-amd.html",
+    "tier": 4,
+    "abstract": "AMD HPC performance claims for EPYC 9005 Turin: 1.369x geomean ML/HPC IPC uplift across 24 select workloads, 4x faster video transcoding, 3.9x faster HPC applications vs Intel flagship, 1.6x performance per core in virtualized environments. Flagship 192-core EPYC 9965 claimed 2.7x faster than Intel Platinum 8952+."
+  },
+  {
+    "id": "src-038",
+    "title": "AMD Confirms Next-Gen Zen 6 CPUs to Launch in 2026",
+    "authors": ["PC Gamer Staff"],
+    "venue": "PC Gamer",
+    "date": "2025-11-01",
+    "url": "https://www.pcgamer.com/hardware/processors/amd-confirms-next-gen-zen-6-cpus-to-launch-in-2026-and-medusa-apus-to-launch-in-2027/",
+    "tier": 3,
+    "abstract": "AMD official confirmation of Zen 6 architecture targeting 2026 on TSMC 2nm, 12 cores per CCD (50% more than Zen 5), 10-15% IPC improvement, DDR5-8000 support, new ISA extensions (AVX512_BMM, AVX_NE_CONVERT, AVX_IFMA, AVX512_FP16). Desktop 'Medusa' and server 'Venice' (EPYC) variants confirmed."
+  },
+  {
+    "id": "src-039",
+    "title": "Streamlining SIMD ISA Extensions with Takum Arithmetic: A Case Study on Intel AVX10.2",
+    "authors": ["Multiple Authors"],
+    "venue": "arXiv cs.AR",
+    "date": "2025-03-18",
+    "url": "https://arxiv.org/abs/2503.14067",
+    "tier": 2,
+    "abstract": "arXiv paper analyzing Intel AVX10.2 SIMD extension design for bfloat16 and FP8 (E4M3/E5M2) low-precision formats targeting deep learning inference, examining instruction encoding tradeoffs and proposing Takum arithmetic for more efficient numerical representation in future vector ISA iterations."
+  },
+  {
+    "id": "src-040",
+    "title": "Intel Next-Gen Xeon 7 Diamond Rapids: Up to 192 P-Cores, PCIe 6.0, CXL 3, 16-Channel DDR5",
+    "authors": ["TechRadar Staff"],
+    "venue": "TechRadar",
+    "date": "2025-10-20",
+    "url": "https://www.techradar.com/pro/want-a-quad-socket-server-with-768-cores-sure-intels-192-core-diamond-rapids-xeon-cpu-will-deliver-that-in-2026-but-i-wonder-whether-it-will-be-too-little-too-late",
+    "tier": 3,
+    "abstract": "Analysis of Intel Diamond Rapids Xeon architecture: 192 Panther Cove-X P-cores per socket on 18A process, quad-socket 768-core configuration, LGA 9324 socket, 16-channel DDR5 with MRDIMM at 12800 MT/s, PCIe 6.0, CXL 3, FP8/TF32 native support, enhanced AMX engine. Launch targeted 2026 (possibly slipping to mid-2027)."
+  },
+  {
+    "id": "src-041",
+    "title": "AMD Zen 5 Architecture: Two-Ahead Branch Prediction and 8-Wide Execution Analysis",
+    "authors": ["AMD Engineering / Hot Chips 2024"],
+    "venue": "Hot Chips 2024",
+    "date": "2024-08-25",
+    "url": "https://hc2024.hotchips.org/assets/program/conference/day2/24_HC2024.AMD.Cohen.Subramony.final.pdf",
+    "tier": 1,
+    "abstract": "Academic-tier peer presentation of AMD Zen 5 at Hot Chips 2024: first microarchitecture to fully implement two-ahead branch prediction (predicting two branches per clock cycle), 8-wide execute/retire (up from 6), 6 ALUs (up from 4), unified scheduler, additional L1 cache, doubled front-end instruction bandwidth."
+  },
+  {
+    "id": "src-042",
+    "title": "Optimising HPC Algorithms with ARM Scalable Vector Extensions (SVE/SVE2)",
+    "authors": ["ARM University Program"],
+    "venue": "Arm Developer Labs",
+    "date": "2025-05-30",
+    "url": "https://arm-university.github.io/Arm-Developer-Labs/2025/05/30/HPC-Algorithm.html",
+    "tier": 3,
+    "abstract": "Technical guide examining SVE/SVE2 optimization for HPC workloads in 2025: scalable vector widths (128–2048 bits), predicated execution eliminating masking overhead, growing cloud provider support for SVE-enabled hardware, and performance gaps where software hasn't yet exploited available SVE2 capabilities."
+  },
+  {
+    "id": "src-043",
+    "title": "Intel's Pivotal 18A Process Making Steady Progress — Yields to Reach Industry Standard Levels by 2027",
+    "authors": ["Tom's Hardware Staff"],
+    "venue": "Tom's Hardware",
+    "date": "2025-12-15",
+    "url": "https://www.tomshardware.com/pc-components/cpus/intels-pivotal-18a-process-is-making-steady-progress-but-still-lags-behind-yields-only-set-to-reach-industry-standard-levels-in-2027",
+    "tier": 3,
+    "abstract": "Assessment of Intel 18A process yield trajectory: low/unpredictable yields when Lip-Bu Tan joined early 2025, notable progress by late 2025 on industry standard 7% monthly improvement curve, Panther Lake tiles in production at Oregon development fab and Fab 52 Arizona. Full peak supply not until end of decade."
+  },
+  {
+    "id": "src-044",
+    "title": "Intel Panther Lake: First AI PC Platform Built on 18A — Official Press Release",
+    "authors": ["Intel"],
+    "venue": "Intel Investor Relations",
+    "date": "2026-01-05",
+    "url": "https://www.intc.com/news-events/press-releases/detail/1752/intel-unveils-panther-lake-architecture-first-ai-pc",
+    "tier": 4,
+    "abstract": "Intel official Panther Lake launch: Core Ultra Series 3 on 18A process, Cougar Cove P-cores + Darkmont E-cores, NPU 5 at 50 TOPS, Xe3 Celestial GPU with 12 cores (TSMC N3E large config), 180 TOPS total platform, 76% gaming and 60% multithreaded performance uplift claimed vs. previous generation."
+  },
+  {
+    "id": "src-045",
+    "title": "Comprehensive Overview of Popular Chips: Recap of Hot Chips 2025 First Day",
+    "authors": ["36Kr English Staff"],
+    "venue": "36Kr / DesignNews",
+    "date": "2025-08-25",
+    "url": "https://eu.36kr.com/en/p/3438999767584390",
+    "tier": 3,
+    "abstract": "Day 1 recap of Hot Chips 2025: IBM Power11 unveiled (10x AI gains, Spyre integration, Samsung 7nm+interposer), NVIDIA GB10 SoC details (24 MB L2 cache for CPU/GPU coherency via hardware, MediaTek CPU chiplet), Condor Cuzco RISC-V debut. Record 1200+ attendees at Stanford symposium."
+  },
+  {
+    "id": "src-046",
+    "title": "The Open Silicon Revolution: RISC-V Hits 25% Global Market Share as Third Pillar of Computing",
+    "authors": ["FinancialContent / TokenRing"],
+    "venue": "FinancialContent",
+    "date": "2026-01-01",
+    "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-open-silicon-revolution-risc-v-hits-25-global-market-share-as-the-third-pillar-of-computing",
+    "tier": 3,
+    "abstract": "Market analysis reporting RISC-V reaching 25% global CPU IP market share by end of 2025, driven by Qualcomm/Ventana acquisition, SiFive datacenter push, China's sovereign chip programs, and growing RVA23 software ecosystem. Characterizes RISC-V as established third architecture pillar alongside x86 and ARM."
+  },
+  {
+    "id": "src-047",
+    "title": "5th Gen AMD EPYC CPUs: The Engine Behind Google Cloud's Next Leap",
+    "authors": ["AMD"],
+    "venue": "AMD Corporate Blog",
+    "date": "2026-02-10",
+    "url": "https://www.amd.com/en/blogs/2026/5th-gen-amd-epyc-cpus-the-engine-behind-google-clouds.html",
+    "tier": 4,
+    "abstract": "AMD/Google partnership announcement deploying EPYC 9005 Turin as Google Cloud N4 instances, highlighting Turin's performance on Google's internal workloads, memory bandwidth advantages for large model inference, and Zen 5c dense core efficiency for Google's cloud infrastructure consolidation strategy."
+  },
+  {
+    "id": "src-048",
+    "title": "Intel Core 300 CPUs Unveiled: Details and Features of Panther Lake",
+    "authors": ["HWCooling Staff"],
+    "venue": "HWCooling.net",
+    "date": "2026-01-07",
+    "url": "https://www.hwcooling.net/en/intel-core-300-cpus-unveiled-details-and-features-of-panther-lake/",
+    "tier": 3,
+    "abstract": "Technical breakdown of Intel Core Ultra 300 (Panther Lake) architecture: heterogeneous compute tile (18A) + graphics tile (TSMC N3E 12-core Xe3 or Intel 3 4-core), I/O tile (Intel 7), Cougar Cove P-cores with refined branch predictor and larger TLB, 200+ OEM designs at launch from MSI, Lenovo, ASUS."
+  },
+  {
+    "id": "src-049",
+    "title": "Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA 2025)",
+    "authors": ["ISCA 2025 Program Committee"],
+    "venue": "ACM SIGARCH / IEEE / ISCA 2025 Tokyo",
+    "date": "2025-06-22",
+    "url": "https://dl.acm.org/doi/proceedings/10.1145/3695053",
+    "tier": 1,
+    "abstract": "Proceedings of ISCA 2025 (Tokyo, 1200+ attendees), premier computer architecture venue. Notable CPU papers include dynamic load balancing in Intel Xeon Scalable, waferscale chip microarchitecture exploration, LLC management for datacenter servers with emerging I/O. Keynotes by RIKEN, Michigan, and Addis Ababa University researchers."
+  },
+  {
+    "id": "src-050",
+    "title": "AMD Krackan Point APU: Zen 5 + RDNA 3.5 Desktop APU Revolution for 2025",
+    "authors": ["Foro3D Staff"],
+    "venue": "Foro3D",
+    "date": "2026-01-15",
+    "url": "https://foro3d.com/en/2026/january/amd-krackan-point-with-zen-5-and-rdna-35-revolutionizes-desktop-apus-for-2025.html",
+    "tier": 3,
+    "abstract": "Coverage of AMD Krackan Point desktop APUs featuring Zen 5 CPU cores with RDNA 3.5 integrated graphics, launched Q4 2025. Combines 16% Zen 5 IPC improvement with RDNA 3.5 GPU architecture for integrated graphics, XDNA 2 NPU at 50 TOPS. Targets budget-friendly all-in-one desktop performance tier."
+  },
+  {
+    "id": "src-051",
+    "title": "Qualcomm Ventana RISC-V Acquisition — The Chip Letter Analysis",
+    "authors": ["The Chip Letter"],
+    "venue": "The Chip Letter (Substack)",
+    "date": "2026-01-05",
+    "url": "https://thechipletter.substack.com/p/qualcomms-risc-ventana-fusion",
+    "tier": 3,
+    "abstract": "In-depth analysis of Qualcomm's $2.4 billion Ventana acquisition: strategic rationale for integrating Veyron V2/V3 RISC-V cores into Oryon CPU lineage, UCIe chiplet architecture implications, potential displacement of ARM licensing costs, and how Ventana's RVA23-compliant 3.85 GHz cores position Qualcomm in server market."
+  },
+  {
+    "id": "src-052",
+    "title": "AMD Zen 6 CPU Specification Leaks: 12 Cores Per CCD, TSMC 2nm, 10-15% IPC Uplift",
+    "authors": ["OC3D Staff"],
+    "venue": "Overclock3D",
+    "date": "2025-12-20",
+    "url": "https://overclock3d.net/news/cpu_mainboard/amd-zen-6-cpu-specifications-leaks-big-boost-unveiled/",
+    "tier": 3,
+    "abstract": "Leaked specifications for AMD Zen 6: 12 cores per CCD (50% increase from Zen 5), TSMC 2nm process, 10-15% IPC uplift, DDR5-8000 support, new ISA extensions including AVX512_FP16. Desktop 'Medusa' Ryzen 10000 and server 'Venice' EPYC variants. Potential delay to 2027 for some desktop SKUs."
+  }
+]

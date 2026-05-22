@@ -1,0 +1,497 @@
+[
+  {
+    "id": 1,
+    "title": "SK Hynix Showcases Next-Gen 48GB HBM4 at 11.7Gbps, SOCAMM2, LPDDR6 for AI Platforms",
+    "url": "https://www.tweaktown.com/news/109572/sk-hynix-showcases-next-gen-48gb-hbm4-at-11-7gbps-socamm2-lpddr6-for-ai-platforms/index.html",
+    "source": "Tweaktown",
+    "date": "2026-01",
+    "tags": ["HBM4", "SK-Hynix", "LPDDR6", "SOCAMM2"],
+    "key_claim": "SK Hynix 16-Hi HBM4 with 48GB at 11.7 Gbps yields 2 TB/s bandwidth per stack"
+  },
+  {
+    "id": 2,
+    "title": "Samsung, SK Hynix Reportedly Accelerate HBM4 Production to Early 2026",
+    "url": "https://www.digitimes.com/news/a20251226PD223/samsung-sk-hynix-production-hbm4-2026.html",
+    "source": "DigiTimes",
+    "date": "2025-12-26",
+    "tags": ["HBM4", "Samsung", "SK-Hynix", "production"],
+    "key_claim": "Both Samsung and SK Hynix accelerated HBM4 mass production to February 2026"
+  },
+  {
+    "id": 3,
+    "title": "SK Hynix Completes Development of Next-Gen HBM4 — 2,048-bit Interface and 10 GT/s Speeds",
+    "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-completes-development-of-hbm4-2-048-bit-interface-and-10-gt-s-speeds-promised",
+    "source": "Tom's Hardware",
+    "date": "2025-11",
+    "tags": ["HBM4", "SK-Hynix", "interface", "bandwidth"],
+    "key_claim": "SK Hynix HBM4 features 2,048-bit I/O (double from HBM3E) and 10 GT/s, 25% above JEDEC spec"
+  },
+  {
+    "id": 4,
+    "title": "SK Hynix Shows 16-Layer 48 GB HBM4 Memory Modules at CES 2026",
+    "url": "https://www.techpowerup.com/344834/sk-hynix-shows-16-layer-48-gb-hbm4-memory-modules-at-ces-2026",
+    "source": "TechPowerUp",
+    "date": "2026-01",
+    "tags": ["HBM4", "SK-Hynix", "CES2026", "16-Hi"],
+    "key_claim": "SK Hynix 16-Hi 48GB HBM4 running at industry's fastest 11.7 Gbps, 2 TB/s per stack"
+  },
+  {
+    "id": 5,
+    "title": "Samsung 36GB HBM4 Delivers 3.3 TB/s Bandwidth, Production Ramps Up",
+    "url": "https://windowsreport.com/samsungs-hbm4-delivers-3-3-tb-s-bandwidth-production-ramps-up/",
+    "source": "Windows Report",
+    "date": "2026-02",
+    "tags": ["HBM4", "Samsung", "bandwidth", "ISSCC2026"],
+    "key_claim": "Samsung 12-Hi 36GB HBM4 achieves 3.3 TB/s via 13 Gbps per pin, using 1c DRAM and SF4 logic base die"
+  },
+  {
+    "id": 6,
+    "title": "Samsung Begins HBM4 Mass Production and Customer Shipments Up to 3.3 TB/s per Stack",
+    "url": "https://videocardz.com/newz/samsung-begins-hbm4-mass-production-and-customer-shipments-up-to-3-3-tb-s-per-stack",
+    "source": "VideoCardz",
+    "date": "2026-02",
+    "tags": ["HBM4", "Samsung", "mass-production"],
+    "key_claim": "Samsung's first HBM4 had 2.4 TB/s; upgraded to 3.3 TB/s represents a 37.5% bandwidth improvement"
+  },
+  {
+    "id": 7,
+    "title": "SK Hynix to Tease 48Gbps/24Gb GDDR7, 14.4Gbps LPDDR6 and Samsung 36GB HBM4 at ISSCC 2026",
+    "url": "https://www.tweaktown.com/news/109057/sk-hynix-to-tease-48gbps-24gb-gddr7-14-4gbps-lpddr6-and-samsung-36gb-hbm4-at-isscc-2026/index.html",
+    "source": "Tweaktown",
+    "date": "2025-12",
+    "tags": ["HBM4", "GDDR7", "LPDDR6", "ISSCC2026", "SK-Hynix", "Samsung"],
+    "key_claim": "ISSCC 2026 (Feb) to feature SK Hynix 48 Gbps 24Gb GDDR7, 14.4Gbps LPDDR6, and Samsung 36GB HBM4"
+  },
+  {
+    "id": 8,
+    "title": "ISSCC 2026: NVIDIA & Broadcom CPO, HBM4 & LPDDR6",
+    "url": "https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo",
+    "source": "SemiAnalysis",
+    "date": "2026-02",
+    "tags": ["ISSCC2026", "HBM4", "LPDDR6", "analysis"],
+    "key_claim": "ISSCC 2026 showcased breakthrough memory designs including Samsung 13 Gbps HBM4 and SK Hynix 14.4 Gbps LPDDR6"
+  },
+  {
+    "id": 9,
+    "title": "Micron in High-Volume Production of HBM4 Designed for NVIDIA Vera Rubin",
+    "url": "https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin",
+    "source": "Micron Investor Relations",
+    "date": "2026-04",
+    "tags": ["HBM4", "Micron", "Vera-Rubin", "production"],
+    "key_claim": "Micron HBM4 36GB 12H achieves >2.8 TB/s bandwidth, 2.3x vs HBM3E, 20% better power efficiency"
+  },
+  {
+    "id": 10,
+    "title": "Micron Enters High-Volume Production of HBM4 for Nvidia Vera Rubin – 2.3x Bandwidth Improvement",
+    "url": "https://www.tomshardware.com/pc-components/dram/micron-enters-high-volume-production-of-hbm4-for-nvidia-vera-rubin",
+    "source": "Tom's Hardware",
+    "date": "2026-04",
+    "tags": ["HBM4", "Micron", "bandwidth", "Vera-Rubin"],
+    "key_claim": "Micron HBM4 at >11 Gb/s per pin; 48GB 16H samples shipped showing 33% more capacity per placement"
+  },
+  {
+    "id": 11,
+    "title": "SK Hynix Holds 62% of HBM, Micron Overtakes Samsung, 2026 Battle Pivots to HBM4",
+    "url": "https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/",
+    "source": "Astute Group",
+    "date": "2026-01",
+    "tags": ["HBM", "market-share", "SK-Hynix", "Micron", "Samsung"],
+    "key_claim": "SK Hynix 62% HBM market share in Q2 2025; Micron surpassed Samsung to take second place at 21%"
+  },
+  {
+    "id": 12,
+    "title": "HBM Technology Landscape 2026: Market and AI Demand",
+    "url": "https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026-market-and-ai-demand/",
+    "source": "PatSnap",
+    "date": "2026-01",
+    "tags": ["HBM", "market", "AI", "demand"],
+    "key_claim": "HBM demand grew 130%+ YoY in 2025; 70%+ growth expected in 2026 with continued supply constraint"
+  },
+  {
+    "id": 13,
+    "title": "NVIDIA Vera Rubin NVL72 – Co-Designed Infrastructure for Agentic AI",
+    "url": "https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/",
+    "source": "NVIDIA",
+    "date": "2026-01",
+    "tags": ["Vera-Rubin", "HBM4", "NVIDIA", "AI-accelerator"],
+    "key_claim": "NVIDIA Vera Rubin delivers 288 GB HBM4 per GPU, 22.2 TB/s total bandwidth in NVL72 rack system"
+  },
+  {
+    "id": 14,
+    "title": "AMD Instinct MI400 Confirmed: 432GB HBM4 at 19.6 TB/s for 2026",
+    "url": "https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026-with-432gb-hbm4-memory",
+    "source": "VideoCardz",
+    "date": "2025-11",
+    "tags": ["AMD", "MI400", "HBM4", "AI-accelerator"],
+    "key_claim": "AMD MI400 with 12 HBM4 stacks, 432 GB capacity, 19.6 TB/s bandwidth, 1.5x capacity vs NVIDIA Vera Rubin"
+  },
+  {
+    "id": 15,
+    "title": "JEDEC Releases New LPDDR6 Standard (JESD209-6) to Enhance Mobile and AI Memory Performance",
+    "url": "https://www.jedec.org/news/pressreleases/jedec%C2%AE-releases-new-lpddr6-standard-enhance-mobile-and-ai-memory-performance",
+    "source": "JEDEC",
+    "date": "2025-07-09",
+    "tags": ["LPDDR6", "JEDEC", "standard", "mobile"],
+    "key_claim": "JESD209-6 defines LPDDR6 at 10,667 MT/s to 14,400 MT/s with dual sub-channel, lower voltage, on-die ECC"
+  },
+  {
+    "id": 16,
+    "title": "Samsung LPDDR6 Memory Specs Unveiled: 10.7Gbps on 12nm, Eyes 14 Gbps",
+    "url": "https://www.trendforce.com/news/2025/11/10/news-samsung-lpddr6-memory-specs-unveiled-10-7gbps-speed-on-12nm-reportedly-eyes-14-gbps/",
+    "source": "TrendForce",
+    "date": "2025-11-10",
+    "tags": ["LPDDR6", "Samsung", "12nm", "mobile"],
+    "key_claim": "Samsung LPDDR6 on 12nm delivers 10.7 Gbps with 21% better energy efficiency over LPDDR5X"
+  },
+  {
+    "id": 17,
+    "title": "SK Hynix Details 16Gb LPDDR6 at 14.4Gbps",
+    "url": "https://videocardz.com/newz/sk-hynix-details-16gb-lpddr6-at-14-4gbps-samsung-sends-lpddr6x-samples-to-qualcomm",
+    "source": "VideoCardz",
+    "date": "2025-12",
+    "tags": ["LPDDR6", "SK-Hynix", "14.4Gbps", "1c-node"],
+    "key_claim": "SK Hynix 16Gb LPDDR6 on 1c process targets 14.4 Gbps per I/O pin"
+  },
+  {
+    "id": 18,
+    "title": "Samsung Confirms LPDDR6 Memory with 10.7 Gbps at CES 2026",
+    "url": "https://videocardz.com/newz/samsung-confirms-lpddr6-memory-with-10-7-gbps-bandwidth-at-ces-2026",
+    "source": "VideoCardz",
+    "date": "2026-01",
+    "tags": ["LPDDR6", "Samsung", "CES2026"],
+    "key_claim": "Samsung officially confirmed LPDDR6 at 10.7 Gbps at CES 2026; CES 2026 Innovation Award Honoree"
+  },
+  {
+    "id": 19,
+    "title": "JEDEC Previews LPDDR6 Roadmap Expanding into Data Centers and Processing-in-Memory",
+    "url": "https://www.jedec.org/news/pressreleases/jedec%C2%AE-previews-lpddr6-roadmap-expanding-lpddr-data-centers-and-processing-memory",
+    "source": "JEDEC",
+    "date": "2025",
+    "tags": ["LPDDR6", "PIM", "data-center", "SOCAMM2"],
+    "key_claim": "JEDEC's LPDDR6 roadmap extends to data centers via SOCAMM2 and PIM integration"
+  },
+  {
+    "id": 20,
+    "title": "CXL Consortium Releases CXL 4.0 Specification at SC25",
+    "url": "https://www.businesswire.com/news/home/20251118275848/en/CXL-Consortium-Releases-the-Compute-Express-Link-4.0-Specification-Increasing-Speed-and-Bandwidth",
+    "source": "BusinessWire",
+    "date": "2025-11-18",
+    "tags": ["CXL4.0", "memory-pooling", "PCIe7", "interconnect"],
+    "key_claim": "CXL 4.0 released Nov 2025, shifts to PCIe 7.0 at 128 GT/s (double CXL 3.x), enables 1.5 TB/s via bundled ports"
+  },
+  {
+    "id": 21,
+    "title": "CXL 3.0 Memory Pooling on Dedicated Servers: 2026 Gains",
+    "url": "https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/",
+    "source": "Colobird",
+    "date": "2026",
+    "tags": ["CXL3.0", "memory-pooling", "disaggregation"],
+    "key_claim": "CXL 3.0 memory pooling becomes production-grade feature in dedicated servers from 2026 onward"
+  },
+  {
+    "id": 22,
+    "title": "SC25: XConn Technologies and MemVerge CXL Memory Solution for LLM KV Cache",
+    "url": "https://www.storagenewsletter.com/2025/11/21/sc25-xconn-technologies-and-memverge-to-deliver-breakthrough-scalable-cxl-memory-solution-to-offload-kv-cache-and-prefill-decode-disaggregation-in-ai-inference-workloads/",
+    "source": "Storage Newsletter",
+    "date": "2025-11-21",
+    "tags": ["CXL", "LLM", "KV-cache", "disaggregation"],
+    "key_claim": "CXL memory pooling achieves 3.8x speedup vs 200G RDMA and 6.5x vs 100G RDMA for LLM inference"
+  },
+  {
+    "id": 23,
+    "title": "CXL 4.0 Infrastructure Planning Guide",
+    "url": "https://introl.com/blog/cxl-4-0-infrastructure-planning-guide-memory-pooling-2025",
+    "source": "Introl Blog",
+    "date": "2025",
+    "tags": ["CXL4.0", "infrastructure", "AI", "memory-pooling"],
+    "key_claim": "CXL 4.0 enables 100+ TB pooled memory with cache coherency; multi-rack systems expected late 2026 to 2027"
+  },
+  {
+    "id": 24,
+    "title": "AI Memory Bottleneck Emerges as Main LLM Inference Challenge",
+    "url": "https://winbuzzer.com/2026/01/26/memory-bottleneck-llm-inference-hardware-challenge-xcxwbn/",
+    "source": "Winbuzzer",
+    "date": "2026-01-26",
+    "tags": ["memory-wall", "LLM", "inference", "bandwidth"],
+    "key_claim": "LLM inference is memory bandwidth-bound; H100 SXM5 at 3.35 TB/s requires 42ms per token for 70B model"
+  },
+  {
+    "id": 25,
+    "title": "Memory-Centric Computing: Recent Advances in Processing-in-DRAM (arXiv:2412.19275)",
+    "url": "https://arxiv.org/pdf/2412.19275",
+    "source": "arXiv",
+    "date": "2024-12",
+    "tags": ["PIM", "DRAM", "compute-in-memory", "arXiv"],
+    "key_claim": "Processing-in-DRAM enables functionally-complete bulk-bitwise computation in commercial unmodified DRAM chips"
+  },
+  {
+    "id": 26,
+    "title": "Samsung and SK Hynix Push PIM-Enabled Memory to Address AI Bottlenecks",
+    "url": "https://www.digitimes.com/news/a20251218PD206/samsung-sk-hynix-hbm-ai-inference-data.html",
+    "source": "DigiTimes",
+    "date": "2025-12-18",
+    "tags": ["PIM", "Samsung", "SK-Hynix", "LPDDR6-PIM"],
+    "key_claim": "Samsung and SK Hynix collaborating on LPDDR6-PIM standard targeting JEDEC approval for 2026 products"
+  },
+  {
+    "id": 27,
+    "title": "SK Hynix AiMX GDDR6-AiM Accelerator Card for Generative AI",
+    "url": "https://news.skhynix.com/sk-hynix-debuts-first-gddr6-aim-accelerator-card-aimx-for-generative-ai/",
+    "source": "SK Hynix Newsroom",
+    "date": "2023-2025",
+    "tags": ["PIM", "AiMX", "GDDR6-AiM", "LLM"],
+    "key_claim": "AiMX with GDDR6-AiM reduces LLM data processing time 10x vs GPU systems at 1/5 power consumption"
+  },
+  {
+    "id": 28,
+    "title": "SK Hynix GDDR6-AiM Accelerates AI Processing Up to 16x, Reduces Power 80%",
+    "url": "https://www.tomshardware.com/news/sk-hynix-next-generation-ai-accelerator",
+    "source": "Tom's Hardware",
+    "date": "2022-2025",
+    "tags": ["GDDR6-AiM", "PIM", "acceleration", "power"],
+    "key_claim": "GDDR6-AiM achieves 16x AI speed improvement with 80% power reduction vs traditional DRAM+CPU/GPU"
+  },
+  {
+    "id": 29,
+    "title": "TSMC N2 (2nm) SRAM Scaling Breakthrough — 38 Mb/mm² Density",
+    "url": "https://www.tomshardware.com/tech-industry/sram-scaling-isnt-dead-after-all-tsmcs-2nm-process-tech-claims-major-improvements",
+    "source": "Tom's Hardware",
+    "date": "2025",
+    "tags": ["SRAM", "TSMC", "2nm", "N2", "scaling"],
+    "key_claim": "TSMC N2 GAA nanosheet achieves ~38 Mb/mm² SRAM density, 15% speed or 30% power vs N3; mass prod 2H 2025"
+  },
+  {
+    "id": 30,
+    "title": "Intel, TSMC Tout SRAM Breakthroughs at 2nm",
+    "url": "https://marklapedus.substack.com/p/intel-tsmc-tout-sram-breakthroughs",
+    "source": "SemiEngineering (Mark Lapedus)",
+    "date": "2025",
+    "tags": ["SRAM", "Intel", "TSMC", "2nm", "GAA"],
+    "key_claim": "Both Intel and TSMC report major SRAM bit cell shrinks at 2nm node enabled by GAA transistors"
+  },
+  {
+    "id": 31,
+    "title": "Marvell Shows Dense SRAM Custom HBM and CXL with Arm Compute at Hot Chips 2025",
+    "url": "https://www.servethehome.com/marvell-shows-dense-sram-custom-hbm-and-cxl-with-arm-compute-at-hot-chips-2025/",
+    "source": "ServeTheHome",
+    "date": "2025-08",
+    "tags": ["SRAM", "HBM", "CXL", "Hot-Chips-2025", "Marvell"],
+    "key_claim": "Marvell argued at Hot Chips 2025 that memory bandwidth and capacity are now the dominant system design constraint"
+  },
+  {
+    "id": 32,
+    "title": "Hot Chips 2025 Showcases Next-Gen Processors and AI",
+    "url": "https://www.designnews.com/semiconductors-chips/hot-chips-2025-next-gen-processors-ai-chips-take-center-stage-at-stanford",
+    "source": "Design News",
+    "date": "2025-08",
+    "tags": ["Hot-Chips-2025", "memory", "AI", "compute"],
+    "key_claim": "Hot Chips 2025 highlighted convergence of memory-compute integration as defining challenge for AI silicon"
+  },
+  {
+    "id": 33,
+    "title": "2025 IEDM: Highly Stackable Oxide-Semiconductor Channel Transistor for 3D DRAM",
+    "url": "https://iedm25.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=210",
+    "source": "IEDM 2025",
+    "date": "2025-12",
+    "tags": ["IEDM2025", "3D-DRAM", "IGZO", "oxide-semiconductor"],
+    "key_claim": "Kioxia presented highly stackable oxide-semiconductor channel transistor enabling future high-density low-power 3D DRAM"
+  },
+  {
+    "id": 34,
+    "title": "imec Disrupting DRAM Roadmap: Capacitorless IGZO DRAM Technology",
+    "url": "https://www.imec-int.com/en/articles/disrupting-dram-roadmap-capacitor-less-igzo-dram-technology",
+    "source": "imec",
+    "date": "2025",
+    "tags": ["IGZO", "3D-DRAM", "imec", "capacitorless"],
+    "key_claim": "imec 2T0C IGZO DRAM uses two thin-film IGZO transistors per cell; demonstrated sub-100nm patterning, 1.2V operation at 5yr lifetime"
+  },
+  {
+    "id": 35,
+    "title": "IEDM 2025 Detailed Conference Report",
+    "url": "https://www.viksnewsletter.com/p/2025-international-electron-devices",
+    "source": "Vik's Newsletter",
+    "date": "2025-12",
+    "tags": ["IEDM2025", "memory", "MRAM", "3D-buffer"],
+    "key_claim": "IEDM 2025 featured 3D buffer memory, MRAM/MTJ volatile/non-volatile hybrids, and IGZO 3D DRAM advances"
+  },
+  {
+    "id": 36,
+    "title": "Samsung to Adopt Hybrid Bonding for HBM4 Memory",
+    "url": "https://www.tomshardware.com/pc-components/dram/samsung-to-adopt-hybrid-bonding-for-hbm4-memory",
+    "source": "Tom's Hardware",
+    "date": "2025-2026",
+    "tags": ["hybrid-bonding", "HBM4", "Samsung", "3D-stacking"],
+    "key_claim": "Samsung adopting hybrid bonding for HBM4 reducing thermal resistance 20%+ vs thermal compression bonding"
+  },
+  {
+    "id": 37,
+    "title": "Samsung vs. SK Hynix: High-Stakes Race to Perfect Hybrid Bonding for Nvidia's Next AI Chips",
+    "url": "https://www.benzinga.com/markets/tech/26/04/51655835/samsung-vs-sk-hynix-the-high-stakes-race-to-perfect-hybrid-bonding-for-nvidias-next-ai-chips",
+    "source": "Benzinga",
+    "date": "2026-04",
+    "tags": ["hybrid-bonding", "Samsung", "SK-Hynix", "HBM4"],
+    "key_claim": "Both Samsung and SK Hynix ramping hybrid bonding in 2026 for 16+ layer HBM4 and HBM4E production"
+  },
+  {
+    "id": 38,
+    "title": "DDR6 Explained: Speeds, Architecture & Release Date",
+    "url": "https://intuitionlabs.ai/articles/ddr6-explained-speed-architecture",
+    "source": "IntuitionLabs",
+    "date": "2025-12",
+    "tags": ["DDR6", "JEDEC", "timeline", "specifications"],
+    "key_claim": "DDR6 JEDEC draft completed end 2024; final standard expected Q4 2025–Q1 2026; consumer products in 2027"
+  },
+  {
+    "id": 39,
+    "title": "Samsung, Micron & SK Hynix DDR6 Development Plans: 8,800–17,600 MT/s in 2027",
+    "url": "https://www.guru3d.com/story/samsung-micron-sk-hynix-ddr6-development-plans-arrives-in-2027-with-s-speeds/",
+    "source": "Guru3D",
+    "date": "2025",
+    "tags": ["DDR6", "Samsung", "Micron", "SK-Hynix"],
+    "key_claim": "All three major DRAM vendors targeting DDR6 at 8,800–17,600 MT/s; commercial deployment 2027"
+  },
+  {
+    "id": 40,
+    "title": "SK Hynix Begins Mass Production of 192 GB SOCAMM2",
+    "url": "https://news.skhynix.com/mass-production-socamm2-192gb/",
+    "source": "SK Hynix Newsroom",
+    "date": "2026",
+    "tags": ["SOCAMM2", "LPDDR5X", "SK-Hynix", "AI-server"],
+    "key_claim": "SK Hynix mass producing 192GB SOCAMM2 on 1cnm LPDDR5X for NVIDIA Vera Rubin; 2x bandwidth of DDR5 RDIMM"
+  },
+  {
+    "id": 41,
+    "title": "SOCAMM Memory Gains Ground as AI Data Centers Proliferate",
+    "url": "https://www.networkworld.com/article/4112926/socamm-memory-gains-ground-as-ai-data-centers-proliferate.html",
+    "source": "Network World",
+    "date": "2025",
+    "tags": ["SOCAMM2", "form-factor", "data-center", "AI"],
+    "key_claim": "SOCAMM2 at 14x90mm occupies 1/3 footprint of RDIMM, 1.5-2x DDR5 performance at 55% power"
+  },
+  {
+    "id": 42,
+    "title": "Samsung Unveils HBM4E: Up to 4 TB/s, 16 Gbps, 48 GB at GTC 2026",
+    "url": "https://wccftech.com/samsung-hbm4e-memory-up-to-4-tbps-bandwidth-16-gbps-speed-48-gb-capacity/",
+    "source": "WCCFTech",
+    "date": "2026-03",
+    "tags": ["HBM4E", "Samsung", "GTC2026", "roadmap"],
+    "key_claim": "Samsung HBM4E at 16 Gbps and 4 TB/s per 16-Hi 48GB stack, showcased at GTC 2026 for 2027 deployment"
+  },
+  {
+    "id": 43,
+    "title": "Rambus HBM4E Controller: 16 Gbps per Pin, 4.1 TB/s per IC",
+    "url": "https://wccftech.com/rambus-hbm4e-memory-controller-60-percent-faster-vs-hbm4-at-4-1-tbps/",
+    "source": "WCCFTech",
+    "date": "2026",
+    "tags": ["HBM4E", "Rambus", "controller", "IP"],
+    "key_claim": "Rambus HBM4E memory controller IP rated for 16 Gbps, 60% faster than HBM4 at 4.1 TB/s per IC"
+  },
+  {
+    "id": 44,
+    "title": "AI Memory Showdown: SK Hynix Unveils 48 Gb/s GDDR7 and Samsung HBM4",
+    "url": "https://www.trendforce.com/news/2025/11/27/news-ai-memory-showdown-sk-hynix-unveils-48-gbs-gddr7-and-lpddr6-samsung-showcases-hbm4/",
+    "source": "TrendForce",
+    "date": "2025-11-27",
+    "tags": ["GDDR7", "SK-Hynix", "48Gbps", "HBM4"],
+    "key_claim": "SK Hynix 48 Gb/s 24Gb GDDR7 with symmetric dual-channel achieves 192 GB/s per chip, 70% above 28 Gbps GDDR7"
+  },
+  {
+    "id": 45,
+    "title": "Samsung Develops Industry's First 24Gb GDDR7 DRAM for Next-Generation AI",
+    "url": "https://news.samsung.com/global/samsung-develops-industrys-first-24gb-gddr7-dram-for-next-generation-ai-computing",
+    "source": "Samsung Newsroom",
+    "date": "2025",
+    "tags": ["GDDR7", "Samsung", "24Gb", "AI"],
+    "key_claim": "Samsung 24Gb GDDR7 enters mass production November 2025, sampled at 42.5 Gbps to partners"
+  },
+  {
+    "id": 46,
+    "title": "Samsung Reportedly Plans 400-layer V-NAND by 2026, Targeting 1,000-layer by 2030",
+    "url": "https://www.trendforce.com/news/2024/10/29/news-samsung-reportedly-plans-400-layer-vertical-nand-by-2026-targeting-1000-layer-nand-by-2030/",
+    "source": "TrendForce",
+    "date": "2024-10",
+    "tags": ["3D-NAND", "Samsung", "400-layer", "V10"],
+    "key_claim": "Samsung's V10 NAND targets 400+ layers by 2026 H1 with 1 Tb die at 28 Gb/mm2; 1,000 layers planned by 2030"
+  },
+  {
+    "id": 47,
+    "title": "Kioxia's BiCS10 332-Layer 3D NAND Production Expedited to 2026 for AI Data Centers",
+    "url": "https://www.tomshardware.com/pc-components/ssds/kioxias-next-gen-3d-nand-production-gets-expedited-to-2026-report-claims",
+    "source": "Tom's Hardware",
+    "date": "2025-2026",
+    "tags": ["3D-NAND", "Kioxia", "BiCS10", "AI-data-center"],
+    "key_claim": "Kioxia's 332-layer BiCS10 accelerated from 2027 to 2026 to meet growing AI hyperscaler demand"
+  },
+  {
+    "id": 48,
+    "title": "Micron Sets 1-Gamma as Mainstream Node for 2026 with HBM and SOCAMM2 Ramp",
+    "url": "https://hardforum.com/threads/micron-sets-1g-as-mainstream-node-for-2026-as-hbm-and-socamm2-ramp.2046050/",
+    "source": "HardForum",
+    "date": "2026",
+    "tags": ["Micron", "1-gamma", "process-node", "HBM4"],
+    "key_claim": "Micron's 1-gamma (6th-gen 10nm-class) offers 20% lower power, 15% higher performance, 30% greater bit density vs 1-beta"
+  },
+  {
+    "id": 49,
+    "title": "TSMC A16 Node with GAA + Backside Power Delivery in 2H 2026",
+    "url": "https://newsletter.semianalysis.com/p/clash-of-the-foundries",
+    "source": "SemiAnalysis",
+    "date": "2025",
+    "tags": ["TSMC", "A16", "2nm", "GAA", "backside-power"],
+    "key_claim": "TSMC A16 (1.6nm-class) with GAA + backside power delivery targets 2H 2026, enabling further SRAM gains"
+  },
+  {
+    "id": 50,
+    "title": "Progress of Emerging Non-Volatile Memory Technologies in Industry",
+    "url": "https://link.springer.com/article/10.1557/s43579-024-00660-2",
+    "source": "MRS Communications / Springer",
+    "date": "2024-2025",
+    "tags": ["MRAM", "FeRAM", "NVM", "emerging-memory"],
+    "key_claim": "STT-MRAM entered production; Everspin targets 64Mb/128Mb chips in 2025 for AI; no single NVM winner for analog CiM"
+  },
+  {
+    "id": 51,
+    "title": "In-Memory Analog Computing Landscape 2026",
+    "url": "https://www.patsnap.com/resources/blog/articles/in-memory-analog-computing-landscape-2026/",
+    "source": "PatSnap",
+    "date": "2026",
+    "tags": ["compute-in-memory", "analog", "RRAM", "MRAM", "FeRAM"],
+    "key_claim": "As of 2025 no single NVM technology (RRAM, PCM, MRAM, FeRAM) has won the analog CiM AI accelerator race"
+  },
+  {
+    "id": 52,
+    "title": "South Korea's HBM4 Moment — Memory Supercycle 2026",
+    "url": "https://introl.com/blog/south-korea-hbm4-stargate-memory-supercycle-2026",
+    "source": "Introl Blog",
+    "date": "2026",
+    "tags": ["HBM4", "market", "supercycle", "Korea"],
+    "key_claim": "HBM supercycle driven by Stargate and hyperscaler buildout pushing Korean memory makers' margins above TSMC"
+  },
+  {
+    "id": 53,
+    "title": "HBM Evolution: From HBM3 to HBM4 and the AI Memory War",
+    "url": "https://introl.com/blog/hbm-evolution-hbm3-hbm3e-hbm4-memory-ai-gpu-2025",
+    "source": "Introl Blog",
+    "date": "2025",
+    "tags": ["HBM", "HBM4", "evolution", "bandwidth"],
+    "key_claim": "HBM4 JEDEC spec doubles interface width to 2048-bit, enables 2 TB/s per stack; interface width doubling first since 2015"
+  },
+  {
+    "id": 54,
+    "title": "Disaggregated Architectures and the Redesign of Data Center Ecosystems (arXiv:2511.04104)",
+    "url": "https://arxiv.org/html/2511.04104v1",
+    "source": "arXiv",
+    "date": "2025-11",
+    "tags": ["disaggregation", "CXL", "data-center", "arXiv"],
+    "key_claim": "CXL-based memory disaggregation reduces total cost of ownership by 20-40% vs monolithic server designs at scale"
+  },
+  {
+    "id": 55,
+    "title": "Memory Wall Bottleneck: AI Compute Sparks Memory Supercycle",
+    "url": "https://www.trendforce.com/insights/memory-wall",
+    "source": "TrendForce",
+    "date": "2025-2026",
+    "tags": ["memory-wall", "AI", "supercycle", "bandwidth"],
+    "key_claim": "Memory bandwidth growing 17x from 2012-2022 vs compute FLOPS at 80x; widening gap drives memory supercycle"
+  }
+]
