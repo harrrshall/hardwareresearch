@@ -78,6 +78,7 @@ research/
 ├── conclusion.md             ← global synthesis output
 ├── market_opportunities.md   ← global synthesis output
 ├── future_trends.md          ← global synthesis output
+├── cross_sector_alpha.md     ← permutation/combination analysis (priority deliverable)
 └── run_log.md                ← orchestrator transition log
 ```
 
@@ -287,17 +288,54 @@ Activates only after the barrier clears. Reads all 10 `research.md` files and al
   - **Key signals to watch**
   - **Falsifiers** — what would prove the trend wrong
 
+### 8.4 `cross_sector_alpha.md` — Permutation/Combination Analysis (PRIORITY DELIVERABLE)
+
+This is the highest-value output. After the three files above are written, the Global
+Synthesis Agent performs a systematic permutation/combination pass across all 10 sectors
+to surface insights that are **genuinely interesting and NOT yet priced into the market**.
+
+**Methodology — execute every step, do not shortcut:**
+
+1. **Pairwise matrix** — Examine all C(10,2) = 45 sector pairs. For each pair, ask:
+   *what becomes possible, constrained, inevitable, or mispriced when you combine specific
+   findings from both sectors that neither sector reveals on its own?* Record the raw
+   intersection notes in a matrix table.
+2. **Triple combinations** — Examine the most promising 3-sector chains where dependencies
+   compound (e.g., a fabrication limit × a packaging capability × an accelerator demand).
+3. **Non-consensus filter** — From all intersections, DISCARD anything already obvious to
+   the market (e.g., "HBM shortage helps memory vendors" — already priced). RETAIN only
+   intersections where the emergent insight is absent from current analyst consensus,
+   vendor guidance, or market pricing.
+4. **Rank** survivors by: (payoff magnitude) × (degree of mispricing) × (evidence strength).
+5. **Deep dive** on the top 5–10. For each:
+   - **The combination** — which sectors, which exact findings (cite sector `research.md`)
+   - **The emergent insight** — what the intersection reveals that single-sector view misses
+   - **Why it is NOT priced in** — what the market is missing and why it has missed it
+   - **Supporting evidence** — citations to specific sector `research.md` sections + sources
+   - **The catalyst** — the concrete event that forces a repricing, with rough timing
+   - **Time horizon** — short / medium / long
+   - **Confidence level** — high / medium / speculative
+   - **Falsifier** — the specific observation that would kill the thesis
+   - **How to express the bet** — concrete: which company, technology, or position, and
+     which counterparty/consensus view it trades against
+
+The file must open with the full 45-cell pairwise matrix (compact form), then the ranked
+deep dives. The whole point is to find the **non-obvious** — reward surprising,
+defensible, cross-sector insights over safe single-sector restatements.
+
 ---
 
 ## 9. Quality Self-Check (post-synthesis)
 
-After the three global files are written, the orchestrator runs a final pass:
+After the four global files are written, the orchestrator runs a final pass:
 
 - No claim in `conclusion.md` is unsupported by a sector `research.md`
 - No sector is underrepresented in cross-sector analysis (every sector cited ≥2 times in global files)
-- All three global files cross-link to specific sector sources
+- All four global files cross-link to specific sector sources
 - No claim violates the recency window
 - No Tier 2 claim was elevated without Tier 1 or Tier 3 corroboration
+- `cross_sector_alpha.md` contains the full 45-cell pairwise matrix and ≥5 ranked deep dives
+- Every "not priced in" claim in `cross_sector_alpha.md` names the specific consensus view it contradicts
 
 Failures here trigger targeted re-runs, not full reruns.
 
@@ -364,7 +402,7 @@ team.writer.run(validated_papers) → research.md
 The full run is considered complete when:
 
 - All 10 sector folders contain a valid `research.md` and supporting files
-- `conclusion.md`, `market_opportunities.md`, and `future_trends.md` exist at root
+- `conclusion.md`, `market_opportunities.md`, `future_trends.md`, and `cross_sector_alpha.md` exist at root
 - Quality self-check passes
 - `run_log.md` shows a clean finalization timestamp
 
