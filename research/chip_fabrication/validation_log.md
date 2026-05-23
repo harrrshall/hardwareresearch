@@ -168,3 +168,41 @@ Criteria checklist:
 5. No rebuttal ✅ — No TSMC denial found; ASML's CEO statement at investor event is primary
 6. Traceable attribution ✅ — Primary: https://www.trendforce.com/news/2026/05/20/news-asml-expects-first-high-na-euv-memory-logic-products-within-months-amid-tsmcs-cost-driven-delay/
 Verdict: VALIDATED. CEO-level primary disclosure with concrete timeline ("within months" for first products; TSMC 2029 delay). Cross-sector impact: creates a 2-year High-NA window where Samsung and Intel have lithography advantage over TSMC customers; affects HBM5 memory capability projections and Intel 14A foundry positioning.
+
+---
+
+## Run #4 Validation — 2026-05-23
+
+**New papers validated this run:** 2 (paper-027, paper-028)
+
+### paper-027 — TSMC 2026 North America Technology Symposium
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Recency | PASS | April 22-23, 2026 — within window |
+| Cross-reference | PASS | BusinessWire (Tier 4 primary) + Tom's Hardware + TrendForce (April 23) + SemiEngineering + AnySilicon — 5 independent corroborating sources |
+| Methodology | PASS | TSMC primary press release with specific node specs, timelines, and capability comparisons |
+| Benchmark fairness | PASS | Area/performance claims relative to prior TSMC nodes (A14) — internal comparison, consistent baseline |
+| No rebuttal | PASS | No public denial or contradiction found; Bernstein and other sell-side confirm TSMC roadmap as reported |
+| Attribution | PASS | URL captured; TSMC press release as primary |
+
+**Decision: VALIDATED**
+**Key findings:** A16 slip to 2027; A12/A13/N2U targeted for 2028-2029 without High-NA EUV; TSMC extends conventional-EUV roadmap to ≥2029. Extends the Samsung/Intel High-NA first-mover window from 2 years (per Run #3) to ≥3 years.
+
+---
+
+### paper-028 — Apple Explores Intel and Samsung as TSMC Foundry Alternatives
+
+| Criterion | Result | Notes |
+|-----------|--------|-------|
+| Recency | PASS | May 4-5, 2026 — within window |
+| Cross-reference | PASS | Bloomberg (primary) corroborated by 9to5Mac, Tom's Hardware, AppleInsider, Dataconomy, Digitimes — 5+ independent sources |
+| Methodology | PASS | Supply-chain investigative reporting with named facility visits and executive discussions documented |
+| Benchmark fairness | N/A | No benchmark claims — strategic business reporting |
+| No rebuttal | PASS | No denial from Apple, Intel, or Samsung; all parties declined comment (standard for pre-deal discussions) |
+| Attribution | PASS | URLs captured; Bloomberg as primary |
+
+**Decision: VALIDATED**
+**Key findings:** Apple in early-stage foundry diversification discussions with Intel (18A/14A) and Samsung (Texas). No contracts. Timeline 2027-2028 for lower-end chips. Apple accounts for >50% of TSMC N2 capacity — any diversification has outsized capacity implications for AI chip customers.
+
+---

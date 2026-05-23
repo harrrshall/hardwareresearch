@@ -939,5 +939,31 @@
       "sub-2nm"
     ],
     "key_data": "ASML CEO Christophe Fouquet (May 20, 2026 investor event): first High-NA EUV memory/logic products expected 'within months'. TSMC confirmed cost-driven delay to 2029 ($360-400M/unit). Samsung, SK Hynix, Intel 14A proceeding on original timeline. Creates 2026-2028 window where Samsung/Intel have High-NA; TSMC does not. Samsung HBM5 and LPDDR6 may be first High-NA production ICs."
+  },
+  {
+    "id": 63,
+    "title": "TSMC 2026 North America Technology Symposium \u2014 A13, A12, N2U Nodes + A16 Slip to 2027",
+    "authors": [
+      "TSMC"
+    ],
+    "venue": "TSMC North America Technology Symposium 2026",
+    "date": "2026-04-22",
+    "url": "https://www.businesswire.com/news/home/20260422346925/en/TSMC-Debuts-A13-Technology-at-2026-North-America-Technology-Symposium",
+    "tier": 4,
+    "abstract": "TSMC unveiled its extended process roadmap at the 2026 North America Technology Symposium. New nodes announced: A13 (2029, 6% area savings over A14, backward compatible, no High-NA EUV); A12 (2029, A14 platform with Super Power Rail backside power delivery); N2U (2028, 3-4% speed or 8-10% power vs N2P, density +1.02-1.03x). Critical: A16 volume production slipped from late 2026 to 2027. All sub-A14 nodes (A12, A13) explicitly forgo High-NA EUV, extending TSMC conventional-EUV roadmap to at least 2029."
+  },
+  {
+    "id": 64,
+    "title": "Apple Explores Intel and Samsung as TSMC Alternatives for US Chip Manufacturing",
+    "authors": [
+      "Bloomberg",
+      "Apple",
+      "Intel"
+    ],
+    "venue": "Bloomberg / Industry Reports",
+    "date": "2026-05-05",
+    "url": "https://9to5mac.com/2026/05/04/report-apple-considers-intel-and-samsung-to-diversify-chip-manufacturing-away-from-tsmc/",
+    "tier": 3,
+    "abstract": "Apple has held early-stage discussions with Intel about using its 18A/14A foundry, and Apple executives visited Samsung electronics Texas facility in preparation for possible chip manufacturing diversification. Apple would continue designing its own ARM-based chips but seek a US-based manufacturing alternative. No contracts signed. Timeline for Intel foundry production of Apple lower-end chips: 2027-2028. Apple currently accounts for >50% of TSMC N2 capacity; partial diversification could meaningfully free capacity for AI chip customers."
   }
 ]

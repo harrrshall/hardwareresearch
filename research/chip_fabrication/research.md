@@ -1,5 +1,5 @@
 # chip_fabrication — Research Summary
-Generated: 2026-05-22 | Window: 2025-11-22 – 2026-05-22 | Validated sources: 60
+Generated: 2026-05-23 (Run #4) | Window: 2025-11-23 – 2026-05-23 | Validated sources: 64
 
 ---
 
@@ -95,6 +95,22 @@ Five interconnected trends define this period:
 - NXE:3800F planned 2027-2028; Hyper-NA concept for 2030+
 - High-NA EUV acceptance completed end 2025
 - Tool cost: Standard EUV ~$200M; High-NA EUV >$350M
+
+### TSMC 2026 Roadmap Extension — No High-NA EUV Through 2029 [Run #4 — new]
+- **A13 (2029):** 6% area savings vs A14; backward compatible with A14 design rules; targets same transistor architecture. No High-NA EUV. Enables fast customer migration.
+- **A12 (2029):** A14 platform with Super Power Rail (SPR) backside power delivery for AI/HPC workloads. No High-NA EUV. First TSMC node to pair A14-class transistors with BPD.
+- **N2U (2028):** 3-4% speed gain or 8-10% power reduction vs N2P; 1.02-1.03× density improvement. Design-technology co-optimization on N2 platform.
+- **A16 slipped to 2027** (from late 2026): SPR backside power delivery node delayed by ~6-12 months. Intel 18A (PowerVia BPD, HVM Oct 2025) retains a ~15-month backside-power-delivery lead over TSMC's first commercial SPR node.
+- **Critical implication:** TSMC's entire sub-A14 roadmap (A12, A13) explicitly forgoes High-NA EUV. This extends the Samsung/Intel High-NA EUV first-mover window from a 2-year gap (per Run #3) to a structural ≥3-year divergence (2026-2029+). Samsung (SF1.4, HBM5) and Intel (14A) will have High-NA sub-8nm half-pitch patterning capability through their entire 2026-2029 roadmap while TSMC customers operate on conventional EUV.
+- Source: TSMC 2026 North America Technology Symposium (April 22-23, 2026); BusinessWire primary + Tom's Hardware + TrendForce corroboration (paper-027, VALIDATED).
+
+### Apple Explores Intel and Samsung as TSMC Foundry Alternatives [Run #4 — new]
+- **May 4-5, 2026 (Bloomberg):** Apple held early-stage discussions with Intel about using its 18A/14A foundry for chip production; Apple executives visited Samsung's Taylor, Texas facility.
+- **Scope:** Lower-end chips (M-series for non-Pro Macs/iPads, lower iPhone tiers) — not flagship A-series. No contracts. Timeline 2027-2028.
+- **Capacity implication:** Apple accounts for >50% of TSMC N2 capacity in 2026. Any partial diversification to Intel 18A or Samsung SF2X frees significant N2 allocation for AI chip customers (NVIDIA, AMD, hyperscaler ASICs).
+- **Intel Foundry validation signal:** Apple's consideration is the most credible external IFS endorsement to date; combined with Intel 18A's ~62-65% yield ramp (+7%/month) and first High-NA EUV advantage on 14A, Intel Foundry is now legitimately competitive for lower-end Tier-1 customer wins.
+- **Strategic context:** Apple's motivation is explicitly TSMC concentration risk (Taiwan geopolitics + single-source dependency). Samsung Texas facility evaluation suggests Samsung's US fab is progressing sufficiently to attract Apple-level scrutiny.
+- Source: Bloomberg (May 5, 2026), 9to5Mac (May 4), Tom's Hardware (May 5), Digitimes (May 12) — paper-028, VALIDATED.
 
 ### High-NA EUV Foundry Bifurcation [Run #3 — new]
 - **TSMC delays High-NA EUV to 2029**: N14 (1.4nm-class) pushed from 2027. TSMC cites pellicle maturity and yield risk. N2P/A16 remain the leading-edge nodes through 2028.
@@ -601,3 +617,5 @@ The IEDM 2025 3D chip research (ScienceDaily Dec 2025) demonstrates building tra
 | 59 | [EUV Stochastic Defectivity Model](https://frederickchen.substack.com/p/resist-loss-model-for-the-euv-stochastic) | https://frederickchen.substack.com/p/resist-loss-model-for-the-euv-stochastic | technical | EUV, defects |
 | 60 | [ISSCC 2026 AI IC Innovations](https://www.isscc.org/program-overview) | https://www.isscc.org/program-overview | conference | ISSCC 2026 |
 | 62 | [ASML High-NA EUV Bifurcation: TSMC Delays to 2029, Samsung/Intel Proceed](https://www.anandtech.com/show/21456/asml-high-na-euv-bifurcation-tsmc-delays-samsung-intel-proceed-2026) | https://www.anandtech.com/show/21456/asml-high-na-euv-bifurcation-tsmc-delays-samsung-intel-proceed-2026 | analysis | High-NA EUV, TSMC, Samsung, Intel |
+| 63 | [TSMC Debuts A13 Technology at 2026 North America Technology Symposium](https://www.businesswire.com/news/home/20260422346925/en/TSMC-Debuts-A13-Technology-at-2026-North-America-Technology-Symposium) | https://www.businesswire.com/news/home/20260422346925/en/TSMC-Debuts-A13-Technology-at-2026-North-America-Technology-Symposium | vendor_doc | A13, A12, N2U, A16, roadmap, High-NA-EUV |
+| 64 | [Apple Considers Intel and Samsung to Diversify Chip Manufacturing Away from TSMC](https://9to5mac.com/2026/05/04/report-apple-considers-intel-and-samsung-to-diversify-chip-manufacturing-away-from-tsmc/) | https://9to5mac.com/2026/05/04/report-apple-considers-intel-and-samsung-to-diversify-chip-manufacturing-away-from-tsmc/ | news | Apple, Intel-IFS, Samsung, foundry-diversification, TSMC |
