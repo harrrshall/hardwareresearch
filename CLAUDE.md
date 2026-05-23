@@ -56,17 +56,23 @@ After the synthesis is written, spawn a SEPARATE agent — the **Market Pricing 
 
 The verification agent runs AFTER the synthesis writer, in the SAME cycle, but in a SEPARATE agent context so it cannot anchor on the synthesis author's prior reasoning.
 
-### Step 7.5 — POST-VERIFICATION PURGE (mandatory)
-After the Verification Agent writes its verdicts, scrub all `ALREADY-PRICED-IN` items out of these three files so they contain signal only:
+### Step 7.5 — POST-VERIFICATION PURGE (mandatory, CLEAN DELETION ONLY)
+After the Verification Agent writes its verdicts, scrub all `ALREADY-PRICED-IN` items out of these files so they contain signal only:
 
-1. **`research/cross_sector_alpha.md`** — remove any ranked deep-dive section whose verification verdict is `ALREADY-PRICED-IN`. Remove the corresponding "Not priced in" matrix cells (or flip them to "Priced — see verification_log.md"). The remaining deep dives keep their numbering contiguous (renumber if needed).
-2. **`research/market_opportunities.md`** — remove any opportunity entry whose verification verdict is `ALREADY-PRICED-IN`. The remaining opportunities keep contiguous numbering.
+1. **`research/cross_sector_alpha.md`** — DELETE any ranked deep-dive section whose verification verdict is `ALREADY-PRICED-IN`. For matrix cells, do NOT leave a "Priced — see verification_log" note; normalize the verdict cell to a plain `Yes` so the row reads like any other already-priced pair. DELETE any triple-combination row whose chain was downgraded.
+2. **`research/market_opportunities.md`** — DELETE any opportunity entry whose verification verdict is `ALREADY-PRICED-IN`. RENUMBER the surviving entries (both section headers and summary table) so the document reads sequentially with no gaps.
 3. **`research/opportunity.md`** — already signal-only by design (Step 7.6 below regenerates it).
 
-The purge is mandatory every cycle. Why: the synthesis-author agent does not have the verification data in scope when it writes; only the verification agent has independently checked the market. So the synthesis files are always optimistic about non-consensus until the verification agent has scrubbed them. The verification verdict is final.
+**CRITICAL — no marks, no breadcrumbs, no strikethrough.** Do NOT leave behind:
+- Strikethrough headers like `~~Finding 4~~ — REMOVED`
+- Breadcrumb quotes like *"removed post-verification: ALREADY-PRICED-IN as of YYYY-MM-DD"*
+- Verdict cells like `Priced — see verification_log.md Claim N`
+- Inline notes like `⚠️ PARTIALLY-PRICED-IN` or `✅ VERIFIED-NOT-PRICED-IN` in the synthesis files
+- Explanatory paragraphs about what was removed
 
-When purging, append a one-line breadcrumb at each removal site, e.g.:
-> *Finding #4 (EML laser supply gates CPO) — removed post-verification: ALREADY-PRICED-IN as of YYYY-MM-DD. See `verification_log.md`.*
+These create confusion when reading the document. The synthesis files must read cleanly, as if the removed items never existed in this version. The complete audit trail — what was removed, why, with dated URLs — lives in `research/verification_log.md`. That file alone is the canonical record. Readers who want the history go there.
+
+Why: the synthesis-author agent does not have the verification data in scope when it writes; only the verification agent has independently checked the market. So the synthesis files are always optimistic about non-consensus until the verification agent has scrubbed them. The verification verdict is final. Clean deletion (not flagged deletion) keeps the surviving content readable.
 
 Do NOT delete from `conclusion.md` or `future_trends.md`. Conclusions can be priced-in and still factually correct; future trends are about direction, not pricing. The purge applies only to the three files above.
 
@@ -91,6 +97,8 @@ For each opportunity, write a concise action-oriented entry:
 End the file with a "What changed from previous run" note: which opportunities are new this cycle, which dropped off (verified became priced), which downgraded.
 
 This file is what the user opens between runs. Keep it tight, actionable, and ruthlessly free of any item the verification agent flagged as `ALREADY-PRICED-IN`.
+
+**Empty `opportunity.md` is acceptable.** If a cycle finds zero `VERIFIED-NOT-PRICED-IN` and zero `PARTIALLY-PRICED-IN` items, write a short opportunity.md that says exactly that — "Run #N produced no actionable non-consensus opportunities. All synthesis candidates were already-priced-in per `verification_log.md`." Not every cycle must produce action items. An honest empty list is more useful than fabricated opportunities.
 
 ### Step 8 — Write run verdict to `run_history.md`
 Append a new section:

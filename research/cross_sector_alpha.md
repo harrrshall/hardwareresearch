@@ -39,7 +39,7 @@ Sectors abbreviated: GPU, CPU, MEM (memory), FAB (chip fabrication), ACC (AI acc
 | 10 | CPU × MEM | CPU sector flags "when does HBM4 reach server CPUs?" Memory sector ships SOCAMM2 (192GB, 2x DDR5 BW) in Q2 2026 — the answer is "CPUs get LPDDR-module bandwidth now, HBM later." | Partially |
 | 11 | CPU × FAB | Intel 18A yield (~60-65%, +7%/mo) is the make-or-break; Intel uses TSMC N3E for Panther Lake's *GPU tile* — Intel's own foundry can't yet beat TSMC for graphics silicon. | Yes |
 | 12 | CPU × ACC | Every hyperscaler ASIC (TPU, Trainium, Maia, MTIA) needs a host CPU; the Vera/Grace integration and Qualcomm's $2.4B Ventana RISC-V buy mean the host-CPU layer is fragmenting away from x86. | Partially |
-| 13 | CPU × PKG | Apple M5 "Fusion" (two bonded 3nm dies) and Intel's 12-tile Clearwater Forest mean CPUs now consume SoIC/Foveros packaging capacity that used to be AI-only. CPU demand competes with GPU demand for advanced packaging. | Priced — see `verification_log.md` Claim 8 |
+| 13 | CPU × PKG | Apple M5 "Fusion" (two bonded 3nm dies) and Intel's 12-tile Clearwater Forest mean CPUs now consume SoIC/Foveros packaging capacity that used to be AI-only. CPU demand competes with GPU demand for advanced packaging. | Yes |
 | 14 | CPU × PHO | Minimal direct link — but co-packaged optics on CPUs (Intel OCI chiplet) would let CPU memory pools disaggregate optically. Not on any CPU roadmap in-window. | Yes (as non-event) |
 | 15 | CPU × INT | CXL 4.0 is a CPU-rooted standard (PCIe 7.0 phys). CPU sector barely mentions CXL; interconnect sector shows CXL 4.0's PCIe 7.0 dependency + compliance delay to 2028 — CXL 4.0 deployment may slip to 2029. | **No** |
 | 16 | CPU × DC | Clearwater Forest 288 cores at 1,300 GB/s; the host-CPU is now a rounding error in rack power (112kW from GPUs). CPU TDP is irrelevant to AI rack economics — a humbling inversion. | Partially |
@@ -69,7 +69,7 @@ Sectors abbreviated: GPU, CPU, MEM (memory), FAB (chip fabrication), ACC (AI acc
 | 40 | PHO × INT | CEA-Leti's 3.19 pJ/bit electro-optical router (ISSCC 2026) beats CPO; in-die optical routing is the next discontinuity after CPO. EML laser scarcity (30-60% shortfall to 2029) is the gating constraint. | **No** |
 | 41 | PHO × DC | CPO saves 60-73% network power; for a 100MW factory that is ~15,000 extra GPUs of compute budget. Power, not bandwidth, is why CPO wins. | Partially |
 | 42 | PHO × EDGE | Avicena microLED optical I/O at 80-200 fJ/bit — laser-free. Could reach short-reach edge/automotive interconnect. Not on edge roadmaps in-window. | Yes (as non-event) |
-| 43 | INT × DC | NVLink domain growth (72→144→?) means more of the cluster fits inside the *proprietary* fabric — NVIDIA is on a path to commoditize the inter-rack InfiniBand/Ethernet layer it doesn't own. | Priced — see `verification_log.md` Claim 12 |
+| 43 | INT × DC | NVLink domain growth (72→144→?) means more of the cluster fits inside the *proprietary* fabric — NVIDIA is on a path to commoditize the inter-rack InfiniBand/Ethernet layer it doesn't own. | Yes |
 | 44 | INT × EDGE | UCIe used identically for datacenter chiplets and edge RISC-V SoCs. The same die-to-die standard spans 1mW to 1MW — a chiplet built for one tier can be reused at another. | Partially |
 | 45 | DC × EDGE | Datacenter is power-capped (grid is the ceiling); edge is thermally-capped (~5-8W, 2-3min throttle). Both are now *constrained by the same physics class* — heat removal per unit area — at opposite scales. | **No** |
 
@@ -84,15 +84,14 @@ The strongest 3-sector chains, where dependencies compound into a chokepoint or 
 | T1 | FAB × PKG × ACC | CoWoS-L capacity (130K wpm cap) × HBM4 stacking-yield (~78%) × every accelerator needing both → **advanced packaging, not wafers, is the hard ceiling on total AI compute shipped in 2026-27.** | Chokepoint |
 | T2 | MEM × INT × DC | HBM capacity wall (288-432GB) × CXL 4.0 (1.5 TB/s) × 1M-token KV cache (2.4TB) → disaggregated memory becomes mandatory, not optional, for frontier inference. | Unlock + repricing |
 | T3 | ACC × GPU × INT | Inference = 67% of compute × NVIDIA-Groq $20B license × decode being bandwidth-bound → the GPU is being unbundled into prefill-engine + decode-engine + optical fabric. | Architectural fork |
-| T4 | PHO × INT × DC | ~~CPO 60-73% power saving × EML laser shortfall × datacenters power-capped → laser supply chain gates CPO~~ — *Priced in post-verification (TrendForce, Lumentum CEO 30% undershipping, SDxCentral). See `verification_log.md` Claim 4.* | ~~Chokepoint~~ Priced |
-| T5 | FAB × CPU × ACC | TSMC N2 100% booked × Apple >50% allocation × hyperscaler ASICs (TPU v8) on N2 → 2nm access is rationed by Apple's consumer cadence; AI silicon queues behind iPhones. | Chokepoint |
-| T6 | PKG × MEM × GPU | CG-HBM (memory-on-die) × HBM4 2,048-bit bus × Rubin being first to ship it → if CG-HBM yields, the silicon interposer (and a chunk of CoWoS demand) is disrupted from inside. | Unlock (conditional) |
-| T7 | EDGE × MEM × ACC | Mobile bandwidth wall (55 GB/s) × LPDDR6-PIM JEDEC standardization (2026) × MoE sparsity → processing-in-memory may ship in phones before it is clean in datacenters. | Inversion |
-| T8 | DC × GPU × CPU | Grid power as the binding constraint × GPU TDP rising slower than rack-power capacity × CPU being a power rounding-error → datacenter value shifts to whoever holds GW-scale grid interconnects, not whoever has the best chip. | Repricing |
-| T9 | FAB × PKG × DC | 2nm wafer cost ($30K) × packaging 15-20% of BOM × power-capped rack count → AI capex inflates per-rack while rack count flatlines; "compute growth" decouples from "chip count growth." | Repricing |
-| T10 | ACC × DC × MEM | TPU v7 at 29.4 TFLOPS/W (8x B200) × power-capped datacenters × hyperscaler vertical integration → at the grid limit, the efficiency-per-watt leader wins the deployable-compute race, not the FLOPS leader. | Repricing |
-| T11 | PHO × PKG × FAB | Silicon-photonics foundry war (GF/Tower/imec) × CoWoS/COUPE co-packaging × 300mm SiPho → photonic dies become a mainstream foundry product competing for the same advanced-packaging slots as HBM. | Capacity collision |
-| T12 | CPU × INT × MEM | CXL 4.0 rooted in PCIe 7.0 × PCIe 7.0 compliance slipped to 2028 × CXL being the memory-disaggregation enabler → the memory-wall fix (CXL 4.0) may be 2-3 years later than the memory sector assumes. | Hidden delay |
+| T4 | FAB × CPU × ACC | TSMC N2 100% booked × Apple >50% allocation × hyperscaler ASICs (TPU v8) on N2 → 2nm access is rationed by Apple's consumer cadence; AI silicon queues behind iPhones. | Chokepoint |
+| T5 | PKG × MEM × GPU | CG-HBM (memory-on-die) × HBM4 2,048-bit bus × Rubin being first to ship it → if CG-HBM yields, the silicon interposer (and a chunk of CoWoS demand) is disrupted from inside. | Unlock (conditional) |
+| T6 | EDGE × MEM × ACC | Mobile bandwidth wall (55 GB/s) × LPDDR6-PIM JEDEC standardization (2026) × MoE sparsity → processing-in-memory may ship in phones before it is clean in datacenters. | Inversion |
+| T7 | DC × GPU × CPU | Grid power as the binding constraint × GPU TDP rising slower than rack-power capacity × CPU being a power rounding-error → datacenter value shifts to whoever holds GW-scale grid interconnects, not whoever has the best chip. | Repricing |
+| T8 | FAB × PKG × DC | 2nm wafer cost ($30K) × packaging 15-20% of BOM × power-capped rack count → AI capex inflates per-rack while rack count flatlines; "compute growth" decouples from "chip count growth." | Repricing |
+| T9 | ACC × DC × MEM | TPU v7 at 29.4 TFLOPS/W (8x B200) × power-capped datacenters × hyperscaler vertical integration → at the grid limit, the efficiency-per-watt leader wins the deployable-compute race, not the FLOPS leader. | Repricing |
+| T10 | PHO × PKG × FAB | Silicon-photonics foundry war (GF/Tower/imec) × CoWoS/COUPE co-packaging × 300mm SiPho → photonic dies become a mainstream foundry product competing for the same advanced-packaging slots as HBM. | Capacity collision |
+| T11 | CPU × INT × MEM | CXL 4.0 rooted in PCIe 7.0 × PCIe 7.0 compliance slipped to 2028 × CXL being the memory-disaggregation enabler → the memory-wall fix (CXL 4.0) may be 2-3 years later than the memory sector assumes. | Hidden delay |
 
 ---
 
@@ -223,17 +222,11 @@ The non-obvious synthesis: the prefill/decode split is appearing **independently
 
 ---
 
-### ~~Finding 4 — EML laser supply chain as the true gate on CPO~~ — REMOVED post-verification
+### Finding 4 — CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer — and if either lands, a chunk of the CoWoS demand the entire market is bidding up simply evaporates from the inside
 
-> *Finding #4 (EML laser supply gates CPO) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. TrendForce (Dec 2025), SDxCentral, multiple specialist Substacks, and Lumentum's CEO publicly stating "30% undershipping" have made this the dominant specialist narrative since late 2025. See `verification_log.md` Claim 4 for the full evidence trail. Investors who want laser-supply exposure should consult mainstream coverage; this synthesis no longer treats it as non-consensus.*
+**Rank: #4** | **Horizon: medium-to-long** | **Confidence: speculative-to-medium**
 
----
-
-### Finding 5 — CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer — and if either lands, a chunk of the CoWoS demand the entire market is bidding up simply evaporates from the inside
-
-**Rank: #5** | **Horizon: medium-to-long** | **Confidence: speculative-to-medium**
-
-**The combination** — GPUs × packaging × memory × interconnects (triples T6 + T2).
+**The combination** — GPUs × packaging × memory × interconnects (triples T5 + T2).
 
 **The emergent insight.** The consensus, across every sector, treats CoWoS advanced packaging as a durable scarce asset — NVIDIA's allocation is a "moat," capacity is "sold out," $56B of TSMC capex chases it. Every AI-hardware bull thesis has CoWoS scarcity baked in. But two developments, in two different sectors, are independently aimed at making the silicon interposer *unnecessary* — and if either works, the scarce asset partly de-rates from within.
 
@@ -252,7 +245,7 @@ The synthesis: **the interposer is being attacked from above (stack memory on th
 
 **The catalyst.** (a) CG-HBM yield disclosure for Rubin in production (H2 2026 – 2027) — good yield is the catalyst that starts bending the interposer demand curve. (b) A first hyperscaler production deployment serving frontier-model inference with a meaningful weight/KV fraction on optically-attached CXL memory rather than co-packaged HBM. Either reframes CoWoS from "perpetually scarce" to "peaking."
 
-**Time horizon.** Medium-to-long. CG-HBM ships with Rubin H2 2026 but yield clarity and the demand-curve effect take into 2027-2028; CXL 4.0 multi-rack systems are 2027+ and gated by PCIe 7.0 (see Finding 6 risk).
+**Time horizon.** Medium-to-long. CG-HBM ships with Rubin H2 2026 but yield clarity and the demand-curve effect take into 2027-2028; CXL 4.0 multi-rack systems are 2027+ and gated by PCIe 7.0 (see Finding 5 risk).
 
 **Confidence.** Speculative-to-medium. This is the boldest find: it bets *against* the most-priced fact in the sector. The technical routes are real and funded, but both face unproven yield/latency hurdles, and CoWoS demand could keep rising in absolute terms even if per-GPU interposer area falls. It is included because the payoff-if-right and the degree-of-mispricing are both maximal — exactly the profile the brief rewards.
 
@@ -262,11 +255,11 @@ The synthesis: **the interposer is being attacked from above (stack memory on th
 
 ---
 
-### Finding 6 — The memory wall's celebrated cure (CXL 4.0) is quietly hostage to a PCIe 7.0 compliance slip — the memory sector is pricing a 2027 fix that may be a 2029 fix
+### Finding 5 — The memory wall's celebrated cure (CXL 4.0) is quietly hostage to a PCIe 7.0 compliance slip — the memory sector is pricing a 2027 fix that may be a 2029 fix
 
-**Rank: #6** | **Horizon: medium** | **Confidence: medium**
+**Rank: #5** | **Horizon: medium** | **Confidence: medium**
 
-**The combination** — CPUs × interconnects × memory (triple T12).
+**The combination** — CPUs × interconnects × memory (triple T11).
 
 **The emergent insight.** The memory and accelerator sectors present **CXL 4.0** as the architectural answer to the inference memory wall: 128 GT/s, 1.5 TB/s bundled ports, 100+ TB coherent pools, multi-rack memory fabric — with CXL 4.0 multi-rack systems expected "late 2026 to 2027" (memory research.md, CXL section). The memory-wall narrative leans on this timeline.
 
@@ -310,15 +303,13 @@ The reason it is non-obvious is precisely the reason it is valuable: it requires
 
 ---
 
-### Top Non-Consensus Finds (by name, post-verification)
+### Top Non-Consensus Finds (by name)
 
-1. **CXL 4.0's hidden hostage to a PCIe 7.0 compliance slip** — the memory-wall fix the market expects in 2027 may not arrive until 2029. (Finding 6) ✅ VERIFIED-NOT-PRICED-IN
-2. **CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer** — if either lands, the CoWoS scarcity the whole market is bidding up de-rates from the inside. (Finding 5) ✅ VERIFIED-NOT-PRICED-IN
-3. **The grid ceiling turns the AI race into a TFLOPS-per-watt contest** — the market scores FLOPS; physics rewards efficiency. (Finding 1) ⚠️ PARTIALLY-PRICED-IN
-4. **Advanced-packaging *yield*, not CoWoS floor space, is the real compute ceiling** — and HBM4's 12-16-Hi stacks make compound yield worse exactly as headline capacity rises. (Finding 2) ⚠️ PARTIALLY-PRICED-IN
-5. **The GPU is unbundling into prefill + decode + optical fabric** — confirmed by the same split emerging independently at the edge, marking it a structural law rather than a fad. (Finding 3) ⚠️ PARTIALLY-PRICED-IN
-
-*(Finding 4 — EML laser supply gating CPO — was REMOVED post-verification as ALREADY-PRICED-IN. See `verification_log.md` Claim 4.)*
+1. **CXL 4.0's hidden hostage to a PCIe 7.0 compliance slip** — the memory-wall fix the market expects in 2027 may not arrive until 2029. (Finding 5)
+2. **CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer** — if either lands, the CoWoS scarcity the whole market is bidding up de-rates from the inside. (Finding 4)
+3. **The grid ceiling turns the AI race into a TFLOPS-per-watt contest** — the market scores FLOPS; physics rewards efficiency. (Finding 1)
+4. **Advanced-packaging *yield*, not CoWoS floor space, is the real compute ceiling** — and HBM4's 12-16-Hi stacks make compound yield worse exactly as headline capacity rises. (Finding 2)
+5. **The GPU is unbundling into prefill + decode + optical fabric** — confirmed by the same split emerging independently at the edge, marking it a structural law rather than a fad. (Finding 3)
 
 ---
 

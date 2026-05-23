@@ -8,13 +8,7 @@
 
 ---
 
-## ~~Opportunity 1 — The CoWoS Bottleneck Beneficiaries Beyond TSMC~~ — REMOVED post-verification
-
-> *Opportunity 1 (CoWoS overflow / 2nd-source / EMIB beneficiaries) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. Amkor/SPIL/ASE/Intel-EMIB-as-foundry are widely tracked by Tom's Hardware, DigiTimes, and sell-side packaging coverage. See `verification_log.md` Claim 15.*
-
----
-
-## Opportunity 2 — HBM4 Base-Die Logic as a New Foundry Revenue Stream
+## Opportunity 1 — HBM4 Base-Die Logic as a New Foundry Revenue Stream
 
 **Thesis.** HBM4 introduces, for the first time, a logic base die fabricated on an *advanced foundry node* (TSMC 12nm for SK Hynix; Samsung SF4 for Samsung). This silently transfers value from the memory fab to the logic fab and creates a new, recurring, high-margin foundry product category that is not yet priced as distinct from commodity logic. Whoever supplies competitive HBM base-die logic captures a slice of every HBM4 stack sold — and HBM is the scarcest resource in AI.
 
@@ -29,7 +23,7 @@
 
 ---
 
-## Opportunity 3 — Laser Supply for Co-Packaged Optics (the photonics pick-and-shovel play)
+## Opportunity 2 — Laser Supply for Co-Packaged Optics (the photonics pick-and-shovel play)
 
 **Thesis.** CPO is unanimously identified as the production answer to AI external bandwidth, but the corpus also identifies a hard physical bottleneck the market is only beginning to price: 200G/lane EML laser supply. McKinsey projects 30–60% supply shortfalls through 2027–2029. NVIDIA's $4B emergency investment in Lumentum and Coherent is the signal. The asymmetric bet is on the *second wave* of EML qualifiers and on laser-free alternatives (GaN microLED, integrated InP).
 
@@ -44,13 +38,7 @@
 
 ---
 
-## ~~Opportunity 4 — Liquid Cooling and CDU Supply Chain~~ — REMOVED post-verification
-
-> *Opportunity 4 (liquid cooling / CDU mandatory tax) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. Goldman Sachs penetration curves (54%→76%) and Tom's Hardware 2025 cooling coverage are saturated. The synthesis itself flagged this as priced in §4. See `verification_log.md` Claim 16.*
-
----
-
-## Opportunity 5 — Edge AI Inference Silicon: the Memory-Bandwidth Arbitrage
+## Opportunity 3 — Edge AI Inference Silicon: the Memory-Bandwidth Arbitrage
 
 **Thesis.** Mobile NPU TOPS have raced past 100 while mobile memory bandwidth crawled (10x vs 22% growth). The corpus shows the entire edge industry is throttled not by compute but by bandwidth. The underexplored opportunity is silicon that *solves the edge bandwidth problem specifically* — on-module memory (Hailo-10H model), mobile HBM (projected 2028, "transformational"), and compiler-hardware co-design (NXP eIQ Neutron beats 2x-resource NPUs by 3.3x). The market over-indexes on TOPS marketing and under-indexes on sustained, bandwidth-aware real-world throughput.
 
@@ -65,7 +53,7 @@
 
 ---
 
-## Opportunity 6 — Processing-in-Memory at the JEDEC Standardization Inflection
+## Opportunity 4 — Processing-in-Memory at the JEDEC Standardization Inflection
 
 **Thesis.** PIM has been "promising" for a decade. The new and under-priced fact: Samsung and SK Hynix — direct competitors — are *jointly standardizing LPDDR6-PIM through JEDEC* with 2026 target approval. Two rivals only cooperate on a standard when both expect it to expand the total market. Standardization converts PIM from a niche differentiated product into a commodity module device OEMs will demand. The asymmetric bet is on the controller IP, compiler, and tooling layer that standardized PIM will require.
 
@@ -79,7 +67,7 @@
 
 ---
 
-## Opportunity 7 — In-Die / In-Package Optical Routing: the Next Architectural Discontinuity
+## Opportunity 5 — In-Die / In-Package Optical Routing: the Next Architectural Discontinuity
 
 **Thesis.** The CPO trade is now consensus. The under-the-radar bet is one generation further out: *in-die optical I/O and dynamic in-package optical routing.* The corpus contains a concrete proof point — CEA-Leti's ISSCC 2026 electro-optical router at 3.19 pJ/bit with 18 ns dynamic switching — and Marvell's $3.25B Celestial AI acquisition explicitly targets in-die optical. This is a 3–5 year payoff with very low current market attention relative to CPO.
 
@@ -94,7 +82,7 @@
 
 ---
 
-## Opportunity 8 — The Open-Interconnect Ecosystem's Delayed-but-Real Window (UALink / UEC / UCIe)
+## Opportunity 6 — The Open-Interconnect Ecosystem's Delayed-but-Real Window (UALink / UEC / UCIe)
 
 **Thesis.** Every sector that covers interconnects reaches the same conclusion — open standards lag NVLink by 2–4 years — and the market reads this as "open standards lose." That is the consensus and it is over-priced. The corpus also shows UALink/UEC have unprecedented hyperscaler backing (75-member consortium, every major cloud) and that hyperscalers are *funding the open path as a deliberate hedge* while buying NVLink today. When UALink silicon ships (late 2026/2027), the switching-cost story inverts for new cluster builds. The asymmetric bet is on UALink/UCIe silicon and switch vendors (e.g., the first-mover Upscale AI) priced today as also-rans.
 
@@ -109,7 +97,7 @@
 
 ---
 
-## Opportunity 9 — Glass Substrates Transitioning from R&D to Qualification
+## Opportunity 7 — Glass Substrates Transitioning from R&D to Qualification
 
 **Thesis.** Glass core substrates offer a measured +40% speed and -30% power versus organic laminate, with CTE matched far closer to silicon. Intel debuted EMIB-on-glass at NEPCON Japan January 2026; AMD is qualifying samples. The technology is at the qualification inflection — the highest-leverage point to back a materials transition before it is priced as inevitable. Glass is also a structural enabler of the "trillion transistors per package" roadmap.
 
@@ -123,7 +111,7 @@
 
 ---
 
-## Opportunity 10 — Inference-Specialized ASICs for the Prefill/Decode Split
+## Opportunity 8 — Inference-Specialized ASICs for the Prefill/Decode Split
 
 **Thesis.** The corpus documents a decisive architectural finding: prefill (compute-bound, ~2 FLOPs/byte) and decode (severely memory-bound, ~0.2 FLOPs/byte) are now divergent enough to justify *separate silicon for each phase*. Google is splitting TPU v8 into dedicated training and inference chips; NVIDIA licensed Groq's LPU for the decode phase; the SPAD research proposes phase-specific ASICs. The market still largely buys one general-purpose accelerator. The opportunity is purpose-built decode silicon (deterministic, SRAM-heavy, bandwidth-optimized) and the orchestration layer that disaggregates the two phases.
 
@@ -139,7 +127,7 @@
 
 ---
 
-## Opportunity 11 — RISC-V Datacenter Silicon Post-Ventana
+## Opportunity 9 — RISC-V Datacenter Silicon Post-Ventana
 
 **Thesis.** RISC-V crossed the datacenter credibility threshold in this exact window — Qualcomm paid $2.4B for Ventana, SiFive shipped P570 Gen 3, Condor Cuzco presented production silicon at Hot Chips 2025. The market still prices RISC-V as embedded-only. The asymmetric bet is on RISC-V server and AI silicon riding the open-ISA cost advantage (no ARM licensing) — particularly into sovereign-chip programs and high-volume custom deployments.
 
@@ -154,24 +142,16 @@
 
 ---
 
-## ~~Opportunity 12 — Power Infrastructure as the Real AI Moat~~ — REMOVED post-verification
+## Summary Table
 
-> *Opportunity 12 (BESS / HVDC / on-site generation / grid moat) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. This is one of the most-covered AI macro stories of 2026 (Goldman Sachs gigawatt-ceiling thesis, Morgan Stanley "Powering AI" outlook, Futurum 33% off-grid by 2030). See `verification_log.md` Claim 18.*
-
----
-
-## Summary Table (post-verification)
-
-Removed entries: Opportunity 1 (CoWoS overflow), Opportunity 4 (liquid cooling/CDU), Opportunity 12 (power infrastructure) — all ALREADY-PRICED-IN per `verification_log.md`. Opportunity 3 (CPO laser supply) is kept here because the verification verdict was on the deep-dive Finding 4 in `cross_sector_alpha.md`; the broader laser-supply opportunity (including laser-free alternatives) remains partially open — but readers should weight it heavily against TrendForce/Lumentum-CEO mainstream coverage.
-
-| # | Opportunity | Horizon | Confidence | Core bet | Verification |
-|---|-------------|---------|------------|----------|--------------|
-| 2 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack | PARTIALLY-PRICED-IN |
-| 3 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high → DOWNGRADED | 30–60% laser shortfall through 2027–2029 | Caveat — laser-supply thesis ALREADY-PRICED-IN per Claim 4; laser-free alternatives still partial |
-| 5 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | TOPS-marketing mispricing vs sustained bandwidth-bound reality | (unverified — review next cycle) |
-| 6 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand | PARTIALLY-PRICED-IN |
-| 7 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity | PARTIALLY-PRICED-IN |
-| 8 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag | (unverified — review next cycle) |
-| 9 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable | PARTIALLY-PRICED-IN |
-| 10 | Prefill/decode-specialized inference ASICs | medium | medium | Phase divergence justifies separate silicon | (unverified — review next cycle) |
-| 11 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI | (unverified — review next cycle) |
+| # | Opportunity | Horizon | Confidence | Core bet |
+|---|-------------|---------|------------|----------|
+| 1 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack |
+| 2 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | 30–60% laser shortfall through 2027–2029 |
+| 3 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | TOPS-marketing mispricing vs sustained bandwidth-bound reality |
+| 4 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand |
+| 5 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity |
+| 6 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag |
+| 7 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable |
+| 8 | Prefill/decode-specialized inference ASICs | medium | medium | Phase divergence justifies separate silicon |
+| 9 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI |
