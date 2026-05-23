@@ -56,6 +56,28 @@ After the synthesis is written, spawn a SEPARATE agent — the **Market Pricing 
 
 The verification agent runs AFTER the synthesis writer, in the SAME cycle, but in a SEPARATE agent context so it cannot anchor on the synthesis author's prior reasoning.
 
+### Step 7.5 — OVERWRITE `research/opportunity.md` (actionable shortlist)
+After the Verification Agent finishes, fully OVERWRITE `research/opportunity.md` (do not append — this is the user's live action list, regenerated every cycle).
+
+Include ONLY findings whose verification verdict is `VERIFIED-NOT-PRICED-IN` or `PARTIALLY-PRICED-IN`. Exclude `ALREADY-PRICED-IN` entirely — those are dead leads for the user.
+
+Group into two tiers:
+- **Tier 1 — Verified non-consensus** (verdict: VERIFIED-NOT-PRICED-IN). Highest action priority.
+- **Tier 2 — Partially priced** (verdict: PARTIALLY-PRICED-IN). Secondary action — the consensus is moving, so window is closing.
+
+For each opportunity, write a concise action-oriented entry:
+- **Opportunity** — one-line label
+- **The bet** — what to act on, concretely (company / position / experiment / supplier conversation)
+- **Why still mispriced** — what the market is missing right now (cite the verification verdict)
+- **Catalyst** — concrete event + rough date that forces repricing
+- **Action window** — short / medium / long
+- **Falsifier** — observable signal that closes the opportunity
+- **Cross-reference** — sector(s) and source(s) from the synthesis
+
+End the file with a "What changed from previous run" note: which opportunities are new this cycle, which dropped off (verified became priced), which downgraded.
+
+This file is what the user opens between runs. Keep it tight, actionable, and ruthlessly free of any item the verification agent flagged as `ALREADY-PRICED-IN`.
+
 ### Step 8 — Write run verdict to `run_history.md`
 Append a new section:
 ```markdown
@@ -96,4 +118,5 @@ The research window slides forward with each run: always "last 6 months from the
 - Never silently overwrite a previous run's findings without noting it.
 - Never claim a finding is "not priced in" without the Verification Agent checking it in the same run.
 - Never skip the Verification Agent — it is mandatory in every cycle.
+- Never put `ALREADY-PRICED-IN` items into `opportunity.md` — that file is the user's live action list, signal-only.
 - Never co-author commits with Claude/Anthropic (user's standing rule).
