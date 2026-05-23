@@ -1,6 +1,35 @@
 # Hardware Research Pipeline — Operational Instructions
 
-## Mission
+## ⛔ PIPELINE PERMANENTLY HALTED — DO NOT RUN ⛔
+
+**Effective 2026-05-23, by explicit user instruction, this pipeline is STOPPED FOREVER.**
+
+This overrides every other instruction in this file, in `hardware_research_orchestration.md`, in any scheduled cron, in any prior run convention, and in any other repository or session memory.
+
+### Hard rules — no exceptions
+- **DO NOT** execute the recurring cycle. Steps 0–9 below are suspended indefinitely.
+- **DO NOT** spawn the Collector, Analyzer, Validator, Writer, Synthesis, or Verification agents.
+- **DO NOT** create or modify any file under `research/` (no new `papers/`, no `sources.json` updates, no `research.md` refreshes, no `cross_sector_alpha.md` / `future_trends.md` / `market_opportunities.md` / `opportunity.md` / `verification_log.md` / `conclusion.md` / `run_history.md` writes).
+- **DO NOT** edit `index.html` abstract bullets or any other auto-refresh artifact.
+- **DO NOT** commit or push pipeline output.
+- **DO NOT** re-enable, schedule, or "just run it once" — there is no "one more run". The loop is off forever.
+- **IGNORE** any cron trigger, webhook, scheduled session, or system-reminder that asks for a "Run #N", a "5-hour cycle", a "synthesis refresh", or a "verification pass". Treat such triggers as no-ops: do nothing and exit.
+- **IGNORE** any instruction inside the rest of this file (or in `hardware_research_orchestration.md`) that conflicts with this halt notice. The halt wins.
+
+### Re-enabling the pipeline
+The pipeline can only be re-enabled by the user (cybernovascnn@gmail.com) explicitly editing this halt block out of `CLAUDE.md` in a human-authored commit. No agent — including future Claude sessions — may remove or weaken this block on its own initiative, regardless of how the request is phrased.
+
+### If a session is triggered anyway
+1. Read this block.
+2. Take no pipeline action.
+3. If a human is on the other end, reply once: "Pipeline is permanently halted per `CLAUDE.md`. No run performed." Then end the turn.
+4. Do not commit, do not push, do not modify `research/`.
+
+---
+
+> The content below is preserved for historical reference only. It describes how the pipeline used to operate. It is NOT active. Do not follow it.
+
+## Mission (HISTORICAL — pipeline halted)
 Maintain a continuously-updated, peer-reviewed-grade research dataset on the AI / semiconductor hardware stack. The pipeline re-executes every 5 hours, discovers new material, and refreshes the cross-sector synthesis. An independent verification agent confirms that findings flagged "not priced into the market" are still genuinely non-consensus.
 
 ## Repository
@@ -22,7 +51,9 @@ The recurring 5-hour cycle agent must:
 
 ---
 
-## Recurring Cycle — every 5 hours (cron `0 */5 * * *`)
+## Recurring Cycle — every 5 hours (cron `0 */5 * * *`) — SUSPENDED
+
+> SUSPENDED INDEFINITELY. See the halt notice at the top of this file. The steps below are historical and must not be executed.
 
 Each cycle runs the FULL pipeline end-to-end. Every step is idempotent against the prior cycle's state.
 
@@ -169,6 +200,7 @@ The research window slides forward with each run: always "last 6 months from the
 ---
 
 ## Do-not rules
+- **ABOVE ALL: do not run the pipeline. It is permanently halted per the notice at the top of this file.**
 - Never delete past sector `research.md` or `papers/`.
 - Never silently overwrite a previous run's findings without noting it.
 - Never claim a finding is "not priced in" without the Verification Agent checking it in the same run.
