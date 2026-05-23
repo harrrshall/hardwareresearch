@@ -1,10 +1,6 @@
-# Opportunity Shortlist — Live Action List
+# Opportunity Shortlist
 
-**Last regenerated**: 2026-05-23 (Run #1 verification basis)
-**Source**: `research/verification_log.md` — only `VERIFIED-NOT-PRICED-IN` and `PARTIALLY-PRICED-IN` items kept.
-**Excluded**: `ALREADY-PRICED-IN` items (dead leads). See `cross_sector_alpha.md` and `market_opportunities.md` for full context.
-
-This file is **overwritten each run**. Items that get re-verified across cycles harden into conviction; items that drop into `ALREADY-PRICED-IN` disappear from the next cycle's list.
+See [verification_log.md](verification_log.md) for the underlying audit trail.
 
 ---
 
@@ -114,5 +110,3 @@ This file is **overwritten each run**. Items that get re-verified across cycles 
 
 ## What changed from previous run
 This is Run #1 (baseline). All 12 opportunities are new. Next cycle will note which graduate to higher conviction, which downgrade, and which drop entirely.
-
-**Verification provenance**: `research/verification_log.md` (Run #1 verification, 2026-05-23).
