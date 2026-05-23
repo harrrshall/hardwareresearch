@@ -545,6 +545,25 @@
   .prose th, .prose td { padding: 0.5rem 0.75rem; vertical-align: top; border: 0; }
   .prose th { font-weight: 700; font-family: var(--display); }
 
+  /* Signature byline at the very bottom */
+  .signature {
+    text-align: center;
+    margin: 3.5rem 0 0;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--display);
+    font-style: italic;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .signature a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule-2);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .signature a:hover { color: var(--link-hov); border-bottom-color: var(--link); }
+
   /* Loading */
   .loading {
     font-family: var(--mono);
@@ -600,9 +619,9 @@
 
 <nav class="topbar" aria-label="document">
   <div class="topbar-inner">
-    <a href="#frontmatter" id="home-link">↑ Frontmatter</a>
+    <a href="#frontmatter" id="home-link">↑ Home</a>
     <span class="sep">·</span>
-    <span id="now-viewing">frontmatter</span>
+    <span id="now-viewing">overview</span>
     <span class="spacer"></span>
     <a href="https://github.com/harrrshall/hardwareresearch" target="_blank" rel="noopener">source</a>
   </div>
@@ -614,7 +633,7 @@
   <section id="frontmatter" class="full">
 
     <!-- Centered preprint stamp + hero ornament -->
-    <p class="preprint">Preprint<span class="dot">·</span>v1.0<span class="dot">·</span><span id="today">2026-05-23</span><span class="dot">·</span>Open access</p>
+    <p class="preprint"><span id="today">2026-05-23</span><span class="dot">·</span>Open access</p>
 
     <svg class="hero-orn" viewBox="0 0 56 56" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
       <circle cx="28" cy="28" r="22" stroke-dasharray="1 3"/>
@@ -913,6 +932,7 @@
     <p class="note" style="margin-top: 3rem;"><a href="#frontmatter">↑ return to frontmatter &amp; contents</a></p>
   </section>
 
+  <p class="signature full">made by <a href="https://x.com/harshalsinghCN" target="_blank" rel="noopener">@harshalsinghCN</a></p>
 
 </div>
 
@@ -962,7 +982,7 @@
   function showHome() {
     report.classList.add('hidden');
     frontmatter.classList.remove('hidden');
-    nowViewing.textContent = 'frontmatter';
+    nowViewing.textContent = 'overview';
   }
   function showReport() {
     frontmatter.classList.add('hidden');
