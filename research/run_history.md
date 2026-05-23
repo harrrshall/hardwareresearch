@@ -96,3 +96,40 @@ See `CLAUDE.md` for cycle definition.
 **opportunity.md regenerated:** 13 PARTIALLY-PRICED-IN items across 2 tiers; Tier 1 empty (0 VERIFIED-NOT-PRICED-IN); 2 new opportunities added (T2-L High-NA EUV, T2-M China sovereign AI); 2 dropped off (HBM4 base-die, prefill/decode ASICs — both ALREADY-PRICED-IN)
 
 **Overall:** **RECURRING CYCLE #2** — 5 new validated papers across 5 sectors, 3 global rewrites, 5 sector refreshes, 3 additive conclusions; verification found 0 truly non-consensus findings this cycle; 2 previously partially-priced items confirmed fully priced and purged
+
+---
+
+## Run #4 — 2026-05-23
+
+**Research window:** 2025-11-23 – 2026-05-23 (same calendar date as Runs #2–3; new papers from April–May 2026 post-Run #3 cutoff)  
+**Sectors with new sources:** chip_fabrication only (1/10)
+
+**New papers (2 total — both VALIDATED):**
+- chip_fabrication/paper-027: TSMC 2026 North America Technology Symposium (April 22–23, 2026) — A13 (2029, no High-NA EUV, 6% area savings vs A14), A12 (2029, no High-NA EUV, SPR backside power), N2U (2028, 3-4% speed or 8-10% power vs N2P), A16 production slipped to 2027; Intel retains ~15-month BPD lead. Key finding: TSMC's entire sub-A14 roadmap through 2029 skips High-NA EUV — extends Samsung/Intel first-mover advantage from 2-year to structural ≥3-year multi-node divergence. (VALIDATED, Tier 4 primary source — corroborated by TrendForce, Tom's Hardware, WCCFTech, Electronics Weekly, 01.co Research; minimum 7 independent sources)
+- chip_fabrication/paper-028: Apple Explores Intel 18A/14A and Samsung Texas as TSMC Foundry Alternatives (Bloomberg May 5, 2026) — Apple >50% TSMC N2 capacity; early-stage discussions; lower-end chip focus (M-series non-Pro, iPad); 2027–2028 Intel production timeline; no contracts signed. First credible demand-side TSMC N2 relief mechanism for AI chip customers. (VALIDATED, Tier 3 primary source — Bloomberg as primary, corroborated by 9to5Mac, Tom's Hardware, AppleInsider, Digitimes; minimum 5 independent sources)
+
+**Source counts updated:** chip_fabrication 62→64
+
+**Sector research.md refreshed:** chip_fabrication (header updated to Run #4, 2 new sections added, 2 new Source Index entries with markdown links)
+
+**Global synthesis (mandatory full rewrites):**
+- `cross_sector_alpha.md`: Finding 6 NEW/STRENGTHENED (TSMC ≥3-year structural High-NA EUV gap, extending Run #3's "2-year window" to multi-node); Finding 7 NEW (Apple-Intel foundry as TSMC N2 AI-capacity relief mechanism); matrix cells 11 (CPU×FAB) and 25 (FAB×ACC) updated; Triple T11 (FAB×MEM×ACC Samsung HBM5 High-NA base-die capability divergence) added; Top Non-Consensus Finds expanded to 6 items
+- `future_trends.md`: A4 updated (A16 slips to 2027; Intel 18A retains ~15-month BPD lead); C6 major update (≥3-year High-NA gap confirmed structural; Apple-Intel signal; C6-c Samsung HBM5 elevated to speculative-to-medium)
+- `market_opportunities.md`: Opp 8 STRENGTHENED (now ≥3-year first-mover window; materially strengthened by Symposium primary source); Opp 10 NEW (Apple-Intel/Samsung foundry discussions — TSMC N2 demand-side relief); all other opportunities (1–7, 9) unchanged
+
+**Additive:** conclusion.md Run #4 section appended:
+1. TSMC High-NA EUV deferral is multi-node structural: A12, A13, A14, A16 all skip High-NA through 2029 — the ≥3-year Samsung/Intel first-mover window is confirmed primary-source fact, not analyst inference
+2. Apple-Intel/Samsung foundry discussions are the first disclosed, high-profile demand-side mechanism that could partially relieve TSMC N2 AI chip constraint — a scenario the market has not modeled
+
+**New cross-sector alpha finds:** 2 new PARTIALLY-PRICED-IN additions (Finding 6 / Opp 8 strengthened; Finding 7 / Opp 10 new)
+
+**Verification verdict on findings (Independent Market Pricing Verification Agent, Run #4):**
+- **VERIFIED-NOT-PRICED-IN**: 0 / 15
+- **PARTIALLY-PRICED-IN**: 15 / 15 (Cross-Sector Findings 1, 2, 4, 5, 6, 7; Market Opportunities 1, 2, 3, 4, 5, 6, 7, 9, 10 — Opp 8 counted via Finding 6 equivalence)
+- **ALREADY-PRICED-IN**: 0 / 15
+- Post-verification purge: No purge actions required — zero ALREADY-PRICED-IN items this cycle
+- Notable: Finding 6 (TSMC ≥3-year High-NA EUV structural gap) — A12/A13 skip is now broadly reported in tech press; Samsung HBM5 base-die capability delta not yet in mainstream sell-side. Finding 7 (Apple-Intel N2 AI capacity) — EE Times and SemiAnalysis touched the AI-supply-unlock angle; quantified version not in Goldman/MS/Bernstein.
+
+**opportunity.md regenerated:** 14 distinct actionable items (verification tally: 15 — Finding 6/Opp 8 and Finding 7/Opp 10 each combined into single entries); Tier 1 empty (0 VERIFIED-NOT-PRICED-IN); 1 genuinely new entry added (T2-N Apple-Intel N2 AI-capacity relief); T2-L strengthened from "2-year window" to "≥3-year structural multi-node divergence"; 0 items dropped off (no ALREADY-PRICED-IN items this cycle)
+
+**Overall:** **MINOR REFRESH** — 2 new validated papers in chip_fabrication; 3 global rewrites; 1 sector refresh; 2 additive conclusions; 0 verified non-consensus findings; 0 purge actions; verification held all 15 items as PARTIALLY-PRICED-IN with no consensus-shift upgrades or downgrades
