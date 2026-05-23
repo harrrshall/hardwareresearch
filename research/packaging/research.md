@@ -519,71 +519,71 @@ The January 2026 US-Taiwan $250B semiconductor agreement, combined with CHIPS Ac
 |---|---|---|---|---|
 | 1 | TSMC CoWoS Wafer ASP Nears 7nm | TrendForce | 2026-04-28 | CoWoS, TSMC |
 | 2 | The Great Packaging Pivot: TSMC CoWoS Double | FinancialContent | 2026-01-01 | CoWoS, capacity |
-| 3 | TSMC to Quadruple Packaging Capacity 130K wpm | FinancialContent | 2026-02-05 | CoWoS, capacity |
-| 4 | CoWoS and Advanced Packaging | Introl | 2025-11 | CoWoS, explainer |
+| 3 | [TSMC to Quadruple Packaging Capacity 130K wpm](https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-tsmc-to-quadruple-advanced-packaging-capacity-reaching-130000-cowos-wafers-monthly-by-late-2026) | FinancialContent | 2026-02-05 | CoWoS, capacity |
+| 4 | [CoWoS and Advanced Packaging](https://introl.com/blog/cowos-advanced-packaging-chip-architecture-data-center-2025) | Introl | 2025-11 | CoWoS, explainer |
 | 5 | TSMC CoPoS Pilot Line Set for June 2026 | TrendForce | 2026-04-13 | panel-level, CoPoS |
-| 6 | TSMC $56B Capex to Double CoWoS for Rubin | FinancialContent | 2026-01-26 | CoWoS, Rubin |
-| 7 | TSMC AI Wafer Demand 11x; 24 HBM Stacks 2029 | TrendForce | 2026-05-14 | CoWoS, HBM, roadmap |
+| 6 | [TSMC $56B Capex to Double CoWoS for Rubin](https://www.financialcontent.com/article/tokenring-2026-1-26-the-great-unclogging-tsmc-commits-56-billion-capex-to-double-cowos-capacity-for-nvidias-rubin-era) | FinancialContent | 2026-01-26 | CoWoS, Rubin |
+| 7 | [TSMC AI Wafer Demand 11x; 24 HBM Stacks 2029](https://www.trendforce.com/news/2026/05/14/news-tsmc-sees-ai-wafer-demand-rising-11x-from-2022-2026-targets-cowos-with-24-hbm-stacks-in-2029/) | TrendForce | 2026-05-14 | CoWoS, HBM, roadmap |
 | 8 | TSMC SoIC 3D Stacking Toward 3 μm | AKEX Solutions | 2025-12 | SoIC, 3D-stacking |
-| 9 | TSMC SoIC Roadmap: 6 μm to 4.5 μm 2029 | Tom's Hardware | 2025-12 | SoIC, pitch |
+| 9 | [TSMC SoIC Roadmap: 6 μm to 4.5 μm 2029](https://www.tomshardware.com/tech-industry/semiconductors/tsmc-soic-3d-stacking-roadmap-outlines-path-from-6-micron-pitches-today-to-4-5-micron-in-2029-fujitsus-monaka-cpu-to-benefit-from-face-to-face-chiplet-stacking) | Tom's Hardware | 2025-12 | SoIC, pitch |
 | 10 | 3D Revolution: SoIC and UCIe 2.0 | FinancialContent | 2026-01-16 | SoIC, UCIe |
-| 11 | Taiwan Industry 101: SoIC Packaging | Fiisual | 2025-11 | SoIC, explainer |
+| 11 | [Taiwan Industry 101: SoIC Packaging](https://fiisual.com/blog/post/2025/taiwan-industry-101-soic-packaging-technology) | Fiisual | 2025-11 | SoIC, explainer |
 | 12 | Apple SoIC-MH for M5 Pro | PackNode | 2025-11 | SoIC, Apple |
-| 13 | Engineering Cu Grain for High-Yield Hybrid Bonding | 3D InCites / IMAPS | 2025-09 | hybrid-bonding, yield |
-| 14 | Making Hybrid Bonding Better | Semiconductor Engineering | 2025 | hybrid-bonding |
-| 15 | imec D2W Hybrid Bonding 2 μm Cu Pitch | imec | 2025 | hybrid-bonding, D2W |
-| 16 | Hybrid Bonding: Next Frontier in Interconnects | TSPASemiconductor | 2025-12 | hybrid-bonding |
-| 17 | Sub-Micrometer Cu Interconnection Hybrid Bonding | NCBI/PMC | 2025 | hybrid-bonding, sub-micron |
-| 18 | Hybrid Bonding Process Flow (SemiAnalysis) | SemiAnalysis | 2025 | hybrid-bonding |
+| 13 | [Engineering Cu Grain for High-Yield Hybrid Bonding](https://www.3dincites.com/2025/09/engineering-copper-grain-structure-for-high-yield-hybrid-bonding-in-3d-packaging/) | 3D InCites / IMAPS | 2025-09 | hybrid-bonding, yield |
+| 14 | [Making Hybrid Bonding Better](https://semiengineering.com/making-hybrid-bonding-better/) | Semiconductor Engineering | 2025 | hybrid-bonding |
+| 15 | [imec D2W Hybrid Bonding 2 μm Cu Pitch](https://www.imec-int.com/en/press/imec-demonstrates-die-wafer-hybrid-bonding-cu-interconnect-pad-pitch-2mm) | imec | 2025 | hybrid-bonding, D2W |
+| 16 | [Hybrid Bonding: Next Frontier in Interconnects](https://tspasemiconductor.substack.com/p/hybrid-bonding-the-next-frontier) | TSPASemiconductor | 2025-12 | hybrid-bonding |
+| 17 | [Sub-Micrometer Cu Interconnection Hybrid Bonding](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12915207/) | NCBI/PMC | 2025 | hybrid-bonding, sub-micron |
+| 18 | [Hybrid Bonding Process Flow (SemiAnalysis)](https://newsletter.semianalysis.com/p/hybrid-bonding-process-flow-advanced) | SemiAnalysis | 2025 | hybrid-bonding |
 | 19 | FOWLP Market Explodes: AI and 5G | FinancialContent | 2025-10-21 | FOWLP, market |
-| 20 | Fan-Out Packaging Gets Competitive | Semiconductor Engineering | 2025 | FOWLP |
-| 21 | 2.5D and 3D IC Packaging (ASE) | ASE Global | 2025 | 2.5D, interposer |
-| 22 | Emerging Trends: 2.5D and 3D Packaging | IDTechEx | 2025 | 2.5D, 3D, market |
-| 23 | Glass Substrates: Breakthrough for AI Packaging | FinancialContent | 2026-01-02 | glass-substrate |
-| 24 | Glass Substrates Breaking AI Packaging Bottleneck | TrendForce Insights | 2026-01 | glass-substrate |
-| 25 | AMD to Adopt Glass Substrate 2025–2026 | TweakTown | 2025-11 | glass-substrate, AMD |
-| 26 | Glass Substrates Emerge as AI Game Changer | The Economy | 2026-02 | glass-substrate |
-| 27 | UCIe SI Analysis for Heterogeneous Integration | Chiplet Marketplace | 2025 | UCIe, chiplet |
+| 20 | [Fan-Out Packaging Gets Competitive](https://semiengineering.com/fan-out-packaging-gets-competitive/) | Semiconductor Engineering | 2025 | FOWLP |
+| 21 | [2.5D and 3D IC Packaging (ASE)](https://ase.aseglobal.com/3d-ic-packaging/) | ASE Global | 2025 | 2.5D, interposer |
+| 22 | [Emerging Trends: 2.5D and 3D Packaging](https://www.idtechex.com/en/research-article/emerging-trends-and-key-markets-in-2-5d-and-3d-semiconductor-packaging/31994) | IDTechEx | 2025 | 2.5D, 3D, market |
+| 23 | [Glass Substrates: Breakthrough for AI Packaging](https://insights.trendforce.com/p/glass-substrate-development) | FinancialContent | 2026-01-02 | glass-substrate |
+| 24 | [Glass Substrates Breaking AI Packaging Bottleneck](https://insights.trendforce.com/p/glass-substrate-development) | TrendForce Insights | 2026-01 | glass-substrate |
+| 25 | [AMD to Adopt Glass Substrate 2025–2026](https://www.tweaktown.com/news/99304/amd-to-adopt-glass-substrate-semiconductor-tech-with-its-next-gen-chips-by-2025-2026/index.html) | TweakTown | 2025-11 | glass-substrate, AMD |
+| 26 | [Glass Substrates Emerge as AI Game Changer](https://economy.ac/news/2026/02/202602288429) | The Economy | 2026-02 | glass-substrate |
+| 27 | [UCIe SI Analysis for Heterogeneous Integration](https://chiplet-marketplace.com/insights/expert-perspectives/ucie-full-si-analysis-flow-with-compliance-check) | Chiplet Marketplace | 2025 | UCIe, chiplet |
 | 28 | UCIe 2.0 Manageability Layer | Siemens EDA | 2025-09-26 | UCIe, verification |
-| 29 | Intel EMIB Ramp H2 2026; 18A-PT External | TrendForce | 2025-12-05 | EMIB, Intel |
+| 29 | [Intel EMIB Ramp H2 2026; 18A-PT External](https://www.trendforce.com/news/2025/12/05/news-intel-eyes-emib-to-ramp-up-in-2h26-18a%E2%80%91p18a%E2%80%91pt-moves-toward-external-adoption/) | TrendForce | 2025-12-05 | EMIB, Intel |
 | 30 | Intel EMIB Impact on Chip Packaging | Semiwiki | 2025 | EMIB, Intel |
-| 31 | Foveros Direct 3D Technology Brief | Intel | 2025-11 | Foveros, 3D |
-| 32 | Intel Advanced Packaging: Apple and Qualcomm | TrendForce | 2025-11-18 | EMIB, Foveros |
-| 33 | Intel: >12X Reticle, 16 Compute Tiles, 24 HBM5 | WCCFTech | 2025-12 | Foveros, EMIB, HBM5 |
-| 34 | Samsung X-Cube 3D Packaging | Semiwiki | 2025 | X-Cube, Samsung |
+| 31 | [Foveros Direct 3D Technology Brief](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/foveros-direct-3d-tech-brief.pdf) | Intel | 2025-11 | Foveros, 3D |
+| 32 | [Intel Advanced Packaging: Apple and Qualcomm](https://www.trendforce.com/news/2025/11/18/news-intel-advanced-packaging-reportedly-gains-traction-with-apple-and-qualcomm-seeking-emib-expertise/) | TrendForce | 2025-11-18 | EMIB, Foveros |
+| 33 | [Intel: >12X Reticle, 16 Compute Tiles, 24 HBM5](https://wccftech.com/intel-next-level-advanced-packaging-capabilities-12x-reticle-16-compute-tiles-18a-14a-nodes-up-to-24-hbm-foveros-3d-emib/) | WCCFTech | 2025-12 | Foveros, EMIB, HBM5 |
+| 34 | [Samsung X-Cube 3D Packaging](https://semiwiki.com/wikis/industry-wikis/samsung-x-cube-extended-cube/) | Semiwiki | 2025 | X-Cube, Samsung |
 | 35 | Samsung H-Cube 2.5D Solution Available | Samsung Semiconductor | 2025 | H-Cube, Samsung |
-| 36 | ECTC 2025: 75th IEEE Conference Highlights | 3D InCites | 2025-05 | ECTC, research |
-| 37 | Thermal Management for Adv. Packaging 2026–2036 | IDTechEx | 2025 | thermal |
-| 38 | Advanced Thermal Design Strategies for 3D IC | Siemens EDA | 2026-02-27 | thermal, 3D-IC |
-| 39 | Thermal Challenges in 2.5D/3D Chiplet Integration | MDPI | 2025-12 | thermal, chiplet |
-| 40 | 2025 Advanced Packaging Outlook Report | TechInsights | 2025 | market, yield |
-| 41 | High-Bandwidth Chiplet Interconnects for AI/ML | ResearchGate | 2025 | chiplet, bandwidth |
-| 42 | Alphawave UCIe 64 Gbps → 20 Tbps/mm | Alphawave Semi | 2025 | UCIe, bandwidth |
+| 36 | [ECTC 2025: 75th IEEE Conference Highlights](https://www.3dincites.com/2025/02/2025-ieee-electronic-components-and-technology-conference-highlights-microelectronics-packaging-and-component-breakthroughs/) | 3D InCites | 2025-05 | ECTC, research |
+| 37 | [Thermal Management for Adv. Packaging 2026–2036](https://www.idtechex.com/en/research-report/thermal-management-for-advanced-semiconductor-packaging/1106) | IDTechEx | 2025 | thermal |
+| 38 | [Advanced Thermal Design Strategies for 3D IC](https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/27/3d-ic-thermal-design-packaging-strategies/) | Siemens EDA | 2026-02-27 | thermal, 3D-IC |
+| 39 | [Thermal Challenges in 2.5D/3D Chiplet Integration](https://www.mdpi.com/2673-4117/6/12/373) | MDPI | 2025-12 | thermal, chiplet |
+| 40 | [2025 Advanced Packaging Outlook Report](https://www.techinsights.com/blog/2025-advanced-packaging-outlook-report) | TechInsights | 2025 | market, yield |
+| 41 | [High-Bandwidth Chiplet Interconnects for AI/ML](https://www.researchgate.net/publication/386162569_High-Bandwidth_Chiplet_Interconnects_for_Advanced_Packaging_Technologies_in_AIML_Applications_Challenges_and_Solutions) | ResearchGate | 2025 | chiplet, bandwidth |
+| 42 | [Alphawave UCIe 64 Gbps → 20 Tbps/mm](https://awavesemi.com/press-release/alphawave-semi-scales-ucie-to-64-gbps-enabling-20-tbps-mm-bandwidth-density-for-die-to-die-chiplet-connectivity/) | Alphawave Semi | 2025 | UCIe, bandwidth |
 | 43 | HBM Evolution: HBM3 to HBM4 | Introl | 2025-04 | HBM4, JEDEC |
-| 44 | HBM4 and the 3D Stacking Revolution of 2026 | FinancialContent | 2025-12-30 | HBM4, 3D |
-| 45 | HBM3e and HBM4: IC Design Guide | Siemens EDA | 2026-04-24 | HBM4, HBM3e |
-| 46 | The Rise of Panel-Level Packaging | Semiconductor Engineering | 2025 | panel-level |
-| 47 | Trends in Wafer-Level and Panel-Level Packaging | 3D InCites | 2026-04 | panel-level, trends |
-| 48 | imec W2W Hybrid Bonding to 400 nm Pitch | imec | 2025 | hybrid-bonding, W2W |
-| 49 | NanoIC Fine-Pitch RDL + D2W Hybrid Bonding PDKs | imec/NanoIC | 2026-03-02 | hybrid-bonding, RDL |
-| 50 | Marvell PIVR Package Integrated Voltage Regulator | Marvell | 2025-06 | power-delivery |
+| 44 | [HBM4 and the 3D Stacking Revolution of 2026](https://markets.financialcontent.com/wral/article/tokenring-2025-12-30-the-great-memory-pivot-hbm4-and-the-3d-stacking-revolution-of-2026) | FinancialContent | 2025-12-30 | HBM4, 3D |
+| 45 | [HBM3e and HBM4: IC Design Guide](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/) | Siemens EDA | 2026-04-24 | HBM4, HBM3e |
+| 46 | [The Rise of Panel-Level Packaging](https://semiengineering.com/the-rise-of-panel-level-packaging/) | Semiconductor Engineering | 2025 | panel-level |
+| 47 | [Trends in Wafer-Level and Panel-Level Packaging](https://www.3dincites.com/2026/04/trends-in-semiconductor-manufacturing-wafer-level-and-panel-level-packaging/) | 3D InCites | 2026-04 | panel-level, trends |
+| 48 | [imec W2W Hybrid Bonding to 400 nm Pitch](https://www.imec-int.com/en/articles/wafer-wafer-hybrid-bonding-pushing-boundaries-400nm-interconnect-pitch) | imec | 2025 | hybrid-bonding, W2W |
+| 49 | [NanoIC Fine-Pitch RDL + D2W Hybrid Bonding PDKs](https://www.imec-int.com/en/press/nanoic-opens-access-first-ever-fine-pitch-rdl-and-d2w-hybrid-bonding-interconnect-pdks) | imec/NanoIC | 2026-03-02 | hybrid-bonding, RDL |
+| 50 | [Marvell PIVR Package Integrated Voltage Regulator](https://www.marvell.com/company/newsroom/marvell-pivr-package-integrated-voltage-regulator-power-solution.html) | Marvell | 2025-06 | power-delivery |
 | 51 | TSMC AP7: 2026 Output; Arizona P6 | TrendForce | 2025-12-04 | TSMC, AP7 |
-| 52 | TSMC Advanced Packaging CapEx 24% CAGR | TrendForce | 2026-01-21 | TSMC, AP7, capex |
-| 53 | Lightmatter Passage M1000 Photonic Superchip | Lightmatter | 2025-12 | photonics, CPO |
-| 54 | Broadcom 3.5D XDSiP Packaging | Electronic Design | 2026-02 | 3.5D, Broadcom |
-| 55 | AMD MI300X: Packaging and Architecture Co-Opt | IEEE/ECTC | 2025 | chiplet, AMD, ECTC |
-| 56 | Geopolitics Redrawing Global Packaging Landscape | Digitimes | 2026-04-08 | geopolitics |
-| 57 | The Chiplet Shift: Evolving Interface Standards | Baker Botts | 2025-08 | chiplet, UCIe |
-| 58 | SK Hynix Approves $13B HBM Packaging Plant | FinancialContent | 2026-01-23 | SK-Hynix, HBM4 |
-| 59 | Scaling Bump Pitches in Advanced Packaging | Semiconductor Engineering | 2025 | micro-bump, pitch |
-| 60 | CPO Market: 37% CAGR to $20B by 2036 | Semiconductor Today/IDTechEx | 2025-12 | CPO, market |
-| 61 | Five Key CPO Trends in 2026 | Siemens EDA | 2026-02-05 | CPO, trends |
-| 62 | Next-Generation RDL Materials | IDTechEx | 2025 | RDL, materials |
-| 63 | Wafer Bonding Technologies 2025 | Wiley/Advanced Engineering | 2025 | wafer-bonding |
-| 64 | First Truly 3D Chip at US Foundry (Stanford) | Tom's Hardware | 2025 | monolithic-3D |
-| 65 | NVIDIA GB200 Supply Chain Explained | IntuitionLabs | 2025-12 | CoWoS-L, NVIDIA, HBM3e |
-| 66 | ISSCC 2026: NVIDIA/Broadcom CPO, HBM4, TSMC | SemiAnalysis | 2026-02 | CPO, HBM4, NVIDIA |
-| 67 | Samsung Accelerates 3D NAND, Adv. Packaging, Substrate Plans | Digitimes | 2026-05-14 | Samsung, 3.3D-packaging, HCB, HBM4E |
+| 52 | [TSMC Advanced Packaging CapEx 24% CAGR](https://www.trendforce.com/news/2026/01/21/news-tsmc-advanced-packaging-capex-projected-to-grow-24-cagr-in-2025-27-chiayi-ap7-targets-wmcm-and-copos/) | TrendForce | 2026-01-21 | TSMC, AP7, capex |
+| 53 | [Lightmatter Passage M1000 Photonic Superchip](https://lightmatter.co/press-release/lightmatter-unveils-passage-m1000-photonic-superchip-worlds-fastest-ai-interconnect/) | Lightmatter | 2025-12 | photonics, CPO |
+| 54 | [Broadcom 3.5D XDSiP Packaging](https://www.electronicdesign.com/technologies/embedded/article/55261561/electronic-design-broadcom-rolls-out-35d-packaging-tech-to-enable-next-gen-chips-for-ai) | Electronic Design | 2026-02 | 3.5D, Broadcom |
+| 55 | [AMD MI300X: Packaging and Architecture Co-Opt](https://ieeexplore.ieee.org/document/10631545/) | IEEE/ECTC | 2025 | chiplet, AMD, ECTC |
+| 56 | [Geopolitics Redrawing Global Packaging Landscape](https://www.digitimes.com/news/a20260408PD218/packaging-capacity-intel-demand-production.html) | Digitimes | 2026-04-08 | geopolitics |
+| 57 | [The Chiplet Shift: Evolving Interface Standards](https://www.bakerbotts.com/thought-leadership/publications/2025/august/the-chiplet-shift) | Baker Botts | 2025-08 | chiplet, UCIe |
+| 58 | [SK Hynix Approves $13B HBM Packaging Plant](https://markets.financialcontent.com/stocks/article/tokenring-2026-1-23-sk-hynix-approves-13-billion-for-worlds-largest-hbm-packaging-plant) | FinancialContent | 2026-01-23 | SK-Hynix, HBM4 |
+| 59 | [Scaling Bump Pitches in Advanced Packaging](https://semiengineering.com/scaling-bump-pitches-in-advanced-packaging/) | Semiconductor Engineering | 2025 | micro-bump, pitch |
+| 60 | [CPO Market: 37% CAGR to $20B by 2036](https://www.semiconductor-today.com/news_items/2025/dec/idtechex-291225.shtml) | Semiconductor Today/IDTechEx | 2025-12 | CPO, market |
+| 61 | [Five Key CPO Trends in 2026](https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/) | Siemens EDA | 2026-02-05 | CPO, trends |
+| 62 | [Next-Generation RDL Materials](https://www.idtechex.com/en/research-article/next-generation-rdl-materials-in-advanced-semiconductor-packaging/29722) | IDTechEx | 2025 | RDL, materials |
+| 63 | [Wafer Bonding Technologies 2025](https://www.intel.com/content/dam/www/central-libraries/us/en/documents/2025-11/foveros-direct-3d-tech-brief.pdf) | Wiley/Advanced Engineering | 2025 | wafer-bonding |
+| 64 | [First Truly 3D Chip at US Foundry (Stanford)](https://www.tomshardware.com/tech-industry/semiconductors/stanford-led-team-builds-3d-ai-chip-at-us-foundry-reports-4x-performance-gains) | Tom's Hardware | 2025 | monolithic-3D |
+| 65 | [NVIDIA GB200 Supply Chain Explained](https://intuitionlabs.ai/articles/nvidia-gb200-supply-chain) | IntuitionLabs | 2025-12 | CoWoS-L, NVIDIA, HBM3e |
+| 66 | [ISSCC 2026: NVIDIA/Broadcom CPO, HBM4, TSMC](https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo) | SemiAnalysis | 2026-02 | CPO, HBM4, NVIDIA |
+| 67 | [Samsung Accelerates 3D NAND, Adv. Packaging, Substrate Plans](https://www.digitimes.com/news/a20260514PD224/samsung-packaging-nand-3d-substrate.html) | Digitimes | 2026-05-14 | Samsung, 3.3D-packaging, HCB, HBM4E |
 
 ---
 

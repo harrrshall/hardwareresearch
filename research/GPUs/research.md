@@ -417,58 +417,58 @@ HBM4 JEDEC specification (2,048-bit, 1.5+ TB/s per stack) represents peak theore
 
 | ID | Title | Tier | Date | Status |
 |----|-------|------|------|--------|
-| src-001 | NVIDIA Blackwell Enables 3x Faster Training | 4 | 2025-03-18 | VALIDATED |
-| src-002 | AMD Instinct MI350X Architecture Specs | 4 | 2025-06-12 | VALIDATED |
-| src-003 | AMD MI350 and CDNA4 Launched with ROCm 7 | 3 | 2025-06-12 | VALIDATED |
-| src-004 | AMD CDNA4 Architecture Whitepaper | 4 | 2025-06-12 | VALIDATED |
-| src-005 | AMD CDNA4 Deep Dive at Hot Chips 2025 | 1 | 2025-08-27 | VALIDATED |
-| src-006 | Fifth-Generation NVIDIA NVLink 1,800 GB/s | 3 | 2025-02-01 | VALIDATED |
-| src-007 | AMD RDNA4 Architecture Launch | 4 | 2025-02-28 | CONTEXT-ONLY |
-| src-008 | AMD RDNA4 at Hot Chips 2025 | 1 | 2025-09-13 | CONTEXT-ONLY |
-| src-009 | NVIDIA Rubin GPU 336B Transistors Roadmap | 3 | 2026-03-01 | VALIDATED |
-| src-010 | NVLink 6.0 at CES 2026 Vera Rubin | 4 | 2026-01-06 | VALIDATED |
-| src-011 | HBM3e vs HBM4 vs HBM4e LLM Inference Guide | 3 | 2026-02-01 | VALIDATED |
-| src-012 | Blackwell Ultra AI Factory Platform | 4 | 2025-03-18 | VALIDATED |
-| src-013 | Inside Blackwell Ultra Technical Blog | 4 | 2025-08-27 | VALIDATED |
-| src-014 | MLPerf Inference v5.1 Results | 1 | 2025-09-10 | VALIDATED |
-| src-015 | AMD MI350X/MI355X Launch Coverage | 3 | 2025-06-12 | VALIDATED |
-| src-016 | NVIDIA Blackwell MLPerf Training Results | 1 | 2025-11-15 | VALIDATED |
-| src-017 | NVIDIA RTX 5090 Blackwell Gaming GPU | 4 | 2025-01-26 | CONTEXT-ONLY |
-| src-018 | NVIDIA DLSS 4 Multi Frame Generation | 4 | 2025-01-06 | CONTEXT-ONLY |
-| src-019 | AMD ROCm 7.0 Software | 4 | 2025-06-12 | CONTEXT-ONLY |
-| src-020 | Microbenchmarking NVIDIA Blackwell arXiv | 2 | 2025-12-03 | VALIDATED |
-| src-021 | Dissecting Blackwell Architecture arXiv | 2 | 2025-07-14 | VALIDATED |
-| src-022 | NVIDIA NVLink Fusion Announcement | 3 | 2025-05-19 | VALIDATED |
-| src-023 | Nvidia extends NVLink to custom CPUs | 3 | 2025-05-19 | VALIDATED |
-| src-024 | UALink 1.0 Specification Released | 3 | 2025-04-08 | VALIDATED |
-| src-025 | TSMC CoWoS Capacity NVIDIA Dominance | 3 | 2025-12-10 | VALIDATED |
-| src-026 | AMD MI400 CDNA5 Architecture Roadmap | 3 | 2025-12-01 | VALIDATED |
-| src-027 | NVIDIA Vera CPU Architecture Detail | 3 | 2026-03-18 | VALIDATED |
-| src-028 | NVIDIA GTC 2026 Vera Rubin Announcements | 4 | 2026-03-18 | VALIDATED |
-| src-029 | GB200 NVL72 Deployment Guide | 3 | 2025-03-01 | VALIDATED |
-| src-030 | NVIDIA DLSS 4.5 Six-Frame Generation | 4 | 2026-01-06 | VALIDATED |
-| src-031 | Acc-SpMM GPU Tensor Core SpMM | 2 | 2025-01-16 | CONTEXT-ONLY |
-| src-032 | SemiAnalysis InferenceMAX vLLM Blackwell | 3 | 2025-10-09 | VALIDATED |
-| src-033 | NVIDIA Blackwell DeepSeek-R1 World Record | 4 | 2025-02-01 | VALIDATED |
-| src-034 | Mind the Memory Gap IBM Research arXiv | 1 | 2025-03-11 | VALIDATED |
-| src-035 | vLLM Large Scale DeepSeek 2.2k tok/s | 2 | 2025-12-17 | VALIDATED |
-| src-036 | Moore Threads Huagang 5th Gen GPU | 3 | 2025-12-05 | VALIDATED |
-| src-037 | AMD RDNA4 Navi 48 TechInsights Floorplan | 3 | 2025-03-10 | CONTEXT-ONLY |
-| src-038 | RDNA4 Raytracing Improvements Analysis | 3 | 2025-03-15 | CONTEXT-ONLY |
-| src-039 | Two-Phase Liquid Cooling Future of GPUs | 3 | 2025-10-15 | VALIDATED |
-| src-040 | AMD MI350 to MI500 Roadmap 2027 | 3 | 2025-06-20 | VALIDATED |
-| src-041 | FP8 Matrix Cores Sparsity MI300A arXiv | 2 | 2026-02-13 | VALIDATED |
-| src-042 | Matrix Core Programming CDNA3 CDNA4 | 4 | 2025-07-01 | CONTEXT-ONLY |
-| src-043 | Intel NVIDIA $5B Investment NVLink | 3 | 2025-09-18 | VALIDATED |
-| src-044 | HBM3e and HBM4 IC Design Guide Siemens | 3 | 2026-04-24 | VALIDATED |
-| src-045 | China GPU IPO Wave Moore Threads Biren | 3 | 2025-12-17 | VALIDATED |
-| src-046 | NVIDIA GTC 2026 AWS Google Deployments | 3 | 2026-03-20 | VALIDATED |
-| src-047 | Performance Per Watt GPUs 10-Year Overview | 3 | 2025-11-10 | VALIDATED |
-| src-048 | Multipath Memory Access LLM Serving arXiv | 2 | 2025-12-19 | VALIDATED |
-| src-049 | NVIDIA DGX Spark GB10 Personal AI PC | 4 | 2025-10-13 | CONTEXT-ONLY |
-| src-050 | Blink CPU-Free LLM Inference arXiv | 2 | 2026-04-10 | VALIDATED |
-| src-051 | AMD MLPerf Inference 6.0 Results | 1 | 2026-02-15 | VALIDATED |
-| src-052 | ISSCC 2026 NVIDIA Broadcom CPO Coverage | 1 | 2026-02-17 | VALIDATED |
+| src-001 | [NVIDIA Blackwell Enables 3x Faster Training](https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/) | 4 | 2025-03-18 | VALIDATED |
+| src-002 | [AMD Instinct MI350X Architecture Specs](https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html) | 4 | 2025-06-12 | VALIDATED |
+| src-003 | [AMD MI350 and CDNA4 Launched with ROCm 7](https://www.servethehome.com/amd-mi350-and-cdna-4-architecture-launched-with-rocm-7/) | 3 | 2025-06-12 | VALIDATED |
+| src-004 | [AMD CDNA4 Architecture Whitepaper](https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf) | 4 | 2025-06-12 | VALIDATED |
+| src-005 | [AMD CDNA4 Deep Dive at Hot Chips 2025](https://www.servethehome.com/amd-dives-deep-on-cdna-4-architecture-and-mi350-accelerator-at-hot-chips-2025/) | 1 | 2025-08-27 | VALIDATED |
+| src-006 | [Fifth-Generation NVIDIA NVLink 1,800 GB/s](https://www.amax.com/fifth-generation-nvidia-nvlink/) | 3 | 2025-02-01 | VALIDATED |
+| src-007 | [AMD RDNA4 Architecture Launch](https://www.amd.com/en/newsroom/press-releases/2025-2-28-amd-unveils-next-generation-amd-rdna-4-architectu.html) | 4 | 2025-02-28 | CONTEXT-ONLY |
+| src-008 | [AMD RDNA4 at Hot Chips 2025](https://chipsandcheese.com/p/amds-rdna4-gpu-architecture-at-hot) | 1 | 2025-09-13 | CONTEXT-ONLY |
+| src-009 | [NVIDIA Rubin GPU 336B Transistors Roadmap](https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/) | 3 | 2026-03-01 | VALIDATED |
+| src-010 | [NVLink 6.0 at CES 2026 Vera Rubin](https://www.sas-am.com/resources/nvidia-nvlink-5-0-ai-hpc-am-bandwidth) | 4 | 2026-01-06 | VALIDATED |
+| src-011 | [HBM3e vs HBM4 vs HBM4e LLM Inference Guide](https://www.spheron.network/blog/hbm3e-vs-hbm4-vs-hbm4e-llm-inference-guide/) | 3 | 2026-02-01 | VALIDATED |
+| src-012 | [Blackwell Ultra AI Factory Platform](https://nvidianews.nvidia.com/news/nvidia-blackwell-ultra-ai-factory-platform-paves-way-for-age-of-ai-reasoning) | 4 | 2025-03-18 | VALIDATED |
+| src-013 | [Inside Blackwell Ultra Technical Blog](https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/) | 4 | 2025-08-27 | VALIDATED |
+| src-014 | [MLPerf Inference v5.1 Results](https://www.hpcwire.com/2025/09/10/mlperf-inference-v5-1-results-land-with-new-benchmarks-and-record-participation/) | 1 | 2025-09-10 | VALIDATED |
+| src-015 | [AMD MI350X/MI355X Launch Coverage](https://www.tomshardware.com/pc-components/gpus/amd-announces-mi350x-and-mi355x-ai-gpus-claims-up-to-4x-generational-gain-up-to-35x-faster-inference-performance) | 3 | 2025-06-12 | VALIDATED |
+| src-016 | [NVIDIA Blackwell MLPerf Training Results](https://blogs.nvidia.com/blog/blackwell-performance-mlperf-training/) | 1 | 2025-11-15 | VALIDATED |
+| src-017 | [NVIDIA RTX 5090 Blackwell Gaming GPU](https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/) | 4 | 2025-01-26 | CONTEXT-ONLY |
+| src-018 | [NVIDIA DLSS 4 Multi Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations/) | 4 | 2025-01-06 | CONTEXT-ONLY |
+| src-019 | [AMD ROCm 7.0 Software](https://www.amd.com/en/blogs/2025/rocm7-supercharging-ai-and-hpc-infrastructure.html) | 4 | 2025-06-12 | CONTEXT-ONLY |
+| src-020 | [Microbenchmarking NVIDIA Blackwell arXiv](https://arxiv.org/abs/2512.02189) | 2 | 2025-12-03 | VALIDATED |
+| src-021 | [Dissecting Blackwell Architecture arXiv](https://arxiv.org/abs/2507.10789) | 2 | 2025-07-14 | VALIDATED |
+| src-022 | [NVIDIA NVLink Fusion Announcement](https://www.servethehome.com/nvidia-announces-nvlink-fusion-bringing-nvlink-to-third-party-cpus-and-accelerators/) | 3 | 2025-05-19 | VALIDATED |
+| src-023 | [Nvidia extends NVLink to custom CPUs](https://www.theregister.com/2025/05/19/nvidia_nvlink_fusion/) | 3 | 2025-05-19 | VALIDATED |
+| src-024 | [UALink 1.0 Specification Released](https://www.networkworld.com/article/3957541/ualink-releases-inaugural-gpu-interconnect-specification.html) | 3 | 2025-04-08 | VALIDATED |
+| src-025 | [TSMC CoWoS Capacity NVIDIA Dominance](https://www.digitimes.com/news/a20251210PD218/tsmc-cowos-capacity-nvidia-equipment.html) | 3 | 2025-12-10 | VALIDATED |
+| src-026 | [AMD MI400 CDNA5 Architecture Roadmap](https://www.guru3d.com/story/amd-instinct-mi400-launches-in-2026-with-cdna-5-architecture/) | 3 | 2025-12-01 | VALIDATED |
+| src-027 | [NVIDIA Vera CPU Architecture Detail](https://www.servethehome.com/nvidias-vera-cpu-in-detail-high-perf-chip-takes-aim-at-broader-ai-server-market/) | 3 | 2026-03-18 | VALIDATED |
+| src-028 | [NVIDIA GTC 2026 Vera Rubin Announcements](https://blogs.nvidia.com/blog/gtc-2026-news/) | 4 | 2026-03-18 | VALIDATED |
+| src-029 | [GB200 NVL72 Deployment Guide](https://introl.com/blog/gb200-nvl72-deployment-72-gpu-liquid-cooled) | 3 | 2025-03-01 | VALIDATED |
+| src-030 | [NVIDIA DLSS 4.5 Six-Frame Generation](https://www.nvidia.com/en-us/geforce/news/dlss-4-5-dynamic-multi-frame-gen-6x-2nd-gen-transformer-super-res/) | 4 | 2026-01-06 | VALIDATED |
+| src-031 | [Acc-SpMM GPU Tensor Core SpMM](https://arxiv.org/pdf/2501.09251) | 2 | 2025-01-16 | CONTEXT-ONLY |
+| src-032 | [SemiAnalysis InferenceMAX vLLM Blackwell](https://blog.vllm.ai/2025/10/09/blackwell-inferencemax.html) | 3 | 2025-10-09 | VALIDATED |
+| src-033 | [NVIDIA Blackwell DeepSeek-R1 World Record](https://developer.nvidia.com/blog/nvidia-blackwell-delivers-world-record-deepseek-r1-inference-performance/) | 4 | 2025-02-01 | VALIDATED |
+| src-034 | [Mind the Memory Gap IBM Research arXiv](https://arxiv.org/pdf/2503.08311) | 1 | 2025-03-11 | VALIDATED |
+| src-035 | [vLLM Large Scale DeepSeek 2.2k tok/s](https://blog.vllm.ai/2025/12/17/large-scale-serving.html) | 2 | 2025-12-17 | VALIDATED |
+| src-036 | [Moore Threads Huagang 5th Gen GPU](https://www.globaltimes.cn/page/202512/1351155.shtml) | 3 | 2025-12-05 | VALIDATED |
+| src-037 | [AMD RDNA4 Navi 48 TechInsights Floorplan](https://www.techinsights.com/blog/amd-navi-48-rdna-4-digital-floorplan-analysis) | 3 | 2025-03-10 | CONTEXT-ONLY |
+| src-038 | [RDNA4 Raytracing Improvements Analysis](https://chipsandcheese.com/p/rdna-4s-raytracing-improvements) | 3 | 2025-03-15 | CONTEXT-ONLY |
+| src-039 | [Two-Phase Liquid Cooling Future of GPUs](https://www.edge-ai-vision.com/2025/10/two-phase-liquid-cooling-the-future-of-high-end-gpus/) | 3 | 2025-10-15 | VALIDATED |
+| src-040 | [AMD MI350 to MI500 Roadmap 2027](https://www.storagereview.com/news/from-mi350-to-mi500-amds-bold-ai-accelerator-roadmap-through-2027) | 3 | 2025-06-20 | VALIDATED |
+| src-041 | [FP8 Matrix Cores Sparsity MI300A arXiv](https://arxiv.org/pdf/2602.10262) | 2 | 2026-02-13 | VALIDATED |
+| src-042 | [Matrix Core Programming CDNA3 CDNA4](https://rocm.blogs.amd.com/software-tools-optimization/matrix-cores-cdna/README.html) | 4 | 2025-07-01 | CONTEXT-ONLY |
+| src-043 | [Intel NVIDIA $5B Investment NVLink](https://www.hpcwire.com/2025/09/18/intel-gets-5b-investment-from-nvidia-commits-to-adopting-nvlink-to-co-develop-future-cpu-gpu-superchips/) | 3 | 2025-09-18 | VALIDATED |
+| src-044 | [HBM3e and HBM4 IC Design Guide Siemens](https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/) | 3 | 2026-04-24 | VALIDATED |
+| src-045 | [China GPU IPO Wave Moore Threads Biren](https://www.cnbc.com/2025/12/17/metax-moore-threads-chinese-rivals-nvidia-ai-chips.html) | 3 | 2025-12-17 | VALIDATED |
+| src-046 | [NVIDIA GTC 2026 AWS Google Deployments](https://virtualizationreview.com/articles/2026/03/20/nvidia-aws-and-google-cloud-spotlight-ai-infrastructure-push-at-gtc-2026.aspx) | 3 | 2026-03-20 | VALIDATED |
+| src-047 | [Performance Per Watt GPUs 10-Year Overview](https://www.d4b.dev/blog/2025-11-10-perf-per-watt-trends-for-gpus-and-cpus) | 3 | 2025-11-10 | VALIDATED |
+| src-048 | [Multipath Memory Access LLM Serving arXiv](https://arxiv.org/html/2512.16056) | 2 | 2025-12-19 | VALIDATED |
+| src-049 | [NVIDIA DGX Spark GB10 Personal AI PC](https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips) | 4 | 2025-10-13 | CONTEXT-ONLY |
+| src-050 | [Blink CPU-Free LLM Inference arXiv](https://arxiv.org/pdf/2604.07609) | 2 | 2026-04-10 | VALIDATED |
+| src-051 | [AMD MLPerf Inference 6.0 Results](https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html) | 1 | 2026-02-15 | VALIDATED |
+| src-052 | [ISSCC 2026 NVIDIA Broadcom CPO Coverage](https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo) | 1 | 2026-02-17 | VALIDATED |
 
 **Tier Distribution**: Tier 1 (peer-reviewed/benchmark): 8 | Tier 2 (arXiv): 8 | Tier 3 (industry analysis): 22 | Tier 4 (vendor): 14  
 **Total sources**: 52 | **Validated**: 38 | **Context-only**: 14 | **Rejected**: 0

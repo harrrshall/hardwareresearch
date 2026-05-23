@@ -123,6 +123,29 @@ Append a new section:
 
 If nothing new was found, **say so explicitly**. Not every run must produce novelty.
 
+### Step 8.5 — Keep `index.html` in sync with the latest run
+The live site at `https://harrrshall.github.io/hardware-research-2026/` is a single static HTML file (`index.html` at repo root) that fetches markdown at runtime. The markdown fetcher means most updates need no HTML change. BUT the abstract block on the frontmatter contains hard-coded text that summarizes the current verification verdict — that text must be refreshed each cycle.
+
+Specifically, locate the `<ul class="abstract-list">` inside `<section id="frontmatter">` in `index.html`. Update its `<li>` items so they reflect:
+- The current count of validated sources (e.g. "Approximately N primary sources…")
+- The list of `VERIFIED-NOT-PRICED-IN` finds for the *current* run (the second-to-last bullet typically — "Two findings cleanly survived as genuinely non-consensus in Run #N: …"); if the count of verified non-consensus changes, rewrite the bullet
+- The verification tally (e.g. "X further claims are partially priced; Y were retired…")
+
+Do NOT add per-run stamps, bylines, last-update strings, or footer text — the user explicitly removed those. Keep the file minimal: title, hero illustration, abstract bullets, Contents, rendered-report area.
+
+Do NOT touch `index.html`'s JavaScript, fonts, SVG illustrations, layout, or any element other than the abstract bullet text — those are visual identity decisions, not per-run content.
+
+### Step 8.6 — Source Index titles must be Markdown links
+In every sector's `research.md`, the `## Source Index` section must list each source with its title rendered as a clickable Markdown link: `[Title](URL)`. The URL is taken from the same row's URL column when available, otherwise from `sources.json` for that sector by id or title match. Tables that already have linked titles are left alone.
+
+Plain-text titles in the Source Index are not acceptable — they leave the user without a path to the underlying source.
+
+This rule applies to:
+- Each sector's `research.md` Source Index table(s)
+- Any new table the writer agent creates that lists sources with titles
+
+The Writer Agent should emit linked titles directly; if it forgets, the orchestrator runs `/tmp/linkify_v2.py` (or an equivalent one-off pass) before commit to fix it.
+
 ### Step 9 — Commit and push
 ```bash
 git add research/

@@ -386,58 +386,58 @@ SK Hynix's 48 Gbps GDDR7 (192 GB/s per chip) at ISSCC 2026 targets "mid-range in
 
 | # | Source | Publication / Venue | Date | URL |
 |---|--------|---------------------|------|-----|
-| 1 | SK Hynix 48GB HBM4 at CES 2026 | Tweaktown | 2026-01 | https://www.tweaktown.com/news/109572 |
-| 2 | Samsung/SK Hynix HBM4 Production Acceleration | DigiTimes | 2025-12-26 | https://www.digitimes.com/news/a20251226PD223 |
-| 3 | SK Hynix HBM4 2,048-bit, 10 GT/s | Tom's Hardware | 2025-11 | https://www.tomshardware.com/pc-components/dram/sk-hynix-completes-development-of-hbm4 |
-| 4 | SK Hynix 16-Hi 48GB HBM4 at CES 2026 | TechPowerUp | 2026-01 | https://www.techpowerup.com/344834 |
-| 5 | Samsung HBM4 3.3 TB/s | Windows Report | 2026-02 | https://windowsreport.com/samsungs-hbm4-delivers-3-3-tb-s-bandwidth |
-| 6 | Samsung HBM4 Mass Production | VideoCardz | 2026-02 | https://videocardz.com/newz/samsung-begins-hbm4-mass-production |
-| 7 | ISSCC 2026 HBM4/LPDDR6/GDDR7 Preview | Tweaktown | 2025-12 | https://www.tweaktown.com/news/109057 |
-| 8 | ISSCC 2026 SemiAnalysis Coverage | SemiAnalysis | 2026-02 | https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo |
-| 9 | Micron HBM4 High-Volume Production | Micron IR | 2026-04 | https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin |
-| 10 | Micron HBM4 2.3x BW | Tom's Hardware | 2026-04 | https://www.tomshardware.com/pc-components/dram/micron-enters-high-volume-production-of-hbm4 |
-| 11 | SK Hynix HBM Market Share 62% | Astute Group | 2026-01 | https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm |
-| 12 | HBM Landscape 2026 | PatSnap | 2026-01 | https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026 |
-| 13 | NVIDIA Vera Rubin NVL72 | NVIDIA Official | 2026-01 | https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/ |
-| 14 | AMD Instinct MI400 432GB HBM4 | VideoCardz | 2025-11 | https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026 |
-| 15 | JEDEC LPDDR6 JESD209-6 | JEDEC Official | 2025-07-09 | https://www.jedec.org/news/pressreleases/jedec-releases-new-lpddr6-standard |
-| 16 | Samsung LPDDR6 10.7 Gbps 12nm | TrendForce | 2025-11-10 | https://www.trendforce.com/news/2025/11/10/news-samsung-lpddr6-memory-specs |
-| 17 | SK Hynix LPDDR6 14.4 Gbps | VideoCardz | 2025-12 | https://videocardz.com/newz/sk-hynix-details-16gb-lpddr6-at-14-4gbps |
-| 18 | Samsung LPDDR6 CES 2026 | VideoCardz | 2026-01 | https://videocardz.com/newz/samsung-confirms-lpddr6-memory-with-10-7-gbps-bandwidth-at-ces-2026 |
-| 19 | JEDEC LPDDR6 Roadmap / Data Center | JEDEC Official | 2025 | https://www.jedec.org/news/pressreleases/jedec-previews-lpddr6-roadmap |
-| 20 | CXL 4.0 Release SC25 | BusinessWire | 2025-11-18 | https://www.businesswire.com/news/home/20251118275848 |
-| 21 | CXL 3.0 Memory Pooling 2026 | Colobird | 2026 | https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/ |
-| 22 | SC25 XConn/MemVerge CXL LLM | Storage Newsletter | 2025-11-21 | https://www.storagenewsletter.com/2025/11/21/sc25-xconn-technologies |
-| 23 | CXL 4.0 Infrastructure Guide | Introl Blog | 2025 | https://introl.com/blog/cxl-4-0-infrastructure-planning-guide-memory-pooling-2025 |
-| 24 | Memory Bottleneck LLM Challenge | Winbuzzer | 2026-01-26 | https://winbuzzer.com/2026/01/26/memory-bottleneck-llm-inference-hardware-challenge |
-| 25 | Processing-in-DRAM arXiv | arXiv 2412.19275 | 2024-12 | https://arxiv.org/pdf/2412.19275 |
-| 26 | Samsung/SK Hynix PIM for AI | DigiTimes | 2025-12-18 | https://www.digitimes.com/news/a20251218PD206 |
-| 27 | SK Hynix AiMX for Generative AI | SK Hynix Newsroom | 2025 | https://news.skhynix.com/sk-hynix-debuts-first-gddr6-aim-accelerator-card-aimx |
-| 28 | GDDR6-AiM 16x Acceleration | Tom's Hardware | 2022-2025 | https://www.tomshardware.com/news/sk-hynix-next-generation-ai-accelerator |
-| 29 | TSMC N2 SRAM Breakthrough | Tom's Hardware | 2025 | https://www.tomshardware.com/tech-industry/sram-scaling-isnt-dead-after-all |
-| 30 | Intel, TSMC SRAM 2nm | SemiEngineering | 2025 | https://marklapedus.substack.com/p/intel-tsmc-tout-sram-breakthroughs |
-| 31 | Marvell Hot Chips 2025 | ServeTheHome | 2025-08 | https://www.servethehome.com/marvell-shows-dense-sram-custom-hbm |
-| 32 | Hot Chips 2025 Overview | Design News | 2025-08 | https://www.designnews.com/semiconductors-chips/hot-chips-2025 |
-| 33 | IEDM 2025 Kioxia 3D DRAM | IEDM Program | 2025-12 | https://iedm25.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=210 |
-| 34 | imec IGZO DRAM | imec Official | 2025 | https://www.imec-int.com/en/articles/disrupting-dram-roadmap-capacitor-less-igzo-dram-technology |
-| 35 | IEDM 2025 Report | Vik's Newsletter | 2025-12 | https://www.viksnewsletter.com/p/2025-international-electron-devices |
-| 36 | Samsung Hybrid Bonding HBM4 | Tom's Hardware | 2025-2026 | https://www.tomshardware.com/pc-components/dram/samsung-to-adopt-hybrid-bonding-for-hbm4 |
-| 37 | Samsung vs SK Hynix Hybrid Bonding | Benzinga | 2026-04 | https://www.benzinga.com/markets/tech/26/04/51655835 |
-| 38 | DDR6 Explained | IntuitionLabs | 2025-12 | https://intuitionlabs.ai/articles/ddr6-explained-speed-architecture |
-| 39 | DDR6 Samsung/Micron/SK Hynix Plans | Guru3D | 2025 | https://www.guru3d.com/story/samsung-micron-sk-hynix-ddr6-development-plans |
-| 40 | SK Hynix SOCAMM2 192GB | SK Hynix Newsroom | 2026 | https://news.skhynix.com/mass-production-socamm2-192gb/ |
-| 41 | SOCAMM Memory Data Center | Network World | 2025 | https://www.networkworld.com/article/4112926/socamm-memory-gains-ground |
-| 42 | Samsung HBM4E GTC 2026 | WCCFTech | 2026-03 | https://wccftech.com/samsung-hbm4e-memory-up-to-4-tbps-bandwidth |
-| 43 | Rambus HBM4E Controller | WCCFTech | 2026 | https://wccftech.com/rambus-hbm4e-memory-controller-60-percent-faster-vs-hbm4 |
-| 44 | SK Hynix 48 Gbps GDDR7 | TrendForce | 2025-11-27 | https://www.trendforce.com/news/2025/11/27/news-ai-memory-showdown |
-| 45 | Samsung 24Gb GDDR7 Production | Samsung Newsroom | 2025 | https://news.samsung.com/global/samsung-develops-industrys-first-24gb-gddr7 |
-| 46 | Samsung V10 NAND 400-Layer | TrendForce | 2024-10 | https://www.trendforce.com/news/2024/10/29/news-samsung-reportedly-plans-400-layer |
-| 47 | Kioxia BiCS10 332-Layer Expedited | Tom's Hardware | 2025-2026 | https://www.tomshardware.com/pc-components/ssds/kioxias-next-gen-3d-nand |
-| 48 | Micron 1-Gamma Node 2026 | HardForum | 2026 | https://hardforum.com/threads/micron-sets-1g-as-mainstream-node |
-| 49 | TSMC A16 GAA + Backside Power | SemiAnalysis | 2025 | https://newsletter.semianalysis.com/p/clash-of-the-foundries |
-| 50 | NVM Technology Progress | MRS Communications | 2024-2025 | https://link.springer.com/article/10.1557/s43579-024-00660-2 |
-| 51 | Analog CiM Landscape 2026 | PatSnap | 2026 | https://www.patsnap.com/resources/blog/articles/in-memory-analog-computing-landscape-2026 |
-| 52 | HBM4 Memory Supercycle | Introl Blog | 2026 | https://introl.com/blog/south-korea-hbm4-stargate-memory-supercycle-2026 |
-| 53 | HBM Evolution HBM3→HBM4 | Introl Blog | 2025 | https://introl.com/blog/hbm-evolution-hbm3-hbm3e-hbm4-memory-ai-gpu-2025 |
-| 54 | Disaggregated Architectures arXiv | arXiv 2511.04104 | 2025-11 | https://arxiv.org/html/2511.04104v1 |
-| 55 | Memory Wall / Supercycle | TrendForce | 2025-2026 | https://www.trendforce.com/insights/memory-wall |
+| 1 | [SK Hynix 48GB HBM4 at CES 2026](https://www.tweaktown.com/news/109572) | Tweaktown | 2026-01 | https://www.tweaktown.com/news/109572 |
+| 2 | [Samsung/SK Hynix HBM4 Production Acceleration](https://www.digitimes.com/news/a20251226PD223) | DigiTimes | 2025-12-26 | https://www.digitimes.com/news/a20251226PD223 |
+| 3 | [SK Hynix HBM4 2,048-bit, 10 GT/s](https://www.tomshardware.com/pc-components/dram/sk-hynix-completes-development-of-hbm4) | Tom's Hardware | 2025-11 | https://www.tomshardware.com/pc-components/dram/sk-hynix-completes-development-of-hbm4 |
+| 4 | [SK Hynix 16-Hi 48GB HBM4 at CES 2026](https://www.techpowerup.com/344834) | TechPowerUp | 2026-01 | https://www.techpowerup.com/344834 |
+| 5 | [Samsung HBM4 3.3 TB/s](https://windowsreport.com/samsungs-hbm4-delivers-3-3-tb-s-bandwidth) | Windows Report | 2026-02 | https://windowsreport.com/samsungs-hbm4-delivers-3-3-tb-s-bandwidth |
+| 6 | [Samsung HBM4 Mass Production](https://videocardz.com/newz/samsung-begins-hbm4-mass-production) | VideoCardz | 2026-02 | https://videocardz.com/newz/samsung-begins-hbm4-mass-production |
+| 7 | [ISSCC 2026 HBM4/LPDDR6/GDDR7 Preview](https://www.tweaktown.com/news/109057) | Tweaktown | 2025-12 | https://www.tweaktown.com/news/109057 |
+| 8 | [ISSCC 2026 SemiAnalysis Coverage](https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo) | SemiAnalysis | 2026-02 | https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo |
+| 9 | [Micron HBM4 High-Volume Production](https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin) | Micron IR | 2026-04 | https://investors.micron.com/news-releases/news-release-details/micron-high-volume-production-hbm4-designed-nvidia-vera-rubin |
+| 10 | [Micron HBM4 2.3x BW](https://www.tomshardware.com/pc-components/dram/micron-enters-high-volume-production-of-hbm4) | Tom's Hardware | 2026-04 | https://www.tomshardware.com/pc-components/dram/micron-enters-high-volume-production-of-hbm4 |
+| 11 | [SK Hynix HBM Market Share 62%](https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm) | Astute Group | 2026-01 | https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm |
+| 12 | [HBM Landscape 2026](https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026) | PatSnap | 2026-01 | https://www.patsnap.com/resources/blog/articles/hbm-technology-landscape-2026 |
+| 13 | [NVIDIA Vera Rubin NVL72](https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/) | NVIDIA Official | 2026-01 | https://www.nvidia.com/en-us/data-center/vera-rubin-nvl72/ |
+| 14 | [AMD Instinct MI400 432GB HBM4](https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026) | VideoCardz | 2025-11 | https://videocardz.com/newz/amd-launches-instinct-mi350-series-confirms-mi400-in-2026 |
+| 15 | [JEDEC LPDDR6 JESD209-6](https://www.jedec.org/news/pressreleases/jedec-releases-new-lpddr6-standard) | JEDEC Official | 2025-07-09 | https://www.jedec.org/news/pressreleases/jedec-releases-new-lpddr6-standard |
+| 16 | [Samsung LPDDR6 10.7 Gbps 12nm](https://www.trendforce.com/news/2025/11/10/news-samsung-lpddr6-memory-specs) | TrendForce | 2025-11-10 | https://www.trendforce.com/news/2025/11/10/news-samsung-lpddr6-memory-specs |
+| 17 | [SK Hynix LPDDR6 14.4 Gbps](https://videocardz.com/newz/sk-hynix-details-16gb-lpddr6-at-14-4gbps) | VideoCardz | 2025-12 | https://videocardz.com/newz/sk-hynix-details-16gb-lpddr6-at-14-4gbps |
+| 18 | [Samsung LPDDR6 CES 2026](https://videocardz.com/newz/samsung-confirms-lpddr6-memory-with-10-7-gbps-bandwidth-at-ces-2026) | VideoCardz | 2026-01 | https://videocardz.com/newz/samsung-confirms-lpddr6-memory-with-10-7-gbps-bandwidth-at-ces-2026 |
+| 19 | [JEDEC LPDDR6 Roadmap / Data Center](https://www.jedec.org/news/pressreleases/jedec-previews-lpddr6-roadmap) | JEDEC Official | 2025 | https://www.jedec.org/news/pressreleases/jedec-previews-lpddr6-roadmap |
+| 20 | [CXL 4.0 Release SC25](https://www.businesswire.com/news/home/20251118275848) | BusinessWire | 2025-11-18 | https://www.businesswire.com/news/home/20251118275848 |
+| 21 | [CXL 3.0 Memory Pooling 2026](https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/) | Colobird | 2026 | https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/ |
+| 22 | [SC25 XConn/MemVerge CXL LLM](https://www.storagenewsletter.com/2025/11/21/sc25-xconn-technologies) | Storage Newsletter | 2025-11-21 | https://www.storagenewsletter.com/2025/11/21/sc25-xconn-technologies |
+| 23 | [CXL 4.0 Infrastructure Guide](https://introl.com/blog/cxl-4-0-infrastructure-planning-guide-memory-pooling-2025) | Introl Blog | 2025 | https://introl.com/blog/cxl-4-0-infrastructure-planning-guide-memory-pooling-2025 |
+| 24 | [Memory Bottleneck LLM Challenge](https://winbuzzer.com/2026/01/26/memory-bottleneck-llm-inference-hardware-challenge) | Winbuzzer | 2026-01-26 | https://winbuzzer.com/2026/01/26/memory-bottleneck-llm-inference-hardware-challenge |
+| 25 | [Processing-in-DRAM arXiv](https://arxiv.org/pdf/2412.19275) | arXiv 2412.19275 | 2024-12 | https://arxiv.org/pdf/2412.19275 |
+| 26 | [Samsung/SK Hynix PIM for AI](https://www.digitimes.com/news/a20251218PD206) | DigiTimes | 2025-12-18 | https://www.digitimes.com/news/a20251218PD206 |
+| 27 | [SK Hynix AiMX for Generative AI](https://news.skhynix.com/sk-hynix-debuts-first-gddr6-aim-accelerator-card-aimx) | SK Hynix Newsroom | 2025 | https://news.skhynix.com/sk-hynix-debuts-first-gddr6-aim-accelerator-card-aimx |
+| 28 | [GDDR6-AiM 16x Acceleration](https://www.tomshardware.com/news/sk-hynix-next-generation-ai-accelerator) | Tom's Hardware | 2022-2025 | https://www.tomshardware.com/news/sk-hynix-next-generation-ai-accelerator |
+| 29 | [TSMC N2 SRAM Breakthrough](https://www.tomshardware.com/tech-industry/sram-scaling-isnt-dead-after-all) | Tom's Hardware | 2025 | https://www.tomshardware.com/tech-industry/sram-scaling-isnt-dead-after-all |
+| 30 | [Intel, TSMC SRAM 2nm](https://marklapedus.substack.com/p/intel-tsmc-tout-sram-breakthroughs) | SemiEngineering | 2025 | https://marklapedus.substack.com/p/intel-tsmc-tout-sram-breakthroughs |
+| 31 | [Marvell Hot Chips 2025](https://www.servethehome.com/marvell-shows-dense-sram-custom-hbm) | ServeTheHome | 2025-08 | https://www.servethehome.com/marvell-shows-dense-sram-custom-hbm |
+| 32 | [Hot Chips 2025 Overview](https://www.designnews.com/semiconductors-chips/hot-chips-2025) | Design News | 2025-08 | https://www.designnews.com/semiconductors-chips/hot-chips-2025 |
+| 33 | [IEDM 2025 Kioxia 3D DRAM](https://iedm25.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=210) | IEDM Program | 2025-12 | https://iedm25.mapyourshow.com/8_0/sessions/session-details.cfm?ScheduleID=210 |
+| 34 | [imec IGZO DRAM](https://www.imec-int.com/en/articles/disrupting-dram-roadmap-capacitor-less-igzo-dram-technology) | imec Official | 2025 | https://www.imec-int.com/en/articles/disrupting-dram-roadmap-capacitor-less-igzo-dram-technology |
+| 35 | [IEDM 2025 Report](https://www.viksnewsletter.com/p/2025-international-electron-devices) | Vik's Newsletter | 2025-12 | https://www.viksnewsletter.com/p/2025-international-electron-devices |
+| 36 | [Samsung Hybrid Bonding HBM4](https://www.tomshardware.com/pc-components/dram/samsung-to-adopt-hybrid-bonding-for-hbm4) | Tom's Hardware | 2025-2026 | https://www.tomshardware.com/pc-components/dram/samsung-to-adopt-hybrid-bonding-for-hbm4 |
+| 37 | [Samsung vs SK Hynix Hybrid Bonding](https://www.benzinga.com/markets/tech/26/04/51655835) | Benzinga | 2026-04 | https://www.benzinga.com/markets/tech/26/04/51655835 |
+| 38 | [DDR6 Explained](https://intuitionlabs.ai/articles/ddr6-explained-speed-architecture) | IntuitionLabs | 2025-12 | https://intuitionlabs.ai/articles/ddr6-explained-speed-architecture |
+| 39 | [DDR6 Samsung/Micron/SK Hynix Plans](https://www.guru3d.com/story/samsung-micron-sk-hynix-ddr6-development-plans) | Guru3D | 2025 | https://www.guru3d.com/story/samsung-micron-sk-hynix-ddr6-development-plans |
+| 40 | [SK Hynix SOCAMM2 192GB](https://news.skhynix.com/mass-production-socamm2-192gb/) | SK Hynix Newsroom | 2026 | https://news.skhynix.com/mass-production-socamm2-192gb/ |
+| 41 | [SOCAMM Memory Data Center](https://www.networkworld.com/article/4112926/socamm-memory-gains-ground) | Network World | 2025 | https://www.networkworld.com/article/4112926/socamm-memory-gains-ground |
+| 42 | [Samsung HBM4E GTC 2026](https://wccftech.com/samsung-hbm4e-memory-up-to-4-tbps-bandwidth) | WCCFTech | 2026-03 | https://wccftech.com/samsung-hbm4e-memory-up-to-4-tbps-bandwidth |
+| 43 | [Rambus HBM4E Controller](https://wccftech.com/rambus-hbm4e-memory-controller-60-percent-faster-vs-hbm4) | WCCFTech | 2026 | https://wccftech.com/rambus-hbm4e-memory-controller-60-percent-faster-vs-hbm4 |
+| 44 | [SK Hynix 48 Gbps GDDR7](https://www.trendforce.com/news/2025/11/27/news-ai-memory-showdown) | TrendForce | 2025-11-27 | https://www.trendforce.com/news/2025/11/27/news-ai-memory-showdown |
+| 45 | [Samsung 24Gb GDDR7 Production](https://news.samsung.com/global/samsung-develops-industrys-first-24gb-gddr7) | Samsung Newsroom | 2025 | https://news.samsung.com/global/samsung-develops-industrys-first-24gb-gddr7 |
+| 46 | [Samsung V10 NAND 400-Layer](https://www.trendforce.com/news/2024/10/29/news-samsung-reportedly-plans-400-layer) | TrendForce | 2024-10 | https://www.trendforce.com/news/2024/10/29/news-samsung-reportedly-plans-400-layer |
+| 47 | [Kioxia BiCS10 332-Layer Expedited](https://www.tomshardware.com/pc-components/ssds/kioxias-next-gen-3d-nand) | Tom's Hardware | 2025-2026 | https://www.tomshardware.com/pc-components/ssds/kioxias-next-gen-3d-nand |
+| 48 | [Micron 1-Gamma Node 2026](https://hardforum.com/threads/micron-sets-1g-as-mainstream-node) | HardForum | 2026 | https://hardforum.com/threads/micron-sets-1g-as-mainstream-node |
+| 49 | [TSMC A16 GAA + Backside Power](https://newsletter.semianalysis.com/p/clash-of-the-foundries) | SemiAnalysis | 2025 | https://newsletter.semianalysis.com/p/clash-of-the-foundries |
+| 50 | [NVM Technology Progress](https://link.springer.com/article/10.1557/s43579-024-00660-2) | MRS Communications | 2024-2025 | https://link.springer.com/article/10.1557/s43579-024-00660-2 |
+| 51 | [Analog CiM Landscape 2026](https://www.patsnap.com/resources/blog/articles/in-memory-analog-computing-landscape-2026) | PatSnap | 2026 | https://www.patsnap.com/resources/blog/articles/in-memory-analog-computing-landscape-2026 |
+| 52 | [HBM4 Memory Supercycle](https://introl.com/blog/south-korea-hbm4-stargate-memory-supercycle-2026) | Introl Blog | 2026 | https://introl.com/blog/south-korea-hbm4-stargate-memory-supercycle-2026 |
+| 53 | [HBM Evolution HBM3→HBM4](https://introl.com/blog/hbm-evolution-hbm3-hbm3e-hbm4-memory-ai-gpu-2025) | Introl Blog | 2025 | https://introl.com/blog/hbm-evolution-hbm3-hbm3e-hbm4-memory-ai-gpu-2025 |
+| 54 | [Disaggregated Architectures arXiv](https://arxiv.org/html/2511.04104v1) | arXiv 2511.04104 | 2025-11 | https://arxiv.org/html/2511.04104v1 |
+| 55 | [Memory Wall / Supercycle](https://www.trendforce.com/insights/memory-wall) | TrendForce | 2025-2026 | https://www.trendforce.com/insights/memory-wall |

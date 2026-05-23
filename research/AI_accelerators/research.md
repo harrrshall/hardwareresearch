@@ -586,62 +586,62 @@ The aggregate deployed NPU capacity in smartphones and PCs likely exceeds total 
 
 | # | Title | URL | Category |
 |---|-------|-----|----------|
-| 1 | TPU v5p Docs | https://docs.cloud.google.com/tpu/docs/v5p | Official |
-| 2 | Trillium Launch | https://cloud.google.com/blog/products/compute/introducing-trillium-6th-gen-tpus | Vendor Blog |
-| 3 | TPU 7-Gen Guide | https://introl.com/blog/google-tpu-architecture-complete-guide-7-generations | Tech Blog |
-| 4 | Ironwood Announcement | https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ | Vendor Blog |
-| 5 | TPU7x Docs | https://docs.cloud.google.com/tpu/docs/tpu7x | Official |
-| 6 | TPUv7 SemiAnalysis | https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the | Analyst |
-| 7 | Groq LPU Architecture | https://groq.com/lpu-architecture | Official |
-| 8 | Groq in 2026 (Voiceflow) | https://www.voiceflow.com/blog/groq | Tech Blog |
-| 9 | Inside the LPU | https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed | Vendor Blog |
-| 10 | LPU arXiv | https://arxiv.org/html/2408.07326v1 | arXiv |
-| 11 | WSE-3 Overview | https://awesomeagents.ai/hardware/cerebras-wse-3/ | Tech Blog |
-| 12 | Cerebras Llama 405B PR | https://www.cerebras.ai/press-release/cerebras-inference-llama-405b | Press Release |
-| 13 | WSE vs GPU arXiv | https://arxiv.org/html/2503.11698v1 | arXiv |
-| 14 | NVIDIA B200 Guide | https://www.runpod.io/articles/guides/nvidia-b200 | Tech Blog |
-| 15 | Blackwell Architecture | https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/ | Official |
-| 16 | Blackwell 3x Training | https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/ | Vendor Blog |
-| 17 | Trainium3 HPCwire | https://www.hpcwire.com/2025/12/02/aws-brings-the-trainium3-chip-to-market-with-new-ec2-ultraservers/ | News |
-| 18 | Trainium4 NextPlatform | https://www.nextplatform.com/2025/12/03/with-trainium4-aws-will-crank-up-everything-but-the-clocks/ | Analyst |
-| 19 | AMD MI355X Official | https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html | Official |
-| 20 | ISSCC 2026 MI355X | https://www.tomshardware.com/tech-industry/semiconductors/inside-the-instinct-mi355x | News |
-| 21 | AMD MLPerf 6.0 | https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html | Vendor Blog |
-| 22 | Gaudi 3 White Paper | https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf | Official |
-| 23 | SambaNova RDU Medium | https://medium.com/@leosorge/sambanova-rdu-reconfigurable-architectures-for-inferencefor-inference-training-and-agentic-ai-5088b5ca400b | Tech Blog |
-| 24 | SN40L arXiv | https://arxiv.org/pdf/2405.07518 | arXiv |
-| 25 | ISCA 2025 Proceedings | https://dblp.org/db/conf/isca/isca2025.html | Conference |
-| 26 | HW Acceleration Survey arXiv 2512.23914 | https://arxiv.org/abs/2512.23914 | arXiv |
-| 27 | Analog AI Market | https://www.precedenceresearch.com/analog-ai-chip-market | Market Research |
-| 28 | IBM AIMC Blog | https://research.ibm.com/blog/how-can-analog-in-memory-computing-power-transformer-models | Research Blog |
-| 29 | ReRAM On-Chip AI arXiv 2502.04524 | https://arxiv.org/pdf/2502.04524 | arXiv |
-| 30 | NPU Buying Guide | https://www.newtechguy.com/ai-pc-buying-guide-2025-npu-tops-ratings-performance-benchmarks-and-what-actually-matters/ | Tech Blog |
-| 31 | Mobile NPU LLM arXiv 2509.23324 | https://arxiv.org/pdf/2509.23324 | arXiv |
-| 32 | Hybrid SA arXiv 2507.09010 | https://arxiv.org/abs/2507.09010 | arXiv |
-| 33 | Rubin NVL72 VideoCardz | https://videocardz.com/newz/nvidia-vera-rubin-nvl72-detailed-72-gpus-36-cpus-260-tb-s-scale-up-bandwidth | News |
-| 34 | Rubin Production CES | https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure | News |
-| 35 | QAic vs GPU arXiv 2507.00418 | https://arxiv.org/abs/2507.00418 | arXiv |
-| 36 | Samsung HBM-PIM | https://semiconductor.samsung.com/news-events/tech-blog/hbm-pim-cutting-edge-memory-technology-to-accelerate-next-generation-ai/ | Vendor Blog |
-| 37 | HPIM arXiv 2509.12993 | https://arxiv.org/abs/2509.12993 | arXiv |
-| 38 | Optical AI ScienceDaily | https://www.sciencedaily.com/releases/2025/10/251027224833.htm | News |
-| 39 | UCIe Chiplet Revolution | https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/ | Tech Blog |
-| 40 | MLPerf Training v5.0 | https://mlcommons.org/2025/06/mlperf-training-v5-0-results/ | Benchmark |
-| 41 | MLPerf Inference v5.1 | https://mlcommons.org/2025/09/mlperf-inference-v5-1-results/ | Benchmark |
-| 42 | TSMC N3 180k Wafers | https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/ | Market Research |
-| 43 | HBM Shortage Tom's HW | https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond | News |
-| 44 | MoE Infrastructure | https://intuitionlabs.ai/articles/llm-inference-hardware-enterprise-guide | Tech Blog |
-| 45 | PD Disaggregation | https://groundy.com/articles/prefill-decode-disaggregation-the-architecture-shift-redefining-llm-serving-at-scale/ | Tech Blog |
-| 46 | SPAD arXiv 2510.08544 | https://arxiv.org/pdf/2510.08544 | arXiv |
-| 47 | Tenstorrent Wormhole | https://newsletter.semianalysis.com/p/tenstorrent-wormhole-analysis-a-scale | Analyst |
-| 48 | CXL Memory Expansion | https://introl.com/blog/cxl-memory-expansion-pooling-disaggregated-memory-ai-data-center-2025 | Tech Blog |
-| 49 | RISC-V AI Revolution | https://markets.financialcontent.com/wral/article/tokenring-2025-11-6-risc-v-the-open-source-revolution-reshaping-ai-hardware-innovation | News |
-| 50 | DC Energy 2026 | https://presenc.ai/research/ai-data-center-energy-consumption-2026 | Market Research |
-| 51 | Intelligence Per Watt | https://hazyresearch.stanford.edu/blog/2025-11-11-ipw | Research Blog |
-| 52 | ML HW Efficiency | https://epoch.ai/data-insights/ml-hardware-energy-efficiency | Research |
-| 53 | LLM Inference Arch Survey | https://arxiv.org/pdf/2506.00008 | arXiv |
-| 54 | AxLLM arXiv 2509.22512 | https://arxiv.org/abs/2509.22512 | arXiv |
-| 55 | Microsoft Maia 200 | https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ | Vendor Blog |
-| 56 | Hot Chips 2024 Cerebras | https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf | Conference |
+| 1 | [TPU v5p Docs](https://docs.cloud.google.com/tpu/docs/v5p) | https://docs.cloud.google.com/tpu/docs/v5p | Official |
+| 2 | [Trillium Launch](https://cloud.google.com/blog/products/compute/introducing-trillium-6th-gen-tpus) | https://cloud.google.com/blog/products/compute/introducing-trillium-6th-gen-tpus | Vendor Blog |
+| 3 | [TPU 7-Gen Guide](https://introl.com/blog/google-tpu-architecture-complete-guide-7-generations) | https://introl.com/blog/google-tpu-architecture-complete-guide-7-generations | Tech Blog |
+| 4 | [Ironwood Announcement](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/) | https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ironwood-tpu-age-of-inference/ | Vendor Blog |
+| 5 | [TPU7x Docs](https://docs.cloud.google.com/tpu/docs/tpu7x) | https://docs.cloud.google.com/tpu/docs/tpu7x | Official |
+| 6 | [TPUv7 SemiAnalysis](https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the) | https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the | Analyst |
+| 7 | [Groq LPU Architecture](https://groq.com/lpu-architecture) | https://groq.com/lpu-architecture | Official |
+| 8 | [Groq in 2026 (Voiceflow)](https://www.voiceflow.com/blog/groq) | https://www.voiceflow.com/blog/groq | Tech Blog |
+| 9 | [Inside the LPU](https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed) | https://groq.com/blog/inside-the-lpu-deconstructing-groq-speed | Vendor Blog |
+| 10 | [LPU arXiv](https://arxiv.org/html/2408.07326v1) | https://arxiv.org/html/2408.07326v1 | arXiv |
+| 11 | [WSE-3 Overview](https://awesomeagents.ai/hardware/cerebras-wse-3/) | https://awesomeagents.ai/hardware/cerebras-wse-3/ | Tech Blog |
+| 12 | [Cerebras Llama 405B PR](https://www.cerebras.ai/press-release/cerebras-inference-llama-405b) | https://www.cerebras.ai/press-release/cerebras-inference-llama-405b | Press Release |
+| 13 | [WSE vs GPU arXiv](https://arxiv.org/html/2503.11698v1) | https://arxiv.org/html/2503.11698v1 | arXiv |
+| 14 | [NVIDIA B200 Guide](https://www.runpod.io/articles/guides/nvidia-b200) | https://www.runpod.io/articles/guides/nvidia-b200 | Tech Blog |
+| 15 | [Blackwell Architecture](https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/) | https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/ | Official |
+| 16 | [Blackwell 3x Training](https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/) | https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/ | Vendor Blog |
+| 17 | [Trainium3 HPCwire](https://www.hpcwire.com/2025/12/02/aws-brings-the-trainium3-chip-to-market-with-new-ec2-ultraservers/) | https://www.hpcwire.com/2025/12/02/aws-brings-the-trainium3-chip-to-market-with-new-ec2-ultraservers/ | News |
+| 18 | [Trainium4 NextPlatform](https://www.nextplatform.com/2025/12/03/with-trainium4-aws-will-crank-up-everything-but-the-clocks/) | https://www.nextplatform.com/2025/12/03/with-trainium4-aws-will-crank-up-everything-but-the-clocks/ | Analyst |
+| 19 | [AMD MI355X Official](https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html) | https://www.amd.com/en/products/accelerators/instinct/mi350/mi355x.html | Official |
+| 20 | [ISSCC 2026 MI355X](https://www.tomshardware.com/tech-industry/semiconductors/inside-the-instinct-mi355x) | https://www.tomshardware.com/tech-industry/semiconductors/inside-the-instinct-mi355x | News |
+| 21 | [AMD MLPerf 6.0](https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html) | https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html | Vendor Blog |
+| 22 | [Gaudi 3 White Paper](https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf) | https://cdrdv2-public.intel.com/817486/gaudi-3-ai-accelerator-white-paper.pdf | Official |
+| 23 | [SambaNova RDU Medium](https://medium.com/@leosorge/sambanova-rdu-reconfigurable-architectures-for-inferencefor-inference-training-and-agentic-ai-5088b5ca400b) | https://medium.com/@leosorge/sambanova-rdu-reconfigurable-architectures-for-inferencefor-inference-training-and-agentic-ai-5088b5ca400b | Tech Blog |
+| 24 | [SN40L arXiv](https://arxiv.org/pdf/2405.07518) | https://arxiv.org/pdf/2405.07518 | arXiv |
+| 25 | [ISCA 2025 Proceedings](https://dblp.org/db/conf/isca/isca2025.html) | https://dblp.org/db/conf/isca/isca2025.html | Conference |
+| 26 | [HW Acceleration Survey arXiv 2512.23914](https://arxiv.org/abs/2512.23914) | https://arxiv.org/abs/2512.23914 | arXiv |
+| 27 | [Analog AI Market](https://www.precedenceresearch.com/analog-ai-chip-market) | https://www.precedenceresearch.com/analog-ai-chip-market | Market Research |
+| 28 | [IBM AIMC Blog](https://research.ibm.com/blog/how-can-analog-in-memory-computing-power-transformer-models) | https://research.ibm.com/blog/how-can-analog-in-memory-computing-power-transformer-models | Research Blog |
+| 29 | [ReRAM On-Chip AI arXiv 2502.04524](https://arxiv.org/pdf/2502.04524) | https://arxiv.org/pdf/2502.04524 | arXiv |
+| 30 | [NPU Buying Guide](https://www.newtechguy.com/ai-pc-buying-guide-2025-npu-tops-ratings-performance-benchmarks-and-what-actually-matters/) | https://www.newtechguy.com/ai-pc-buying-guide-2025-npu-tops-ratings-performance-benchmarks-and-what-actually-matters/ | Tech Blog |
+| 31 | [Mobile NPU LLM arXiv 2509.23324](https://arxiv.org/pdf/2509.23324) | https://arxiv.org/pdf/2509.23324 | arXiv |
+| 32 | [Hybrid SA arXiv 2507.09010](https://arxiv.org/abs/2507.09010) | https://arxiv.org/abs/2507.09010 | arXiv |
+| 33 | [Rubin NVL72 VideoCardz](https://videocardz.com/newz/nvidia-vera-rubin-nvl72-detailed-72-gpus-36-cpus-260-tb-s-scale-up-bandwidth) | https://videocardz.com/newz/nvidia-vera-rubin-nvl72-detailed-72-gpus-36-cpus-260-tb-s-scale-up-bandwidth | News |
+| 34 | [Rubin Production CES](https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure) | https://introl.com/blog/nvidia-rubin-full-production-ces-2026-ai-infrastructure | News |
+| 35 | [QAic vs GPU arXiv 2507.00418](https://arxiv.org/abs/2507.00418) | https://arxiv.org/abs/2507.00418 | arXiv |
+| 36 | [Samsung HBM-PIM](https://semiconductor.samsung.com/news-events/tech-blog/hbm-pim-cutting-edge-memory-technology-to-accelerate-next-generation-ai/) | https://semiconductor.samsung.com/news-events/tech-blog/hbm-pim-cutting-edge-memory-technology-to-accelerate-next-generation-ai/ | Vendor Blog |
+| 37 | [HPIM arXiv 2509.12993](https://arxiv.org/abs/2509.12993) | https://arxiv.org/abs/2509.12993 | arXiv |
+| 38 | [Optical AI ScienceDaily](https://www.sciencedaily.com/releases/2025/10/251027224833.htm) | https://www.sciencedaily.com/releases/2025/10/251027224833.htm | News |
+| 39 | [UCIe Chiplet Revolution](https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/) | https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/ | Tech Blog |
+| 40 | [MLPerf Training v5.0](https://mlcommons.org/2025/06/mlperf-training-v5-0-results/) | https://mlcommons.org/2025/06/mlperf-training-v5-0-results/ | Benchmark |
+| 41 | [MLPerf Inference v5.1](https://mlcommons.org/2025/09/mlperf-inference-v5-1-results/) | https://mlcommons.org/2025/09/mlperf-inference-v5-1-results/ | Benchmark |
+| 42 | [TSMC N3 180k Wafers](https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/) | https://www.trendforce.com/news/2026/04/27/news-tsmc-3nm-monthly-capacity-may-hit-180k-wafers-by-2026-up-over-40-yoy-on-ai-demand/ | Market Research |
+| 43 | [HBM Shortage Tom's HW](https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond) | https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond | News |
+| 44 | [MoE Infrastructure](https://intuitionlabs.ai/articles/llm-inference-hardware-enterprise-guide) | https://intuitionlabs.ai/articles/llm-inference-hardware-enterprise-guide | Tech Blog |
+| 45 | [PD Disaggregation](https://groundy.com/articles/prefill-decode-disaggregation-the-architecture-shift-redefining-llm-serving-at-scale/) | https://groundy.com/articles/prefill-decode-disaggregation-the-architecture-shift-redefining-llm-serving-at-scale/ | Tech Blog |
+| 46 | [SPAD arXiv 2510.08544](https://arxiv.org/pdf/2510.08544) | https://arxiv.org/pdf/2510.08544 | arXiv |
+| 47 | [Tenstorrent Wormhole](https://newsletter.semianalysis.com/p/tenstorrent-wormhole-analysis-a-scale) | https://newsletter.semianalysis.com/p/tenstorrent-wormhole-analysis-a-scale | Analyst |
+| 48 | [CXL Memory Expansion](https://introl.com/blog/cxl-memory-expansion-pooling-disaggregated-memory-ai-data-center-2025) | https://introl.com/blog/cxl-memory-expansion-pooling-disaggregated-memory-ai-data-center-2025 | Tech Blog |
+| 49 | [RISC-V AI Revolution](https://markets.financialcontent.com/wral/article/tokenring-2025-11-6-risc-v-the-open-source-revolution-reshaping-ai-hardware-innovation) | https://markets.financialcontent.com/wral/article/tokenring-2025-11-6-risc-v-the-open-source-revolution-reshaping-ai-hardware-innovation | News |
+| 50 | [DC Energy 2026](https://presenc.ai/research/ai-data-center-energy-consumption-2026) | https://presenc.ai/research/ai-data-center-energy-consumption-2026 | Market Research |
+| 51 | [Intelligence Per Watt](https://hazyresearch.stanford.edu/blog/2025-11-11-ipw) | https://hazyresearch.stanford.edu/blog/2025-11-11-ipw | Research Blog |
+| 52 | [ML HW Efficiency](https://epoch.ai/data-insights/ml-hardware-energy-efficiency) | https://epoch.ai/data-insights/ml-hardware-energy-efficiency | Research |
+| 53 | [LLM Inference Arch Survey](https://arxiv.org/pdf/2506.00008) | https://arxiv.org/pdf/2506.00008 | arXiv |
+| 54 | [AxLLM arXiv 2509.22512](https://arxiv.org/abs/2509.22512) | https://arxiv.org/abs/2509.22512 | arXiv |
+| 55 | [Microsoft Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/) | https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ | Vendor Blog |
+| 56 | [Hot Chips 2024 Cerebras](https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf) | https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf | Conference |
 
 ---
 

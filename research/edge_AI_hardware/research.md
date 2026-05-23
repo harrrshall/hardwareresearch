@@ -475,60 +475,60 @@ The field has largely solved inference at the extremes: sub-10mW for tinyML (Eth
 
 | ID | Title | Venue | Year | URL |
 |----|-------|-------|------|-----|
-| 3 | Fast On-device LLM Inference with NPUs | ASPLOS '25 | 2025 | https://dl.acm.org/doi/10.1145/3669940.3707239 |
-| 5 | Scaling LLM Test-Time Compute with Mobile NPU | EuroSys '26 | 2026 | https://dl.acm.org/doi/10.1145/3767295.3769382 |
-| 26 | Sustainable LLM Inference for Edge AI | ACM ToIoT | 2025 | https://dl.acm.org/doi/10.1145/3767742 |
+| 3 | [Fast On-device LLM Inference with NPUs](https://dl.acm.org/doi/10.1145/3669940.3707239) | ASPLOS '25 | 2025 | https://dl.acm.org/doi/10.1145/3669940.3707239 |
+| 5 | [Scaling LLM Test-Time Compute with Mobile NPU](https://dl.acm.org/doi/10.1145/3767295.3769382) | EuroSys '26 | 2026 | https://dl.acm.org/doi/10.1145/3767295.3769382 |
+| 26 | [Sustainable LLM Inference for Edge AI](https://dl.acm.org/doi/10.1145/3767742) | ACM ToIoT | 2025 | https://dl.acm.org/doi/10.1145/3767742 |
 
 ### arXiv Preprints
 
 | ID | Title | arXiv ID | Date |
 |----|-------|----------|------|
-| 4 | Fast On-device LLM Inference with NPUs | 2407.05858 | 2025 |
-| 6 | LLM Inference at the Edge: Trade-offs | 2603.23640 | 2026-03 |
+| 4 | [Fast On-device LLM Inference with NPUs](https://arxiv.org/pdf/2407.05858) | 2407.05858 | 2025 |
+| 6 | [LLM Inference at the Edge: Trade-offs](https://arxiv.org/abs/2603.23640) | 2603.23640 | 2026-03 |
 | 10 | Orion: Apple ANE Characterization | 2603.06728 | 2026-03 |
-| 11 | Chiplet-Based RISC-V SoC | 2509.18355 | 2025-09 |
-| 27 | EntroLLM: Entropy Weight Compression | 2505.02380 | 2025-05 |
+| 11 | [Chiplet-Based RISC-V SoC](https://arxiv.org/abs/2509.18355) | 2509.18355 | 2025-09 |
+| 27 | [EntroLLM: Entropy Weight Compression](https://arxiv.org/abs/2505.02380) | 2505.02380 | 2025-05 |
 | 38 | NPU-Accelerated MCU Energy Efficiency | 2509.17533 | 2025-09 |
-| 39 | Benchmarking Ultra-Low-Power μNPUs | 2503.22567 | 2025-03 |
+| 39 | [Benchmarking Ultra-Low-Power μNPUs](https://arxiv.org/abs/2503.22567) | 2503.22567 | 2025-03 |
 | 40 | eIQ Neutron NPU (NXP) | 2509.14388 | 2025-09 |
-| 43 | SparseDVFS: Sparse-Aware DVFS | 2603.21908 | 2026-03 |
-| 50 | Benchmarking Energy and Latency in TinyML | 2505.15622 | 2025-05 |
-| 51 | Efficient MoE LLM on Apple NPUs | 2604.18788 | 2026-04 |
+| 43 | [SparseDVFS: Sparse-Aware DVFS](https://arxiv.org/abs/2603.21908) | 2603.21908 | 2026-03 |
+| 50 | [Benchmarking Energy and Latency in TinyML](https://arxiv.org/abs/2505.15622) | 2505.15622 | 2025-05 |
+| 51 | [Efficient MoE LLM on Apple NPUs](https://arxiv.org/abs/2604.18788) | 2604.18788 | 2026-04 |
 | 52 | CPU vs GPU for On-Device LLM | 2505.06461 | 2025-05 |
-| 53 | Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated SBCs | 2604.24785 | 2026-04 |
+| 53 | [Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated SBCs](https://arxiv.org/html/2604.24785v1) | 2604.24785 | 2026-04 |
 
 ### Vendor Announcements and Industry Sources
 
 | ID | Title | Source | Date | URL |
 |----|-------|--------|------|-----|
-| 12 | Apple M5 Announcement | Apple Newsroom | 2025-10 | https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/ |
-| 13 | Apple M5 Pro/Max Announcement | Apple Newsroom | 2026-03 | https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/ |
-| 14 | Snapdragon 8 Elite Gen 5 | Qualcomm | 2025-09 | https://www.qualcomm.com/news/releases/2025/09/snapdragon-8-elite-gen-5--the-world-s-fastest-mobile-system-on-a |
-| 16 | Dimensity 9400+ Launch | MediaTek | 2025-04 | https://www.mediatek.com/press-room/mediatek-enhances-flagship-ai-performance-with-dimensity-9400-mobile-platform |
-| 18 | Exynos 2500 | Samsung Semiconductor | 2025-06 | https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/ |
-| 19 | Exynos 2600 | Samsung Semiconductor | 2025-12 | https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/ |
-| 20 | Tensor G5 | Nanoreview | 2025-08 | https://nanoreview.net/en/soc/google-tensor-g5 |
-| 33 | Hailo-10H | Hailo AI | 2025-07 | https://hailo.ai/ |
-| 34 | Axelera Metis | Axelera AI | 2025 | https://axelera.ai/ai-accelerators/aipu/metis |
-| 35 | Axelera Europa | Axelera AI | 2025-10 | https://axelera.ai/news/axelera-announces-europa-aipu-setting-new-industry-benchmark-for-ai-accelerator-performance-power-efficiency-and-affordability |
-| 36 | Arm Ethos-U85 | Arm | 2025 | https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u85 |
-| 37 | Alif Ensemble E4/E6/E8 | CNX Software | 2025-08 | https://www.cnx-software.com/2025/08/13/alif-ensemble-e4-e6-and-e8-cortex-m55-a32-mcus-and-mpus-feature-ethos-u85-npu-for-small-language-models-slm/ |
-| 41 | Ambiq Atomiq | Ambiq | 2026-01 | https://ambiq.com/news/ambiq-unveils-atomiq-the-worlds-first-ultra-low-power-npu-soc-built-on-spot/ |
-| 44 | TSMC N2 Production | SemiWiki | 2025-Q4 | https://semiwiki.com/forum/threads/tsmcs-2nm-chips-the-results-are-out.24329/ |
-| 45 | Samsung Exynos 2600 2nm | GSMArena | 2025-12 | https://www.gsmarena.com/samsung_announces_exynos_2600_the_worlds_first_2nm_mobile_chip-news-70790.php |
-| 48 | ExecuTorch Production Report | Meta Engineering | 2025-07 | https://engineering.fb.com/2025/07/28/android/executorch-on-device-ml-meta-family-of-apps/ |
+| 12 | [Apple M5 Announcement](https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/) | Apple Newsroom | 2025-10 | https://www.apple.com/newsroom/2025/10/apple-unleashes-m5-the-next-big-leap-in-ai-performance-for-apple-silicon/ |
+| 13 | [Apple M5 Pro/Max Announcement](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/) | Apple Newsroom | 2026-03 | https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/ |
+| 14 | [Snapdragon 8 Elite Gen 5](https://www.qualcomm.com/news/releases/2025/09/snapdragon-8-elite-gen-5--the-world-s-fastest-mobile-system-on-a) | Qualcomm | 2025-09 | https://www.qualcomm.com/news/releases/2025/09/snapdragon-8-elite-gen-5--the-world-s-fastest-mobile-system-on-a |
+| 16 | [Dimensity 9400+ Launch](https://www.mediatek.com/press-room/mediatek-enhances-flagship-ai-performance-with-dimensity-9400-mobile-platform) | MediaTek | 2025-04 | https://www.mediatek.com/press-room/mediatek-enhances-flagship-ai-performance-with-dimensity-9400-mobile-platform |
+| 18 | [Exynos 2500](https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/) | Samsung Semiconductor | 2025-06 | https://semiconductor.samsung.com/processor/mobile-processor/exynos-2500/ |
+| 19 | [Exynos 2600](https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/) | Samsung Semiconductor | 2025-12 | https://semiconductor.samsung.com/processor/mobile-processor/exynos-2600/ |
+| 20 | [Tensor G5](https://nanoreview.net/en/soc/google-tensor-g5) | Nanoreview | 2025-08 | https://nanoreview.net/en/soc/google-tensor-g5 |
+| 33 | [Hailo-10H](https://hailo.ai/) | Hailo AI | 2025-07 | https://hailo.ai/ |
+| 34 | [Axelera Metis](https://axelera.ai/ai-accelerators/aipu/metis) | Axelera AI | 2025 | https://axelera.ai/ai-accelerators/aipu/metis |
+| 35 | [Axelera Europa](https://axelera.ai/news/axelera-announces-europa-aipu-setting-new-industry-benchmark-for-ai-accelerator-performance-power-efficiency-and-affordability) | Axelera AI | 2025-10 | https://axelera.ai/news/axelera-announces-europa-aipu-setting-new-industry-benchmark-for-ai-accelerator-performance-power-efficiency-and-affordability |
+| 36 | [Arm Ethos-U85](https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u85) | Arm | 2025 | https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u85 |
+| 37 | [Alif Ensemble E4/E6/E8](https://www.cnx-software.com/2025/08/13/alif-ensemble-e4-e6-and-e8-cortex-m55-a32-mcus-and-mpus-feature-ethos-u85-npu-for-small-language-models-slm/) | CNX Software | 2025-08 | https://www.cnx-software.com/2025/08/13/alif-ensemble-e4-e6-and-e8-cortex-m55-a32-mcus-and-mpus-feature-ethos-u85-npu-for-small-language-models-slm/ |
+| 41 | [Ambiq Atomiq](https://ambiq.com/news/ambiq-unveils-atomiq-the-worlds-first-ultra-low-power-npu-soc-built-on-spot/) | Ambiq | 2026-01 | https://ambiq.com/news/ambiq-unveils-atomiq-the-worlds-first-ultra-low-power-npu-soc-built-on-spot/ |
+| 44 | [TSMC N2 Production](https://semiwiki.com/forum/threads/tsmcs-2nm-chips-the-results-are-out.24329/) | SemiWiki | 2025-Q4 | https://semiwiki.com/forum/threads/tsmcs-2nm-chips-the-results-are-out.24329/ |
+| 45 | [Samsung Exynos 2600 2nm](https://www.gsmarena.com/samsung_announces_exynos_2600_the_worlds_first_2nm_mobile_chip-news-70790.php) | GSMArena | 2025-12 | https://www.gsmarena.com/samsung_announces_exynos_2600_the_worlds_first_2nm_mobile_chip-news-70790.php |
+| 48 | [ExecuTorch Production Report](https://engineering.fb.com/2025/07/28/android/executorch-on-device-ml-meta-family-of-apps/) | Meta Engineering | 2025-07 | https://engineering.fb.com/2025/07/28/android/executorch-on-device-ml-meta-family-of-apps/ |
 
 ### Survey/Analysis Sources
 
 | ID | Title | Author/Org | URL |
 |----|-------|------------|-----|
-| 1 | On-Device LLMs: State of the Union, 2026 | Vikas Chandra (Meta AI) | https://v-chandra.github.io/on-device-llms/ |
-| 7 | On-Device LLMs in 2026 | Edge AI and Vision Alliance | https://www.edge-ai-vision.com/2026/01/on-device-llms-in-2026-what-changed-what-matters-whats-next/ |
-| 22 | Ultra-Low-Power MCUs in 2026 | Promwad | https://promwad.com/news/ultra-low-power-mcus-in-2026-ai-tinyml |
-| 23 | MLPerf Tiny v1.3 Results | MLCommons | https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/ |
-| 29 | RISC-V AI 129M Shipments | Design Reuse | https://www.design-reuse.com/news/15598-risc-v-processors-addressing-edge-ai-devices-to-reach-129-million-shipments-by-2030-/ |
-| 32 | GreenWaves GAP9 | Design Reuse / GlobalFoundries | https://gf.com/gf-press-release/greenwaves-technologies-announces-next-generation-gap9-hearables-platform-using/ |
-| 49 | Edge Mobile LLM Leaderboard 2026 | Awesome Agents | https://awesomeagents.ai/leaderboards/edge-mobile-llm-leaderboard/ |
+| 1 | [On-Device LLMs: State of the Union, 2026](https://v-chandra.github.io/on-device-llms/) | Vikas Chandra (Meta AI) | https://v-chandra.github.io/on-device-llms/ |
+| 7 | [On-Device LLMs in 2026](https://www.edge-ai-vision.com/2026/01/on-device-llms-in-2026-what-changed-what-matters-whats-next/) | Edge AI and Vision Alliance | https://www.edge-ai-vision.com/2026/01/on-device-llms-in-2026-what-changed-what-matters-whats-next/ |
+| 22 | [Ultra-Low-Power MCUs in 2026](https://promwad.com/news/ultra-low-power-mcus-in-2026-ai-tinyml) | Promwad | https://promwad.com/news/ultra-low-power-mcus-in-2026-ai-tinyml |
+| 23 | [MLPerf Tiny v1.3 Results](https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/) | MLCommons | https://mlcommons.org/2025/09/mlperf-tiny-v1-3-results/ |
+| 29 | [RISC-V AI 129M Shipments](https://www.design-reuse.com/news/15598-risc-v-processors-addressing-edge-ai-devices-to-reach-129-million-shipments-by-2030-/) | Design Reuse | https://www.design-reuse.com/news/15598-risc-v-processors-addressing-edge-ai-devices-to-reach-129-million-shipments-by-2030-/ |
+| 32 | [GreenWaves GAP9](https://gf.com/gf-press-release/greenwaves-technologies-announces-next-generation-gap9-hearables-platform-using/) | Design Reuse / GlobalFoundries | https://gf.com/gf-press-release/greenwaves-technologies-announces-next-generation-gap9-hearables-platform-using/ |
+| 49 | [Edge Mobile LLM Leaderboard 2026](https://awesomeagents.ai/leaderboards/edge-mobile-llm-leaderboard/) | Awesome Agents | https://awesomeagents.ai/leaderboards/edge-mobile-llm-leaderboard/ |
 
 ---
 

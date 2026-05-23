@@ -540,58 +540,58 @@ Qualcomm acquired Ventana in December 2025 for $2.4B. Ventana's Veyron V2 was al
 
 | ID | Title | Venue | Date | Tier |
 |----|-------|-------|------|------|
-| src-001 | Intel Arrow Lake Core Ultra 200S Launch | Tom's Hardware | 2024-10-24 | 3 |
-| src-002 | Arrow Lake Refresh Reviews | The FPS Review / multi | 2026-03-24 | 3 |
-| src-003 | Arrow Lake Refresh Official Announcement | Tom's Hardware | 2026-03-01 | 3 |
-| src-004 | AMD Zen 5 Architecture Deep Dive | Tom's Hardware / AMD | 2024-07-29 | 3 |
-| src-005 | Disabling Zen 5's Op Cache | Chips and Cheese | 2025-01-15 | 3 |
-| src-006 | Gaming Workloads Through Zen 5 | Chips and Cheese | 2025-08-02 | 3 |
-| src-007 | AMD EPYC Turin 9005 Benchmarks | Tom's Hardware | 2024-10-10 | 3 |
-| src-008 | EPYC 9965 vs AmpereOne | Phoronix | 2025-02-10 | 3 |
-| src-009 | Panther Lake Deep-Dive | Wccftech | 2026-01-05 | 3 |
-| src-010 | Panther Lake Launch Coverage | ServeTheHome | 2026-01-27 | 3 |
-| src-011 | Panther Lake at ITT 2025 | Chips and Cheese | 2025-09-20 | 3 |
-| src-012 | Cortex-X925 Desktop Performance | Chips and Cheese | 2024-08-05 | 3 |
-| src-013 | Cortex-X925 IPC Breakthrough | ARM Newsroom | 2024-05-31 | 4 |
-| src-014 | Qualcomm Acquires Ventana | The Register | 2025-12-10 | 3 |
-| src-015 | Ventana Veyron V2 Announcement | RISC-V International | 2025-03-15 | 3 |
-| src-016 | Condor Cuzco at Hot Chips 2025 | Chips and Cheese | 2025-08-29 | 3 |
-| src-017 | SiFive P570 Gen 3 | SiFive / BusinessWire | 2026-05-12 | 4 |
-| src-018 | Hot Chips 2025 CPU Session | Chips and Cheese | 2025-08-30 | 1 |
-| src-019 | IBM Power11 at Hot Chips 2025 | ServeTheHome | 2025-08-28 | 3 |
-| src-020 | IBM Power11 Official Launch | IBM Newsroom | 2025-07-08 | 4 |
-| src-021 | Intel Clearwater Forest at Hot Chips | Tom's Hardware | 2025-08-26 | 3 |
-| src-022 | Clearwater Forest MWC 2026 Launch | HotHardware | 2026-03-03 | 3 |
-| src-023 | AMD Ryzen 9 9950X3D Review | Tom's Hardware | 2025-03-05 | 3 |
-| src-024 | AMD 9950X3D2 Benchmark Leaks | Tom's Hardware | 2026-04-01 | 3 |
-| src-025 | Threadripper PRO 9000 Launch | AMD Corporate | 2025-07-23 | 4 |
-| src-026 | Apple M5 Pro/Max Official Announcement | Apple Newsroom | 2026-03-03 | 4 |
-| src-027 | M5 Max First Geekbench Results | MacRumors | 2026-03-05 | 3 |
-| src-028 | Apple M5 Fusion Architecture Analysis | TechCrunch | 2026-03-03 | 3 |
-| src-029 | Snapdragon X2 Elite Extreme Announcement | Tom's Hardware | 2025-11-15 | 3 |
-| src-030 | Snapdragon X2 Elite Extreme Review | Notebookcheck | 2026-04-10 | 3 |
-| src-031 | Intel CPU Roadmap 2025-2026 | Hardware Times | 2025-09-15 | 3 |
-| src-032 | Intel Nova Lake Confirmation | TechSpot | 2025-12-10 | 3 |
-| src-033 | JEDEC HBM4 / Micron DDR5 | Tom's Hardware | 2025-04-15 | 3 |
-| src-034 | UCIe 3.0 Ratification | Design-Reuse / PatSnap | 2025-08-20 | 3 |
-| src-035 | Intel 18A Foundry Progress | Tom's Hardware | 2026-01-30 | 3 |
-| src-036 | TSMC N2 Volume Production | TSMC Official | 2025-10-01 | 4 |
-| src-037 | AMD EPYC Turin HPC Performance | AMD Corporate | 2025-03-15 | 4 |
-| src-038 | AMD Zen 6 Confirmation | PC Gamer | 2025-11-01 | 3 |
-| src-039 | AVX10.2 Takum Arithmetic (arXiv) | arXiv cs.AR | 2025-03-18 | 2 |
-| src-040 | Intel Diamond Rapids Architecture | TechRadar | 2025-10-20 | 3 |
-| src-041 | AMD Zen 5 Hot Chips 2024 | Hot Chips 2024 | 2024-08-25 | 1 |
-| src-042 | SVE/SVE2 HPC Optimization | ARM Developer Labs | 2025-05-30 | 3 |
-| src-043 | Intel 18A Yields Analysis | Tom's Hardware | 2025-12-15 | 3 |
-| src-044 | Intel Panther Lake Official PR | Intel Investor Relations | 2026-01-05 | 4 |
-| src-045 | Hot Chips 2025 Day 1 Recap | 36Kr / DesignNews | 2025-08-25 | 3 |
-| src-046 | RISC-V 25% Market Share | FinancialContent | 2026-01-01 | 3 |
-| src-047 | AMD EPYC Google Cloud Deployment | AMD Corporate | 2026-02-10 | 4 |
-| src-048 | Intel Core 300 Panther Lake Details | HWCooling | 2026-01-07 | 3 |
-| src-049 | ISCA 2025 Proceedings | ACM SIGARCH / ISCA | 2025-06-22 | 1 |
-| src-050 | AMD Krackan Point APU | Foro3D | 2026-01-15 | 3 |
-| src-051 | Qualcomm Ventana Acquisition Analysis | The Chip Letter | 2026-01-05 | 3 |
-| src-052 | AMD Zen 6 Specification Leaks | Overclock3D | 2025-12-20 | 3 |
+| src-001 | [Intel Arrow Lake Core Ultra 200S Launch](https://www.tomshardware.com/pc-components/cpus/intel-launches-arrow-lake-core-ultra-200s-big-gains-in-productivity-and-power-efficiency-but-not-in-gaming) | Tom's Hardware | 2024-10-24 | 3 |
+| src-002 | [Arrow Lake Refresh Reviews](https://www.thefpsreview.com/2026/03/24/intel-core-ultra-200s-plus-reviews-are-in-arrow-lake-gets-its-redemption-arc/) | The FPS Review / multi | 2026-03-24 | 3 |
+| src-003 | [Arrow Lake Refresh Official Announcement](https://www.tomshardware.com/pc-components/cpus/intel-claims-arrow-lake-refresh-cpus-deliver-15-percent-higher-gaming-performance-and-multi-threaded-boost-core-ultra-7-270k-and-core-ultra-5-250k-come-with-more-cores-faster-memory-and-a-price-cut) | Tom's Hardware | 2026-03-01 | 3 |
+| src-004 | [AMD Zen 5 Architecture Deep Dive](https://www.tomshardware.com/pc-components/cpus/amd-deep-dives-zen-5-ryzen-9000-and-strix-point-cpu-rdna-35-gpu-and-xdna-2-architectures) | Tom's Hardware / AMD | 2024-07-29 | 3 |
+| src-005 | [Disabling Zen 5's Op Cache](https://chipsandcheese.com/p/disabling-zen-5s-op-cache-and-exploring) | Chips and Cheese | 2025-01-15 | 3 |
+| src-006 | [Gaming Workloads Through Zen 5](https://chipsandcheese.com/p/running-gaming-workloads-through) | Chips and Cheese | 2025-08-02 | 3 |
+| src-007 | [AMD EPYC Turin 9005 Benchmarks](https://www.tomshardware.com/pc-components/cpus/amd-launches-epyc-turin-9005-series-our-benchmarks-of-fifth-gen-zen-5-chips-with-up-to-192-cores-500w-tdp) | Tom's Hardware | 2024-10-10 | 3 |
+| src-008 | [EPYC 9965 vs AmpereOne](https://www.phoronix.com/review/amd-epyc-9965-ampereone/5) | Phoronix | 2025-02-10 | 3 |
+| src-009 | [Panther Lake Deep-Dive](https://wccftech.com/intel-panther-lake-deep-dive-18a-compute-tile-cougar-cove-p-cores-darkmont-e-cores/) | Wccftech | 2026-01-05 | 3 |
+| src-010 | [Panther Lake Launch Coverage](https://www.servethehome.com/intel-launches-core-ultra-series-3-mobile-processors-panther-lake-roars-to-life/) | ServeTheHome | 2026-01-27 | 3 |
+| src-011 | [Panther Lake at ITT 2025](https://chipsandcheese.com/p/panther-lakes-reveal-at-itt-2025) | Chips and Cheese | 2025-09-20 | 3 |
+| src-012 | [Cortex-X925 Desktop Performance](https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop) | Chips and Cheese | 2024-08-05 | 3 |
+| src-013 | [Cortex-X925 IPC Breakthrough](https://newsroom.arm.com/blog/armv9-cortex-x925-cpu-performance) | ARM Newsroom | 2024-05-31 | 4 |
+| src-014 | [Qualcomm Acquires Ventana](https://www.theregister.com/2025/12/10/qualcomm_riscv_arm_ventana) | The Register | 2025-12-10 | 3 |
+| src-015 | [Ventana Veyron V2 Announcement](https://riscv.org/blog/ventana-introduces-veyron-v2-worlds-highest-performance-data-center-class-risc-v-processor-and-platform/) | RISC-V International | 2025-03-15 | 3 |
+| src-016 | [Condor Cuzco at Hot Chips 2025](https://chipsandcheese.com/p/condors-cuzco-risc-v-core-at-hot) | Chips and Cheese | 2025-08-29 | 3 |
+| src-017 | [SiFive P570 Gen 3](https://www.sifive.com/press/sifive-sets-new-bar-for-high-performance-risc-v-with-third-generation-performance-p550-and-p570-ip) | SiFive / BusinessWire | 2026-05-12 | 4 |
+| src-018 | [Hot Chips 2025 CPU Session](https://chipsandcheese.com/p/hot-chips-2025-session-1-cpus) | Chips and Cheese | 2025-08-30 | 1 |
+| src-019 | [IBM Power11 at Hot Chips 2025](https://www.servethehome.com/ibms-power11-processor-architecture-at-hot-chips-2025/) | ServeTheHome | 2025-08-28 | 3 |
+| src-020 | [IBM Power11 Official Launch](https://newsroom.ibm.com/2025-07-08-ibm-power11-raises-the-bar-for-enterprise-it) | IBM Newsroom | 2025-07-08 | 4 |
+| src-021 | [Intel Clearwater Forest at Hot Chips](https://www.tomshardware.com/desktops/servers/intel-reveals-288-core-xeon) | Tom's Hardware | 2025-08-26 | 3 |
+| src-022 | [Clearwater Forest MWC 2026 Launch](https://hothardware.com/news/intel-clearwater-forest-xeon-6-plus-launch) | HotHardware | 2026-03-03 | 3 |
+| src-023 | [AMD Ryzen 9 9950X3D Review](https://www.tomshardware.com/pc-components/cpus/amd-ryzen-9-9950x3d-review) | Tom's Hardware | 2025-03-05 | 3 |
+| src-024 | [AMD 9950X3D2 Benchmark Leaks](https://www.tomshardware.com/pc-components/cpus/amds-dual-cache-ryzen-9-9950x3d2-appears-in-first-benchmark-leaks-gaming-focused-cpu-features-192mb-of-l3-cache-stacked-across-both-ccds) | Tom's Hardware | 2026-04-01 | 3 |
+| src-025 | [Threadripper PRO 9000 Launch](https://www.amd.com/en/blogs/2025/amd-introduces-new-zen-5-based-ryzen-threadripper-pro.html) | AMD Corporate | 2025-07-23 | 4 |
+| src-026 | [Apple M5 Pro/Max Official Announcement](https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/) | Apple Newsroom | 2026-03-03 | 4 |
+| src-027 | [M5 Max First Geekbench Results](https://www.macrumors.com/2026/03/05/m5-max-geekbench-benchmarks/) | MacRumors | 2026-03-05 | 3 |
+| src-028 | [Apple M5 Fusion Architecture Analysis](https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/) | TechCrunch | 2026-03-03 | 3 |
+| src-029 | [Snapdragon X2 Elite Extreme Announcement](https://www.tomshardware.com/pc-components/cpus/qualcomms-new-snapdragon-x2-elite-extreme-and-elite-chips-for-pcs-stretch-up-to-a-record-5-ghz-3nm-arm-chips-sport-new-oryon-prime-cores) | Tom's Hardware | 2025-11-15 | 3 |
+| src-030 | [Snapdragon X2 Elite Extreme Review](https://www.notebookcheck.net/Qualcomm-Snapdragon-X2-Elite-Extreme-Analysis-Benchmarks-Efficiency-Serious-rival-for-Apple-and-a-problem-for-AMD-Intel.1266974.0.html) | Notebookcheck | 2026-04-10 | 3 |
+| src-031 | [Intel CPU Roadmap 2025-2026](https://hardwaretimes.com/intel-cpu-roadmap-2025-2026-arrow-lake-refresh-panther-lake-nova-lake/) | Hardware Times | 2025-09-15 | 3 |
+| src-032 | [Intel Nova Lake Confirmation](https://www.techspot.com/news/109998-intel-confirms-nova-lake-cpu-launch-2026-up.html) | TechSpot | 2025-12-10 | 3 |
+| src-033 | [JEDEC HBM4 / Micron DDR5](https://www.tomshardware.com/pc-components/ddr5/micron-plans-hbm4e-in-2028-256gb-ddr5-12800-ram-sticks-in-2026) | Tom's Hardware | 2025-04-15 | 3 |
+| src-034 | [UCIe 3.0 Ratification](https://www.design-reuse.com/news/202529865-the-chiplet-revolution-how-advanced-packaging-and-ucie-are-redefining-ai-hardware-in-2025/) | Design-Reuse / PatSnap | 2025-08-20 | 3 |
+| src-035 | [Intel 18A Foundry Progress](https://www.tomshardware.com/tech-industry/semiconductors/intel-ceo-recognizes-its-18a-node-for-external-customers-as-18a-p-gets-inbound-interest-company-cites-increasing-yields) | Tom's Hardware | 2026-01-30 | 3 |
+| src-036 | [TSMC N2 Volume Production](https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm) | TSMC Official | 2025-10-01 | 4 |
+| src-037 | [AMD EPYC Turin HPC Performance](https://www.amd.com/en/blogs/2025/leadership-hpc-performance-with-5th-generation-amd.html) | AMD Corporate | 2025-03-15 | 4 |
+| src-038 | [AMD Zen 6 Confirmation](https://www.pcgamer.com/hardware/processors/amd-confirms-next-gen-zen-6-cpus-to-launch-in-2026-and-medusa-apus-to-launch-in-2027/) | PC Gamer | 2025-11-01 | 3 |
+| src-039 | [AVX10.2 Takum Arithmetic (arXiv)](https://arxiv.org/abs/2503.14067) | arXiv cs.AR | 2025-03-18 | 2 |
+| src-040 | [Intel Diamond Rapids Architecture](https://www.techradar.com/pro/want-a-quad-socket-server-with-768-cores-sure-intels-192-core-diamond-rapids-xeon-cpu-will-deliver-that-in-2026-but-i-wonder-whether-it-will-be-too-little-too-late) | TechRadar | 2025-10-20 | 3 |
+| src-041 | [AMD Zen 5 Hot Chips 2024](https://hc2024.hotchips.org/assets/program/conference/day2/24_HC2024.AMD.Cohen.Subramony.final.pdf) | Hot Chips 2024 | 2024-08-25 | 1 |
+| src-042 | [SVE/SVE2 HPC Optimization](https://arm-university.github.io/Arm-Developer-Labs/2025/05/30/HPC-Algorithm.html) | ARM Developer Labs | 2025-05-30 | 3 |
+| src-043 | [Intel 18A Yields Analysis](https://www.tomshardware.com/pc-components/cpus/intels-pivotal-18a-process-is-making-steady-progress-but-still-lags-behind-yields-only-set-to-reach-industry-standard-levels-in-2027) | Tom's Hardware | 2025-12-15 | 3 |
+| src-044 | [Intel Panther Lake Official PR](https://www.intc.com/news-events/press-releases/detail/1752/intel-unveils-panther-lake-architecture-first-ai-pc) | Intel Investor Relations | 2026-01-05 | 4 |
+| src-045 | [Hot Chips 2025 Day 1 Recap](https://eu.36kr.com/en/p/3438999767584390) | 36Kr / DesignNews | 2025-08-25 | 3 |
+| src-046 | [RISC-V 25% Market Share](https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-open-silicon-revolution-risc-v-hits-25-global-market-share-as-the-third-pillar-of-computing) | FinancialContent | 2026-01-01 | 3 |
+| src-047 | [AMD EPYC Google Cloud Deployment](https://www.amd.com/en/blogs/2026/5th-gen-amd-epyc-cpus-the-engine-behind-google-clouds.html) | AMD Corporate | 2026-02-10 | 4 |
+| src-048 | [Intel Core 300 Panther Lake Details](https://www.hwcooling.net/en/intel-core-300-cpus-unveiled-details-and-features-of-panther-lake/) | HWCooling | 2026-01-07 | 3 |
+| src-049 | [ISCA 2025 Proceedings](https://dl.acm.org/doi/proceedings/10.1145/3695053) | ACM SIGARCH / ISCA | 2025-06-22 | 1 |
+| src-050 | [AMD Krackan Point APU](https://foro3d.com/en/2026/january/amd-krackan-point-with-zen-5-and-rdna-35-revolutionizes-desktop-apus-for-2025.html) | Foro3D | 2026-01-15 | 3 |
+| src-051 | [Qualcomm Ventana Acquisition Analysis](https://thechipletter.substack.com/p/qualcomms-risc-ventana-fusion) | The Chip Letter | 2026-01-05 | 3 |
+| src-052 | [AMD Zen 6 Specification Leaks](https://overclock3d.net/news/cpu_mainboard/amd-zen-6-cpu-specifications-leaks-big-boost-unveiled/) | Overclock3D | 2025-12-20 | 3 |
 
 ---
 

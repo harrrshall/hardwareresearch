@@ -561,63 +561,63 @@ This represents the next architectural discontinuity after CPO.
 
 | # | Title | URL | Date | Theme |
 |---|---|---|---|---|
-| 1 | UCIe 3.0 Specification | https://www.uciexpress.org/post/ucie-3-0-specification-redefining-chiplet-interconnects | 2025-08-05 | UCIe |
-| 2 | UCIe 3.0 BusinessWire | https://www.businesswire.com/news/home/20250805909613/en/UCIe-Consortium-Introduces-3.0-Specification-With-64-GTs-Performance-and-Enhanced-Manageability | 2025-08-05 | UCIe |
-| 3 | UCIe 3.0 StorageNewsletter | https://www.storagenewsletter.com/2025/08/07/fms-2025-ucie-consortium-introduces-3-0-specification-with-64gt-s-performance-and-enhanced-manageability/ | 2025-08-07 | UCIe |
-| 4 | UCIe 3.0 ServeTheHome | https://www.servethehome.com/ucie-3-0-spec-released-with-big-speed-up-for-chiplets/ | 2025-08-07 | UCIe |
-| 5 | Ayar TeraPHY UCIe Chiplet | https://www.businesswire.com/news/home/20250331044779/en/Ayar-Labs-Unveils-Worlds-First-UCIe-Optical-Chiplet-for-AI-Scale-Up-Architectures | 2025-03-31 | UCIe, optical |
-| 6 | NVLink Scale-Up 2025 | https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025 | 2025 | NVLink |
-| 7 | GB200 NADDOD Analysis | https://www.naddod.com/blog/nvidia-gb200-interconnect-architecture-analysis-nvlink-infiniband-and-future-trends | 2025 | NVLink |
-| 8 | GB200 NVL72 Official | https://www.nvidia.com/en-us/data-center/gb200-nvl72/ | 2025 | NVLink |
-| 9 | Rubin CES 2026 | https://www.servethehome.com/nvidia-launches-next-generation-rubin-ai-compute-platform-at-ces-2026/ | 2026-01 | NVLink |
-| 10 | Rubin Platform Technical | https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/ | 2026-01 | NVLink |
-| 11 | PCIe 7.0 Final | https://overclock3d.net/news/misc/pcie-7-0-has-arrived-and-pcie-8-0-is-already-in-progress/ | 2025-06 | PCIe |
-| 12 | PCIe 6.0 Launch | https://www.pcworld.com/article/2805679/pci-express-6-products-might-finally-ship-in-2025.html | 2025 | PCIe |
-| 13 | Microchip Switchtec Gen 6 | https://www.microchip.com/en-us/about/news-releases/products/microchip-unveils-first-3-nm-pcie--gen-6-switch-to-power-modern | 2025-10-13 | PCIe |
-| 14 | PCIe 6/7 Compliance Delays | https://www.tomshardware.com/tech-industry/pcie-60-and-70-standards-hit-a-roadblock-compliance-slowdown-could-lead-to-broader-delays | 2025 | PCIe |
-| 15 | CXL 4.0 BusinessWire | https://www.businesswire.com/news/home/20251118275848/en/CXL-Consortium-Releases-the-Compute-Express-Link-4.0-Specification-Increasing-Speed-and-Bandwidth | 2025-11-18 | CXL |
-| 16 | CXL 4.0 Blocks & Files | https://blocksandfiles.com/2025/11/24/cxl-4/ | 2025-11-24 | CXL |
-| 17 | CXL 3.0 Production 2026 | https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/ | 2025-12 | CXL |
-| 18 | CXL FMS 2025 | https://computeexpresslink.org/blog/expanding-your-memory-footprint-with-cxl-at-fms-2025-4133/ | 2025-08 | CXL |
-| 19 | Marvell Structera S | https://investor.marvell.com/news-events/press-releases/detail/1017/marvell-launches-next-generation-cxl-switch-enabling-memory-pooling-to-break-through-the-ai-memory-wall | 2026-03 | CXL |
-| 20 | ISSCC 2026 Optical Router | https://www.electronicsweekly.com/news/business/isscc-2026-02/ | 2026-02 | optical |
-| 21 | Celestial AI Hot Chips 2025 | https://www.servethehome.com/celestial-ai-photonic-fabric-module-at-hot-chips-2025/ | 2025-08 | optical |
-| 22 | Celestial AI TSMC 5nm | https://monthly-pulse.com/2025/12/16/breaking-the-bandwidth-barrier-enabling-celestial-ais-photonic-fabric-with-custom-esd-ip-on-tsmcs-5nm-platform/ | 2025-12 | optical |
-| 23 | Marvell/Celestial AI Acquisition | https://optics.org/news/16/11/47 | 2025-11 | optical |
-| 24 | NVIDIA CPO Scale-Up | https://optics.org/news/16/3/26 | 2025-03 | optical |
-| 25 | Spectrum-X Silicon Photonics | https://www.tweaktown.com/news/107372/nvidias-new-spectrum-x-ethernet-silicon-photonics-enters-the-chat-a-game-changer-for-ai/index.html | 2025-03 | optical |
-| 26 | NVIDIA Silicon Photonics Roadmap | https://www.hpcwire.com/2026/04/20/inside-nvidias-silicon-photonics-roadmap/ | 2026-04 | optical |
-| 27 | InfiniBand NDR/XDR | https://ascentoptics.com/blog/infiniband-ndr-xdr-for-ai-and-hpc-data-centers/ | 2025 | IB |
-| 28 | XDR 800G Spec | https://www.fibermall.com/news/ibta-launches-xdr-800g-infiniband-spec.htm | 2025 | IB |
-| 29 | InfiniBand Roadmap | https://www.infinibandta.org/infiniband-roadmap-charting-speeds-for-future-needs/ | 2025 | IB |
-| 30 | Tomahawk 6 Shipping | https://www.broadcom.com/company/news/product-releases/63146 | 2026-03-12 | switch |
-| 31 | Cisco G300 | https://www.theregister.com/2026/02/10/cisco_challenges_broadcom_nvidia_switch_chips/ | 2026-02-10 | switch |
-| 32 | Marvell Teralynx 10 | https://www.marvell.com/company/newsroom/marvell-teralynx-512t-ethernet-switch-enters-volume-production-for-global-ai-cloud-deployments.html | 2025 | switch |
-| 33 | 102.4T Race | https://www.nextplatform.com/2025/06/03/the-ai-datacenter-is-ravenous-for-102-4-tb-sec-ethernet/ | 2025-06 | switch |
-| 34 | AMD IF Hot Chips 2025 | https://convergedigest.com/hot-chips-2025-amd-boosts-infinity-fabric/ | 2025-08 | AMD IF |
-| 35 | MI350X Datasheet | https://www.koicomputers.com/wp-content/uploads/2025/08/amd-instinct-mi350x-gpu-datasheet.pdf | 2025-08 | AMD IF |
-| 36 | AMD MI400 Roadmap | https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256 | 2026-01 | AMD IF |
-| 37 | UALink 200G 1.0 Spec | https://ualinkconsortium.org/wp-content/uploads/2025/04/UALink-1.0-White_Paper_FINAL.pdf | 2025-04 | UALink |
-| 38 | UALink Silicon Timeline | https://www.hpcwire.com/2025/12/02/upscale-ai-eyes-late-2026-for-scale-up-ualink-switch/ | 2025-12 | UALink |
-| 39 | UEC 1.0 Official | https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/ | 2025-06-11 | UEC |
-| 40 | UEC vs UALink Analysis | https://semianalysis.com/2025/06/11/the-new-ai-networks-ultra-ethernet-uec-ualink-vs-broadcom-scale-up-ethernet-sue/ | 2025-06-11 | UEC |
-| 41 | Google Ironwood ICI | https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack | 2025-05 | TPU |
-| 42 | AWS Trainium3 | https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ | 2025-12 | AWS |
-| 43 | OFC 2025 Optical AI | https://nand-research.com/ofc-2025-optical-interconnects-take-center-stage-in-the-ai-first-data-center/ | 2025-03 | optical |
-| 44 | Broadcom OFC 2025 | https://investors.broadcom.com/news-releases/news-release-details/broadcom-advances-optical-connectivity-ai-infrastructure | 2025-03 | optical |
-| 45 | CPO Market 2026 | https://adtek-fiber.com/co-packaged-optics-cpo-market-trends-2026-ai-data-center-optical-interconnect-evolution/ | 2026 | optical |
-| 46 | CPO 5 Trends 2026 | https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/ | 2026-02 | optical |
-| 47 | CPO Status 2026 | https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/ | 2026 | optical |
-| 48 | OIF CEI-224G | https://www.oiforum.com/technical-work/hot-topics/common-electrical-i-o-cei-224g/ | 2025 | SerDes |
-| 49 | 224G SerDes Trend | https://semiengineering.com/224g-serdes-trend-and-solution/ | 2025 | SerDes |
-| 50 | Intel EMIB-T | https://institutionofelectronics.ac.uk/intel-ups-the-advanced-packaging-ante-with-emib-t/ | 2025-11 | pkg |
-| 51 | TSMC CoWoS Capacity | https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/ | 2025-12 | pkg |
-| 52 | HBM4 Production | https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/ | 2026-02 | HBM |
-| 53 | OCP Summit 2025 | https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/ | 2025-10 | OCP |
-| 54 | ESUN OCP | https://www.opencompute.org/blog/introducing-esun-advancing-ethernet-for-scale-up-ai-infrastructure-at-ocp | 2025-10 | OCP |
-| 55 | Google HC 2025 | https://www.servethehome.com/google-ironwood-tpu-swings-for-reasoning-model-leadership-at-hot-chips-2025/ | 2025-08 | TPU |
-| 56 | CXL Inference Speedup | https://computeexpresslink.org/blog/overcoming-the-ai-memory-wall-how-cxl-memory-pooling-powers-the-next-leap-in-scalable-ai-computing-4267/ | 2025 | CXL |
-| 57 | Panmnesia CXL Fabric | https://www.ai-buzz.com/enfabricas-cxl-fabric-breaks-ai-memory-wall-via-800gbe | 2025 | CXL |
-| 58 | Ayar UCIe Optical Disagg | https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/ | 2025 | UCIe, optical |
-| 59 | ISSCC 2025 Intel | https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/ | 2025-02 | chiplet |
-| 60 | 800G AI Networking | https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025 | 2025 | Ethernet |
+| 1 | [UCIe 3.0 Specification](https://www.uciexpress.org/post/ucie-3-0-specification-redefining-chiplet-interconnects) | https://www.uciexpress.org/post/ucie-3-0-specification-redefining-chiplet-interconnects | 2025-08-05 | UCIe |
+| 2 | [UCIe 3.0 BusinessWire](https://www.businesswire.com/news/home/20250805909613/en/UCIe-Consortium-Introduces-3.0-Specification-With-64-GTs-Performance-and-Enhanced-Manageability) | https://www.businesswire.com/news/home/20250805909613/en/UCIe-Consortium-Introduces-3.0-Specification-With-64-GTs-Performance-and-Enhanced-Manageability | 2025-08-05 | UCIe |
+| 3 | [UCIe 3.0 StorageNewsletter](https://www.storagenewsletter.com/2025/08/07/fms-2025-ucie-consortium-introduces-3-0-specification-with-64gt-s-performance-and-enhanced-manageability/) | https://www.storagenewsletter.com/2025/08/07/fms-2025-ucie-consortium-introduces-3-0-specification-with-64gt-s-performance-and-enhanced-manageability/ | 2025-08-07 | UCIe |
+| 4 | [UCIe 3.0 ServeTheHome](https://www.servethehome.com/ucie-3-0-spec-released-with-big-speed-up-for-chiplets/) | https://www.servethehome.com/ucie-3-0-spec-released-with-big-speed-up-for-chiplets/ | 2025-08-07 | UCIe |
+| 5 | [Ayar TeraPHY UCIe Chiplet](https://www.businesswire.com/news/home/20250331044779/en/Ayar-Labs-Unveils-Worlds-First-UCIe-Optical-Chiplet-for-AI-Scale-Up-Architectures) | https://www.businesswire.com/news/home/20250331044779/en/Ayar-Labs-Unveils-Worlds-First-UCIe-Optical-Chiplet-for-AI-Scale-Up-Architectures | 2025-03-31 | UCIe, optical |
+| 6 | [NVLink Scale-Up 2025](https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025) | https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025 | 2025 | NVLink |
+| 7 | [GB200 NADDOD Analysis](https://www.naddod.com/blog/nvidia-gb200-interconnect-architecture-analysis-nvlink-infiniband-and-future-trends) | https://www.naddod.com/blog/nvidia-gb200-interconnect-architecture-analysis-nvlink-infiniband-and-future-trends | 2025 | NVLink |
+| 8 | [GB200 NVL72 Official](https://www.nvidia.com/en-us/data-center/gb200-nvl72/) | https://www.nvidia.com/en-us/data-center/gb200-nvl72/ | 2025 | NVLink |
+| 9 | [Rubin CES 2026](https://www.servethehome.com/nvidia-launches-next-generation-rubin-ai-compute-platform-at-ces-2026/) | https://www.servethehome.com/nvidia-launches-next-generation-rubin-ai-compute-platform-at-ces-2026/ | 2026-01 | NVLink |
+| 10 | [Rubin Platform Technical](https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/) | https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/ | 2026-01 | NVLink |
+| 11 | [PCIe 7.0 Final](https://overclock3d.net/news/misc/pcie-7-0-has-arrived-and-pcie-8-0-is-already-in-progress/) | https://overclock3d.net/news/misc/pcie-7-0-has-arrived-and-pcie-8-0-is-already-in-progress/ | 2025-06 | PCIe |
+| 12 | [PCIe 6.0 Launch](https://www.pcworld.com/article/2805679/pci-express-6-products-might-finally-ship-in-2025.html) | https://www.pcworld.com/article/2805679/pci-express-6-products-might-finally-ship-in-2025.html | 2025 | PCIe |
+| 13 | [Microchip Switchtec Gen 6](https://www.microchip.com/en-us/about/news-releases/products/microchip-unveils-first-3-nm-pcie--gen-6-switch-to-power-modern) | https://www.microchip.com/en-us/about/news-releases/products/microchip-unveils-first-3-nm-pcie--gen-6-switch-to-power-modern | 2025-10-13 | PCIe |
+| 14 | [PCIe 6/7 Compliance Delays](https://www.tomshardware.com/tech-industry/pcie-60-and-70-standards-hit-a-roadblock-compliance-slowdown-could-lead-to-broader-delays) | https://www.tomshardware.com/tech-industry/pcie-60-and-70-standards-hit-a-roadblock-compliance-slowdown-could-lead-to-broader-delays | 2025 | PCIe |
+| 15 | [CXL 4.0 BusinessWire](https://www.businesswire.com/news/home/20251118275848/en/CXL-Consortium-Releases-the-Compute-Express-Link-4.0-Specification-Increasing-Speed-and-Bandwidth) | https://www.businesswire.com/news/home/20251118275848/en/CXL-Consortium-Releases-the-Compute-Express-Link-4.0-Specification-Increasing-Speed-and-Bandwidth | 2025-11-18 | CXL |
+| 16 | [CXL 4.0 Blocks & Files](https://blocksandfiles.com/2025/11/24/cxl-4/) | https://blocksandfiles.com/2025/11/24/cxl-4/ | 2025-11-24 | CXL |
+| 17 | [CXL 3.0 Production 2026](https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/) | https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/ | 2025-12 | CXL |
+| 18 | [CXL FMS 2025](https://computeexpresslink.org/blog/expanding-your-memory-footprint-with-cxl-at-fms-2025-4133/) | https://computeexpresslink.org/blog/expanding-your-memory-footprint-with-cxl-at-fms-2025-4133/ | 2025-08 | CXL |
+| 19 | [Marvell Structera S](https://investor.marvell.com/news-events/press-releases/detail/1017/marvell-launches-next-generation-cxl-switch-enabling-memory-pooling-to-break-through-the-ai-memory-wall) | https://investor.marvell.com/news-events/press-releases/detail/1017/marvell-launches-next-generation-cxl-switch-enabling-memory-pooling-to-break-through-the-ai-memory-wall | 2026-03 | CXL |
+| 20 | [ISSCC 2026 Optical Router](https://www.electronicsweekly.com/news/business/isscc-2026-02/) | https://www.electronicsweekly.com/news/business/isscc-2026-02/ | 2026-02 | optical |
+| 21 | [Celestial AI Hot Chips 2025](https://www.servethehome.com/celestial-ai-photonic-fabric-module-at-hot-chips-2025/) | https://www.servethehome.com/celestial-ai-photonic-fabric-module-at-hot-chips-2025/ | 2025-08 | optical |
+| 22 | [Celestial AI TSMC 5nm](https://monthly-pulse.com/2025/12/16/breaking-the-bandwidth-barrier-enabling-celestial-ais-photonic-fabric-with-custom-esd-ip-on-tsmcs-5nm-platform/) | https://monthly-pulse.com/2025/12/16/breaking-the-bandwidth-barrier-enabling-celestial-ais-photonic-fabric-with-custom-esd-ip-on-tsmcs-5nm-platform/ | 2025-12 | optical |
+| 23 | [Marvell/Celestial AI Acquisition](https://optics.org/news/16/11/47) | https://optics.org/news/16/11/47 | 2025-11 | optical |
+| 24 | [NVIDIA CPO Scale-Up](https://optics.org/news/16/3/26) | https://optics.org/news/16/3/26 | 2025-03 | optical |
+| 25 | [Spectrum-X Silicon Photonics](https://www.tweaktown.com/news/107372/nvidias-new-spectrum-x-ethernet-silicon-photonics-enters-the-chat-a-game-changer-for-ai/index.html) | https://www.tweaktown.com/news/107372/nvidias-new-spectrum-x-ethernet-silicon-photonics-enters-the-chat-a-game-changer-for-ai/index.html | 2025-03 | optical |
+| 26 | [NVIDIA Silicon Photonics Roadmap](https://www.hpcwire.com/2026/04/20/inside-nvidias-silicon-photonics-roadmap/) | https://www.hpcwire.com/2026/04/20/inside-nvidias-silicon-photonics-roadmap/ | 2026-04 | optical |
+| 27 | [InfiniBand NDR/XDR](https://ascentoptics.com/blog/infiniband-ndr-xdr-for-ai-and-hpc-data-centers/) | https://ascentoptics.com/blog/infiniband-ndr-xdr-for-ai-and-hpc-data-centers/ | 2025 | IB |
+| 28 | [XDR 800G Spec](https://www.fibermall.com/news/ibta-launches-xdr-800g-infiniband-spec.htm) | https://www.fibermall.com/news/ibta-launches-xdr-800g-infiniband-spec.htm | 2025 | IB |
+| 29 | [InfiniBand Roadmap](https://www.infinibandta.org/infiniband-roadmap-charting-speeds-for-future-needs/) | https://www.infinibandta.org/infiniband-roadmap-charting-speeds-for-future-needs/ | 2025 | IB |
+| 30 | [Tomahawk 6 Shipping](https://www.broadcom.com/company/news/product-releases/63146) | https://www.broadcom.com/company/news/product-releases/63146 | 2026-03-12 | switch |
+| 31 | [Cisco G300](https://www.theregister.com/2026/02/10/cisco_challenges_broadcom_nvidia_switch_chips/) | https://www.theregister.com/2026/02/10/cisco_challenges_broadcom_nvidia_switch_chips/ | 2026-02-10 | switch |
+| 32 | [Marvell Teralynx 10](https://www.marvell.com/company/newsroom/marvell-teralynx-512t-ethernet-switch-enters-volume-production-for-global-ai-cloud-deployments.html) | https://www.marvell.com/company/newsroom/marvell-teralynx-512t-ethernet-switch-enters-volume-production-for-global-ai-cloud-deployments.html | 2025 | switch |
+| 33 | [102.4T Race](https://www.nextplatform.com/2025/06/03/the-ai-datacenter-is-ravenous-for-102-4-tb-sec-ethernet/) | https://www.nextplatform.com/2025/06/03/the-ai-datacenter-is-ravenous-for-102-4-tb-sec-ethernet/ | 2025-06 | switch |
+| 34 | [AMD IF Hot Chips 2025](https://convergedigest.com/hot-chips-2025-amd-boosts-infinity-fabric/) | https://convergedigest.com/hot-chips-2025-amd-boosts-infinity-fabric/ | 2025-08 | AMD IF |
+| 35 | [MI350X Datasheet](https://www.koicomputers.com/wp-content/uploads/2025/08/amd-instinct-mi350x-gpu-datasheet.pdf) | https://www.koicomputers.com/wp-content/uploads/2025/08/amd-instinct-mi350x-gpu-datasheet.pdf | 2025-08 | AMD IF |
+| 36 | [AMD MI400 Roadmap](https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256) | https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256 | 2026-01 | AMD IF |
+| 37 | [UALink 200G 1.0 Spec](https://ualinkconsortium.org/wp-content/uploads/2025/04/UALink-1.0-White_Paper_FINAL.pdf) | https://ualinkconsortium.org/wp-content/uploads/2025/04/UALink-1.0-White_Paper_FINAL.pdf | 2025-04 | UALink |
+| 38 | [UALink Silicon Timeline](https://www.hpcwire.com/2025/12/02/upscale-ai-eyes-late-2026-for-scale-up-ualink-switch/) | https://www.hpcwire.com/2025/12/02/upscale-ai-eyes-late-2026-for-scale-up-ualink-switch/ | 2025-12 | UALink |
+| 39 | [UEC 1.0 Official](https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/) | https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/ | 2025-06-11 | UEC |
+| 40 | [UEC vs UALink Analysis](https://semianalysis.com/2025/06/11/the-new-ai-networks-ultra-ethernet-uec-ualink-vs-broadcom-scale-up-ethernet-sue/) | https://semianalysis.com/2025/06/11/the-new-ai-networks-ultra-ethernet-uec-ualink-vs-broadcom-scale-up-ethernet-sue/ | 2025-06-11 | UEC |
+| 41 | [Google Ironwood ICI](https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack) | https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack | 2025-05 | TPU |
+| 42 | [AWS Trainium3](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/) | https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/ | 2025-12 | AWS |
+| 43 | [OFC 2025 Optical AI](https://nand-research.com/ofc-2025-optical-interconnects-take-center-stage-in-the-ai-first-data-center/) | https://nand-research.com/ofc-2025-optical-interconnects-take-center-stage-in-the-ai-first-data-center/ | 2025-03 | optical |
+| 44 | [Broadcom OFC 2025](https://investors.broadcom.com/news-releases/news-release-details/broadcom-advances-optical-connectivity-ai-infrastructure) | https://investors.broadcom.com/news-releases/news-release-details/broadcom-advances-optical-connectivity-ai-infrastructure | 2025-03 | optical |
+| 45 | [CPO Market 2026](https://adtek-fiber.com/co-packaged-optics-cpo-market-trends-2026-ai-data-center-optical-interconnect-evolution/) | https://adtek-fiber.com/co-packaged-optics-cpo-market-trends-2026-ai-data-center-optical-interconnect-evolution/ | 2026 | optical |
+| 46 | [CPO 5 Trends 2026](https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/) | https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/ | 2026-02 | optical |
+| 47 | [CPO Status 2026](https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/) | https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/ | 2026 | optical |
+| 48 | [OIF CEI-224G](https://www.oiforum.com/technical-work/hot-topics/common-electrical-i-o-cei-224g/) | https://www.oiforum.com/technical-work/hot-topics/common-electrical-i-o-cei-224g/ | 2025 | SerDes |
+| 49 | [224G SerDes Trend](https://semiengineering.com/224g-serdes-trend-and-solution/) | https://semiengineering.com/224g-serdes-trend-and-solution/ | 2025 | SerDes |
+| 50 | [Intel EMIB-T](https://institutionofelectronics.ac.uk/intel-ups-the-advanced-packaging-ante-with-emib-t/) | https://institutionofelectronics.ac.uk/intel-ups-the-advanced-packaging-ante-with-emib-t/ | 2025-11 | pkg |
+| 51 | [TSMC CoWoS Capacity](https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/) | https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/ | 2025-12 | pkg |
+| 52 | [HBM4 Production](https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/) | https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/ | 2026-02 | HBM |
+| 53 | [OCP Summit 2025](https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/) | https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/ | 2025-10 | OCP |
+| 54 | [ESUN OCP](https://www.opencompute.org/blog/introducing-esun-advancing-ethernet-for-scale-up-ai-infrastructure-at-ocp) | https://www.opencompute.org/blog/introducing-esun-advancing-ethernet-for-scale-up-ai-infrastructure-at-ocp | 2025-10 | OCP |
+| 55 | [Google HC 2025](https://www.servethehome.com/google-ironwood-tpu-swings-for-reasoning-model-leadership-at-hot-chips-2025/) | https://www.servethehome.com/google-ironwood-tpu-swings-for-reasoning-model-leadership-at-hot-chips-2025/ | 2025-08 | TPU |
+| 56 | [CXL Inference Speedup](https://computeexpresslink.org/blog/overcoming-the-ai-memory-wall-how-cxl-memory-pooling-powers-the-next-leap-in-scalable-ai-computing-4267/) | https://computeexpresslink.org/blog/overcoming-the-ai-memory-wall-how-cxl-memory-pooling-powers-the-next-leap-in-scalable-ai-computing-4267/ | 2025 | CXL |
+| 57 | [Panmnesia CXL Fabric](https://www.ai-buzz.com/enfabricas-cxl-fabric-breaks-ai-memory-wall-via-800gbe) | https://www.ai-buzz.com/enfabricas-cxl-fabric-breaks-ai-memory-wall-via-800gbe | 2025 | CXL |
+| 58 | [Ayar UCIe Optical Disagg](https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/) | https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/ | 2025 | UCIe, optical |
+| 59 | [ISSCC 2025 Intel](https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/) | https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/ | 2025-02 | chiplet |
+| 60 | [800G AI Networking](https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025) | https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025 | 2025 | Ethernet |

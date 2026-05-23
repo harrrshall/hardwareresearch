@@ -434,58 +434,58 @@ More importantly, CPO enables optical interconnect bandwidth to scale with chip 
 
 | ID | Title (Abbreviated) | Domain | Tags | Date |
 |----|---------------------|--------|------|------|
-| 1 | Data center cooling state of play 2025 | tomshardware.com | liquid-cooling | 2025 Q1 |
-| 2 | Rethinking datacenter cooling: direct-to-chip | blog.se.com | liquid-cooling | 2026-01-16 |
-| 3 | Why liquid cooling will dominate 2026 | lombardodier.com | liquid-cooling | 2026-01 |
-| 4 | Single-phase direct liquid cooling efficiency | blog.se.com | liquid-cooling, single-phase | 2026-03-10 |
-| 5 | Closed-loop cooling in Oracle AI data centers | oracle.com | liquid-cooling | 2026-02-09 |
-| 6 | AI-driven cooling tech: state-of-art review | sciencedirect.com | thermal-management | 2025 |
-| 7 | Two-phase cold plate cooling 2026–2027 | idtechex.com | immersion-cooling | 2025 |
-| 8 | Data Center Immersion Cooling Market Forecast | researchnester.com | immersion-cooling | 2026 |
-| 9 | Thermal Management for Data Centers 2026–2036 | idtechex.com | thermal-management | 2026 |
-| 10 | Plan liquid cooling for 100kW+ AI racks | archilabs.ai | rack-scale, liquid-cooling | 2025 |
-| 11 | Designing for 100 kW to 1 MW Racks | moonshotus.com | rack-scale | 2025 |
-| 12 | Building 100kW+ GPU Racks | introl.com | rack-scale | 2025 |
-| 13 | NVIDIA DGX GB200 NVL72 User Guide | docs.nvidia.com | rack-scale | 2026-03 |
-| 14 | GB200 NVL72 Product Page | nvidia.com | rack-scale | 2025 |
-| 15 | NVIDIA GB200 NVL72 Cooling Requirements | tonecooling.com | liquid-cooling | 2025 |
-| 16 | Fat-Tree vs. Dragonfly topologies | pingdo.net | AI-cluster | 2025 |
-| 17 | GPU Cluster Network Topology 2025 | introl.com | AI-cluster | 2025 |
-| 18 | GPU Cluster Topologies: Fat-Tree vs Spine-Leaf vs Dragonfly+ | luxoptx.com | AI-cluster | 2025 |
-| 19 | Closing the power efficiency gap | datacenterdynamics.com | power-delivery | 2025-2026 |
-| 20 | AI data center energy in 2026 | devsustainability.com | power-delivery | 2026 |
-| 21 | Meta Infrastructure Evolution and AI | engineering.fb.com | AI-cluster | 2025-09-29 |
-| 22 | Meta Compute: gigawatt-plus scale | datacenterdynamics.com | AI-cluster | 2025-2026 |
-| 23 | Accelerating open-source AI infrastructure | azure.microsoft.com | AI-cluster | 2025-2026 |
-| 24 | Google Ironwood TPUs and Axion VMs | cloud.google.com | AI-cluster | 2025 |
-| 25 | Google TPUv7: SemiAnalysis | semianalysis.com | AI-cluster | 2025 |
-| 26 | RDHx support for high-density rack cooling | vertiv.com | thermal-management | 2025 |
-| 27 | Data Center RDHx Market 2026–2035 | insightaceanalytic.com | thermal-management | 2026 |
-| 28 | 2026 OCP Global Summit | opencompute.org | rack-scale | 2026 |
-| 29 | Open Rack V3 Base Specification Rev 1.0 | opencompute.org | rack-scale | 2025 |
-| 30 | Data Center World 2026: AI Pushes Limits | datacenterknowledge.com | rack-scale | 2026 |
-| 31 | Data Center World 2026: Power Architecture | datacenterknowledge.com | power-delivery | 2026 |
-| 32 | SC25: Beyond Super Computing | nand-research.com | AI-cluster | 2025-11-17 |
+| 1 | [Data center cooling state of play 2025](https://www.tomshardware.com/pc-components/cooling/the-data-center-cooling-state-of-play-2025-liquid-cooling-is-on-the-rise-thermal-density-demands-skyrocket-in-ai-data-centers-and-tsmc-leads-with-direct-to-silicon-solutions) | tomshardware.com | liquid-cooling | 2025 Q1 |
+| 2 | [Rethinking datacenter cooling: direct-to-chip](https://blog.se.com/datacenter/2026/01/16/rethinking-data-center-cooling-ai-direct-to-chip-liquid-cooling/) | blog.se.com | liquid-cooling | 2026-01-16 |
+| 3 | [Why liquid cooling will dominate 2026](https://www.lombardodier.com/insights/2026/january/ai-supercharges-the-race.html) | lombardodier.com | liquid-cooling | 2026-01 |
+| 4 | [Single-phase direct liquid cooling efficiency](https://blog.se.com/datacenter/2026/03/10/single-phase-direct-liquid-cooling-efficient-thermal-solution-ai-data-centers/) | blog.se.com | liquid-cooling, single-phase | 2026-03-10 |
+| 5 | [Closed-loop cooling in Oracle AI data centers](https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09/) | oracle.com | liquid-cooling | 2026-02-09 |
+| 6 | [AI-driven cooling tech: state-of-art review](https://www.sciencedirect.com/science/article/pii/S221313882500342X) | sciencedirect.com | thermal-management | 2025 |
+| 7 | [Two-phase cold plate cooling 2026–2027](https://www.idtechex.com/en/research-article/two-phase-cold-plate-cooling-will-take-off-as-early-as-2026-2027/34068) | idtechex.com | immersion-cooling | 2025 |
+| 8 | [Data Center Immersion Cooling Market Forecast](https://www.researchnester.com/reports/data-center-immersion-cooling-market/6893) | researchnester.com | immersion-cooling | 2026 |
+| 9 | [Thermal Management for Data Centers 2026–2036](https://www.idtechex.com/en/research-report/thermal-management-for-data-centers/1128) | idtechex.com | thermal-management | 2026 |
+| 10 | [Plan liquid cooling for 100kW+ AI racks](https://archilabs.ai/posts/plan-liquid-cooling-for-100kw-ai-data-center-racks) | archilabs.ai | rack-scale, liquid-cooling | 2025 |
+| 11 | [Designing for 100 kW to 1 MW Racks](https://introl.com/blog/building-100kw-gpu-racks-power-cooling-architecture) | moonshotus.com | rack-scale | 2025 |
+| 12 | [Building 100kW+ GPU Racks](https://introl.com/blog/building-100kw-gpu-racks-power-cooling-architecture) | introl.com | rack-scale | 2025 |
+| 13 | [NVIDIA DGX GB200 NVL72 User Guide](https://docs.nvidia.com/dgx/dgxgb200-user-guide/hardware.html) | docs.nvidia.com | rack-scale | 2026-03 |
+| 14 | [GB200 NVL72 Product Page](https://www.nvidia.com/en-us/data-center/gb200-nvl72/) | nvidia.com | rack-scale | 2025 |
+| 15 | [NVIDIA GB200 NVL72 Cooling Requirements](https://tonecooling.com/nvidia-gb200-nvl72-cooling-requirements/) | tonecooling.com | liquid-cooling | 2025 |
+| 16 | [Fat-Tree vs. Dragonfly topologies](https://pingdo.net/ai-infrastructure/fat-tree-vs-dragonfly/) | pingdo.net | AI-cluster | 2025 |
+| 17 | [GPU Cluster Network Topology 2025](https://introl.com/blog/gpu-cluster-network-topology-fat-tree-dragonfly-rail-optimized-2025) | introl.com | AI-cluster | 2025 |
+| 18 | [GPU Cluster Topologies: Fat-Tree vs Spine-Leaf vs Dragonfly+](https://luxoptx.com/blogs/news/dgx-hgx-gpu-cluster-network-topologies-fat-tree-spine-leaf-and-dragonfly-compared) | luxoptx.com | AI-cluster | 2025 |
+| 19 | [Closing the power efficiency gap](https://www.datacenterdynamics.com/en/opinions/beyond-capex-closing-the-power-efficiency-gap-in-ai-data-centers/) | datacenterdynamics.com | power-delivery | 2025-2026 |
+| 20 | [AI data center energy in 2026](https://www.devsustainability.com/p/ai-data-center-energy-in-2026) | devsustainability.com | power-delivery | 2026 |
+| 21 | [Meta Infrastructure Evolution and AI](https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/) | engineering.fb.com | AI-cluster | 2025-09-29 |
+| 22 | [Meta Compute: gigawatt-plus scale](https://www.datacenterdynamics.com/en/news/meta-establishes-meta-compute-plans-multiple-gigawatt-plus-scale-ai-data-centers/) | datacenterdynamics.com | AI-cluster | 2025-2026 |
+| 23 | [Accelerating open-source AI infrastructure](https://azure.microsoft.com/en-us/blog/accelerating-open-source-infrastructure-development-for-frontier-ai-at-scale/) | azure.microsoft.com | AI-cluster | 2025-2026 |
+| 24 | [Google Ironwood TPUs and Axion VMs](https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads) | cloud.google.com | AI-cluster | 2025 |
+| 25 | [Google TPUv7: SemiAnalysis](https://newsletter.semianalysis.com/p/tpuv7-google-takes-a-swing-at-the) | semianalysis.com | AI-cluster | 2025 |
+| 26 | [RDHx support for high-density rack cooling](https://www.vertiv.com/en-asia/about/news-and-events/articles/educational-articles/how-rear-door-heat-exchangers-rdhx-support-high-density-rack-cooling/) | vertiv.com | thermal-management | 2025 |
+| 27 | [Data Center RDHx Market 2026–2035](https://www.researchnester.com/reports/data-center-immersion-cooling-market/6893) | insightaceanalytic.com | thermal-management | 2026 |
+| 28 | [2026 OCP Global Summit](https://www.opencompute.org/summit/global-summit) | opencompute.org | rack-scale | 2026 |
+| 29 | [Open Rack V3 Base Specification Rev 1.0](https://www.opencompute.org/documents/open-rack-base-specification-version-3-pdf) | opencompute.org | rack-scale | 2025 |
+| 30 | [Data Center World 2026: AI Pushes Limits](https://www.datacenterknowledge.com/build-design/data-center-world-2026-ai-pushes-infrastructure-to-new-limits) | datacenterknowledge.com | rack-scale | 2026 |
+| 31 | [Data Center World 2026: Power Architecture](https://www.datacenterknowledge.com/build-design/data-center-world-2026-new-limits-push-power-architecture-beyond-the-rack) | datacenterknowledge.com | power-delivery | 2026 |
+| 32 | [SC25: Beyond Super Computing](https://nand-research.com/sc25-beyond-super-computing/) | nand-research.com | AI-cluster | 2025-11-17 |
 | 33 | Supermicro at SC25 | hpcwire.com | rack-scale | 2025-11-17 |
-| 34 | Vertiv at SuperComputing 2025 | vertiv.com | thermal-management | 2025-11 |
-| 35 | NVIDIA Vera Rubin platform in-depth | tomshardware.com | rack-scale | 2026-01 |
-| 36 | Nvidia unpacks Vera Rubin at CES | theregister.com | rack-scale | 2026-01-05 |
-| 37 | NVIDIA Quantum-X800 InfiniBand | nvidia.com | AI-cluster | 2025-2026 |
+| 34 | [Vertiv at SuperComputing 2025](https://www.vertiv.com/en-us/about/news-and-events/events/sc25-supercomputing/) | vertiv.com | thermal-management | 2025-11 |
+| 35 | [NVIDIA Vera Rubin platform in-depth](https://www.tomshardware.com/pc-components/gpus/nvidias-vera-rubin-platform-in-depth-inside-nvidias-most-complex-ai-and-hpc-platform-to-date) | tomshardware.com | rack-scale | 2026-01 |
+| 36 | [Nvidia unpacks Vera Rubin at CES](https://www.theregister.com/2026/01/05/ces_rubin_nvidia/) | theregister.com | rack-scale | 2026-01-05 |
+| 37 | [NVIDIA Quantum-X800 InfiniBand](https://www.nvidia.com/en-us/networking/products/infiniband/quantum-x800/) | nvidia.com | AI-cluster | 2025-2026 |
 | 38 | AWS Project Rainier activation | aboutamazon.com | AI-cluster | 2025-10-29 |
-| 39 | xAI Colossus 2: First Gigawatt DC | semianalysis.com | power-delivery | 2025-2026 |
-| 40 | Vertiv CoolChip CDU 70–1350 kW | vertiv.com | liquid-cooling | 2025 |
-| 41 | NVLink and scale-up networking 2025 | introl.com | AI-cluster | 2025 |
-| 42 | Hyperscale data center power analysis | cc-techgroup.com | power-delivery | 2025 |
-| 43 | 2026 Global AI DC Construction Costs | archdesk.com | rack-scale | 2026 |
+| 39 | [xAI Colossus 2: First Gigawatt DC](https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter) | semianalysis.com | power-delivery | 2025-2026 |
+| 40 | [Vertiv CoolChip CDU 70–1350 kW](https://www.vertiv.com/en-us/products-catalog/thermal-management/high-density-solutions/vertiv-coolchip-cdu/) | vertiv.com | liquid-cooling | 2025 |
+| 41 | [NVLink and scale-up networking 2025](https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025) | introl.com | AI-cluster | 2025 |
+| 42 | [Hyperscale data center power analysis](https://cc-techgroup.com/how-much-power-does-a-hyperscale-data-center-use/) | cc-techgroup.com | power-delivery | 2025 |
+| 43 | [2026 Global AI DC Construction Costs](https://archdesk.com/blog/global-ai-data-center-construction-2026) | archdesk.com | rack-scale | 2026 |
 | 44 | Silicon photonics and CPO for AI infra | yolegroup.com | AI-cluster | 2025-2026 |
 | 45 | Scaling AI Factories with CPO | developer.nvidia.com | AI-cluster | 2025-2026 |
-| 46 | PEM Fuel Cells 2026 Data Center Power | enkiai.com | power-delivery | 2026 |
+| 46 | [PEM Fuel Cells 2026 Data Center Power](https://enkiai.com/proton-exchange-membrane-fuel-cells-top-10-projects-and-companies-for-data-centers-application/) | enkiai.com | power-delivery | 2026 |
 | 47 | AMD Instinct MI350 Series | amd.com | AI-cluster | 2025 |
-| 48 | ORv3 HPR Power Shelf | advancedenergy.com | power-delivery | 2025 |
-| 49 | Oracle OCI Zettascale10 | oracle.com | AI-cluster | 2025-10-14 |
-| 50 | Thermal interface material advances | techxplore.com | thermal-management | 2025-02 |
-| 51 | Announcing The Stargate Project | openai.com | AI-cluster | 2025-01-21 |
-| 52 | Supermicro GB200 NVL72 SuperCluster | supermicro.com | liquid-cooling | 2025 |
+| 48 | [ORv3 HPR Power Shelf](https://www.advancedenergy.com/en-us/products/ac-dc-power-supply-units/power-shelves/orv3-high-power-rack-(hpr)/) | advancedenergy.com | power-delivery | 2025 |
+| 49 | [Oracle OCI Zettascale10](https://www.oracle.com/news/announcement/ai-world-oracle-unveils-next-generation-oci-zettascale10-cluster-for-ai-2025-10-14/) | oracle.com | AI-cluster | 2025-10-14 |
+| 50 | [Thermal interface material advances](https://techxplore.com/news/2025-02-thermal-interface-material-slashes-ai.html) | techxplore.com | thermal-management | 2025-02 |
+| 51 | [Announcing The Stargate Project](https://openai.com/index/announcing-the-stargate-project/) | openai.com | AI-cluster | 2025-01-21 |
+| 52 | [Supermicro GB200 NVL72 SuperCluster](https://www.supermicro.com/en/products/system/gpu/48u/srs-gb200-nvl72) | supermicro.com | liquid-cooling | 2025 |
 
 ---
 
