@@ -652,6 +652,15 @@
       ],
       "relevance": "high",
       "key_finding": "Benchmarks LLM inference across hardware-accelerated single-board computers with NPU co-processors. Quantifies compute efficiency, thermal behavior, and memory bandwidth constraints on Hailo-10H and similar embedded NPU platforms. Complements mobile phone benchmarks by covering sub-phone power envelope (1-5W range)."
+    },
+    {
+      "id": 54,
+      "title": "LlamaWeb: Memory-Efficient Multi-Precision LLM Inference via WebGPU (arXiv 2605.20706)",
+      "url": "https://arxiv.org/abs/2605.20706",
+      "source_type": "academic_preprint",
+      "date": "2026-05-20",
+      "relevance": "high",
+      "key_finding": "WebGPU backend for llama.cpp enabling in-browser LLM inference across 16 devices from 8 GPU vendors, 10 language models, 4 weight formats (INT2/INT4/INT8/FP16). Static memory planning, cross-device portability. ICML 2026 AdaptFM Workshop. Provides empirical multi-device characterization of edge LLM inference performance."
     }
   ]
 }

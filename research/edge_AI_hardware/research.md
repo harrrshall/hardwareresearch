@@ -93,6 +93,12 @@ The six-month period from November 2025 to May 2026 marks the most consequential
 | Hailo-10H (M.2, Pi 5) | Qwen2.5-1.5B (4-bit) | Moderate/sustained | 2.5W |
 | Galaxy S24 Ultra (GPU) | Qwen2.5-1.5B (4-bit) | High (burst), then 0 | Thermal cutoff |
 
+### WebGPU Distributed Edge Inference [Run #3]
+- **LlamaWeb (arXiv 2605.20706, May 2026)**: Cross-device collaborative inference using WebGPU. Tested across 16 consumer devices, 8 GPU vendors, 10 models, 4 weight formats (FP16, Q8, Q4, Q2).
+- First systematic characterization of WebGPU inference variance across the ecosystem: 2.7× performance gap between best/worst GPU on same model.
+- Inter-device inference pipeline achieves 65-80% of single-best-device throughput for models that exceed single-device memory.
+- Strategic implication: WebGPU enables edge AI deployment without native app installation — browsers become inference endpoints, expanding addressable edge AI market beyond managed devices.
+
 ---
 
 ## Summarized Papers
@@ -152,6 +158,8 @@ Hardware measurement methodology showing software proxies underestimate real ene
 **paper-020** – TSMC N2 production: Q4 2025 start, 40K wpm, all 2026 capacity booked. 25-30% power reduction over 3nm.  
 **paper-021** – ExecuTorch 1.0 GA: 50KB runtime, 12+ backends, production at Meta scale.  
 **paper-022** – Google Tensor G5: TSMC 3nm, +60% NPU, Gemini Nano 260% faster at 50% less power, 32K context.
+
+**paper-024** – LlamaWeb (arXiv 2605.20706) [Run #3 — VALIDATED]: WebGPU collaborative inference across 16 devices/8 GPU vendors/10 models/4 weight formats. 2.7× best/worst GPU performance gap. Inter-device pipeline: 65-80% of single-device peak for memory-exceeding models. Establishes browsers as inference endpoints.
 
 ---
 
@@ -496,6 +504,7 @@ The field has largely solved inference at the extremes: sub-10mW for tinyML (Eth
 | 51 | [Efficient MoE LLM on Apple NPUs](https://arxiv.org/abs/2604.18788) | 2604.18788 | 2026-04 |
 | 52 | CPU vs GPU for On-Device LLM | 2505.06461 | 2025-05 |
 | 53 | [Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated SBCs](https://arxiv.org/html/2604.24785v1) | 2604.24785 | 2026-04 |
+| 54 | [LlamaWeb: WebGPU-Based Distributed Edge Inference](https://arxiv.org/abs/2605.20706) | 2605.20706 | 2026-05 |
 
 ### Vendor Announcements and Industry Sources
 

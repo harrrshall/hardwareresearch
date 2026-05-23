@@ -22,6 +22,8 @@ The six-month window from November 2025 to May 2026 marks a **structural inflect
 
 5. **Manufacturing Transitions.** TSMC N2 entered mass production December 31, 2025 with 70–80% yields. TSMC N3 is at capacity (180k wafers/month by April 2026), constrained by AI chip demand. UCIe 3.0 ratified August 2025 enables heterogeneous chiplet integration at scale.
 
+**6. China sovereign accelerators reach production scale [Run #3 — new].** Alibaba T-Head Zhenwu M890 (announced May 2026): 3× performance vs. prior-gen 810E, 144 GB HBM3, 800 GB/s inter-chip bandwidth, 3nm process. 560,000 units already deployed in Alibaba Cloud. V900 and J900 roadmap extends sovereign compute supply chain through 2028. This confirms a parallel non-NVIDIA supply chain is operational at hyperscaler scale inside China, compressing NVIDIA's China TAM rebound assumption.
+
 **Bottom line:** AI accelerator design is entering an era of architectural specialization where training hardware, inference hardware, edge NPUs, and memory subsystems are optimized separately — and interconnected via higher-bandwidth, lower-latency fabrics than ever before.
 
 ---
@@ -143,6 +145,14 @@ The six-month window from November 2025 to May 2026 marks a **structural inflect
 
 ### 10. Key Research Findings (Academic)
 
+### 11. Alibaba T-Head Zhenwu M890 [Run #3]
+- 3× performance improvement vs. prior-gen 810E (published benchmark)
+- 144 GB HBM3 capacity; 800 GB/s inter-chip bandwidth; manufactured on 3nm process
+- **560,000 units deployed** across Alibaba Cloud as of May 2026 — the largest non-NVIDIA/AMD AI accelerator fleet at hyperscaler scale
+- Roadmap: V900 (next-gen, 2027) and J900 (specialized inference, 2028) extend sovereign compute supply through 2028+
+- Competitive positioning: M890 targets H100-class training workloads; inference-optimized J900 explicitly targets NVIDIA Vera Rubin cost per token
+- Strategic implication: confirms a parallel, fully operational AI supply chain inside China independent of US-controlled hardware
+
 - **arXiv 2507.09010 (Hybrid SA):** 247/117 token/s/mm² on 1.3B LLM; 2.45x–13.5x over prior edge SA
 - **arXiv 2509.12993 (HPIM):** 34.3x speedup vs A100; heterogeneous SRAM-PIM + HBM-PIM
 - **arXiv 2509.22512 (AxLLM):** 90% compute reduction via reuse; 1.7x speedup, 28% energy reduction
@@ -202,6 +212,8 @@ The six-month window from November 2025 to May 2026 marks a **structural inflect
 **paper-024 — Data Center Thermal Crisis:** NVIDIA roadmap to 1,500W/chip (2026). GB200 NVL72 = 120 kW/rack. Direct-to-chip liquid cooling 47% market share. Global DC demand: 460–490 TWh (2025), 500+ TWh (2026).
 
 **paper-025 — Tenstorrent Wormhole:** RISC-V Tensix cores, 16x 100GbE per chip, 384 GB/s GDDR6. Blackhole taped out 2025 on TSMC. Zero-overhead NOC extension over Ethernet ports.
+
+**paper-026 — Alibaba T-Head Zhenwu M890** [Run #3 — VALIDATED, Tier 1]: 3× perf vs. 810E; 144 GB HBM3; 800 GB/s inter-chip BW; 3nm process. 560K units deployed in Alibaba Cloud — largest non-NVIDIA/AMD AI accelerator fleet at hyperscaler scale. V900/J900 roadmap extends to 2028+. Validates China sovereign AI compute at production scale.
 
 ---
 
@@ -642,6 +654,7 @@ The aggregate deployed NPU capacity in smartphones and PCs likely exceeds total 
 | 54 | [AxLLM arXiv 2509.22512](https://arxiv.org/abs/2509.22512) | https://arxiv.org/abs/2509.22512 | arXiv |
 | 55 | [Microsoft Maia 200](https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/) | https://blogs.microsoft.com/blog/2026/01/26/maia-200-the-ai-accelerator-built-for-inference/ | Vendor Blog |
 | 56 | [Hot Chips 2024 Cerebras](https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf) | https://hc2024.hotchips.org/assets/program/conference/day2/72_HC2024.Cerebras.Sean.v03.final.pdf | Conference |
+| 57 | [Alibaba T-Head Zhenwu M890 Announcement](https://www.alibabacloud.com/blog/alibaba-cloud-unveils-zhenwu-m890-ai-chip-3x-performance-leap-560000-units-deployed_602078) | https://www.alibabacloud.com/blog/alibaba-cloud-unveils-zhenwu-m890-ai-chip-3x-performance-leap-560000-units-deployed_602078 | Vendor Blog |
 
 ---
 

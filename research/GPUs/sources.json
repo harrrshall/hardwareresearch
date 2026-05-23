@@ -2,7 +2,9 @@
   {
     "id": "src-001",
     "title": "NVIDIA Blackwell Enables 3x Faster Training and Nearly 2x Training Performance Per Dollar than Previous-Gen Architecture",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA Technical Blog",
     "date": "2025-03-18",
     "url": "https://developer.nvidia.com/blog/nvidia-blackwell-enables-3x-faster-training-and-nearly-2x-training-performance-per-dollar-than-previous-gen-architecture/",
@@ -12,7 +14,9 @@
   {
     "id": "src-002",
     "title": "AMD Instinct MI350X Architecture, Specifications and CDNA4 Design",
-    "authors": ["AMD Corporation"],
+    "authors": [
+      "AMD Corporation"
+    ],
     "venue": "AMD Newsroom / Product Page",
     "date": "2025-06-12",
     "url": "https://www.amd.com/en/products/accelerators/instinct/mi350/mi350x.html",
@@ -22,7 +26,9 @@
   {
     "id": "src-003",
     "title": "AMD MI350 and CDNA 4 Architecture Launched with ROCm 7",
-    "authors": ["Patrick Kennedy"],
+    "authors": [
+      "Patrick Kennedy"
+    ],
     "venue": "ServeTheHome",
     "date": "2025-06-12",
     "url": "https://www.servethehome.com/amd-mi350-and-cdna-4-architecture-launched-with-rocm-7/",
@@ -32,7 +38,9 @@
   {
     "id": "src-004",
     "title": "INTRODUCING AMD CDNA 4 ARCHITECTURE",
-    "authors": ["AMD Corporation"],
+    "authors": [
+      "AMD Corporation"
+    ],
     "venue": "AMD Technical Whitepaper",
     "date": "2025-06-12",
     "url": "https://www.amd.com/content/dam/amd/en/documents/instinct-tech-docs/white-papers/amd-cdna-4-architecture-whitepaper.pdf",
@@ -42,7 +50,9 @@
   {
     "id": "src-005",
     "title": "AMD Dives Deep on CDNA 4 Architecture and MI350 Accelerator at Hot Chips 2025",
-    "authors": ["Patrick Kennedy"],
+    "authors": [
+      "Patrick Kennedy"
+    ],
     "venue": "ServeTheHome / Hot Chips 2025",
     "date": "2025-08-27",
     "url": "https://www.servethehome.com/amd-dives-deep-on-cdna-4-architecture-and-mi350-accelerator-at-hot-chips-2025/",
@@ -52,7 +62,9 @@
   {
     "id": "src-006",
     "title": "Fifth-Generation NVIDIA NVLink: 1,800 GB/s Per GPU Bidirectional Bandwidth",
-    "authors": ["AMAX Technical Team"],
+    "authors": [
+      "AMAX Technical Team"
+    ],
     "venue": "AMAX Technical Overview",
     "date": "2025-02-01",
     "url": "https://www.amax.com/fifth-generation-nvidia-nvlink/",
@@ -62,7 +74,9 @@
   {
     "id": "src-007",
     "title": "AMD Unveils Next-Generation AMD RDNA 4 Architecture with the Launch of AMD Radeon RX 9000 Series Graphics Cards",
-    "authors": ["AMD Corporation"],
+    "authors": [
+      "AMD Corporation"
+    ],
     "venue": "AMD Newsroom",
     "date": "2025-02-28",
     "url": "https://www.amd.com/en/newsroom/press-releases/2025-2-28-amd-unveils-next-generation-amd-rdna-4-architectu.html",
@@ -72,7 +86,9 @@
   {
     "id": "src-008",
     "title": "AMD's RDNA4 GPU Architecture at Hot Chips 2025",
-    "authors": ["Chester Lam"],
+    "authors": [
+      "Chester Lam"
+    ],
     "venue": "Chips and Cheese / Hot Chips 2025",
     "date": "2025-09-13",
     "url": "https://chipsandcheese.com/p/amds-rdna4-gpu-architecture-at-hot",
@@ -82,7 +98,9 @@
   {
     "id": "src-009",
     "title": "NVIDIA Rubin GPU: 336B Transistors, Architecture and Roadmap Details 2026",
-    "authors": ["Tech Insider"],
+    "authors": [
+      "Tech Insider"
+    ],
     "venue": "Tech Insider / Industry Analysis",
     "date": "2026-03-01",
     "url": "https://tech-insider.org/nvidia-gtc-2026-rubin-gpu-analysis/",
@@ -92,7 +110,9 @@
   {
     "id": "src-010",
     "title": "NVLink 6.0 at CES 2026: NVIDIA Vera Rubin Platform Details",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA GTC / CES 2026 Announcement",
     "date": "2026-01-06",
     "url": "https://www.sas-am.com/resources/nvidia-nvlink-5-0-ai-hpc-am-bandwidth",
@@ -102,7 +122,9 @@
   {
     "id": "src-011",
     "title": "HBM3e vs HBM4 vs HBM4e for LLM Inference: GPU Memory Bandwidth Decision Guide",
-    "authors": ["Spheron Network Technical Team"],
+    "authors": [
+      "Spheron Network Technical Team"
+    ],
     "venue": "Spheron Blog",
     "date": "2026-02-01",
     "url": "https://www.spheron.network/blog/hbm3e-vs-hbm4-vs-hbm4e-llm-inference-guide/",
@@ -112,7 +134,9 @@
   {
     "id": "src-012",
     "title": "NVIDIA Blackwell Ultra AI Factory Platform Paves Way for Age of AI Reasoning",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA Newsroom",
     "date": "2025-03-18",
     "url": "https://nvidianews.nvidia.com/news/nvidia-blackwell-ultra-ai-factory-platform-paves-way-for-age-of-ai-reasoning",
@@ -122,7 +146,9 @@
   {
     "id": "src-013",
     "title": "Inside NVIDIA Blackwell Ultra: The Chip Powering the AI Factory Era",
-    "authors": ["NVIDIA Technical Team"],
+    "authors": [
+      "NVIDIA Technical Team"
+    ],
     "venue": "NVIDIA Technical Blog",
     "date": "2025-08-27",
     "url": "https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/",
@@ -132,7 +158,9 @@
   {
     "id": "src-014",
     "title": "MLPerf Inference v5.1 Results Land With New Benchmarks and Record Participation",
-    "authors": ["John Russell"],
+    "authors": [
+      "John Russell"
+    ],
     "venue": "HPCwire",
     "date": "2025-09-10",
     "url": "https://www.hpcwire.com/2025/09/10/mlperf-inference-v5-1-results-land-with-new-benchmarks-and-record-participation/",
@@ -142,7 +170,9 @@
   {
     "id": "src-015",
     "title": "AMD announces MI350X and MI355X AI GPUs, claims up to 4X generational performance gain, 35X faster inference",
-    "authors": ["Mark Tyson"],
+    "authors": [
+      "Mark Tyson"
+    ],
     "venue": "Tom's Hardware",
     "date": "2025-06-12",
     "url": "https://www.tomshardware.com/pc-components/gpus/amd-announces-mi350x-and-mi355x-ai-gpus-claims-up-to-4x-generational-gain-up-to-35x-faster-inference-performance",
@@ -152,7 +182,9 @@
   {
     "id": "src-016",
     "title": "NVIDIA Blackwell Delivers Breakthrough Performance in Latest MLPerf Training Results",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA Blog",
     "date": "2025-11-15",
     "url": "https://blogs.nvidia.com/blog/blackwell-performance-mlperf-training/",
@@ -162,7 +194,9 @@
   {
     "id": "src-017",
     "title": "NVIDIA RTX 5090 Blackwell GB202: Architecture Deep Dive and Gaming Performance",
-    "authors": ["NVIDIA Corporation / Tom's Hardware"],
+    "authors": [
+      "NVIDIA Corporation / Tom's Hardware"
+    ],
     "venue": "NVIDIA GeForce / Tom's Hardware Review",
     "date": "2025-01-26",
     "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
@@ -172,7 +206,9 @@
   {
     "id": "src-018",
     "title": "NVIDIA DLSS 4 Introduces Multi Frame Generation and Transformer Architecture",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA GeForce News",
     "date": "2025-01-06",
     "url": "https://www.nvidia.com/en-us/geforce/news/dlss4-multi-frame-generation-ai-innovations/",
@@ -182,7 +218,9 @@
   {
     "id": "src-019",
     "title": "AMD ROCm 7.0 Software: Supercharging AI and HPC Infrastructure",
-    "authors": ["AMD Corporation"],
+    "authors": [
+      "AMD Corporation"
+    ],
     "venue": "AMD Developer Blog",
     "date": "2025-06-12",
     "url": "https://www.amd.com/en/blogs/2025/rocm7-supercharging-ai-and-hpc-infrastructure.html",
@@ -192,7 +230,9 @@
   {
     "id": "src-020",
     "title": "Microbenchmarking NVIDIA's Blackwell Architecture: An in-depth Architectural Analysis",
-    "authors": ["Multiple academic researchers"],
+    "authors": [
+      "Multiple academic researchers"
+    ],
     "venue": "arXiv cs.AR",
     "date": "2025-12-03",
     "url": "https://arxiv.org/abs/2512.02189",
@@ -202,7 +242,9 @@
   {
     "id": "src-021",
     "title": "Dissecting the NVIDIA Blackwell Architecture with Microbenchmarks",
-    "authors": ["Jing Ji et al."],
+    "authors": [
+      "Jing Ji et al."
+    ],
     "venue": "arXiv cs.AR",
     "date": "2025-07-14",
     "url": "https://arxiv.org/abs/2507.10789",
@@ -212,7 +254,9 @@
   {
     "id": "src-022",
     "title": "NVIDIA Announces NVLink Fusion: Bringing NVLink to Third-Party CPUs and Accelerators",
-    "authors": ["Patrick Kennedy"],
+    "authors": [
+      "Patrick Kennedy"
+    ],
     "venue": "ServeTheHome",
     "date": "2025-05-19",
     "url": "https://www.servethehome.com/nvidia-announces-nvlink-fusion-bringing-nvlink-to-third-party-cpus-and-accelerators/",
@@ -222,7 +266,9 @@
   {
     "id": "src-023",
     "title": "Nvidia extends NVLink support to custom CPUs and ASICs",
-    "authors": ["The Register Staff"],
+    "authors": [
+      "The Register Staff"
+    ],
     "venue": "The Register",
     "date": "2025-05-19",
     "url": "https://www.theregister.com/2025/05/19/nvidia_nvlink_fusion/",
@@ -232,7 +278,9 @@
   {
     "id": "src-024",
     "title": "UALink 1.0 Specification Released: Open GPU Interconnect Standard",
-    "authors": ["UALink Consortium"],
+    "authors": [
+      "UALink Consortium"
+    ],
     "venue": "Network World / UALink Consortium",
     "date": "2025-04-08",
     "url": "https://www.networkworld.com/article/3957541/ualink-releases-inaugural-gpu-interconnect-specification.html",
@@ -242,7 +290,9 @@
   {
     "id": "src-025",
     "title": "TSMC CoWoS Capacity: NVIDIA Dominates Booking Through 2026-2027",
-    "authors": ["Ray Wang et al."],
+    "authors": [
+      "Ray Wang et al."
+    ],
     "venue": "Global Semi Research / DigiTimes",
     "date": "2025-12-10",
     "url": "https://www.digitimes.com/news/a20251210PD218/tsmc-cowos-capacity-nvidia-equipment.html",
@@ -252,7 +302,9 @@
   {
     "id": "src-026",
     "title": "AMD Instinct MI400 Launches in 2026 with CDNA5 Architecture: 432GB HBM4 and 19.6 TB/s",
-    "authors": ["Multiple industry analysts"],
+    "authors": [
+      "Multiple industry analysts"
+    ],
     "venue": "Guru3D / Wccftech / Tweaktown",
     "date": "2025-12-01",
     "url": "https://www.guru3d.com/story/amd-instinct-mi400-launches-in-2026-with-cdna-5-architecture/",
@@ -262,7 +314,9 @@
   {
     "id": "src-027",
     "title": "NVIDIA Vera CPU Architecture: Custom Olympus Arm Cores for Agentic AI",
-    "authors": ["Patrick Kennedy"],
+    "authors": [
+      "Patrick Kennedy"
+    ],
     "venue": "ServeTheHome",
     "date": "2026-03-18",
     "url": "https://www.servethehome.com/nvidias-vera-cpu-in-detail-high-perf-chip-takes-aim-at-broader-ai-server-market/",
@@ -272,7 +326,9 @@
   {
     "id": "src-028",
     "title": "NVIDIA GTC 2026: Vera Rubin Platform Announcements and AI Infrastructure",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA Blog / GTC 2026",
     "date": "2026-03-18",
     "url": "https://blogs.nvidia.com/blog/gtc-2026-news/",
@@ -282,7 +338,9 @@
   {
     "id": "src-029",
     "title": "NVIDIA GB200 NVL72: Rack-Scale Deployment Guide and Infrastructure Requirements",
-    "authors": ["Introl Blog Technical Team"],
+    "authors": [
+      "Introl Blog Technical Team"
+    ],
     "venue": "Introl Blog",
     "date": "2025-03-01",
     "url": "https://introl.com/blog/gb200-nvl72-deployment-72-gpu-liquid-cooled",
@@ -292,7 +350,9 @@
   {
     "id": "src-030",
     "title": "NVIDIA DLSS 4.5: Dynamic Multi Frame Generation 6X and 2nd Gen Transformer Model",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA GeForce News",
     "date": "2026-01-06",
     "url": "https://www.nvidia.com/en-us/geforce/news/dlss-4-5-dynamic-multi-frame-gen-6x-2nd-gen-transformer-super-res/",
@@ -302,7 +362,9 @@
   {
     "id": "src-031",
     "title": "Acc-SpMM: Accelerating General-purpose Sparse Matrix-Matrix Multiplication with GPU Tensor Cores",
-    "authors": ["Multiple academic researchers"],
+    "authors": [
+      "Multiple academic researchers"
+    ],
     "venue": "arXiv cs.AR",
     "date": "2025-01-16",
     "url": "https://arxiv.org/pdf/2501.09251",
@@ -312,7 +374,9 @@
   {
     "id": "src-032",
     "title": "SemiAnalysis InferenceMAX: vLLM and NVIDIA Accelerate Blackwell Inference",
-    "authors": ["SemiAnalysis / vLLM Team"],
+    "authors": [
+      "SemiAnalysis / vLLM Team"
+    ],
     "venue": "vLLM Blog / SemiAnalysis",
     "date": "2025-10-09",
     "url": "https://blog.vllm.ai/2025/10/09/blackwell-inferencemax.html",
@@ -322,7 +386,9 @@
   {
     "id": "src-033",
     "title": "NVIDIA Blackwell Delivers World-Record DeepSeek-R1 Inference Performance",
-    "authors": ["NVIDIA Corporation"],
+    "authors": [
+      "NVIDIA Corporation"
+    ],
     "venue": "NVIDIA Technical Blog",
     "date": "2025-02-01",
     "url": "https://developer.nvidia.com/blog/nvidia-blackwell-delivers-world-record-deepseek-r1-inference-performance/",
@@ -332,7 +398,9 @@
   {
     "id": "src-034",
     "title": "Mind the Memory Gap: Unveiling GPU Bottlenecks in Large-Batch LLM Inference",
-    "authors": ["IBM Research Team"],
+    "authors": [
+      "IBM Research Team"
+    ],
     "venue": "arXiv / CLOUD 2025",
     "date": "2025-03-11",
     "url": "https://arxiv.org/pdf/2503.08311",
@@ -342,7 +410,9 @@
   {
     "id": "src-035",
     "title": "vLLM Large Scale Serving: DeepSeek at 2.2k tok/s/H200 with Wide Expert Parallelism",
-    "authors": ["vLLM Team"],
+    "authors": [
+      "vLLM Team"
+    ],
     "venue": "vLLM Blog",
     "date": "2025-12-17",
     "url": "https://blog.vllm.ai/2025/12/17/large-scale-serving.html",
@@ -352,7 +422,9 @@
   {
     "id": "src-036",
     "title": "Moore Threads Huagang Architecture: 5th Gen GPU with 50% Compute Density Increase",
-    "authors": ["Moore Threads / Global Times"],
+    "authors": [
+      "Moore Threads / Global Times"
+    ],
     "venue": "Global Times / CNBC",
     "date": "2025-12-05",
     "url": "https://www.globaltimes.cn/page/202512/1351155.shtml",
@@ -362,17 +434,21 @@
   {
     "id": "src-037",
     "title": "AMD RDNA4 Navi 48 Digital Floorplan Analysis and Architecture Deep Dive",
-    "authors": ["TechInsights / Notebookcheck"],
+    "authors": [
+      "TechInsights / Notebookcheck"
+    ],
     "venue": "TechInsights / Notebookcheck",
     "date": "2025-03-10",
     "url": "https://www.techinsights.com/blog/amd-navi-48-rdna-4-digital-floorplan-analysis",
     "tier": 3,
-    "abstract": "Navi 48 die analysis: 53.9B transistors, 356.5 mm² die, TSMC 4nm. 64 CUs in 4 shader engines with 128 AI matrix accelerators. 8x faster AI inference vs RDNA3 at INT8/INT4. 3rd gen RT accelerators double RT performance vs RDNA3. Monolithic design enables clean yield scaling."
+    "abstract": "Navi 48 die analysis: 53.9B transistors, 356.5 mm\u00b2 die, TSMC 4nm. 64 CUs in 4 shader engines with 128 AI matrix accelerators. 8x faster AI inference vs RDNA3 at INT8/INT4. 3rd gen RT accelerators double RT performance vs RDNA3. Monolithic design enables clean yield scaling."
   },
   {
     "id": "src-038",
     "title": "RDNA4 Raytracing Improvements: Hardware Architecture Changes",
-    "authors": ["Chester Lam"],
+    "authors": [
+      "Chester Lam"
+    ],
     "venue": "Chips and Cheese",
     "date": "2025-03-15",
     "url": "https://chipsandcheese.com/p/rdna-4s-raytracing-improvements",
@@ -382,17 +458,21 @@
   {
     "id": "src-039",
     "title": "Two-Phase Liquid Cooling: The Future of High-End GPUs in Data Centers",
-    "authors": ["Edge AI and Vision Alliance"],
+    "authors": [
+      "Edge AI and Vision Alliance"
+    ],
     "venue": "Edge AI and Vision Alliance",
     "date": "2025-10-15",
     "url": "https://www.edge-ai-vision.com/2025/10/two-phase-liquid-cooling-the-future-of-high-end-gpus/",
     "tier": 3,
-    "abstract": "GB300 NVL72 rack drives single-rack power to 250kW+. CoolIT demonstrates single-phase D2C coldplate handling up to 4000W at ~200 W/cm². Two-phase D2C cooling expected large-scale deployment ~2027. TSMC developing direct-to-silicon microfluidic cooling for next-gen GPUs."
+    "abstract": "GB300 NVL72 rack drives single-rack power to 250kW+. CoolIT demonstrates single-phase D2C coldplate handling up to 4000W at ~200 W/cm\u00b2. Two-phase D2C cooling expected large-scale deployment ~2027. TSMC developing direct-to-silicon microfluidic cooling for next-gen GPUs."
   },
   {
     "id": "src-040",
     "title": "From MI350 to MI500: AMD Bold AI Accelerator Roadmap Through 2027",
-    "authors": ["StorageReview Staff"],
+    "authors": [
+      "StorageReview Staff"
+    ],
     "venue": "StorageReview",
     "date": "2025-06-20",
     "url": "https://www.storagereview.com/news/from-mi350-to-mi500-amds-bold-ai-accelerator-roadmap-through-2027",
@@ -402,7 +482,9 @@
   {
     "id": "src-041",
     "title": "Execution-Centric Characterization of FP8 Matrix Cores and Structured Sparsity on AMD MI300A",
-    "authors": ["Multiple academic researchers"],
+    "authors": [
+      "Multiple academic researchers"
+    ],
     "venue": "arXiv cs.AR",
     "date": "2026-02-13",
     "url": "https://arxiv.org/pdf/2602.10262",
@@ -412,7 +494,9 @@
   {
     "id": "src-042",
     "title": "Matrix Core Programming on AMD CDNA3 and CDNA4 Architecture",
-    "authors": ["AMD ROCm Team"],
+    "authors": [
+      "AMD ROCm Team"
+    ],
     "venue": "AMD ROCm Blogs",
     "date": "2025-07-01",
     "url": "https://rocm.blogs.amd.com/software-tools-optimization/matrix-cores-cdna/README.html",
@@ -422,7 +506,9 @@
   {
     "id": "src-043",
     "title": "Intel Gets 5B Investment from NVIDIA, Commits to NVLink for CPU-GPU Superchips",
-    "authors": ["HPCwire Staff"],
+    "authors": [
+      "HPCwire Staff"
+    ],
     "venue": "HPCwire",
     "date": "2025-09-18",
     "url": "https://www.hpcwire.com/2025/09/18/intel-gets-5b-investment-from-nvidia-commits-to-adopting-nvlink-to-co-develop-future-cpu-gpu-superchips/",
@@ -432,7 +518,9 @@
   {
     "id": "src-044",
     "title": "HBM3e and HBM4: IC Design Guide for Next-Generation High Bandwidth Memory",
-    "authors": ["Siemens EDA Team"],
+    "authors": [
+      "Siemens EDA Team"
+    ],
     "venue": "Siemens Semiconductor Packaging Blog",
     "date": "2026-04-24",
     "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/04/24/hbm3e-hbm4-ic-design-guide/",
@@ -442,7 +530,9 @@
   {
     "id": "src-045",
     "title": "China GPU IPO Wave: Moore Threads, MetaX, Biren and Enflame Go Public",
-    "authors": ["CNBC Tech Staff"],
+    "authors": [
+      "CNBC Tech Staff"
+    ],
     "venue": "CNBC",
     "date": "2025-12-17",
     "url": "https://www.cnbc.com/2025/12/17/metax-moore-threads-chinese-rivals-nvidia-ai-chips.html",
@@ -452,7 +542,9 @@
   {
     "id": "src-046",
     "title": "NVIDIA GTC 2026 Infrastructure: AWS 1M GPU Deployment and Vera Rubin Cloud Deployments",
-    "authors": ["Virtualization Review / NVIDIA"],
+    "authors": [
+      "Virtualization Review / NVIDIA"
+    ],
     "venue": "Virtualization Review",
     "date": "2026-03-20",
     "url": "https://virtualizationreview.com/articles/2026/03/20/nvidia-aws-and-google-cloud-spotlight-ai-infrastructure-push-at-gtc-2026.aspx",
@@ -462,7 +554,9 @@
   {
     "id": "src-047",
     "title": "Performance Per Watt in CPUs, GPUs and Data Centers: A 10-Year Overview",
-    "authors": ["D4B Technical Blog"],
+    "authors": [
+      "D4B Technical Blog"
+    ],
     "venue": "D4B Dev Blog",
     "date": "2025-11-10",
     "url": "https://www.d4b.dev/blog/2025-11-10-perf-per-watt-trends-for-gpus-and-cpus",
@@ -472,7 +566,9 @@
   {
     "id": "src-048",
     "title": "Multipath Memory Access: Breaking Host-GPU Bandwidth Bottlenecks in LLM Serving",
-    "authors": ["Multiple academic researchers"],
+    "authors": [
+      "Multiple academic researchers"
+    ],
     "venue": "arXiv cs.AR",
     "date": "2025-12-19",
     "url": "https://arxiv.org/html/2512.16056",
@@ -482,7 +578,9 @@
   {
     "id": "src-049",
     "title": "NVIDIA DGX Spark GB10 Grace Blackwell Superchip: Personal AI Supercomputer",
-    "authors": ["NVIDIA Corporation / MediaTek"],
+    "authors": [
+      "NVIDIA Corporation / MediaTek"
+    ],
     "venue": "NVIDIA Newsroom",
     "date": "2025-10-13",
     "url": "https://nvidianews.nvidia.com/news/nvidia-puts-grace-blackwell-on-every-desk-and-at-every-ai-developers-fingertips",
@@ -492,7 +590,9 @@
   {
     "id": "src-050",
     "title": "Blink: CPU-Free LLM Inference by Delegating Serving Stack to GPU and SmartNIC",
-    "authors": ["Multiple academic researchers"],
+    "authors": [
+      "Multiple academic researchers"
+    ],
     "venue": "arXiv cs.AR",
     "date": "2026-04-10",
     "url": "https://arxiv.org/pdf/2604.07609",
@@ -502,7 +602,9 @@
   {
     "id": "src-051",
     "title": "AMD Delivers Breakthrough MLPerf Inference 6.0 Results",
-    "authors": ["AMD Corporation"],
+    "authors": [
+      "AMD Corporation"
+    ],
     "venue": "AMD Blog",
     "date": "2026-02-15",
     "url": "https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html",
@@ -512,11 +614,25 @@
   {
     "id": "src-052",
     "title": "ISSCC 2026: NVIDIA and Broadcom CPO Presentations, HBM4 and LPDDR6 Circuits",
-    "authors": ["SemiAnalysis"],
+    "authors": [
+      "SemiAnalysis"
+    ],
     "venue": "SemiAnalysis Newsletter",
     "date": "2026-02-17",
     "url": "https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo",
     "tier": 1,
     "abstract": "ISSCC 2026 coverage: NVIDIA and Broadcom co-packaged optics (CPO) presentations. HBM4 circuit design papers including voltage regulation and PHY design. LPDDR6 memory circuits. GPU-related plenary sessions under theme 'Advancing AI with IC & SOC Innovations'. CPO addresses bandwidth bottleneck beyond NVLink for scale-out."
+  },
+  {
+    "id": "src-053",
+    "title": "NVIDIA Q1 FY2027 Earnings: Vera Rubin 'Constrained Throughout Entire Life'; Q2 Guidance $91B; Vera CPU $200B TAM",
+    "authors": [
+      "Jensen Huang (CEO, NVIDIA Corporation)"
+    ],
+    "venue": "NVIDIA Q1 FY2027 Earnings Call + Press Release (SEC Form 8-K)",
+    "date": "2026-05-20",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026",
+    "tier": 1,
+    "abstract": "Q1 FY2027 revenue $81.6B (+85% YoY), Data Center $75.2B (+92% YoY). Jensen Huang disclosed Vera Rubin sampling with customers, production H2 FY2027 (H2 calendar 2026); stated NVIDIA 'will be constrained throughout the entire life of Vera Rubin' \u2014 the most explicit supply-ceiling admission in NVIDIA history. Q2 guidance $91B (\u00b12%) beat consensus $87B. Vera CPU: purpose-built for agentic AI, $200B TAM, $20B FY2027 revenue projected, 1.5x perf/core and 2x perf/watt vs x86, every major hyperscaler as deployment partner."
   }
 ]

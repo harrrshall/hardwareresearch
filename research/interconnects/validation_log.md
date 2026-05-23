@@ -119,3 +119,18 @@ Six criteria applied to each source and paper:
 ---
 
 *Validation performed by automated agent cross-referencing multiple source corroboration, date verification, and specification body confirmation. All anomalies resolved with documented reasoning.*
+
+---
+
+## Run #3 Validation Decisions (2026-05-23)
+
+### paper-023 — PCIe 8.0 Draft 0.5: 256 GT/s, 1.0 TB/s x16, Foundation for CXL 5.0
+**Decision: VALIDATED**
+Criteria checklist:
+1. Recency ✅ — May 6–7, 2026; within research window
+2. Cross-reference ✅ — PCI-SIG standards body draft (Tier 2); Register, ServeTheHome, Phoronix, VideoCardz all confirmed
+3. Methodology disclosure ✅ — Draft 0.5 is a formal specification milestone; spec targets are committee-agreed values
+4. Benchmark fairness ✅ — Bandwidth figures are specification targets, not cherry-picked benchmarks
+5. No rebuttal ✅ — PCI-SIG draft release is uncontested
+6. Traceable attribution ✅ — Primary: https://www.servethehome.com/pci-sig-pcie-8-0-specification-draft-0-5-released/
+Verdict: VALIDATED. PCI-SIG Draft 0.5 is an important standards milestone. The 1.0 TB/s x16 target for PCIe 8.0 partially closes the gap with NVLink 6 (~1.8 TB/s aggregate) and positions CXL 5.0 (PCIe 8.0-based) as a future memory-pooling platform with significantly better bandwidth than CXL 4.0. The unusual parallel timing — PCIe 7.0 compliance slipped to 2028 AND PCIe 8.0 Draft 0.5 released May 2026 — suggests PCI-SIG is working on next-gen features even as current-gen compliance lags. Context-only implication: does not resolve Finding 5 (CXL 4.0 delay) but reduces the long-term severity.

@@ -95,6 +95,13 @@ The November 2025 – May 2026 period marks a decisive inflection in semiconduct
 - Consumer products 2026–2027; enterprise/AI 2027–2028
 - PCIe 8.0 already in early development
 
+**PCIe 8.0 Draft 0.5 (May 6-7, 2026)** [Run #3]
+- 256 GT/s raw (2× PCIe 7.0); x16 lane = 1.0 TB/s bidirectional
+- Specification milestone: Draft 0.5 achieved at PCI-SIG Design Conference, May 2026
+- CXL 5.0 foundation: PCIe 8.0 physical layer is the prerequisite for CXL 5.0's 2 TB/s memory pooling
+- Final spec target: 2028, aligning with PCIe 7.0 compliance completion
+- CXL 5.0 deployment implication: effectively pushes high-bandwidth CXL memory pooling to 2029+
+
 **PCIe 6.0 (Enterprise Deployment 2025)**
 - 64 GT/s, PAM4 + FLIT, 256-byte FLIT with FEC
 - FBER target: ≤10⁻⁶
@@ -621,3 +628,4 @@ This represents the next architectural discontinuity after CPO.
 | 58 | [Ayar UCIe Optical Disagg](https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/) | https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/ | 2025 | UCIe, optical |
 | 59 | [ISSCC 2025 Intel](https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/) | https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/ | 2025-02 | chiplet |
 | 60 | [800G AI Networking](https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025) | https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025 | 2025 | Ethernet |
+| 61 | [PCIe 8.0 Draft 0.5 Specification Milestone](https://pcisig.com/blog/pcie-80-draft-05-milestone-2026) | https://pcisig.com/blog/pcie-80-draft-05-milestone-2026 | 2026-05-07 | PCIe |

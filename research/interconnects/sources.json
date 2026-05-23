@@ -5,7 +5,10 @@
     "url": "https://www.uciexpress.org/post/ucie-3-0-specification-redefining-chiplet-interconnects",
     "source": "UCIe Consortium Official",
     "date": "2025-08-05",
-    "theme": ["UCIe", "chip-to-chip"],
+    "theme": [
+      "UCIe",
+      "chip-to-chip"
+    ],
     "key_data": "48/64 GT/s for UCIe-S and UCIe-A, backward compatible, runtime recalibration, extended sideband to 100mm"
   },
   {
@@ -14,7 +17,10 @@
     "url": "https://www.businesswire.com/news/home/20250805909613/en/UCIe-Consortium-Introduces-3.0-Specification-With-64-GTs-Performance-and-Enhanced-Manageability",
     "source": "BusinessWire",
     "date": "2025-08-05",
-    "theme": ["UCIe", "chip-to-chip"],
+    "theme": [
+      "UCIe",
+      "chip-to-chip"
+    ],
     "key_data": "UCIe 3.0 doubles bandwidth of UCIe 2.0 (32 GT/s to 64 GT/s), FMS 2025 announcement"
   },
   {
@@ -23,7 +29,9 @@
     "url": "https://www.storagenewsletter.com/2025/08/07/fms-2025-ucie-consortium-introduces-3-0-specification-with-64gt-s-performance-and-enhanced-manageability/",
     "source": "StorageNewsletter",
     "date": "2025-08-07",
-    "theme": ["UCIe"],
+    "theme": [
+      "UCIe"
+    ],
     "key_data": "64 GT/s performance and enhanced manageability for multi-chip systems"
   },
   {
@@ -32,7 +40,10 @@
     "url": "https://www.servethehome.com/ucie-3-0-spec-released-with-big-speed-up-for-chiplets/",
     "source": "ServeTheHome",
     "date": "2025-08-07",
-    "theme": ["UCIe", "chip-to-chip"],
+    "theme": [
+      "UCIe",
+      "chip-to-chip"
+    ],
     "key_data": "Priority sideband packets, early firmware download, flexible SiP topologies"
   },
   {
@@ -41,7 +52,11 @@
     "url": "https://www.businesswire.com/news/home/20250331044779/en/Ayar-Labs-Unveils-Worlds-First-UCIe-Optical-Chiplet-for-AI-Scale-Up-Architectures",
     "source": "BusinessWire / Ayar Labs",
     "date": "2025-03-31",
-    "theme": ["UCIe", "optical-switching", "chip-to-chip"],
+    "theme": [
+      "UCIe",
+      "optical-switching",
+      "chip-to-chip"
+    ],
     "key_data": "First UCIe optical interconnect chiplet, 8 Tbps bandwidth, 200 Gbps/mm chip edge, silicon photonics + CMOS, SuperNova 16-wavelength light source"
   },
   {
@@ -50,7 +65,10 @@
     "url": "https://introl.com/blog/nvlink-scale-up-networking-gpu-interconnect-infrastructure-2025",
     "source": "Introl Blog",
     "date": "2025-11",
-    "theme": ["NVLink", "chip-to-chip"],
+    "theme": [
+      "NVLink",
+      "chip-to-chip"
+    ],
     "key_data": "NVLink 5 delivers 1.8 TB/s per GPU via 18 links at 100 GB/s each"
   },
   {
@@ -59,7 +77,10 @@
     "url": "https://www.naddod.com/blog/nvidia-gb200-interconnect-architecture-analysis-nvlink-infiniband-and-future-trends",
     "source": "NADDOD Blog",
     "date": "2025-09",
-    "theme": ["NVLink", "chip-to-chip"],
+    "theme": [
+      "NVLink",
+      "chip-to-chip"
+    ],
     "key_data": "GB200 NVL72: 130 TB/s aggregate NVLink bandwidth, 72 GPUs, 36 Grace CPUs, 9 NVLink switch trays"
   },
   {
@@ -68,7 +89,10 @@
     "url": "https://www.nvidia.com/en-us/data-center/gb200-nvl72/",
     "source": "NVIDIA Official",
     "date": "2025",
-    "theme": ["NVLink", "chip-to-chip"],
+    "theme": [
+      "NVLink",
+      "chip-to-chip"
+    ],
     "key_data": "NVL72: 72 Blackwell GPUs, NVLink Switch enables 576 GPUs in non-blocking fabric at 1 PB/s"
   },
   {
@@ -77,7 +101,10 @@
     "url": "https://www.servethehome.com/nvidia-launches-next-generation-rubin-ai-compute-platform-at-ces-2026/",
     "source": "ServeTheHome",
     "date": "2026-01",
-    "theme": ["NVLink", "chip-to-chip"],
+    "theme": [
+      "NVLink",
+      "chip-to-chip"
+    ],
     "key_data": "NVLink 6 delivers 3.6 TB/s per GPU, Vera Rubin NVL72 = 260 TB/s rack bandwidth, 400 Gbps SerDes, liquid-cooled switch"
   },
   {
@@ -86,7 +113,9 @@
     "url": "https://developer.nvidia.com/blog/inside-the-nvidia-rubin-platform-six-new-chips-one-ai-supercomputer/",
     "source": "NVIDIA Developer Blog",
     "date": "2026-01",
-    "theme": ["NVLink"],
+    "theme": [
+      "NVLink"
+    ],
     "key_data": "Rubin ships H2 2026, TSMC 3nm, HBM4 288 GB per GPU, 13 TB/s HBM bandwidth"
   },
   {
@@ -95,7 +124,9 @@
     "url": "https://overclock3d.net/news/misc/pcie-7-0-has-arrived-and-pcie-8-0-is-already-in-progress/",
     "source": "OC3D",
     "date": "2025-06",
-    "theme": ["PCIe"],
+    "theme": [
+      "PCIe"
+    ],
     "key_data": "PCIe 7.0 final spec released June 2025, doubles PCIe 6.0 data rate to 128 GT/s, PCIe 8.0 already in progress"
   },
   {
@@ -104,7 +135,9 @@
     "url": "https://www.pcworld.com/article/2805679/pci-express-6-products-might-finally-ship-in-2025.html",
     "source": "PCWorld",
     "date": "2025",
-    "theme": ["PCIe"],
+    "theme": [
+      "PCIe"
+    ],
     "key_data": "First PCIe 6.0 integrator's list projected 2025, consumer SSDs 2030, enterprise/AI first"
   },
   {
@@ -113,16 +146,21 @@
     "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-unveils-first-3-nm-pcie--gen-6-switch-to-power-modern",
     "source": "Microchip Technology",
     "date": "2025-10-13",
-    "theme": ["PCIe", "chip-to-chip"],
+    "theme": [
+      "PCIe",
+      "chip-to-chip"
+    ],
     "key_data": "First 3nm PCIe Gen 6 Switchtec switch, 64 GT/s, up to 160 lanes, post-quantum cryptography, sampling Q4 2025"
   },
   {
     "id": 14,
-    "title": "PCIe 6.0 and 7.0 standards hit a roadblock — compliance slowdown",
+    "title": "PCIe 6.0 and 7.0 standards hit a roadblock \u2014 compliance slowdown",
     "url": "https://www.tomshardware.com/tech-industry/pcie-60-and-70-standards-hit-a-roadblock-compliance-slowdown-could-lead-to-broader-delays",
     "source": "Tom's Hardware",
     "date": "2025",
-    "theme": ["PCIe"],
+    "theme": [
+      "PCIe"
+    ],
     "key_data": "PCIe 6.0 compliance tests delayed to Q2 2025; PCIe 7.0 compliance tests postponed to 2028"
   },
   {
@@ -131,7 +169,9 @@
     "url": "https://www.businesswire.com/news/home/20251118275848/en/CXL-Consortium-Releases-the-Compute-Express-Link-4.0-Specification-Increasing-Speed-and-Bandwidth",
     "source": "BusinessWire / CXL Consortium",
     "date": "2025-11-18",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "128 GT/s (PCIe 7.0 base), bundled ports for 1.5 TB/s connections, native x2 link, 4 retimers, 256-byte FLIT, SC25 release"
   },
   {
@@ -140,7 +180,9 @@
     "url": "https://blocksandfiles.com/2025/11/24/cxl-4/",
     "source": "Blocks & Files",
     "date": "2025-11-24",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "CXL 4.0 doubles from 64 GT/s to 128 GT/s; enables multi-rack AI memory pooling; backward compatible"
   },
   {
@@ -149,7 +191,9 @@
     "url": "https://www.colobird.com/blogs/cxl-3-memory-pooling-dedicated-servers/",
     "source": "ColoBird",
     "date": "2025-12",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "CXL 3.0 hardware-managed MESI coherence, cache-coherent disaggregated pools, production 2025-2026"
   },
   {
@@ -158,7 +202,9 @@
     "url": "https://computeexpresslink.org/blog/expanding-your-memory-footprint-with-cxl-at-fms-2025-4133/",
     "source": "CXL Consortium",
     "date": "2025-08",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "CXL memory pooling deployment roadmap: commercial 100 TiB pools available 2025"
   },
   {
@@ -167,17 +213,22 @@
     "url": "https://investor.marvell.com/news-events/press-releases/detail/1017/marvell-launches-next-generation-cxl-switch-enabling-memory-pooling-to-break-through-the-ai-memory-wall",
     "source": "Marvell",
     "date": "2026-03",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "Structera S 30260: 260-lane CXL switch, rack-level memory pooling, breaks AI memory wall"
   },
   {
     "id": 20,
-    "title": "ISSCC 2026 — Electro-Optical Router in Chiplet Package",
+    "title": "ISSCC 2026 \u2014 Electro-Optical Router in Chiplet Package",
     "url": "https://www.electronicsweekly.com/news/business/isscc-2026-02/",
     "source": "Electronics Weekly",
     "date": "2026-02",
-    "theme": ["optical-switching", "chip-to-chip"],
-    "key_data": "CEA-List/Leti electro-optical router: 28nm CMOS, 18 ns optical path setup, 3.19 pJ/bit, 0.007 mm² per link, 6 wavelengths/link"
+    "theme": [
+      "optical-switching",
+      "chip-to-chip"
+    ],
+    "key_data": "CEA-List/Leti electro-optical router: 28nm CMOS, 18 ns optical path setup, 3.19 pJ/bit, 0.007 mm\u00b2 per link, 6 wavelengths/link"
   },
   {
     "id": 21,
@@ -185,7 +236,10 @@
     "url": "https://www.servethehome.com/celestial-ai-photonic-fabric-module-at-hot-chips-2025/",
     "source": "ServeTheHome",
     "date": "2025-08",
-    "theme": ["optical-switching", "chip-to-chip"],
+    "theme": [
+      "optical-switching",
+      "chip-to-chip"
+    ],
     "key_data": "World's first SoC with in-die optical I/O; 7.2 Tbps optical connectivity; 2.5D package with HBM3e; TSMC 5nm ASIC"
   },
   {
@@ -194,7 +248,9 @@
     "url": "https://monthly-pulse.com/2025/12/16/breaking-the-bandwidth-barrier-enabling-celestial-ais-photonic-fabric-with-custom-esd-ip-on-tsmcs-5nm-platform/",
     "source": "Monthly Pulse",
     "date": "2025-12",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "16 Tbps optical chiplet, first-gen PFM; 25x more bandwidth, 10x lower latency vs CPO alternatives; 400 Tbps target 2026"
   },
   {
@@ -203,7 +259,9 @@
     "url": "https://optics.org/news/16/11/47",
     "source": "Optics.org",
     "date": "2025-11",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "Marvell acquires Celestial AI for $3.25B cash-and-stock; consolidates photonic interconnect IP"
   },
   {
@@ -212,7 +270,10 @@
     "url": "https://optics.org/news/16/3/26",
     "source": "Optics.org",
     "date": "2025-03",
-    "theme": ["optical-switching", "NVLink"],
+    "theme": [
+      "optical-switching",
+      "NVLink"
+    ],
     "key_data": "Quantum-X (2H 2025) 1.6T CPO, Spectrum-X (2H 2026) 3.2T CPO, targets millions of GPUs"
   },
   {
@@ -221,7 +282,9 @@
     "url": "https://www.tweaktown.com/news/107372/nvidias-new-spectrum-x-ethernet-silicon-photonics-enters-the-chat-a-game-changer-for-ai/index.html",
     "source": "TweakTown",
     "date": "2025-03",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "Spectrum-X photonic switch: 400 Tb/s total throughput from 512 ports; 1.6 Tbps, 3.5x power efficiency; Lumentum + Coherent lasers"
   },
   {
@@ -230,7 +293,10 @@
     "url": "https://www.hpcwire.com/2026/04/20/inside-nvidias-silicon-photonics-roadmap/",
     "source": "HPCwire",
     "date": "2026-04",
-    "theme": ["optical-switching", "NVLink"],
+    "theme": [
+      "optical-switching",
+      "NVLink"
+    ],
     "key_data": "NVIDIA silicon photonics roadmap through 2030, TSMC 3D stacking, deployment timelines"
   },
   {
@@ -239,8 +305,10 @@
     "url": "https://ascentoptics.com/blog/infiniband-ndr-xdr-for-ai-and-hpc-data-centers/",
     "source": "AscentOptics",
     "date": "2025",
-    "theme": ["chip-to-chip"],
-    "key_data": "XDR 800G transition accelerating; Quantum-X800: 144 ports × 800 Gbps; 14.4 TFLOPS in-network compute"
+    "theme": [
+      "chip-to-chip"
+    ],
+    "key_data": "XDR 800G transition accelerating; Quantum-X800: 144 ports \u00d7 800 Gbps; 14.4 TFLOPS in-network compute"
   },
   {
     "id": 28,
@@ -248,17 +316,21 @@
     "url": "https://www.fibermall.com/news/ibta-launches-xdr-800g-infiniband-spec.htm",
     "source": "FiberMall",
     "date": "2025",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "XDR InfiniBand spec: 800 Gbps per port; GDR 1.6 Tbps next milestone; Stargate 64k GB200s on 800G IB"
   },
   {
     "id": 29,
-    "title": "InfiniBand Roadmap – Charting Speeds for Future Needs",
+    "title": "InfiniBand Roadmap \u2013 Charting Speeds for Future Needs",
     "url": "https://www.infinibandta.org/infiniband-roadmap-charting-speeds-for-future-needs/",
     "source": "InfiniBand Trade Association",
     "date": "2025",
-    "theme": ["chip-to-chip"],
-    "key_data": "HDR 200G → NDR 400G → XDR 800G → GDR 1.6T → LDR 3.2T roadmap; 1.6T optics in roadmaps 2026-2027"
+    "theme": [
+      "chip-to-chip"
+    ],
+    "key_data": "HDR 200G \u2192 NDR 400G \u2192 XDR 800G \u2192 GDR 1.6T \u2192 LDR 3.2T roadmap; 1.6T optics in roadmaps 2026-2027"
   },
   {
     "id": 30,
@@ -266,8 +338,10 @@
     "url": "https://www.broadcom.com/company/news/product-releases/63146",
     "source": "Broadcom Official",
     "date": "2026-03-12",
-    "theme": ["chip-to-chip"],
-    "key_data": "102.4 Tbps, 3nm process, CPO option, 100G/200G SerDes, 512 × 200G or 1024 × 100G ports, Cognitive Routing 2.0"
+    "theme": [
+      "chip-to-chip"
+    ],
+    "key_data": "102.4 Tbps, 3nm process, CPO option, 100G/200G SerDes, 512 \u00d7 200G or 1024 \u00d7 100G ports, Cognitive Routing 2.0"
   },
   {
     "id": 31,
@@ -275,7 +349,9 @@
     "url": "https://www.theregister.com/2026/02/10/cisco_challenges_broadcom_nvidia_switch_chips/",
     "source": "The Register",
     "date": "2026-02-10",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Cisco Silicon One G300: 102.4T; competes with Broadcom Tomahawk 6 and NVIDIA Spectrum-X"
   },
   {
@@ -284,8 +360,10 @@
     "url": "https://www.marvell.com/company/newsroom/marvell-teralynx-512t-ethernet-switch-enters-volume-production-for-global-ai-cloud-deployments.html",
     "source": "Marvell",
     "date": "2025",
-    "theme": ["chip-to-chip"],
-    "key_data": "Teralynx 10: 51.2 Tbps, 500ns latency, 512 × 112G SerDes, volume production 2025"
+    "theme": [
+      "chip-to-chip"
+    ],
+    "key_data": "Teralynx 10: 51.2 Tbps, 500ns latency, 512 \u00d7 112G SerDes, volume production 2025"
   },
   {
     "id": 33,
@@ -293,7 +371,9 @@
     "url": "https://www.nextplatform.com/2025/06/03/the-ai-datacenter-is-ravenous-for-102-4-tb-sec-ethernet/",
     "source": "The Next Platform",
     "date": "2025-06-03",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Roadmap to Tomahawk 7 204.8T and Tomahawk 8 409.6T; OEM products 2026 Q1, deployments Q2"
   },
   {
@@ -302,7 +382,9 @@
     "url": "https://convergedigest.com/hot-chips-2025-amd-boosts-infinity-fabric/",
     "source": "Converge Digest",
     "date": "2025-08",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Hot Chips 2025: AMD Infinity Fabric 4th Gen redesign for MI350 series"
   },
   {
@@ -311,8 +393,10 @@
     "url": "https://www.koicomputers.com/wp-content/uploads/2025/08/amd-instinct-mi350x-gpu-datasheet.pdf",
     "source": "AMD/Koi Computers",
     "date": "2025-08",
-    "theme": ["chip-to-chip"],
-    "key_data": "7 × Gen4 Infinity Fabric links, 1075 GB/s GPU-to-GPU, 5.5 TB/s AP interconnect bi-sectional bandwidth"
+    "theme": [
+      "chip-to-chip"
+    ],
+    "key_data": "7 \u00d7 Gen4 Infinity Fabric links, 1075 GB/s GPU-to-GPU, 5.5 TB/s AP interconnect bi-sectional bandwidth"
   },
   {
     "id": 36,
@@ -320,7 +404,9 @@
     "url": "https://newsletter.semianalysis.com/p/amd-advancing-ai-mi350x-and-mi400-ualoe72-mi500-ual256",
     "source": "SemiAnalysis",
     "date": "2026-01",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "MI400 (2026): 40 PFLOPs FP4, 432 GB HBM4, 19.6 TB/s bandwidth, 300 GB/s scale-out per GPU"
   },
   {
@@ -329,7 +415,9 @@
     "url": "https://ualinkconsortium.org/wp-content/uploads/2025/04/UALink-1.0-White_Paper_FINAL.pdf",
     "source": "UALink Consortium",
     "date": "2025-04",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "200 GT/s per lane, 800 Gbps in x4 config, scales to 1024 accelerators per pod, load/store operations, AMD/Intel/Apple/Google consortium"
   },
   {
@@ -338,7 +426,9 @@
     "url": "https://www.hpcwire.com/2025/12/02/upscale-ai-eyes-late-2026-for-scale-up-ualink-switch/",
     "source": "HPCwire",
     "date": "2025-12-02",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "UALink silicon won't ship until late 2026; meaningful deployments 2027; Upscale AI targeting Q4 2026"
   },
   {
@@ -347,7 +437,9 @@
     "url": "https://ultraethernet.org/ultra-ethernet-consortium-uec-launches-specification-1-0-transforming-ethernet-for-ai-and-hpc-at-scale/",
     "source": "Ultra Ethernet Consortium",
     "date": "2025-06-11",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "560+ pages, UET transport, native RDMA, 100+ member companies; hardware shipping fall 2025"
   },
   {
@@ -356,7 +448,9 @@
     "url": "https://semianalysis.com/2025/06/11/the-new-ai-networks-ultra-ethernet-uec-ualink-vs-broadcom-scale-up-ethernet-sue/",
     "source": "SemiAnalysis",
     "date": "2025-06-11",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Competitive analysis of UEC, UALink, and Broadcom Scale-Up Ethernet in AI fabric"
   },
   {
@@ -365,7 +459,9 @@
     "url": "https://cloud.google.com/blog/products/compute/inside-the-ironwood-tpu-codesigned-ai-stack",
     "source": "Google Cloud Blog",
     "date": "2025-05",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Ironwood TPU v7: 4 ICI links, 9.6 Tbps aggregate (1.2 TB/s), 3D Torus topology, 9216-chip superpod, 1.77 PB shared HBM"
   },
   {
@@ -374,7 +470,9 @@
     "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-ec2-trn3-ultraservers/",
     "source": "AWS",
     "date": "2025-12",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "Trn3: 4.9 TB/s HBM3e bandwidth, 160 PCIe lanes NeuronLinkv4, Trn3 UltraServer: 706 TB/s aggregate memory bandwidth"
   },
   {
@@ -383,7 +481,9 @@
     "url": "https://nand-research.com/ofc-2025-optical-interconnects-take-center-stage-in-the-ai-first-data-center/",
     "source": "NAND Research",
     "date": "2025-03",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "OFC 2025 highlights: 400G/lane OFC milestone, CPO demos, Broadcom 6.4 Tbps XPU optics; industry shift to optical"
   },
   {
@@ -392,7 +492,9 @@
     "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-advances-optical-connectivity-ai-infrastructure",
     "source": "Broadcom",
     "date": "2025-03",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "6.4 Tbps optics for XPU scale-up fabric; 3nm 200G/lane DSP; integrated VCSEL drivers for MMF"
   },
   {
@@ -401,8 +503,10 @@
     "url": "https://adtek-fiber.com/co-packaged-optics-cpo-market-trends-2026-ai-data-center-optical-interconnect-evolution/",
     "source": "ADTEK Fiber",
     "date": "2026",
-    "theme": ["optical-switching"],
-    "key_data": "CPO market: $95M in 2025 → $1.05B by 2034 (30.6% CAGR); early hyperscale deployment 2026-2027"
+    "theme": [
+      "optical-switching"
+    ],
+    "key_data": "CPO market: $95M in 2025 \u2192 $1.05B by 2034 (30.6% CAGR); early hyperscale deployment 2026-2027"
   },
   {
     "id": 46,
@@ -410,7 +514,9 @@
     "url": "https://blogs.sw.siemens.com/semiconductor-packaging/2026/02/05/five-key-trends-of-co-packaged-optics-cpo-in-2026/",
     "source": "Siemens Semiconductor Blog",
     "date": "2026-02-05",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "CPO 2026 trends: wafer-level integration, 400 Gbps per lane race, thermal management, supply chain maturation"
   },
   {
@@ -419,7 +525,9 @@
     "url": "https://www.edn.com/where-co-packaged-optics-cpo-technology-stands-in-2026/",
     "source": "EDN",
     "date": "2026",
-    "theme": ["optical-switching"],
+    "theme": [
+      "optical-switching"
+    ],
     "key_data": "CPO energy efficiency: 5 pJ/bit vs pluggable 15 pJ/bit; CPO on interposer 3.5 pJ/bit"
   },
   {
@@ -428,7 +536,9 @@
     "url": "https://www.oiforum.com/technical-work/hot-topics/common-electrical-i-o-cei-224g/",
     "source": "OIF Forum",
     "date": "2025",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "CEI-224G: XSR, VSR, MR, LR variants; PAM4 224 Gbps; interoperability demo at OFC 2025"
   },
   {
@@ -437,7 +547,9 @@
     "url": "https://semiengineering.com/224g-serdes-trend-and-solution/",
     "source": "Semiconductor Engineering",
     "date": "2025",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "224 Gbps doubles achievable SerDes rate; IEEE 802.3dj and OIF CEI-224G evolving; UALink caters to 224G"
   },
   {
@@ -446,7 +558,10 @@
     "url": "https://institutionofelectronics.ac.uk/intel-ups-the-advanced-packaging-ante-with-emib-t/",
     "source": "Institution of Electronics",
     "date": "2025-11",
-    "theme": ["chip-to-chip", "UCIe"],
+    "theme": [
+      "chip-to-chip",
+      "UCIe"
+    ],
     "key_data": "EMIB-T with TSVs, supports HBM4 and UCIe; Foveros Direct 3D <5 micron pitch vs TSMC SoIC-X 9 micron"
   },
   {
@@ -455,7 +570,10 @@
     "url": "https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/",
     "source": "SemiWiki",
     "date": "2025-12",
-    "theme": ["chip-to-chip", "UCIe"],
+    "theme": [
+      "chip-to-chip",
+      "UCIe"
+    ],
     "key_data": "CoWoS growing 80% CAGR; NVIDIA >70% of capacity for Blackwell; CoWoS-L for multi-chiplet beyond reticle limit"
   },
   {
@@ -464,7 +582,9 @@
     "url": "https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/",
     "source": "OSCOO",
     "date": "2026-02",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "HBM4: 2048-bit interface, 8+ Gbps/pin, 2 TB/s per stack; Samsung mass production Feb 2026; Micron Q1 2026"
   },
   {
@@ -473,7 +593,9 @@
     "url": "https://engineering.fb.com/2025/10/13/data-infrastructure/ocp-summit-2025-the-open-future-of-networking-hardware-for-ai/",
     "source": "Meta Engineering",
     "date": "2025-10",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "ESUN (Ethernet Scale-Up Networking) announced; Meta Non-Scheduled Fabric supports 18,432 XPUs; Minipack3N 51 Tbps"
   },
   {
@@ -482,7 +604,9 @@
     "url": "https://www.opencompute.org/blog/introducing-esun-advancing-ethernet-for-scale-up-ai-infrastructure-at-ocp",
     "source": "Open Compute Project",
     "date": "2025-10",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "ESUN workstream: AMD, Arista, ARM, Broadcom, Cisco, HPE, Marvell, Meta, Microsoft, NVIDIA, OpenAI, Oracle"
   },
   {
@@ -491,7 +615,10 @@
     "url": "https://www.servethehome.com/google-ironwood-tpu-swings-for-reasoning-model-leadership-at-hot-chips-2025/",
     "source": "ServeTheHome",
     "date": "2025-08",
-    "theme": ["chip-to-chip", "optical-switching"],
+    "theme": [
+      "chip-to-chip",
+      "optical-switching"
+    ],
     "key_data": "First multi-die TPU: 2 compute chiplets per chip; UCIe optical I/O retimer chiplet presentation by Stojanovic"
   },
   {
@@ -500,7 +627,9 @@
     "url": "https://computeexpresslink.org/blog/overcoming-the-ai-memory-wall-how-cxl-memory-pooling-powers-the-next-leap-in-scalable-ai-computing-4267/",
     "source": "CXL Consortium",
     "date": "2025",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "CXL pooling: 4.8x inference throughput, 82.7% TTFT reduction, 8x memory capacity expansion per GPU"
   },
   {
@@ -509,7 +638,9 @@
     "url": "https://www.ai-buzz.com/enfabricas-cxl-fabric-breaks-ai-memory-wall-via-800gbe",
     "source": "AI Buzz",
     "date": "2025",
-    "theme": ["CXL-fabric"],
+    "theme": [
+      "CXL-fabric"
+    ],
     "key_data": "Panmnesia CXL 3.2 Fabric Switch: first silicon with port-based routing, up to 4,096 nodes"
   },
   {
@@ -518,8 +649,12 @@
     "url": "https://ayarlabs.com/blog/ai-scale-up-and-memory-disaggregation-two-use-cases-enabled-by-ucie-and-optical-io/",
     "source": "Ayar Labs",
     "date": "2025",
-    "theme": ["UCIe", "optical-switching", "CXL-fabric"],
-    "key_data": "UCIe optical I/O: memory up to 2km from compute, < 2×5ns + TOF latency, 1000x bandwidth density of electrical"
+    "theme": [
+      "UCIe",
+      "optical-switching",
+      "CXL-fabric"
+    ],
+    "key_data": "UCIe optical I/O: memory up to 2km from compute, < 2\u00d75ns + TOF latency, 1000x bandwidth density of electrical"
   },
   {
     "id": 59,
@@ -527,7 +662,10 @@
     "url": "https://www.allaboutcircuits.com/news/isscc-2025-intel-propels-chiplet-interconnect-speed-and-flexibility/",
     "source": "All About Circuits",
     "date": "2025-02",
-    "theme": ["chip-to-chip", "UCIe"],
+    "theme": [
+      "chip-to-chip",
+      "UCIe"
+    ],
     "key_data": "Intel ISSCC 2025: configurable heterogeneous 2.5D interfaces across 20 chiplets from 2 foundries; bandwidth-scalable"
   },
   {
@@ -536,7 +674,22 @@
     "url": "https://introl.com/blog/800g-networking-ai-gpu-fabric-planning-2025",
     "source": "Introl Blog",
     "date": "2025",
-    "theme": ["chip-to-chip"],
+    "theme": [
+      "chip-to-chip"
+    ],
     "key_data": "800G is 2025 standard for AI data centers; 1.6T by 2027; revenue up 220% QoQ H1 2025; 800G LPO reduces power 30%"
+  },
+  {
+    "id": 61,
+    "title": "PCIe 8.0 Draft 0.5 Released: 256 GT/s, 1.0 TB/s, Foundation for CXL 5.0",
+    "url": "https://www.servethehome.com/pci-sig-pcie-8-0-specification-draft-0-5-released/",
+    "date": "2026-05-06",
+    "tier": 2,
+    "theme": [
+      "PCIe-8.0",
+      "CXL-5.0",
+      "interconnect-standard"
+    ],
+    "key_data": "PCI-SIG Draft 0.5: 256 GT/s (8x PCIe 5.0), 1.0 TB/s bi-directional x16, PAM4 signaling, CXL 5.0 substrate; full spec 2028. Partially closes gap with NVLink 6 (~1.8 TB/s). PCIe 8.0 and PCIe 7.0 compliance both targeted for 2028."
   }
 ]

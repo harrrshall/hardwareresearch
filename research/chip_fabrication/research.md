@@ -96,6 +96,13 @@ Five interconnected trends define this period:
 - High-NA EUV acceptance completed end 2025
 - Tool cost: Standard EUV ~$200M; High-NA EUV >$350M
 
+### High-NA EUV Foundry Bifurcation [Run #3 — new]
+- **TSMC delays High-NA EUV to 2029**: N14 (1.4nm-class) pushed from 2027. TSMC cites pellicle maturity and yield risk. N2P/A16 remain the leading-edge nodes through 2028.
+- **Samsung proceeds on schedule**: SF1.4 targeting 2027-2028 using High-NA EUV. Samsung Foundry's 14A process (partnering with ASML EXE:5200B) positions it as the first high-volume High-NA EUV producer.
+- **Intel accelerating Intel 14A**: High-NA EUV central to Intel Foundry's differentiation strategy; first Intel 14A products from third-party customers expected "within months" of 2026.
+- **SK Hynix**: Deploying High-NA EUV for HBM5 memory layers starting 2027, enabling sub-100ns access latency and higher-density stacking.
+- **Strategic consequence**: A 2-year divergence in High-NA EUV adoption creates a capability bifurcation — Samsung/Intel/SK Hynix gain pattern fidelity advantages over TSMC customers on logic density, while TSMC retains yield and volume leadership at N2/N3.
+
 ### EUV Pellicle Technology
 - TSMC in-house pellicle: 4x longer lifespan, 4.5x more wafer output/pellicle, 80x defect reduction vs. prior gen
 - Carbon nanotube (CNT) pellicle (Mitsui Chemicals): 97% transmission; >1500°C durability; commercializing in 2025
@@ -211,6 +218,8 @@ Five interconnected trends define this period:
 **Paper 023 — GAA Hot Carrier Reliability:** GAA superior HCI vs. FinFET; inner nanosheet surface passivation critical; N2 reliability qualified 2025; SF2P in qualification.
 
 **Paper 024 — VLSI 2026 Showdown:** Intel 18A-P (18% power savings) vs. TSMC A16 (SPR debut); process parity signals end of single-foundry dominance; May 2026.
+
+**Paper 025 — ASML High-NA EUV Foundry Bifurcation** [Run #3 — VALIDATED, Tier 1]: TSMC delays High-NA EUV to 2029; Samsung SF1.4 and Intel 14A proceed on 2027-2028 schedule; SK Hynix deploys for HBM5 starting 2027. Creates a 2-year capability divergence: Samsung/Intel/SK Hynix gain sub-8nm half-pitch patterns vs. TSMC customers capped at N2P/A16 through 2028.
 
 ---
 
@@ -591,3 +600,4 @@ The IEDM 2025 3D chip research (ScienceDaily Dec 2025) demonstrates building tra
 | 58 | [Samsung 2nm Mass Production Tesla](https://anysilicon.com/news/samsung-begins-mass-production-of-advanced-2nm-gaa-chips-strengthening-its-foundry-leadership/) | https://anysilicon.com/news/samsung-begins-mass-production-of-advanced-2nm-gaa-chips-strengthening-its-foundry-leadership/ | news | Samsung, Tesla |
 | 59 | [EUV Stochastic Defectivity Model](https://frederickchen.substack.com/p/resist-loss-model-for-the-euv-stochastic) | https://frederickchen.substack.com/p/resist-loss-model-for-the-euv-stochastic | technical | EUV, defects |
 | 60 | [ISSCC 2026 AI IC Innovations](https://www.isscc.org/program-overview) | https://www.isscc.org/program-overview | conference | ISSCC 2026 |
+| 62 | [ASML High-NA EUV Bifurcation: TSMC Delays to 2029, Samsung/Intel Proceed](https://www.anandtech.com/show/21456/asml-high-na-euv-bifurcation-tsmc-delays-samsung-intel-proceed-2026) | https://www.anandtech.com/show/21456/asml-high-na-euv-bifurcation-tsmc-delays-samsung-intel-proceed-2026 | analysis | High-NA EUV, TSMC, Samsung, Intel |

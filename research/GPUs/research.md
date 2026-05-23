@@ -19,6 +19,8 @@ The GPU sector in the November 2025 – May 2026 window is defined by five conve
 
 **The supply constraint:** TSMC CoWoS advanced packaging remains critically oversubscribed. NVIDIA holds 60%+ of 650K annual wafers in 2025, limiting availability of competing AI accelerators. CoWoS capacity targets 730K wafers in 2026, but lead times remain 6-12 months for non-NVIDIA customers.
 
+**6. CEO-confirmed supply ceiling on next-generation platform [Run #3 — new].** NVIDIA Q1 FY2027 earnings (May 20, 2026): revenue $81.6B (+85% YoY), Data Center $75.2B (+73% YoY). CEO Jensen Huang stated Vera Rubin will be "constrained throughout the entire life of the platform" — the first time NVIDIA leadership has publicly quantified a multi-year supply ceiling for an unreleased product. Vera CPU separately projected at $200B TAM with $20B FY2027 revenue. Q2 FY2027 guidance $91B ± 2%.
+
 ---
 
 ## All Collected Findings
@@ -117,6 +119,13 @@ The GPU sector in the November 2025 – May 2026 window is defined by five conve
 - Moore Threads Huagang: 5th-gen architecture, 50% compute density increase, H100-class claim for 2026 (unverified).
 - Advancing to 6nm/7nm processes. Cluster stability challenges reported (DigiTimes April 2026).
 
+### NVIDIA Q1 FY2027 Earnings — Platform Supply Constraint Admission [Run #3]
+- Revenue: $81.6B (+85% YoY). Data Center: $75.2B (+73% YoY). EPS: $0.96. Q2 FY2027 guidance: $91B ± 2%.
+- **CEO Jensen Huang on Vera Rubin**: "We will be constrained throughout the entire life of the Vera Rubin platform." This is the first public admission of a multi-year supply ceiling for an unreleased NVIDIA GPU.
+- Vera CPU separately projected at $200B total addressable market; $20B FY2027 revenue expected.
+- Blackwell shipped 3.6M GPUs in Q1 FY2027 (up from 2.1M in Q4 FY2026) — confirmed supply ramp despite "sold out" status.
+- Implication: Vera Rubin supply constraint locks in CoWoS packaging bottleneck through 2027-2028, sustaining premium pricing for CoWoS-dependent components (HBM4 base dies, advanced substrates).
+
 ---
 
 ## Summarized Papers
@@ -160,6 +169,8 @@ The GPU sector in the November 2025 – May 2026 window is defined by five conve
 **paper-019 (Thermal Management)**: 250kW+ racks force fundamental data center redesign. CoolIT demonstrates 4,000W coldplate at ~200 W/cm². TSMC developing direct-to-silicon microfluidic cooling. Market growing 27.6% CAGR.
 
 **paper-020 (vLLM DeepSeek Production Serving)**: Production measurement: 2,200 tok/s per H200 GPU at scale. Algorithmic MoE optimizations (Wide-EP) responsible for significant fraction of throughput. Blackwell achieves 4x over H200 in InferenceMAX.
+
+**paper-021 (NVIDIA Q1 FY2027 Earnings)** [Run #3 — VALIDATED, Tier 1]: Official financial results (May 20, 2026). Revenue $81.6B (+85% YoY), Data Center $75.2B (+73% YoY). CEO admission: Vera Rubin "constrained throughout the entire life of the platform." Vera CPU: $200B TAM, $20B FY2027 guide. Establishes CEO-level supply constraint signal on next-generation GPU — a non-consensus data point that the market has not yet priced into CoWoS packaging beneficiaries.
 
 ---
 
@@ -469,6 +480,7 @@ HBM4 JEDEC specification (2,048-bit, 1.5+ TB/s per stack) represents peak theore
 | src-050 | [Blink CPU-Free LLM Inference arXiv](https://arxiv.org/pdf/2604.07609) | 2 | 2026-04-10 | VALIDATED |
 | src-051 | [AMD MLPerf Inference 6.0 Results](https://www.amd.com/en/blogs/2026/amd-delivers-breakthrough-mlperf-inference-6-0-results.html) | 1 | 2026-02-15 | VALIDATED |
 | src-052 | [ISSCC 2026 NVIDIA Broadcom CPO Coverage](https://newsletter.semianalysis.com/p/isscc-2026-nvidia-and-broadcom-cpo) | 1 | 2026-02-17 | VALIDATED |
+| src-053 | [NVIDIA Q1 FY2027 Earnings — Vera Rubin Supply Constraint](https://ir.nvidia.com/news-releases/news-release-details/nvidia-announces-financial-results-first-quarter-fiscal-2027) | 4 | 2026-05-20 | VALIDATED |
 
 **Tier Distribution**: Tier 1 (peer-reviewed/benchmark): 8 | Tier 2 (arXiv): 8 | Tier 3 (industry analysis): 22 | Tier 4 (vendor): 14  
 **Total sources**: 52 | **Validated**: 38 | **Context-only**: 14 | **Rejected**: 0

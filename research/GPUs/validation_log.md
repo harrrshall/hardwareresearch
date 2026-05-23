@@ -274,3 +274,18 @@ Generated: 2026-05-22 | Window: 2025-11-22 – 2026-05-22
 - No papers were REJECTED — all sources maintained methodological integrity
 - Key claim to flag as unverified: Moore Threads "H100-class performance in 2026" (paper-018, unverified vendor claim)
 - Key strength: papers 003, 012, 016, 020 are academic/production sources providing independent validation of vendor claims
+
+---
+
+## Run #3 Validation Decisions (2026-05-23)
+
+### paper-021 — NVIDIA Q1 FY2027 Earnings: Vera Rubin "Constrained Throughout Entire Life"; Vera CPU $200B TAM
+**Decision: VALIDATED**
+Criteria checklist:
+1. Recency ✅ — May 20, 2026; within research window
+2. Cross-reference ✅ — SEC Form 8-K (primary); TechCrunch, CNBC, Dataconomy corroborate (Tier 3)
+3. Methodology disclosure ✅ — Earnings call + filed financial statements with revenue figures
+4. Benchmark fairness ✅ — Performance per core/watt vs x86 cited vs specified alternatives; supply constraint is directional, not a benchmark
+5. No rebuttal ✅ — No analyst or vendor disputes the revenue figures or CEO statement
+6. Traceable attribution ✅ — Primary: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026
+Verdict: VALIDATED. Tier 1 primary vendor CEO disclosure with SEC filing. "Constrained throughout entire life of Vera Rubin" is the most significant supply-chain admission in NVIDIA's public history — directly strengthens cross_sector_alpha.md Finding 2 (packaging yield ceiling). Vera CPU $200B TAM and $20B FY2027 revenue projection are forward-looking but attached to Q2 guidance that beat consensus, giving credibility. Cross-sector impact: HBM4 demand duration extended, CoWoS allocation picture confirmed for Rubin's multi-year life.

@@ -183,3 +183,18 @@ Six criteria applied to all 56 sources and 25 papers:
 5. **NVIDIA Rubin CPX** — Architecture disclosed but key specs not fully public
 
 *All flagged items are clearly noted in the research.md as requiring independent confirmation.*
+
+---
+
+## Run #3 Validation Decisions (2026-05-23)
+
+### paper-026 — Alibaba T-Head Zhenwu M890: 3× Performance, 560K Units Deployed, V900/J900 Roadmap Through 2028
+**Decision: VALIDATED**
+Criteria checklist:
+1. Recency ✅ — May 20–21, 2026; within research window
+2. Cross-reference ✅ — Alibaba Cloud Summit 2026 (primary company conference); CNBC and TrendForce (Tier 3) independently reported same specifications
+3. Methodology disclosure ✅ — "3× performance" claim is vs prior Zhenwu 810E (named baseline); 560K units is cumulative deployment count (not benchmark)
+4. Benchmark fairness ✅ — Performance comparison vs prior generation (810E), not strawman baseline
+5. No rebuttal ✅ — No independent source disputes the unit count or specifications
+6. Traceable attribution ✅ — Primary: https://www.trendforce.com/news/2026/05/21/news-alibaba-t-head-unveils-zhenwu-m890-with-3x-performance-vs-prior-gen-new-ai-chips-planned-for-3q273q28/
+Verdict: VALIDATED. Tier 1 vendor disclosure at formal company summit; Tier 3 cross-references confirm. 560K deployed units is the most significant data point — at this scale, China's domestic AI chip supply chain is operational and not hypothetical. Roadmap through 2028 (V900, J900) is forward-looking but disclosed at a formal venue. Cross-sector: validates sovereign AI compute; reduces China TAM rebound assumption for NVIDIA.

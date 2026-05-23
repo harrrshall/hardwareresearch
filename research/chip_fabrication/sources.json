@@ -920,5 +920,24 @@
       "industry-academic-partnership"
     ],
     "key_data": "Meta, Broadcom, Applied Materials, GlobalFoundries, and Synopsys launch $125M Semiconductor Hub at UCLA. Connects students/faculty with chip design, manufacturing, AI infrastructure, and semiconductor software industry leaders. Addresses engineering talent gap and next-gen AI chip development pipeline."
+  },
+  {
+    "id": 62,
+    "title": "ASML CEO: First High-NA EUV Memory + Logic Products 'Within Months'; TSMC Cost-Driven Delay to 2029",
+    "url": "https://www.trendforce.com/news/2026/05/20/news-asml-expects-first-high-na-euv-memory-logic-products-within-months-amid-tsmcs-cost-driven-delay/",
+    "source_type": "vendor_disclosure_ceo",
+    "date_range": "2026-05-20",
+    "topics": [
+      "High-NA-EUV",
+      "ASML",
+      "TSMC",
+      "Intel-14A",
+      "Samsung",
+      "SK-Hynix",
+      "lithography",
+      "2nm",
+      "sub-2nm"
+    ],
+    "key_data": "ASML CEO Christophe Fouquet (May 20, 2026 investor event): first High-NA EUV memory/logic products expected 'within months'. TSMC confirmed cost-driven delay to 2029 ($360-400M/unit). Samsung, SK Hynix, Intel 14A proceeding on original timeline. Creates 2026-2028 window where Samsung/Intel have High-NA; TSMC does not. Samsung HBM5 and LPDDR6 may be first High-NA production ICs."
   }
 ]

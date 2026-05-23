@@ -180,3 +180,18 @@ The 52 sources represent a high-quality, well-validated corpus for the edge AI h
 - **No rebuttal:** No public rebuttal found ✓
 - **Attribution:** arXiv:2604.24785 URL captured ✓
 - **Decision:** VALIDATED — empirical benchmark with clear methodology; extends thermal-constraint story to sub-5W tier; adds to edge AI sector's evidence base
+
+---
+
+## Run #3 Validation Decisions (2026-05-23)
+
+### paper-024 — LlamaWeb: Memory-Efficient Multi-Precision LLM Inference via WebGPU (arXiv 2605.20706)
+**Decision: VALIDATED**
+Criteria checklist:
+1. Recency ✅ — May 20, 2026; within research window
+2. Cross-reference ✅ — arXiv preprint (Tier 2) with ICML 2026 AdaptFM Workshop affiliation; multi-device evaluation across 8 vendors is independently reproducible
+3. Methodology disclosure ✅ — 16 devices from 8 vendors, 10 models, 4 weight formats; static memory planning described; open-source implementation
+4. Benchmark fairness ✅ — Cross-device evaluation avoids strawman baseline; evaluates on same models across all devices
+5. No rebuttal ✅ — No conflicting study found
+6. Traceable attribution ✅ — Primary: https://arxiv.org/abs/2605.20706
+Verdict: VALIDATED. Empirical multi-device characterization adds breadth to the edge inference corpus. 8-vendor / 16-device matrix is the broadest cross-device LLM inference study in the research window. Key limitation (noted in paper): WebGPU cannot route to dedicated NPU instruction sets, meaning native NPU performance is not captured. Complements arXiv 2604.24785 (paper-023, Hailo thermal isolation) by broadening the device landscape analysis.

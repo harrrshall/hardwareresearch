@@ -153,3 +153,18 @@
 - **Cross-reference:** Corroborated across multiple tech press outlets. Partnership between named companies verifiable via public corporate statements ✓
 - **Methodology disclosure:** Partnership announcement — no technical findings; marked CONTEXT-ONLY appropriately ✓
 - **Decision:** CONTEXT-ONLY — ecosystem/talent-pipeline context relevant to long-term chip fabrication outlook; no immediate technical finding to validate
+
+---
+
+## Run #3 Validation Decisions (2026-05-23)
+
+### paper-026 — ASML High-NA EUV Bifurcation: TSMC Delays to 2029; Samsung/Intel/SK Hynix Accelerate
+**Decision: VALIDATED**
+Criteria checklist:
+1. Recency ✅ — May 20, 2026; within research window
+2. Cross-reference ✅ — ASML CEO direct statement (Tier 1); TrendForce coverage (Tier 3) corroborates
+3. Methodology disclosure ✅ — CEO investor event statement; pricing basis ($360-400M/unit) is industry-reported cost; TSMC decision is described as cost-driven
+4. Benchmark fairness ✅ — Not a performance benchmark; a technology timeline statement
+5. No rebuttal ✅ — No TSMC denial found; ASML's CEO statement at investor event is primary
+6. Traceable attribution ✅ — Primary: https://www.trendforce.com/news/2026/05/20/news-asml-expects-first-high-na-euv-memory-logic-products-within-months-amid-tsmcs-cost-driven-delay/
+Verdict: VALIDATED. CEO-level primary disclosure with concrete timeline ("within months" for first products; TSMC 2029 delay). Cross-sector impact: creates a 2-year High-NA window where Samsung and Intel have lithography advantage over TSMC customers; affects HBM5 memory capability projections and Intel 14A foundry positioning.
