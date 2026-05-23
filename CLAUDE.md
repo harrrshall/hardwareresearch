@@ -56,7 +56,21 @@ After the synthesis is written, spawn a SEPARATE agent — the **Market Pricing 
 
 The verification agent runs AFTER the synthesis writer, in the SAME cycle, but in a SEPARATE agent context so it cannot anchor on the synthesis author's prior reasoning.
 
-### Step 7.5 — OVERWRITE `research/opportunity.md` (actionable shortlist)
+### Step 7.5 — POST-VERIFICATION PURGE (mandatory)
+After the Verification Agent writes its verdicts, scrub all `ALREADY-PRICED-IN` items out of these three files so they contain signal only:
+
+1. **`research/cross_sector_alpha.md`** — remove any ranked deep-dive section whose verification verdict is `ALREADY-PRICED-IN`. Remove the corresponding "Not priced in" matrix cells (or flip them to "Priced — see verification_log.md"). The remaining deep dives keep their numbering contiguous (renumber if needed).
+2. **`research/market_opportunities.md`** — remove any opportunity entry whose verification verdict is `ALREADY-PRICED-IN`. The remaining opportunities keep contiguous numbering.
+3. **`research/opportunity.md`** — already signal-only by design (Step 7.6 below regenerates it).
+
+The purge is mandatory every cycle. Why: the synthesis-author agent does not have the verification data in scope when it writes; only the verification agent has independently checked the market. So the synthesis files are always optimistic about non-consensus until the verification agent has scrubbed them. The verification verdict is final.
+
+When purging, append a one-line breadcrumb at each removal site, e.g.:
+> *Finding #4 (EML laser supply gates CPO) — removed post-verification: ALREADY-PRICED-IN as of YYYY-MM-DD. See `verification_log.md`.*
+
+Do NOT delete from `conclusion.md` or `future_trends.md`. Conclusions can be priced-in and still factually correct; future trends are about direction, not pricing. The purge applies only to the three files above.
+
+### Step 7.6 — OVERWRITE `research/opportunity.md` (actionable shortlist)
 After the Verification Agent finishes, fully OVERWRITE `research/opportunity.md` (do not append — this is the user's live action list, regenerated every cycle).
 
 Include ONLY findings whose verification verdict is `VERIFIED-NOT-PRICED-IN` or `PARTIALLY-PRICED-IN`. Exclude `ALREADY-PRICED-IN` entirely — those are dead leads for the user.

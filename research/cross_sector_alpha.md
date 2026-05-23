@@ -39,7 +39,7 @@ Sectors abbreviated: GPU, CPU, MEM (memory), FAB (chip fabrication), ACC (AI acc
 | 10 | CPU × MEM | CPU sector flags "when does HBM4 reach server CPUs?" Memory sector ships SOCAMM2 (192GB, 2x DDR5 BW) in Q2 2026 — the answer is "CPUs get LPDDR-module bandwidth now, HBM later." | Partially |
 | 11 | CPU × FAB | Intel 18A yield (~60-65%, +7%/mo) is the make-or-break; Intel uses TSMC N3E for Panther Lake's *GPU tile* — Intel's own foundry can't yet beat TSMC for graphics silicon. | Yes |
 | 12 | CPU × ACC | Every hyperscaler ASIC (TPU, Trainium, Maia, MTIA) needs a host CPU; the Vera/Grace integration and Qualcomm's $2.4B Ventana RISC-V buy mean the host-CPU layer is fragmenting away from x86. | Partially |
-| 13 | CPU × PKG | Apple M5 "Fusion" (two bonded 3nm dies) and Intel's 12-tile Clearwater Forest mean CPUs now consume SoIC/Foveros packaging capacity that used to be AI-only. CPU demand competes with GPU demand for advanced packaging. | **No** |
+| 13 | CPU × PKG | Apple M5 "Fusion" (two bonded 3nm dies) and Intel's 12-tile Clearwater Forest mean CPUs now consume SoIC/Foveros packaging capacity that used to be AI-only. CPU demand competes with GPU demand for advanced packaging. | Priced — see `verification_log.md` Claim 8 |
 | 14 | CPU × PHO | Minimal direct link — but co-packaged optics on CPUs (Intel OCI chiplet) would let CPU memory pools disaggregate optically. Not on any CPU roadmap in-window. | Yes (as non-event) |
 | 15 | CPU × INT | CXL 4.0 is a CPU-rooted standard (PCIe 7.0 phys). CPU sector barely mentions CXL; interconnect sector shows CXL 4.0's PCIe 7.0 dependency + compliance delay to 2028 — CXL 4.0 deployment may slip to 2029. | **No** |
 | 16 | CPU × DC | Clearwater Forest 288 cores at 1,300 GB/s; the host-CPU is now a rounding error in rack power (112kW from GPUs). CPU TDP is irrelevant to AI rack economics — a humbling inversion. | Partially |
@@ -69,7 +69,7 @@ Sectors abbreviated: GPU, CPU, MEM (memory), FAB (chip fabrication), ACC (AI acc
 | 40 | PHO × INT | CEA-Leti's 3.19 pJ/bit electro-optical router (ISSCC 2026) beats CPO; in-die optical routing is the next discontinuity after CPO. EML laser scarcity (30-60% shortfall to 2029) is the gating constraint. | **No** |
 | 41 | PHO × DC | CPO saves 60-73% network power; for a 100MW factory that is ~15,000 extra GPUs of compute budget. Power, not bandwidth, is why CPO wins. | Partially |
 | 42 | PHO × EDGE | Avicena microLED optical I/O at 80-200 fJ/bit — laser-free. Could reach short-reach edge/automotive interconnect. Not on edge roadmaps in-window. | Yes (as non-event) |
-| 43 | INT × DC | NVLink domain growth (72→144→?) means more of the cluster fits inside the *proprietary* fabric — NVIDIA is on a path to commoditize the inter-rack InfiniBand/Ethernet layer it doesn't own. | **No** |
+| 43 | INT × DC | NVLink domain growth (72→144→?) means more of the cluster fits inside the *proprietary* fabric — NVIDIA is on a path to commoditize the inter-rack InfiniBand/Ethernet layer it doesn't own. | Priced — see `verification_log.md` Claim 12 |
 | 44 | INT × EDGE | UCIe used identically for datacenter chiplets and edge RISC-V SoCs. The same die-to-die standard spans 1mW to 1MW — a chiplet built for one tier can be reused at another. | Partially |
 | 45 | DC × EDGE | Datacenter is power-capped (grid is the ceiling); edge is thermally-capped (~5-8W, 2-3min throttle). Both are now *constrained by the same physics class* — heat removal per unit area — at opposite scales. | **No** |
 
@@ -84,7 +84,7 @@ The strongest 3-sector chains, where dependencies compound into a chokepoint or 
 | T1 | FAB × PKG × ACC | CoWoS-L capacity (130K wpm cap) × HBM4 stacking-yield (~78%) × every accelerator needing both → **advanced packaging, not wafers, is the hard ceiling on total AI compute shipped in 2026-27.** | Chokepoint |
 | T2 | MEM × INT × DC | HBM capacity wall (288-432GB) × CXL 4.0 (1.5 TB/s) × 1M-token KV cache (2.4TB) → disaggregated memory becomes mandatory, not optional, for frontier inference. | Unlock + repricing |
 | T3 | ACC × GPU × INT | Inference = 67% of compute × NVIDIA-Groq $20B license × decode being bandwidth-bound → the GPU is being unbundled into prefill-engine + decode-engine + optical fabric. | Architectural fork |
-| T4 | PHO × INT × DC | CPO 60-73% power saving × EML laser shortfall (30-60% to 2029) × datacenters being power-capped → **the laser supply chain, not the switch ASIC, gates CPO-driven compute expansion.** | Chokepoint |
+| T4 | PHO × INT × DC | ~~CPO 60-73% power saving × EML laser shortfall × datacenters power-capped → laser supply chain gates CPO~~ — *Priced in post-verification (TrendForce, Lumentum CEO 30% undershipping, SDxCentral). See `verification_log.md` Claim 4.* | ~~Chokepoint~~ Priced |
 | T5 | FAB × CPU × ACC | TSMC N2 100% booked × Apple >50% allocation × hyperscaler ASICs (TPU v8) on N2 → 2nm access is rationed by Apple's consumer cadence; AI silicon queues behind iPhones. | Chokepoint |
 | T6 | PKG × MEM × GPU | CG-HBM (memory-on-die) × HBM4 2,048-bit bus × Rubin being first to ship it → if CG-HBM yields, the silicon interposer (and a chunk of CoWoS demand) is disrupted from inside. | Unlock (conditional) |
 | T7 | EDGE × MEM × ACC | Mobile bandwidth wall (55 GB/s) × LPDDR6-PIM JEDEC standardization (2026) × MoE sparsity → processing-in-memory may ship in phones before it is clean in datacenters. | Inversion |
@@ -223,35 +223,9 @@ The non-obvious synthesis: the prefill/decode split is appearing **independently
 
 ---
 
-### Finding 4 — The EML laser supply chain, not the switch ASIC, is the true gate on CPO — and because CPO is what unlocks the next tranche of power-capped compute, a niche optical-component shortage now rate-limits frontier AI
+### ~~Finding 4 — EML laser supply chain as the true gate on CPO~~ — REMOVED post-verification
 
-**Rank: #4** | **Horizon: medium** | **Confidence: medium-high**
-
-**The combination** — photonics × interconnects × datacenter hardware (triple T4).
-
-**The emergent insight.** Three chains link into one constraint:
-- **DC + PHO:** Co-packaged optics saves **60-73%** of network power vs pluggables. For a 100MW AI factory, the photonics sector quantifies this as the difference between ~50,000 and ~65,000+ deployable GPUs — the saved network power converts directly into ~15,000 GPUs of compute budget (photonics research.md, Strategic Insight 2; datacenter Insight 5).
-- **DC:** Datacenters are power-capped (Finding 1). So CPO is not a nice-to-have efficiency play — it is one of the few remaining levers to *expand deployable compute inside a fixed megawatt envelope.*
-- **PHO — the gate:** The 1.6T transceiver transition and CPO both depend on **200G/lane EML lasers**, and at launch there is essentially **one volume supplier (Lumentum)**. McKinsey projects **40-60% supply shortfall on 800G through 2027 and 30-40% on 1.6T through 2029.** NVIDIA's **$4B investment in Lumentum + Coherent** (March 2026) is the tell — you don't put $4B into a component unless it is a hard gate. (photonics research.md, Optical Interconnect section; Manufacturing Implication 3.)
-
-The synthesis no single sector states: **a niche III-V laser-fab capacity shortage now sits on the critical path of frontier AI compute growth.** The logic chain is: grid power is frozen → CPO is the lever to get more compute per megawatt → CPO needs 200G EML lasers → EML lasers are 30-60% short through 2027-2029. The interconnect sector celebrates CPO milestones (102.4T Tomahawk 6, NVIDIA Quantum-X) and the DC sector celebrates the power savings — but the *binding* sub-component, the EML laser, is buried in the photonics sector's supply analysis. The bottleneck has moved twice and the market is watching the wrong layer each time: from GPUs → to CoWoS → and now → to a specific laser diode.
-
-**Why it is NOT priced in.** The market prices CPO as a switch-ASIC story (Broadcom Tomahawk 6, NVIDIA Spectrum-X, Marvell) and an optical-transceiver-TAM story. The contradicted consensus: *CPO adoption pace is gated by switch-ASIC readiness and customer willingness.* The cross-sector evidence says CPO pace is gated by 200G EML laser fab capacity — a different industry (Lumentum, Coherent, a handful of III-V fabs) with a 12-18 month qualification cycle. And critically, the *consequence* is mispriced: because CPO is a power-budget lever and power is the meta-constraint (Finding 1), the laser shortage doesn't just delay CPO — it caps how fast compute can grow inside the grid envelope. Nobody draws the line from "EML laser shortfall" to "frontier-AI compute growth ceiling," because that line runs through three separate sectors.
-
-**Supporting evidence.**
-- photonics research.md — Optical Interconnect ("Only volume supplier at launch: Lumentum"; "McKinsey: 40-60% 800G shortfall through 2027; 30-40% 1.6T shortfall through 2029"; "NVIDIA $4B investment Lumentum + Coherent"); Manufacturing Implication 3 (laser supply-chain restructuring); Strategic Insight 2 (power-budget forcing function: 50,000 → 65,000+ GPUs per 100MW with CPO).
-- interconnects research.md — Optical Interconnects (CPO 3.5-6.75 pJ/bit vs 14-24 pluggable); Implication 5 ("Optical Component Supply Chain Must Scale 100x"); Trend 5.
-- datacenter_hardware research.md — Strategic Insight 5 (CPO as next architectural shift, power savings); paper-014 (CPO 2028-2030 at scale).
-
-**The catalyst.** Two-sided: (a) downside catalyst — a hyperscaler CPO deployment slips or is capacity-rationed in 2026-2027 and the disclosed reason is laser supply, not switch ASIC; (b) the resolution catalyst — additional 200G EML suppliers qualify (the photonics sector estimates 2-3 more by 2027), which would *de*-rate the laser names. Either way the laser layer reprices.
-
-**Time horizon.** Medium (the shortfall runs 2027-2029 per McKinsey; the recognition catalyst is 2026-2027).
-
-**Confidence.** Medium-high. The shortfall numbers are McKinsey-sourced; the single-supplier fact and NVIDIA's $4B are concrete. The interpretive step is linking laser supply to the compute-growth ceiling via the power-budget chain — strong but multi-hop.
-
-**Falsifier.** If 200G EML capacity ramps faster than McKinsey projects (more suppliers qualify in 2026, or laser-free approaches — Avicena's GaN microLED, Intel's integrated InP — scale into CPO sockets sooner than expected), the gate dissolves. Watch for second-source 200G EML qualification announcements and CPO designs that route around EML entirely.
-
-**How to express the bet.** Long the EML/laser layer that the switch-ASIC-centric consensus underweights — Lumentum and Coherent (with the structural caveat that NVIDIA's $4B is both a tailwind and a signal that supply will eventually be solved, so this is a 2026-2027 window trade, not a permanent hold). The more durable expression: the *laser-free* optical approaches that bypass the bottleneck entirely — Intel's integrated-InP OCI chiplet and Avicena's microLED LightBundle — are structurally advantaged if the EML shortage persists, and that optionality is not priced because they are currently filed under "interesting research" rather than "supply-chain hedge." Also: any CPO-deployment forecast that assumes laser supply is elastic should be faded.
+> *Finding #4 (EML laser supply gates CPO) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. TrendForce (Dec 2025), SDxCentral, multiple specialist Substacks, and Lumentum's CEO publicly stating "30% undershipping" have made this the dominant specialist narrative since late 2025. See `verification_log.md` Claim 4 for the full evidence trail. Investors who want laser-supply exposure should consult mainstream coverage; this synthesis no longer treats it as non-consensus.*
 
 ---
 
@@ -336,15 +310,15 @@ The reason it is non-obvious is precisely the reason it is valuable: it requires
 
 ---
 
-### Top 5 Non-Consensus Finds (by name)
+### Top Non-Consensus Finds (by name, post-verification)
 
-1. **The grid ceiling turns the AI race into a TFLOPS-per-watt contest** — the market scores FLOPS; physics rewards efficiency. (Finding 1)
-2. **Advanced-packaging *yield*, not CoWoS floor space, is the real compute ceiling** — and HBM4's 12-16-Hi stacks make compound yield worse exactly as headline capacity rises. (Finding 2)
-3. **The GPU is unbundling into prefill + decode + optical fabric** — confirmed by the same split emerging independently at the edge, marking it a structural law rather than a fad. (Finding 3)
-4. **The EML laser supply chain — not the switch ASIC — gates CPO**, and because CPO is the lever for more power-capped compute, a niche laser-diode shortage rate-limits frontier AI. (Finding 4)
-5. **CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer** — if either lands, the CoWoS scarcity the whole market is bidding up de-rates from the inside. (Finding 5)
+1. **CXL 4.0's hidden hostage to a PCIe 7.0 compliance slip** — the memory-wall fix the market expects in 2027 may not arrive until 2029. (Finding 6) ✅ VERIFIED-NOT-PRICED-IN
+2. **CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer** — if either lands, the CoWoS scarcity the whole market is bidding up de-rates from the inside. (Finding 5) ✅ VERIFIED-NOT-PRICED-IN
+3. **The grid ceiling turns the AI race into a TFLOPS-per-watt contest** — the market scores FLOPS; physics rewards efficiency. (Finding 1) ⚠️ PARTIALLY-PRICED-IN
+4. **Advanced-packaging *yield*, not CoWoS floor space, is the real compute ceiling** — and HBM4's 12-16-Hi stacks make compound yield worse exactly as headline capacity rises. (Finding 2) ⚠️ PARTIALLY-PRICED-IN
+5. **The GPU is unbundling into prefill + decode + optical fabric** — confirmed by the same split emerging independently at the edge, marking it a structural law rather than a fad. (Finding 3) ⚠️ PARTIALLY-PRICED-IN
 
-*(Finding 6 — CXL 4.0's hidden hostage to a PCIe 7.0 compliance slip — ranks sixth and is included in the deep dives.)*
+*(Finding 4 — EML laser supply gating CPO — was REMOVED post-verification as ALREADY-PRICED-IN. See `verification_log.md` Claim 4.)*
 
 ---
 

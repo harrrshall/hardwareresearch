@@ -8,19 +8,9 @@
 
 ---
 
-## Opportunity 1 — The CoWoS Bottleneck Beneficiaries Beyond TSMC
+## ~~Opportunity 1 — The CoWoS Bottleneck Beneficiaries Beyond TSMC~~ — REMOVED post-verification
 
-**Thesis.** The single most-corroborated supply constraint in the corpus is TSMC CoWoS advanced packaging. The market prices TSMC as the winner. It under-prices the *second-source and alternative-packaging* ecosystem that the bottleneck necessarily creates: Amkor, SPIL, ASE (panel-level), Intel EMIB-as-foundry-service, and the equipment vendors for hybrid bonding. When demand structurally exceeds one supplier's capacity for 2+ years, the overflow has nowhere to go but second sources — at premium pricing.
-
-**Supporting evidence.**
-- packaging/research.md: CoWoS 35K→130K wpm yet "sold out through 2026"; TSMC outsourcing 240–270K wafers/year to Amkor and SPIL; Intel EMIB ramp H2 2026 at Amkor Songdo; ASE invested $200M in 310×310mm panels; hybrid-bonding equipment market growing 21% CAGR (Paper 001, Paper 003, Source 29).
-- GPUs/research.md: NVIDIA holds 57% of 650K 2025 CoWoS wafers; non-NVIDIA lead times 6–12 months (src-025).
-- interconnects/research.md: "CoWoS is the invisible constraint on all AI interconnect progress" (Observation 5).
-- chip_fabrication/research.md: TSMC CoPoS panel-level pilot June 2026 (Paper 007).
-
-**Risk factors.** TSMC CoWoS capacity catches up faster than projected; CoPoS panel-level packaging arrives early and collapses interposer economics; AI capex moderates and demand softens (the 2023 transceiver inventory correction is the cautionary precedent, cited in photonics/research.md).
-
-**Time horizon.** Short-to-medium. **Confidence.** high.
+> *Opportunity 1 (CoWoS overflow / 2nd-source / EMIB beneficiaries) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. Amkor/SPIL/ASE/Intel-EMIB-as-foundry are widely tracked by Tom's Hardware, DigiTimes, and sell-side packaging coverage. See `verification_log.md` Claim 15.*
 
 ---
 
@@ -54,18 +44,9 @@
 
 ---
 
-## Opportunity 4 — Liquid Cooling and CDU Supply Chain (the inevitable infrastructure tax)
+## ~~Opportunity 4 — Liquid Cooling and CDU Supply Chain~~ — REMOVED post-verification
 
-**Thesis.** Liquid cooling is no longer a differentiator — it is mandatory baseline infrastructure for every frontier AI rack. The market still treats cooling as an accessory category. It is actually a structural, recurring, capacity-constrained tax on every GPU deployed. CDU lead times of 20–36 weeks confirm the supply chain has not caught up.
-
-**Supporting evidence.**
-- datacenter_hardware/research.md: liquid-cooled penetration 15%→54%→76% (2024→2026, Goldman Sachs); CDU lead times 20–36 weeks; Vertiv ~70% CDU share for GB200 NVL72; immersion cooling market $3.98B→$19.63B by 2035; two-phase cold plates "take off" 2026–2027 (Paper 001, Paper 002, Paper 019).
-- GPUs/research.md: liquid cooling market $4.9B→$21.3B by 2030 at 27.6% CAGR; liquid cooling mandatory for all AI GPU racks (src-039).
-- packaging/research.md: microfluidic embedded cooling for >500W 3D packages on the roadmap (Source 38).
-
-**Risk factors.** Vertiv and incumbents scale CDU production and compress lead times, commoditizing margins; two-phase fluid availability problems (3M Novec phase-out, datacenter Open Question 8) delay the next-gen transition; GPU TDP growth flattens via efficiency gains, reducing cooling intensity.
-
-**Time horizon.** Short. **Confidence.** high.
+> *Opportunity 4 (liquid cooling / CDU mandatory tax) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. Goldman Sachs penetration curves (54%→76%) and Tom's Hardware 2025 cooling coverage are saturated. The synthesis itself flagged this as priced in §4. See `verification_log.md` Claim 16.*
 
 ---
 
@@ -173,34 +154,24 @@
 
 ---
 
-## Opportunity 12 — Power Infrastructure as the Real AI Moat (BESS, HVDC, on-site generation)
+## ~~Opportunity 12 — Power Infrastructure as the Real AI Moat~~ — REMOVED post-verification
 
-**Thesis.** The most under-priced opportunity in the corpus is not silicon at all. Datacenter research states it plainly: grid power has surpassed compute cost as the binding constraint, and a $10B check cannot compress a 5–7 year interconnection queue. The asymmetric bets are the technologies that *bypass or relieve the grid bottleneck*: battery energy storage (for the hundreds-of-MW-in-seconds AI power spikes), HVDC distribution at 800V, SiC wide-bandgap converters, and on-site generation (hydrogen fuel cells).
-
-**Supporting evidence.**
-- datacenter_hardware/research.md: PJM capacity prices $28.92→$329/MW (10x); large-transformer lead times 2–3 years; AI training clusters produce hundreds-of-MW spikes in seconds requiring BESS; HVDC 800V cuts busbar current 1000x vs 48V; Bloom Energy + Brookfield $5B hydrogen deal; "Power Is the New Moore's Law Constraint" (Paper 015, Paper 021, Insight 1, Trend 5).
-- GPUs/research.md: GB300 NVL72 at 250kW+; 100-rack cluster = 32.5 MW; energy cost can exceed GPU depreciation (Scalability — Energy Efficiency at Scale).
-- AI_accelerators/research.md: global DC electricity 460→1,000+ TWh; energy efficiency as the primary competitive axis (Trend 4).
-
-**Risk factors.** Grid build-out accelerates via regulatory reform; the AI capex cycle moderates and demand for new power eases; HVDC standardization (OCP) slips past 2028 (datacenter Open Question 3); behind-the-meter generation faces permitting friction.
-
-**Time horizon.** Medium-to-long. **Confidence.** high.
+> *Opportunity 12 (BESS / HVDC / on-site generation / grid moat) — **removed post-verification: ALREADY-PRICED-IN as of 2026-05-23**. This is one of the most-covered AI macro stories of 2026 (Goldman Sachs gigawatt-ceiling thesis, Morgan Stanley "Powering AI" outlook, Futurum 33% off-grid by 2030). See `verification_log.md` Claim 18.*
 
 ---
 
-## Summary Table
+## Summary Table (post-verification)
 
-| # | Opportunity | Horizon | Confidence | Core bet |
-|---|-------------|---------|------------|----------|
-| 1 | CoWoS bottleneck beneficiaries (2nd-source + hybrid-bond equip) | short–medium | high | Overflow from a 2+ year single-supplier shortage |
-| 2 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack |
-| 3 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | 30–60% laser shortfall through 2027–2029 |
-| 4 | Liquid cooling / CDU supply chain | short | high | Mandatory infrastructure tax on every AI rack |
-| 5 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | TOPS-marketing mispricing vs sustained bandwidth-bound reality |
-| 6 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand |
-| 7 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity |
-| 8 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag |
-| 9 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable |
-| 10 | Prefill/decode-specialized inference ASICs | medium | medium | Phase divergence justifies separate silicon |
-| 11 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI |
-| 12 | Power infrastructure (BESS, HVDC, on-site gen) | medium–long | high | Grid, not compute, is the real AI moat |
+Removed entries: Opportunity 1 (CoWoS overflow), Opportunity 4 (liquid cooling/CDU), Opportunity 12 (power infrastructure) — all ALREADY-PRICED-IN per `verification_log.md`. Opportunity 3 (CPO laser supply) is kept here because the verification verdict was on the deep-dive Finding 4 in `cross_sector_alpha.md`; the broader laser-supply opportunity (including laser-free alternatives) remains partially open — but readers should weight it heavily against TrendForce/Lumentum-CEO mainstream coverage.
+
+| # | Opportunity | Horizon | Confidence | Core bet | Verification |
+|---|-------------|---------|------------|----------|--------------|
+| 2 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack | PARTIALLY-PRICED-IN |
+| 3 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high → DOWNGRADED | 30–60% laser shortfall through 2027–2029 | Caveat — laser-supply thesis ALREADY-PRICED-IN per Claim 4; laser-free alternatives still partial |
+| 5 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | TOPS-marketing mispricing vs sustained bandwidth-bound reality | (unverified — review next cycle) |
+| 6 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand | PARTIALLY-PRICED-IN |
+| 7 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity | PARTIALLY-PRICED-IN |
+| 8 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag | (unverified — review next cycle) |
+| 9 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable | PARTIALLY-PRICED-IN |
+| 10 | Prefill/decode-specialized inference ASICs | medium | medium | Phase divergence justifies separate silicon | (unverified — review next cycle) |
+| 11 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI | (unverified — review next cycle) |
