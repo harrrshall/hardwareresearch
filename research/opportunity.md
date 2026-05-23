@@ -1,112 +1,268 @@
-# Opportunity Shortlist
+# Opportunity Shortlist — Run #3 — 2026-05-23
 
-See [verification_log.md](verification_log.md) for the underlying audit trail.
-
----
-
-## Tier 1 — Verified non-consensus (act on these first)
-
-### 1. PCIe 7.0 compliance slip → CXL 4.0 memory-wall fix delayed to 2028–29
-- **The bet**: Short any thesis or capex plan that assumes CXL 4.0 multi-rack memory pooling is a 2026–27 reality. Underwrite memory-wall solutions that DON'T depend on PCIe 7.0 (HBM4E capacity-first designs, mobile PIM, direct-on-die memory). Conversely, fade the 2026–27 timeline implied by CXL Consortium marketing and CXL-pooling vendor decks.
-- **Why still mispriced**: PCIe 7.0 compliance program slipped from 2027 to 2028 (Tom's Hardware, TechSpot confirm). CXL 4.0 deployment is hostage to that. Yet CXL-marketing pieces (introl.com, KAD8) and CXL-pooling vendors continue to promote 2026–27 reality. The downstream implication is genuinely uncombined in public coverage.
-- **Catalyst**: First CXL 4.0 production deployment date slips publicly — likely in vendor earnings Q3–Q4 2026 or hyperscaler datacenter planning leaks.
-- **Action window**: Medium (12–18 months until the slip is undeniable to mainstream).
-- **Falsifier**: PCIe-SIG announces accelerated 7.0 compliance schedule, or Microsoft/Meta/Google publicly deploys CXL 4.0 multi-rack pooling in 2026.
-- **Cross-reference**: `interconnects/research.md` (PCIe 7.0 spec) + `memory/research.md` (CXL 4.0 release Nov 2025). Synthesis: `cross_sector_alpha.md` Finding 6.
-
-### 2. CG-HBM + CXL 4.0 jointly attack the silicon interposer — CoWoS may be a peaking asset
-- **The bet**: Underweight pure-play CoWoS-leveraged narratives at the 3–5-year horizon. Long-hold the suppliers that pivot to hybrid-bonding / direct-on-die HBM (CG-HBM precursor) tooling and CXL optical disaggregation. Skeptical of capex models that assume CoWoS demand grows monotonically through 2029+.
-- **Why still mispriced**: Mainstream models (financialcontent.com, sell-side capacity reports) extrapolate CoWoS demand forever. Both legs of the attack — CG-HBM (Rubin roadmap) and CXL 4.0 + optical disaggregation — exist publicly in isolation, but no analyst combines them as a *demand-destroyer* for the silicon interposer.
-- **Catalyst**: First Rubin-class GPU shipped with direct-on-die HBM ≥ 2027, or first hyperscaler production CXL 4.0 fabric reducing per-GPU memory area requirement.
-- **Action window**: Long (3–5 years).
-- **Falsifier**: SemiEngineering confirms hybrid bonding postponed further (already noted as risk); TSMC CoWoS bookings extend through 2030 without softening; HBM stays on microbumps through HBM5.
-- **Cross-reference**: `memory/research.md` (CG-HBM, HBM4E roadmap) + `packaging/research.md` (CoWoS demand) + `interconnects/research.md` (CXL 4.0). Synthesis: `cross_sector_alpha.md` Finding 5.
+**Regenerated every cycle. Signal-only. ALREADY-PRICED-IN items excluded entirely.**  
+**Verification:** Independent Market Pricing Verification Agent (separate context, fresh web searches)  
+**Tally this cycle:** 0 VERIFIED-NOT-PRICED-IN · 13 PARTIALLY-PRICED-IN · 3 ALREADY-PRICED-IN (purged)
 
 ---
 
-## Tier 2 — Partially priced (window is closing — act before consensus fully forms)
+## Tier 1 — Verified Non-Consensus
 
-### 3. Edge ↔ datacenter prefill/decode mirror as a structural law
-- **The bet**: Specialist research has fully priced the *datacenter* split (NVIDIA + Groq AFD). What's still rare in mainstream coverage is reading the SAME prefill/decode split appearing at the *edge* (Apple Silicon NPU prefill + GPU decode, on-device LLM offload) as evidence the GPU decomposition is a universal architectural law, not a Rubin-specific choice. Position around small companies building "prefill engines" or "decode engines" as separable products — not full-stack accelerators.
-- **Why still mispriced**: Datacenter side is in VentureBeat, The Next Platform, Hao AI Lab. Edge mirror confirmation is in one SqueezeBits blog. The two have not been combined in any sell-side note.
-- **Catalyst**: Second hyperscaler announces native prefill+decode disaggregation (e.g., Meta or Google AFD-equivalent) in late 2026; or Apple/Qualcomm publicly markets prefill-engine architecture in next mobile generation.
-- **Action window**: Short–medium (6–18 months).
-- **Falsifier**: NVIDIA Rubin+Groq performance disappoints and re-monolithizes inference at next refresh.
-- **Cross-reference**: `AI_accelerators/research.md` (NVIDIA Groq AFD), `edge_AI_hardware/research.md` (NPU prefill, GPU decode). Synthesis: `cross_sector_alpha.md` Finding 3.
-
-### 4. Power × efficiency: NVIDIA can hold ~90% merchant share AND lose deployed-intelligence share
-- **The bet**: TPU v7-style efficiency (~29 TFLOPS/W) wins deployed-intelligence share inside power-capped datacenters, even while NVIDIA dominates merchant unit volume. Long Google TPU ecosystem; long custom-ASIC infrastructure (Broadcom AI ASIC, Marvell custom silicon). Skeptical of the implicit equation "NVIDIA share = NVIDIA value capture."
-- **Why still mispriced**: SemiAnalysis (TPUv7), Goldman ("gigawatt ceiling"), Morgan Stanley (intelligence factory model) have each published the building blocks. The interpretive step — that merchant share decouples from deployed-intelligence share — is sharper than any single piece.
-- **Catalyst**: First quarter where Google's TPU-driven AI compute capacity passes a major NVIDIA-customer in disclosed exaflops (estimated late 2026–2027); or hyperscaler capex re-allocation away from merchant GPUs in early 2027 earnings.
-- **Action window**: Medium (12–24 months).
-- **Falsifier**: New nuclear/SMR capacity unlocks the grid before 2028 and the gigawatt-ceiling thesis is removed.
-- **Cross-reference**: `AI_accelerators/research.md` (TPU v7 Ironwood) + `datacenter_hardware/research.md` (grid constraint). Synthesis: `cross_sector_alpha.md` Finding 1.
-
-### 5. Compound packaging yield, not CoWoS floor space, is the real ceiling
-- **The bet**: Track HBM-stack yield × KGD yield × interposer yield as the binding multiplier for "good packages out per month." Long suppliers of KGD test (FormFactor, Onto Innovation) and HBM-stacking yield tooling. The synthesis's specific arithmetic isn't widespread.
-- **Why still mispriced**: Epoch AI publishes the headline frame; Samsung HBM4 delays publicly disclosed. TSMC's May-2026 disclosure of 98% CoWoS yield muddies the interposer leg, but stacking/KGD compounding is real and underanalyzed.
-- **Catalyst**: First quarter where CoWoS wpm grows but good-package shipments do NOT — visible in NVIDIA / Apple delivery slips or HBM vendor revenue gaps. Watch SK Hynix vs Samsung Q3–Q4 2026 HBM4 yields.
-- **Action window**: Short (6–12 months).
-- **Falsifier**: HBM4 16-Hi stack yields publicly disclosed > 85% by SK Hynix; or NVIDIA delivers Rubin volume at promised cadence without yield-related delays.
-- **Cross-reference**: `packaging/research.md` + `memory/research.md` (HBM4 stacking). Synthesis: `cross_sector_alpha.md` Finding 2.
-
-### 6. NVFP4 vs MXFP4 incompatibility creates consumer (not just datacenter) lock-in
-- **The bet**: NVIDIA's NVFP4 (block size 16) outperforms open MXFP4 (block size 32) at finer granularity. The datacenter implications are discussed, but the *consumer-side lock-in* is not — local LLM users on NVIDIA hardware will get measurably better inference, deepening the consumer GPU moat. Long NVIDIA's consumer software stack moat (CUDA + NVFP4 + TensorRT-LLM).
-- **Why still mispriced**: vLLM/SGLang community knows the format gap; ML systems papers (arXiv 2509.23202) confirm MXFP4 lags. Consumer-lock-in framing is rare in sell-side notes.
-- **Catalyst**: A widely-shared benchmark in consumer-LLM communities (LocalLLaMA, r/MachineLearning) shows quantization quality gap; or Apple/Qualcomm announces hardware MXFP4 support and its limitations become visible.
-- **Action window**: Medium (12–18 months).
-- **Falsifier**: Industry converges on MXFP4 as the standard (e.g., Khronos / OCP forces NVIDIA to support MXFP4 natively); or post-training INT4 closes the quality gap.
-- **Cross-reference**: `GPUs/research.md` (NVFP4) + `AI_accelerators/research.md`. Synthesis: matrix pair 9.
-
-### 7. Foundry value migrates into HBM4 active base die
-- **The bet**: HBM4 active base dies are 12nm class (TSMC) or 4nm (Samsung SF4) — a new advanced-node logic category that did not exist for HBM3. Long TSMC's specialty (mature-node) capacity *and* the leading-node base-die win share. Long Samsung Foundry SF4 capacity utilization. Underweight pure-DRAM exposure that misses the foundry-revenue migration into memory.
-- **Why still mispriced**: Specialist coverage (Nomad Semi, TrendForce) discusses base-die node selection. Sell-side memory analysts still model HBM as a DRAM-pricing story, not a foundry-revenue story.
-- **Catalyst**: SK Hynix or Samsung disclose specific TSMC wafer take for base die in 2026–27 earnings; or HBM4E base-die on N3-class node wins gets announced.
-- **Action window**: Medium (12–18 months).
-- **Falsifier**: HBM4E reverts to passive base die or in-house DRAM-fab base; foundry-revenue thesis collapses.
-- **Cross-reference**: `memory/research.md` (HBM4 base die) + `chip_fabrication/research.md` (TSMC 12nm, Samsung SF4). Synthesis: matrix pair 28; `market_opportunities.md` #2.
-
-### 8. Mobile PIM ships in phones before datacenter PIM ships clean — sequencing inversion
-- **The bet**: LPDDR6-PIM is being JEDEC-standardized first (Samsung+SK Hynix joint 2024–2026); datacenter HBM-PIM is technically harder. The conventional wisdom that "datacenter validates, mobile inherits" is inverted here. Long the mobile NPU + PIM stack: Samsung MX + Memory Solutions, Apple A-series ANE, Qualcomm Hexagon NPU integration with LPDDR6-PIM.
-- **Why still mispriced**: TrendForce / Tweaktown / Wccftech cover the standardization fact. Framing the sequencing inversion as a structural reversal of the usual "datacenter-first" pattern is rare.
-- **Catalyst**: First commercial phone shipped with LPDDR6-PIM (expected late 2026 – 2027); JEDEC final LPDDR6-PIM standard approval.
-- **Action window**: Short–medium (6–18 months).
-- **Falsifier**: JEDEC standardization slips beyond 2027; Samsung+SK Hynix collaboration breaks down.
-- **Cross-reference**: `memory/research.md` (LPDDR6-PIM, AiMX) + `edge_AI_hardware/research.md`. Synthesis: matrix pair 24; `market_opportunities.md` #6.
-
-### 9. In-die optical routing (CEA-Leti ISSCC 2026) is the post-CPO discontinuity
-- **The bet**: CPO is now mainstream — the next discontinuity is *in-die* optical routing (dynamic electro-optical router at 3.19 pJ/bit, 18 ns routing, ISSCC 2026 CEA-Leti). Long photonic interposer specialists (CEA-Leti spinouts, Celestial AI under Marvell, Lightmatter), watch for ISSCC 2027 follow-on papers.
-- **Why still mispriced**: EE press (Electronics Weekly, Semiconductor Digest, EEJournal) covered the CEA-Leti paper. Sell-side has not connected it as the post-CPO step.
-- **Catalyst**: ISSCC 2027 follow-up paper showing manufacturability; or Marvell + CEA-Leti spinout announcing product roadmap.
-- **Action window**: Medium (12–24 months).
-- **Falsifier**: Power/cost numbers don't improve at the next ISSCC; CPO timeline gets pushed back making "post-CPO" irrelevant.
-- **Cross-reference**: `photonics/research.md` + `interconnects/research.md` (Marvell-Celestial AI $3.25B). Synthesis: matrix pair 40; `market_opportunities.md` #7.
-
-### 10. Same heat-flux physics class at opposite scales (mobile + datacenter)
-- **The bet**: Mobile thermal throttling and datacenter rack cooling are the SAME physics problem — heat-removal-per-unit-area — at different scales. Tooling and IP can cross over (TIM materials, vapor chambers, microfluidic cooling). Long thermal IP that spans both scales: heat-spreader materials, TIM vendors crossing from mobile to datacenter.
-- **Why still mispriced**: Each side individually saturated in trade press. The "same physics class at opposite scales" framing is rare.
-- **Catalyst**: Cross-over announcement — a mobile-thermal vendor wins a datacenter design slot, or a datacenter thermal company sells IP into a phone.
-- **Action window**: Long (18–36 months).
-- **Falsifier**: A genuinely different cooling architecture (e.g., on-chip refrigeration) wins datacenter, removing the cross-scale parallel.
-- **Cross-reference**: `datacenter_hardware/research.md` (D2C liquid, 120kW racks) + `edge_AI_hardware/research.md` (mobile thermal throttling). Synthesis: matrix pair 45.
-
-### 11. Avicena microLED short-reach optical I/O bridges edge interconnect
-- **The bet**: Avicena LightBundle (microLED-based, no laser, 80–200 fJ/bit, 1 Tbps/mm) is targeted at datacenter, but the same architecture is naturally suited to short-reach automotive / edge AI compute interconnect. Long Avicena and its eKit ecosystem; watch for TSMC × Avicena collaboration depth.
-- **Why still mispriced**: Photonics analysts know Avicena, but the "edge expansion" angle is in their own marketing, not in mainstream sell-side analysis.
-- **Catalyst**: Automotive OEM design-win for microLED interconnect in 2027; or edge AI compute vendor adopts LightBundle for cross-board.
-- **Action window**: Long (18–36 months).
-- **Falsifier**: microLED-based interconnect fails to scale beyond demo, or laser-based optical I/O cost curve undercuts before Avicena reaches volume.
-- **Cross-reference**: `photonics/research.md` (Avicena LightBundle) + `edge_AI_hardware/research.md`. Synthesis: matrix pair 42; `market_opportunities.md` #7.
-
-### 12. Glass substrate qualification inflection
-- **The bet**: Intel showcased glass-core EMIB January 2026; AMD has Absolics qualifying for MI400. +40% speed, –30% power vs organic substrate. Long Absolics (SKC subsidiary), watch for MI400 production confirmation; underwrite organic-substrate exposure as glass scales.
-- **Why still mispriced**: Trade press covers (Wccftech, TrendForce, igorslab, photoncap Substack), but sell-side has not converged on glass as a 2027–28 mainstream substrate.
-- **Catalyst**: AMD MI400 production launch with glass substrate confirmed; or Intel Panther Lake successor with glass core in volume.
-- **Action window**: Medium (12–24 months).
-- **Falsifier**: Glass-substrate yield doesn't ramp; AMD/Intel quietly revert to organic for next-gen products.
-- **Cross-reference**: `packaging/research.md` (glass substrate, EMIB) + `chip_fabrication/research.md`. Synthesis: `market_opportunities.md` #9.
+*No VERIFIED-NOT-PRICED-IN findings this cycle. Run #3 verification found zero items that are genuinely non-consensus across all major analyst, vendor, and financial press coverage. All surviving opportunities are PARTIALLY-PRICED-IN (Tier 2). This is an honest result — not every cycle produces Tier 1 opportunities.*
 
 ---
 
-## What changed from previous run
-This is Run #1 (baseline). All 12 opportunities are new. Next cycle will note which graduate to higher conviction, which downgrade, and which drop entirely.
+## Tier 2 — Partially Priced (window is closing; act before consensus catches up)
+
+---
+
+### T2-A: Grid Ceiling Converts the AI Race into a TFLOPS-per-Watt Contest — Market Still Scores FLOPS
+
+**Opportunity:** Long efficiency-per-watt leaders (Google TPU via Alphabet, custom-silicon hyperscalers) against consensus which assigns AI hardware value capture primarily to NVIDIA's accelerator revenue share.
+
+**The bet:** In a grid-constrained datacenter world (PJM load queue 10x oversubscribed; 5–7 year interconnect lead times), deployable intelligence = megawatts × TFLOPS/W. TPU v7 Ironwood at 29.4 TFLOPS/W vs B200 at 3.75 TFLOPS/W = ~8x efficiency delta. Hyperscalers running internal silicon at 8x efficiency capture a structurally growing share of deployed intelligence per megawatt while buying fewer NVIDIA chips. The market assigns ~90% of AI accelerator forward value to NVIDIA's accelerator revenue share; the compound efficiency math says this overstates NVIDIA's deployed-compute capture in a power-capped regime.
+
+**Why still mispriced:** "Tokens per watt" framing entered mainstream investor vocabulary at GTC 2026 (NVIDIA's own marketing). The broad narrative is priced. The specific *portfolio implication* — long vertically-integrated efficiency leaders against NVIDIA's revenue-share-as-forward-value-capture — has not appeared in a sell-side model. No Goldman, Morgan Stanley, or Bernstein note was found re-weighting NVIDIA's forward value on a deployed-compute-per-megawatt axis.
+
+**Catalyst:** NVIDIA Q2 FY2027 earnings (August 2026) — if data center revenue growth rate decelerates even modestly while hyperscaler CapEx continues rising, the delta becomes visible. Alternatively: any hyperscaler disclosing TPU-vs-GPU efficiency comparison in a public earnings call or infrastructure report.
+
+**Action window:** Medium (12–36 months).
+
+**Falsifier:** NVIDIA introduces a Vera Rubin-class architecture achieving >15 TFLOPS/W at rack level, narrowing the efficiency gap to <3x vs TPU v7. Or a hyperscaler announces return to NVIDIA-dominant compute strategy over internal silicon.
+
+**Cross-reference:** cross_sector_alpha.md Finding 1; datacenter_hardware/research.md; AI_accelerators/research.md (3.4 Energy Efficiency, Trend 4); GPUs/research.md (paper-021).
+
+---
+
+### T2-B: Compound Packaging Yield (Not CoWoS wpm) Is the Real Compute Ceiling
+
+**Opportunity:** Long CoWoS-adjacent supply chain precision plays — advanced substrate suppliers, die-attach process IP holders, HBM4 base-die yield improvement tooling. The CoWoS wpm expansion narrative overstates good-units output because the compound yield conversion ratio is falling.
+
+**The bet:** Compound yield of a Rubin-class package = HBM4 16-Hi stack yield (~72.4%, per 0.98^16) × multi-chiplet assembly yield (~69–90%) × interposer yield (degrading above 5x reticle). TSMC's headline wpm expansion does not translate linearly to good accelerators. NVIDIA CEO confirmed "constrained throughout the entire life of Vera Rubin" — supply constraint is multi-year. The market models the constraint as a wpm problem; the compound yield math makes it a yield problem that wpm expansion alone cannot solve.
+
+**Why still mispriced:** CoWoS scarcity is consensus and fully priced. The *mechanism* — that wpm-to-good-units conversion ratio is falling as HBM4 16-Hi and CG-HBM raise the compounding yield math — has not been modeled in sell-side. Specialist Substack pieces approach it; no Goldman/Bernstein note executes the multiplication.
+
+**Catalyst:** TSMC N2/CoWoS yield data in H2 2026 earnings; NVIDIA Vera Rubin shipment ramp vs guidance delta in Q3/Q4 FY2027 (Nov 2026, Feb 2027).
+
+**Action window:** Medium (12–24 months).
+
+**Falsifier:** TSMC discloses Rubin-class CoWoS yield at or above 80% good-unit throughput; or CG-HBM yield validates at >85%, reducing the compounding assembly risk significantly.
+
+**Cross-reference:** cross_sector_alpha.md Finding 2; GPUs/research.md (paper-021, HBM4 Supply Transition); memory/research.md; packaging/research.md; chip_fabrication/research.md (Paper 012).
+
+---
+
+### T2-C: CG-HBM and CXL 4.0 Are Two Independent Attacks on the Silicon Interposer
+
+**Opportunity:** Hedge against CoWoS scarcity premium (position to short CoWoS substrate suppliers in 2027–2028 timeframe) or position in memory disaggregation enablers (Ayar Labs optical chiplets, Astera Labs CXL switch ICs).
+
+**The bet:** The entire AI hardware bull thesis has CoWoS interposer scarcity baked in. Two independent roadmap developments are demand-destroying for the interposer: (1) CG-HBM — Rubin's HBM4 stacked directly on the GPU logic die, eliminating the interposer for memory connection; (2) CXL 4.0 + optical disaggregation — if KV-cache and warm weights migrate to optically-attached CXL memory pools, each GPU needs fewer co-packaged HBM stacks. If either lands at volume, the scarce asset partially de-rates from within.
+
+**Why still mispriced:** CG-HBM existence is known in trade press; CXL 4.0 is covered. The *investment thesis* — that both are demand-destroying for the interposer simultaneously — is not found in any mainstream sell-side note.
+
+**Catalyst:** NVIDIA disclosing CG-HBM yield data in 2026 technical publications; or first production CXL 4.0 + optical memory disaggregation deployment at a hyperscaler (H2 2026 – 2027).
+
+**Action window:** Medium-to-long.
+
+**Falsifier:** NVIDIA publicly reports CG-HBM yield below 60% and abandons it for Rubin production; CXL 4.0 slips beyond 2029; optical memory disaggregation fails to close the latency gap vs co-packaged HBM.
+
+**Cross-reference:** cross_sector_alpha.md Finding 4; GPUs/research.md (Rubin Architecture); interconnects/research.md (CXL 3.0/4.0, Optical sections); packaging/research.md.
+
+---
+
+### T2-D: CXL 4.0 Is Hostage to a PCIe 7.0 Compliance Slip — Memory-Wall Fix Expected 2027 May Be 2029
+
+**Opportunity:** Position in CXL 3.0 infrastructure suppliers (Astera Labs CXL switches, Samsung/SK Hynix CXL memory modules) as the 2025–2027 bridge; avoid pricing in 2027-production assumptions for CXL 4.0. Short any thesis that assumes widespread CXL 4.0 AI memory pooling before 2028.
+
+**The bet:** CXL 4.0 (1.5 TB/s bundled bandwidth) is built on the PCIe 7.0 physical layer. PCIe 7.0 compliance program slipped to 2028 (from 2027). The memory and accelerator sectors assume "CXL 4.0 multi-rack systems in late 2026–2027"; the interconnects sector's compliance-slip data implies 2028–2029 for production AI memory pooling at that bandwidth level. PCIe 8.0 Draft 0.5 (May 2026, paper-023) shows PCI-SIG advancing to the next generation even as PCIe 7.0 compliance remains unresolved.
+
+**Why still mispriced:** PCIe 7.0 compliance delay is reported in mainstream tech press. The downstream implication — CXL 4.0 AI memory pooling slips to 2029 — has not been quantified in a sell-side report. CXL market forecasts project "$15B by 2028" without incorporating this risk.
+
+**Catalyst:** PCIe 7.0 compliance test suite publication (expected 2028); CXL Consortium official CXL 4.0 device availability timeline update; any hyperscaler announcing a CXL 4.0 deployment delay.
+
+**Action window:** Medium (12–30 months).
+
+**Falsifier:** PCI-SIG issues PCIe 7.0 compliance program ahead of schedule (before end-2027); CXL 4.0 devices ship in volume via FPGA bridge chips that sidestep compliance requirements.
+
+**Cross-reference:** cross_sector_alpha.md Finding 5; interconnects/research.md (PCIe 7.0, CXL sections, paper-023 PCIe 8.0); memory/research.md (CXL Memory Expansion).
+
+---
+
+### T2-E: CPO Laser Supply — EML Second Wave and Laser-Free Alternatives Are the Real Trade
+
+**Opportunity:** Long EML second-wave qualifiers (II-VI/Coherent expanding 200G/lane capacity), integrated InP laser IP holders, GaN microLED companies (Avicena). Not Lumentum and Coherent at current multiples (those are the priced-in first wave).
+
+**The bet:** CPO as an architecture is consensus and priced. The pick-and-shovel play — 200G/lane EML laser supply — is becoming mainstream (NVIDIA $4B Lumentum+Coherent investment). The non-consensus trade is: (a) second-wave EML qualifiers who benefit from the supply shortfall the priced-in duopoly creates, and (b) laser-free alternatives (Avicena GaN microLED at 80–200 fJ/bit, Intel OCI integrated InP) that become cost-competitive if the shortage persists through 2028. GF SCALE CPO (May 2026, paper-023 photonics) adds a second CPO platform that increases aggregate EML demand without solving supply — widening the shortfall.
+
+**Why still mispriced:** Generic EML shortage and Lumentum/Coherent are priced. Second-wave EML qualifiers and laser-free alternatives are not in mainstream analyst coverage.
+
+**Catalyst:** Any hyperscaler announcing multi-supplier EML qualification; first commercial GaN microLED CPO demonstration at >400G/lane; McKinsey 2026 optical supply chain update.
+
+**Action window:** Short-to-medium (0–24 months).
+
+**Falsifier:** Three additional EML manufacturers qualify 200G/lane before mid-2027, collapsing the supply premium; GaN microLED speed remains capped below 100G/lane.
+
+**Cross-reference:** market_opportunities.md Opp 1; photonics/research.md (EML Laser Supply, GF SCALE CPO paper-023); interconnects/research.md (CPO section).
+
+---
+
+### T2-F: Edge AI Memory-Bandwidth Arbitrage — Dedicated NPU Co-Processor + Thermal Isolation Is the Winning Architecture
+
+**Opportunity:** Long dedicated edge NPU co-processor suppliers (Hailo, NXP eIQ Neutron class), on-module LPDDR suppliers, and compiler-hardware co-design IP. Short integrated SoC NPU suppliers claiming TOPS leadership without addressing thermal and bandwidth constraints.
+
+**The bet:** The edge AI hardware landscape is saturated with TOPS claims. Empirical data (arXiv 2604.24785) shows integrated SoC NPUs (Galaxy S24, Pixel 9) lose ≥50% throughput within 6 inference iterations due to shared thermal domain; dedicated NPU co-processors (Hailo-10H on Raspberry Pi 5) sustain near-zero variance across 20+ iterations via separate thermal domain + on-module LPDDR4X. LlamaWeb (arXiv 2605.20706, Run #3) confirms 2.7× best/worst GPU performance gap in WebGPU inference — thermal and bandwidth architecture matters more than raw TOPS.
+
+**Why still mispriced:** Hailo is private. The thermal isolation advantage as an investment thesis has not appeared in Apple, Qualcomm, or MediaTek sell-side notes. The market values NPU TOPS in flagship SoC specs.
+
+**Catalyst:** Large OEM announcing a dedicated NPU co-processor design win citing thermal sustainability; Hailo IPO or acquisition premium; mobile HBM (projected 2028) reaching qualification for first dedicated edge AI device.
+
+**Action window:** Medium-to-long (12–48 months).
+
+**Falsifier:** Apple or Qualcomm solve thermal NPU domain separation inside an integrated SoC at the next node; mobile HBM arrives before 2028 and gives integrated SoCs the bandwidth fix.
+
+**Cross-reference:** market_opportunities.md Opp 2; edge_AI_hardware/research.md (paper-017, paper-023, paper-024 LlamaWeb); memory/research.md.
+
+---
+
+### T2-G: Processing-in-Memory at the JEDEC Standardization Inflection — Long the Tooling Layer
+
+**Opportunity:** Long PIM controller IP, compiler tooling, and testing equipment companies (Rambus PIM IP, Synopsys PIM compiler tooling, Keysight for PIM validation). Not Samsung/SK Hynix directly (memory module margin is captured by standards).
+
+**The bet:** Samsung and SK Hynix — direct competitors — are jointly standardizing LPDDR6-PIM through JEDEC with 2026 target. Standards convert PIM from niche to commodity module OEMs will demand. The asymmetric trade is on the controller IP, compiler, and testing layer that standardized PIM requires — small revenue today that scales with every LPDDR6-PIM socket shipped.
+
+**Why still mispriced:** JEDEC standardization is publicly reported. No buy-side or sell-side note recommends PIM tooling names on the standardization-as-catalyst thesis.
+
+**Catalyst:** JEDEC LPDDR6-PIM standard ratification (expected 2026); first OEM announcing LPDDR6-PIM support in a product roadmap; Samsung/SK Hynix announcing LPDDR6-PIM module availability.
+
+**Action window:** Medium (12–36 months).
+
+**Falsifier:** JEDEC LPDDR6-PIM delayed beyond 2027; memory vendors vertically integrate PIM controller IP in-house.
+
+**Cross-reference:** market_opportunities.md Opp 3; memory/research.md (PIM/HBM-PIM, JEDEC section); AI_accelerators/research.md (paper-013 HPIM).
+
+---
+
+### T2-H: In-Die / In-Package Optical Routing — The Post-CPO Architectural Discontinuity
+
+**Opportunity:** Long in-die optical routing IP beyond Marvell/Celestial AI — CEA-Leti licensees, TSMC CoWoS-Photonic roadmap suppliers, Ayar Labs (UCIe optical chiplet). The Marvell/Celestial AI acquisition is already priced into Marvell's multiple; the second-mover IP play is not.
+
+**The bet:** CPO is consensus. The non-consensus architectural step is in-die optical I/O — routing signals inside the die at optical speeds, eliminating SerDes entirely. CEA-Leti demonstrated 3.19 pJ/bit electro-optical routing with 18 ns switching at ISSCC 2026 — below CPO on interposer (3.5 pJ/bit). This is a discontinuity: if in-die optical routing reaches production, it obsoletes CPO from the inside.
+
+**Why still mispriced:** The Marvell/Celestial AI trade is ALREADY-PRICED-IN (33 Buy ratings). The broader in-die optical routing architectural disruption — beyond Marvell — is in no mainstream sell-side coverage.
+
+**Catalyst:** TSMC announcing a photonic-integrated CoWoS variant; any hyperscaler announcing an in-die optical I/O qualification program; Ayar Labs UCIe optical chiplet entering production at a named customer.
+
+**Action window:** Long (3–5 years).
+
+**Falsifier:** CEA-Leti-type in-die optical routing fails to scale to production due to thermal or yield constraints; Ayar TeraPHY remains limited to niche HPC applications.
+
+**Cross-reference:** market_opportunities.md Opp 4; interconnects/research.md (Celestial AI, Ayar TeraPHY, ISSCC 2026 electro-optical router); photonics/research.md.
+
+---
+
+### T2-I: Open-Interconnect (UALink / UEC / UCIe) Delayed-but-Real Window
+
+**Opportunity:** Long UALink silicon switch IP vendors and UEC silicon vendors (Broadcom Tomahawk 7, Cisco G300 with UEC support) for 2026–2027 cluster build inflection. Also long UCIe IP licensees (Cadence, Synopsys) as chiplet adoption forces standardized die-to-die interfaces.
+
+**The bet:** UALink 2.0 (April 7, 2026): 200 GT/s, supports 1,024+ GPUs. When UALink silicon ships (late 2026/2027), the switching-cost story inverts for new cluster builds — hyperscalers who backed the open standard start building non-NVIDIA clusters. Consensus over-prices the open-standard lag by assuming NVLink's head start is permanent.
+
+**Why still mispriced:** UALink coverage is in specialist circles. The specific investment thesis — that consensus over-prices the lag — is not in mainstream sell-side. No NVIDIA sell-side bear case models the UALink silicon milestone as a concrete NVLink risk.
+
+**Catalyst:** First production UALink silicon shipping to a named hyperscaler customer (late 2026); AMD MI500 cluster announcement using UALink fabric; UEC 1.0-certified Ethernet switch shipping at scale.
+
+**Action window:** Medium (18–36 months).
+
+**Falsifier:** UALink silicon availability slips beyond mid-2027; hyperscalers that backed UALink continue buying NVLink clusters for 2028+ anyway; UALink fails to achieve 1,024-GPU cluster interoperability in production.
+
+**Cross-reference:** market_opportunities.md Opp 5; interconnects/research.md (UALink, UEC, UCIe sections).
+
+---
+
+### T2-J: Glass Substrates at the Qualification Inflection — Long Before the Transition Is Priced as Inevitable
+
+**Opportunity:** Long glass substrate material suppliers (Absolics, LG Innotek, Corning's specialty glass division) and glass substrate tooling/equipment companies. The qualification inflection (Intel NEPCON January 2026 demo, AMD Absolics certification) is the highest-leverage entry point.
+
+**The bet:** Intel demonstrated EMIB-on-glass at NEPCON Japan in January 2026; AMD is qualifying Absolics samples. The industry is at the inflection from R&D to qualification — exactly where materials transitions offer the highest leverage before "glass substrate is coming" becomes consensus.
+
+**Why still mispriced:** Trade press covers the qualification milestones. No mainstream sell-side note recommends Absolics or LG Innotek specifically on this thesis. Analyst consensus frames glass substrates as "second half of the decade."
+
+**Catalyst:** Intel or AMD announcing glass substrate production ramp dates at a packaging conference (mid-2026 through 2027); TSMC announcing glass substrate qualification for CoWoS-G; first volume production order for glass substrate AI packages.
+
+**Action window:** Medium-to-long (18–48 months).
+
+**Falsifier:** Intel or AMD delays glass substrate qualification beyond 2028; hybrid glass-organic substrates prove to offer equivalent performance at lower cost.
+
+**Cross-reference:** market_opportunities.md Opp 6; packaging/research.md; chip_fabrication/research.md.
+
+---
+
+### T2-K: RISC-V Datacenter Silicon Post-Ventana — Open-ISA Moving Up-Market
+
+**Opportunity:** Long RISC-V IP companies exposed to datacenter and AI (SiFive, Tenstorrent via RISC-V Tensix, Ventana now inside Qualcomm) and RISC-V toolchain/ecosystem enablers. The opportunity is pre-revenue-ramp positioning before datacenter RISC-V reaches analyst attention.
+
+**The bet:** RISC-V crossed the datacenter credibility threshold in this window: Qualcomm paid $2.4B for Ventana, SiFive P570 Gen 3 achieved 21x AI improvement, RISC-V reached 25% CPU IP market share by end-2025. The market still prices RISC-V as embedded-only.
+
+**Why still mispriced:** The Qualcomm/Ventana deal is priced into Qualcomm's stock narrative. The rerating of RISC-V from embedded-only to datacenter-capable is not in sell-side models. Ventana revenue is $37M in 2025.
+
+**Catalyst:** Ventana Veyron V2 volume production announcement from Qualcomm (2026–2027); hyperscaler announcing RISC-V custom server SoC; RISC-V Linux kernel support reaching full parity with x86/ARM.
+
+**Action window:** Long (2–5 years).
+
+**Falsifier:** ARM responds with aggressive datacenter licensing cuts; x86/ARM incumbency in cloud software tooling proves too sticky without a major hyperscaler anchor customer by 2028.
+
+**Cross-reference:** market_opportunities.md Opp 7; CPUs/research.md (Ventana, SiFive, RISC-V sections); AI_accelerators/research.md (Tenstorrent, Trend 5).
+
+---
+
+### T2-L: High-NA EUV First-Mover Window — Intel + Samsung vs TSMC's 2029 Delay *(NEW — Run #3)*
+
+**Opportunity:** Long Intel Foundry Services capacity and Samsung Foundry's HBM5/memory differentiation; specifically, memory buyers who could access a Samsung High-NA advantage on HBM5 base-die density.
+
+**The bet:** ASML CEO confirmed (May 20, 2026) first High-NA EUV products "within months" as Intel 14A and Samsung SF1.4 proceed. TSMC confirmed its High-NA delay to 2029 on April 24, 2026 earnings. This creates a 2-year window (2026–2028) where Samsung (HBM5 base die) and Intel (14A logic) access sub-8nm half-pitch patterns unavailable to TSMC customers. The non-consensus claim: Samsung HBM5 on High-NA could achieve tighter via pitch and higher density than TSMC-process-based HBM5 — a memory-specific capability delta no sell-side model has quantified.
+
+**Why still mispriced:** TSMC's delay was flagged as "already priced in" by Bernstein *for TSMC stock*. The memory-specific implication — Samsung HBM5 on High-NA achieves a density/bandwidth delta vs TSMC-process-based HBM5 — has not been published in any sell-side memory or foundry note.
+
+**Catalyst:** Samsung or SK Hynix announcing HBM5 base-die process details citing High-NA EUV (any conference H2 2026); Intel 14A customer silicon tape-out announcement; TSMC competitor winning an HBM5 base-die logic contract from an independent memory vendor.
+
+**Action window:** Medium (12–36 months — window closes when TSMC adopts High-NA in 2029).
+
+**Falsifier:** Samsung SF1.4 High-NA yield falls below 50%; HBM5 base-die architecture moves away from via-pitch-sensitive designs, nullifying the High-NA density advantage for memory.
+
+**Cross-reference:** market_opportunities.md Opp 8; chip_fabrication/research.md (paper-026 ASML High-NA bifurcation, Intel 14A, Samsung SF1.4); memory/research.md (HBM5).
+
+---
+
+### T2-M: China Sovereign AI Chip Supply Chain at Scale — NVIDIA China TAM Subtraction Not in Sell-Side Models *(NEW — Run #3)*
+
+**Opportunity:** Short any NVIDIA long thesis pricing in a China TAM rebound scenario. Long Chinese AI cloud infrastructure providers (Alibaba, Baidu, ByteDance infrastructure) that own sovereign compute fleets.
+
+**The bet:** Alibaba T-Head Zhenwu M890 (May 2026): 560,000 units deployed in Alibaba Cloud, 3× performance vs prior-gen 810E, 144 GB HBM3, 800 GB/s inter-chip bandwidth, 3nm process. V900/J900 roadmap through 2028. NVIDIA Q1 FY2027 10-Q confirmed zero Data Center Hopper shipments to China (vs $4.6B in Q1 FY2026). Long-term NVIDIA bull theses implicitly assume China TAM reverts to NVIDIA once export controls are resolved. T-Head's 560K-unit deployment — available to 400+ external customers — means the China AI compute market has built a self-sustaining supply chain that reduces the ex-China rebound even in a scenario of export control normalization.
+
+**Why still mispriced:** M890 announcement received broad mainstream coverage. Short-term China revenue collapse is fully priced. The *long-term TAM subtraction* — that China sovereign AI compute is now self-sustaining at scale — has not appeared in a sell-side NVIDIA model quantifying the installed base as a permanent demand-destruction component.
+
+**Catalyst:** Any NVIDIA disclosure in Q2–Q3 FY2027 earnings that China Data Center revenue remains near-zero even after export control normalization talks; T-Head announcing V900 external customer wins outside Alibaba Cloud; sell-side analyst publishing a NVIDIA bear note that explicitly models China sovereign compute as a permanent TAM reduction.
+
+**Action window:** Long (2–5 years).
+
+**Falsifier:** US-China export control normalization leads to NVIDIA selling H20-successor products in volume to China (quantifiably larger than T-Head's installed base); T-Head M890 quality/reliability issues cause Alibaba Cloud to return to foreign silicon; US Treasury/Commerce restricts TSMC from supplying 3nm to T-Head.
+
+**Cross-reference:** market_opportunities.md Opp 9; AI_accelerators/research.md (paper-026 Alibaba M890, section 11); GPUs/research.md (China Domestic GPU Sector, paper-021).
+
+---
+
+## What Changed from Run #2
+
+**New opportunities this cycle (Run #3):**
+- **T2-L** (High-NA EUV First-Mover Window): New from ASML CEO confirmation + TSMC delay to 2029. First appearance — PARTIALLY-PRICED-IN.
+- **T2-M** (China Sovereign AI Chip Supply Chain): New from Alibaba Zhenwu M890 560K deployment. First appearance — PARTIALLY-PRICED-IN.
+
+**Dropped off (ALREADY-PRICED-IN, removed from list):**
+- **HBM4 Base-Die Logic** (was PARTIALLY-PRICED-IN in prior runs): DOWNGRADED. Samsung 40–50% price hike on base-die logic (TrendForce April 2026) + TSMC Q1 2026 earnings explicit callout as new N3 revenue category crossed the threshold.
+- **Inference-Specialized ASICs for Prefill/Decode** (was PARTIALLY-PRICED-IN in prior runs): CONFIRMED ALREADY-PRICED-IN. GTC 2026 Groq 3 LPX announcement made this the defining architecture story of the year. Consistent with Run #1 direction.
+
+**Downgraded tier (remained on list but status worsened):**
+- **T2-A (Grid/TFLOPS-per-watt)**: Was VERIFIED-NOT-PRICED-IN in Run #1; now PARTIALLY-PRICED-IN because NVIDIA adopted "tokens per watt" as a GTC 2026 marketing metric, bringing the efficiency framing into mainstream investor vocabulary. Still on list, but window is narrowing.
+
+**Unchanged from Run #2:** T2-B through T2-K all remain PARTIALLY-PRICED-IN with no material consensus shift per verification agent.
+
+*Full audit trail with URLs and dated quotes: `research/verification_log.md`.*

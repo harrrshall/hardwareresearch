@@ -53,3 +53,46 @@ See `CLAUDE.md` for cycle definition.
 **Verification:** Independent Market Pricing Verification Agent running for Run #2 findings; verification_log.md will be updated with Run #2 verdicts when complete.
 
 **Overall:** **RECURRING CYCLE #1** — 5 new papers, 3 global rewrites, 3 sector refreshes, additive conclusion update.
+
+---
+
+## Run #3 — 2026-05-23
+
+**Research window:** 2025-11-23 – 2026-05-23 (same day as Run #2; significant new papers published May 18–21 post-Run #2 cutoff)
+**Sectors with new sources:** GPUs, AI_accelerators, chip_fabrication, edge_AI_hardware, interconnects (5/10)
+
+**New papers (5 total — all VALIDATED):**
+- GPUs/paper-021: NVIDIA Q1 FY2027 Earnings — Vera Rubin "constrained throughout entire life of platform"; $81.6B revenue (+85% YoY); Vera CPU $200B TAM (VALIDATED, Tier 1)
+- AI_accelerators/paper-026: Alibaba T-Head Zhenwu M890 — 560K units deployed at hyperscaler scale, 3× perf vs 810E, 3nm process (VALIDATED, Tier 1)
+- chip_fabrication/paper-026: ASML High-NA EUV Bifurcation — TSMC delays to 2029, Samsung/Intel/SK Hynix proceed 2027-2028 (VALIDATED, Tier 1)
+- edge_AI_hardware/paper-024: LlamaWeb arXiv 2605.20706 — WebGPU distributed inference across 16 devices/8 GPU vendors/10 models (VALIDATED, Tier 2)
+- interconnects/paper-023: PCIe 8.0 Draft 0.5 — 256 GT/s, 1.0 TB/s x16, CXL 5.0 foundation (VALIDATED, Tier 2)
+
+**Source counts updated:** GPUs 52→53, AI_accelerators 56→57, chip_fabrication 61→62, edge_AI_hardware 53→54, interconnects 60→61
+
+**Sector research.md refreshed:** GPUs (paper-021 VALIDATED), AI_accelerators (paper-026 VALIDATED), chip_fabrication (paper-026 VALIDATED), edge_AI_hardware (paper-024 VALIDATED), interconnects (paper-023 VALIDATED)
+
+**Global synthesis (mandatory full rewrites):**
+- `cross_sector_alpha.md`: Finding 2 STRENGTHENED (CEO supply constraint admission); Finding 5 (High-NA EUV bifurcation) added as new candidate; Finding 3 (GPU unbundling) PURGED post-verification (ALREADY-PRICED-IN)
+- `future_trends.md`: A2 confirmed Run #3; C6 expanded with High-NA EUV three-way foundry scenario
+- `market_opportunities.md`: Opp 10 (High-NA EUV) and Opp 11 (China sovereign AI) added; then renumbered to 9 after post-verification purge of Opp 1 (HBM4 base-die) and Opp 8 (prefill/decode ASICs)
+
+**Additive:** conclusion.md Run #3 section appended (3 new conclusions: CEO supply ceiling, China sovereign AI at scale, High-NA EUV bifurcation)
+
+**New cross-sector alpha finds:** 0 new verified non-consensus finds; 2 new PARTIALLY-PRICED-IN additions (High-NA EUV bifurcation, China sovereign AI TAM subtraction)
+
+**Verification verdict on findings (Independent Market Pricing Verification Agent, Run #3):**
+- **VERIFIED-NOT-PRICED-IN**: 0 / 16
+- **PARTIALLY-PRICED-IN**: 13 / 16 (Cross-Sector Findings 1, 2, 4, 5; Opportunities 1, 2, 3, 4, 5, 6, 7 [renumbered], 8 [renumbered], 9 [renumbered])
+- **ALREADY-PRICED-IN**: 3 / 16 (Finding 3 GPU unbundling — GTC 2026 Groq LPX made this mainstream; Opp 1 HBM4 base-die — Samsung 40-50% price hike + TSMC earnings callout; Opp 8 prefill/decode ASICs — same as Finding 3)
+- Post-verification purge: Finding 3 deleted from cross_sector_alpha.md; Opp 1 and Opp 8 deleted from market_opportunities.md; opportunities renumbered 1–9
+- Notable consensus shifts: Finding 1 (grid/TFLOPS-per-watt) downgraded from VERIFIED (Run #1) to PARTIALLY (Run #3) — NVIDIA adopted "tokens per watt" as GTC 2026 marketing metric
+
+**New conclusions added to conclusion.md:**
+1. CEO-confirmed multi-year supply ceiling on Vera Rubin platform (GPUs/paper-021, very high confidence)
+2. China sovereign AI supply chain crossed hyperscaler deployment threshold (AI_accelerators/paper-026, high confidence)
+3. High-NA EUV creates two-track foundry bifurcation with 2-year divergence (chip_fabrication/paper-026, high confidence)
+
+**opportunity.md regenerated:** 13 PARTIALLY-PRICED-IN items across 2 tiers; Tier 1 empty (0 VERIFIED-NOT-PRICED-IN); 2 new opportunities added (T2-L High-NA EUV, T2-M China sovereign AI); 2 dropped off (HBM4 base-die, prefill/decode ASICs — both ALREADY-PRICED-IN)
+
+**Overall:** **RECURRING CYCLE #2** — 5 new validated papers across 5 sectors, 3 global rewrites, 5 sector refreshes, 3 additive conclusions; verification found 0 truly non-consensus findings this cycle; 2 previously partially-priced items confirmed fully priced and purged

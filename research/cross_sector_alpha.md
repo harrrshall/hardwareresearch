@@ -15,7 +15,6 @@ This is the second recurring-cycle rewrite of cross_sector_alpha.md (Run #1 = in
 |---------|--------|-------------------|
 | Finding 1 (grid/TFLOPS-per-watt) | **UNCHANGED** | No new evidence changes the core thesis |
 | Finding 2 (packaging yield ceiling) | **Run #3 STRENGTHENED** | NVIDIA CEO: Vera Rubin "constrained throughout entire life" of platform (paper-021 GPUs, May 20, 2026) — most explicit supply-ceiling CEO admission to date; extends HBM4 demand duration and compounds yield-ceiling thesis |
-| Finding 3 (GPU unbundling) | **UNCHANGED** | No new evidence |
 | Finding 4 (CG-HBM + CXL interposer attacks) | **UNCHANGED** | No new evidence; PCIe 8.0 Draft 0.5 (paper-023 interconnects) shows standards body still advancing; CXL 5.0 on PCIe 8.0 (1 TB/s) is a future mitigant to Finding 5 |
 | Finding 5 (CXL/PCIe 7.0 slip) | **UNCHANGED** | PCIe 8.0 Draft 0.5 (May 6, 2026) shows PCI-SIG working on next gen even as 7.0 compliance slips; does not resolve the 2028 compliance delay but confirms institutional momentum |
 
@@ -83,7 +82,7 @@ Sectors abbreviated: GPU, CPU, MEM (memory), FAB (chip fabrication), ACC (AI acc
 | 32 | ACC × PHO | Photonic compute (262 TOPS, Lightmatter) is 5-10 years from parity; but optical *interconnect* for accelerators is now. The NVIDIA-Groq deal + CPO mean the accelerator is becoming an optically-fed dataflow engine. | Partially |
 | 33 | ACC × INT | Ironwood ICI 9.6 Tb/s enables 9,216-chip pods with 1.77 PB shared HBM; rack/pod is the unit. Scale-up bandwidth is "the new clock speed." | Yes |
 | 34 | ACC × DC | TPU v7 at 29.4 TFLOPS/W vs B200 at 3.75 — custom inference silicon is ~8x more power-efficient. At power-capped datacenters, this is decisive for who can deploy more compute. | **No** |
-| 35 | ACC × EDGE | Inference splitting into prefill/decode ASICs (SPAD) in the datacenter mirrors the edge's NPU prefill-offload (llm.npu). The *same architectural idea* (separate prefill/decode silicon) is emerging top-down and bottom-up. | **No** |
+| 35 | ACC × EDGE | Inference splitting into prefill/decode ASICs (SPAD) in the datacenter mirrors the edge's NPU prefill-offload (llm.npu). The *same architectural idea* (separate prefill/decode silicon) is emerging top-down and bottom-up. | Yes |
 | 36 | PKG × PHO | TSMC COUPE = SoIC-X stacking the photonic die on the ASIC. CPO yield is gated by InP-vs-Si CTE mismatch — a *packaging* physics problem, not an optics problem. | Partially |
 | 37 | PKG × INT | Hybrid bonding at 6μm HVM (1M interconnects/mm²); the package interconnect is approaching on-chip BEOL density. Die-to-die energy converging to ~0.05 pJ/bit. | Partially |
 | 38 | PKG × DC | Packaging is 15-20% of flagship AI chip BOM ($1,100 of B200's $6,400). Rack cost ($3.9M AI vs $0.5M traditional) is partly a packaging-cost passthrough. | Partially |
@@ -105,7 +104,6 @@ The strongest 3-sector chains, where dependencies compound into a chokepoint or 
 |---|--------|-------------------|------------|
 | T1 | FAB × PKG × ACC | CoWoS-L capacity (130K wpm cap) × HBM4 stacking-yield (~78%) × every accelerator needing both → **advanced packaging, not wafers, is the hard ceiling on total AI compute shipped in 2026-27.** | Chokepoint |
 | T2 | MEM × INT × DC | HBM capacity wall (288-432GB) × CXL 4.0 (1.5 TB/s) × 1M-token KV cache (2.4TB) → disaggregated memory becomes mandatory, not optional, for frontier inference. | Unlock + repricing |
-| T3 | ACC × GPU × INT | Inference = 67% of compute × NVIDIA-Groq $20B license × decode being bandwidth-bound → the GPU is being unbundled into prefill-engine + decode-engine + optical fabric. | Architectural fork |
 | T4 | FAB × CPU × ACC | TSMC N2 100% booked × Apple >50% allocation × hyperscaler ASICs (TPU v8) on N2 → 2nm access is rationed by Apple's consumer cadence; AI silicon queues behind iPhones. | Chokepoint |
 | T5 | PKG × MEM × GPU | CG-HBM (memory-on-die) × HBM4 2,048-bit bus × Rubin being first to ship it → if CG-HBM yields, the silicon interposer (and a chunk of CoWoS demand) is disrupted from inside. | Unlock (conditional) |
 | T6 | EDGE × MEM × ACC | Mobile bandwidth wall (55 GB/s) × LPDDR6-PIM JEDEC standardization (2026) × MoE sparsity → processing-in-memory may ship in phones before it is clean in datacenters. | Inversion |
@@ -214,42 +212,6 @@ Multiply them: a Rubin-class package is `(HBM4 stack yield ~72-78%) × (multi-ch
 
 ---
 
-### Finding 3 — The GPU is being unbundled into a prefill engine + a decode engine + an optical fabric — and the same prefill/decode split is emerging independently at the edge, signaling it is a permanent architectural law, not a datacenter fad
-
-**Rank: #3** | **Horizon: medium** | **Confidence: medium-high**
-
-**The combination** — AI accelerators × GPUs × interconnects, cross-checked against edge AI hardware (triple T3, validated by pair 35).
-
-**The emergent insight.** Read four facts together:
-1. **ACC + GPU:** NVIDIA paid **$20B for a non-exclusive license to Groq's LPU** (Dec 24, 2025) and is integrating LPU-style deterministic execution *into the Vera Rubin platform*. NVIDIA also introduced **Rubin CPX**, a separate variant for massive-context inference. (AI_accelerators research.md, Strategic Insight 1; paper-004.)
-2. **ACC:** Arithmetic-intensity data — prefill ~2 FLOPs/byte (compute-bound), decode ~0.2 FLOPs/byte (severely bandwidth-bound), while GPUs are designed for ~100 FLOPs/byte. The GPU is architecturally mismatched to *both* phases of inference but for opposite reasons. (AI_accelerators 3.2.)
-3. **ACC:** The SPAD paper proposes *separate ASICs* for prefill and decode; Google splits TPU v8 into dedicated training and inference chips. (AI_accelerators paper-014, paper-022.)
-4. **EDGE — the independent confirmation:** On mobile, `llm.npu` offloads *prefill* to the NPU (>1,000 tokens/sec, compute-bound) while decode stays bandwidth-bound elsewhere; mobile NPUs are "less loaded than GPUs... better targets for compute-bound prefill." (edge_AI_hardware paper-001/004.)
-
-The non-obvious synthesis: the prefill/decode split is appearing **independently, top-down in the datacenter and bottom-up at the edge**, in two ecosystems that did not coordinate. When the same architectural decomposition emerges from opposite ends of the power spectrum (1MW racks and 5W phones), it is not a fashion — it is a structural law of transformer inference.
-
-**Why it is NOT priced in.** Consensus treats the Groq license as a one-off acqui-hire / talent-and-IP deal and Rubin CPX as a niche SKU. The market still models NVIDIA's franchise as "the GPU" — one unit, one ASP, one upgrade cycle. The contradicted belief: *the datacenter accelerator is a single integrated product with a single performance metric and a single procurement decision.* The cross-sector evidence (NVIDIA's own moves + the edge mirror) says the accelerator is decomposing into a heterogeneous prefill+decode+fabric system, which opens decode-specialist entry points for non-GPU silicon that the FLOPS-centric consensus cannot see.
-
-**Supporting evidence.**
-- AI_accelerators research.md — Strategic Insight 1 ("The NVIDIA-Groq Synthesis"... "GPU architectures are fundamentally inefficient for the decode phase"); Observation 1 ("The End of General-Purpose AI Accelerators"); 3.2 (arithmetic-intensity mismatch); paper-014 (prefill-decode disaggregation as default; SPAD); paper-007 (Groq LPU; $20B license; LPU 3 in Vera Rubin).
-- GPU research.md — Executive Summary (GTC 2026 inference pivot); Trend 1 (inference dominates architecture decisions).
-- interconnects research.md — Trend 5 (optical integration moving into the die); ISSCC 2026 electro-optical router 3.19 pJ/bit.
-- edge_AI_hardware research.md — paper-001 / paper-004 (llm.npu: mobile NPU prefill offload, >1,000 tok/s, "mobile NPUs less loaded than GPUs"); Technical Analysis (prefill NPU offload).
-
-**The catalyst.** First production deployment of a Rubin + LPU-3 heterogeneous system with disclosed prefill/decode role-splitting (H2 2026 – 2027), or a hyperscaler publishing disaggregated prefill/decode TCO showing a decode-specialist ASIC beating GPU decode on tokens/sec/$ at SLA.
-
-**Time horizon.** Medium. Rubin ships H2 2026; the heterogeneous prefill/decode reality becomes visible across 2026-2027.
-
-**Confidence.** Medium-high. The datacenter evidence is strong and includes NVIDIA's own $20B action. The edge mirror is real but the "independent emergence = structural law" inference is interpretive.
-
-**[Run #2 STRENGTHENED; unchanged in Run #3]:** arXiv 2604.24785 (edge_AI_hardware/paper-023, April 24, 2026, VALIDATED) adds independent empirical confirmation of the prefill/decode split at the sub-5W edge tier.
-
-**Falsifier.** If FP4 maturity + HBM4's 22 TB/s + TMEM make a single Rubin GPU efficient enough at *both* prefill and decode that disaggregation stops paying off (the GPU "re-bundles"), the thesis breaks.
-
-**How to express the bet.** Long the *decode-specialist* category that a FLOPS-centric consensus structurally undervalues — SRAM-heavy, bandwidth-optimized inference silicon (Groq-style LPUs now inside NVIDIA's own platform, Cerebras with 44GB on-chip SRAM and a 2026 IPO, SambaNova's three-tier memory). Also: optical-fabric IP (the third block) — Ayar Labs and Marvell post-Celestial-AI — captures value as the stitching layer regardless of which compute block wins.
-
----
-
 ### Finding 4 — CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer — and if either lands, a chunk of the CoWoS demand the entire market is bidding up simply evaporates from the inside
 
 **Rank: #4** | **Horizon: medium-to-long** | **Confidence: speculative-to-medium**
@@ -333,7 +295,6 @@ Of all the intersections surfaced, this is the single most interesting and most 
 2. **CG-HBM and CXL 4.0 are two independent attacks on the silicon interposer** — if either lands, the CoWoS scarcity the whole market is bidding up de-rates from the inside. (Finding 4)
 3. **The grid ceiling turns the AI race into a TFLOPS-per-watt contest** — the market scores FLOPS; physics rewards efficiency. (Finding 1)
 4. **Advanced-packaging *yield*, not CoWoS floor space, is the real compute ceiling** — and HBM4's 12-16-Hi stacks make compound yield worse exactly as headline capacity rises. (Finding 2)
-5. **The GPU is unbundling into prefill + decode + optical fabric** — confirmed by the same split emerging independently at the edge, marking it a structural law rather than a fad. (Finding 3)
 
 ---
 

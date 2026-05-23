@@ -14,38 +14,19 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 | Opportunity | Status | Change vs. Run #2 |
 |-------------|--------|-------------------|
-| 1 HBM4 Base-Die Logic | **Run #3 update** | NVIDIA "constrained throughout entire life of Rubin" (paper-021 GPUs) reinforces demand duration |
-| 2 CPO Laser Supply | **UNCHANGED** | No new evidence |
-| 3 Edge AI Memory-Bandwidth Arbitrage | **UNCHANGED** | LlamaWeb (paper-024 edge AI) adds cross-device empirical data; thesis unchanged |
-| 4 PIM at JEDEC | **UNCHANGED** | No new evidence |
-| 5 In-Die Optical Routing | **UNCHANGED** | No new evidence |
-| 6 Open-Interconnect Window | **UNCHANGED** | No new evidence |
-| 7 Glass Substrates | **UNCHANGED** | No new evidence |
-| 8 Prefill/Decode ASICs | **UNCHANGED** | No new evidence |
-| 9 RISC-V Datacenter | **UNCHANGED** | No new evidence |
-| 10 High-NA EUV First-Mover Window | **NEW — Run #3** | ASML CEO confirms Samsung/Intel on High-NA timeline; TSMC delays to 2029 (paper-026 chip_fabrication) |
-| 11 China Sovereign AI Chip Supply Chain | **NEW — Run #3** | Alibaba Zhenwu M890 at 560K units; explicit V900/J900 roadmap through 2028 (paper-026 AI_accelerators) |
+| 1 CPO Laser Supply | **UNCHANGED** | No new evidence |
+| 2 Edge AI Memory-Bandwidth Arbitrage | **UNCHANGED** | LlamaWeb (paper-024 edge AI) adds cross-device empirical data; thesis unchanged |
+| 3 PIM at JEDEC | **UNCHANGED** | No new evidence |
+| 4 In-Die Optical Routing | **UNCHANGED** | No new evidence |
+| 5 Open-Interconnect Window | **UNCHANGED** | No new evidence |
+| 6 Glass Substrates | **UNCHANGED** | No new evidence |
+| 7 RISC-V Datacenter | **UNCHANGED** | No new evidence |
+| 8 High-NA EUV First-Mover Window | **NEW — Run #3** | ASML CEO confirms Samsung/Intel on High-NA timeline; TSMC delays to 2029 (paper-026 chip_fabrication) |
+| 9 China Sovereign AI Chip Supply Chain | **NEW — Run #3** | Alibaba Zhenwu M890 at 560K units; explicit V900/J900 roadmap through 2028 (paper-026 AI_accelerators) |
 
 ---
 
-## Opportunity 1 — HBM4 Base-Die Logic as a New Foundry Revenue Stream
-
-**Thesis.** HBM4 introduces, for the first time, a logic base die fabricated on an *advanced foundry node* (TSMC 12nm for SK Hynix; Samsung SF4 for Samsung). This silently transfers value from the memory fab to the logic fab and creates a new, recurring, high-margin foundry product category that is not yet priced as distinct from commodity logic. Whoever supplies competitive HBM base-die logic captures a slice of every HBM4 stack sold — and HBM is the scarcest resource in AI.
-
-**Supporting evidence.**
-- memory/research.md: "Base Die Architecture as a Competitive Moat" — SK Hynix uses TSMC 12nm, Samsung uses SF4; the base die contains all I/O, power management, decoders; Samsung's 13 Gbps vs SK Hynix's 11.7 Gbps may be attributable to the SF4 base die (Observation 2, Insight 2).
-- interconnects/research.md: "HBM4 active base die changes OSAT dynamics" — TSMC A16 and Intel 18A could supply HBM4 base-die logic for independent memory vendors (Implication 2).
-- chip_fabrication/research.md: HBM4 logic base die on N3-class process (Paper 012).
-
-**[Run #3 update]:** NVIDIA's May 20 Q1 FY2027 earnings disclosure (GPUs/paper-021) that Vera Rubin will be "constrained throughout the entire life" of the platform confirms that HBM4 demand duration is longer than prior forecasts, extending the runway for base-die logic revenue capture at both TSMC and Samsung foundries.
-
-**Risk factors.** Memory vendors vertically integrate base-die production in-house; HBM4E moves to a different base-die architecture; the base die remains a small fraction of HBM cost and never commands strategic pricing.
-
-**Time horizon.** Medium. **Confidence.** medium.
-
----
-
-## Opportunity 2 — Laser Supply for Co-Packaged Optics (the photonics pick-and-shovel play)
+## Opportunity 1 — Laser Supply for Co-Packaged Optics (the photonics pick-and-shovel play)
 
 **Thesis.** CPO is unanimously identified as the production answer to AI external bandwidth, but the corpus also identifies a hard physical bottleneck the market is only beginning to price: 200G/lane EML laser supply. McKinsey projects 30–60% supply shortfalls through 2027–2029. NVIDIA's $4B emergency investment in Lumentum and Coherent is the signal. The asymmetric bet is on the *second wave* of EML qualifiers and on laser-free alternatives (GaN microLED, integrated InP).
 
@@ -61,7 +42,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 3 — Edge AI Inference Silicon: the Memory-Bandwidth Arbitrage
+## Opportunity 2 — Edge AI Inference Silicon: the Memory-Bandwidth Arbitrage
 
 **Thesis.** Mobile NPU TOPS have raced past 100 while mobile memory bandwidth crawled (10x vs 22% growth). The corpus shows the entire edge industry is throttled not by compute but by bandwidth. The underexplored opportunity is silicon that *solves the edge bandwidth problem specifically* — on-module memory (Hailo-10H model), mobile HBM (projected 2028), and compiler-hardware co-design (NXP eIQ Neutron beats 2x-resource NPUs by 3.3x).
 
@@ -77,7 +58,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 4 — Processing-in-Memory at the JEDEC Standardization Inflection
+## Opportunity 3 — Processing-in-Memory at the JEDEC Standardization Inflection
 
 **Thesis.** PIM has been "promising" for a decade. The new and under-priced fact: Samsung and SK Hynix — direct competitors — are *jointly standardizing LPDDR6-PIM through JEDEC* with 2026 target approval. Standardization converts PIM from a niche differentiated product into a commodity module device OEMs will demand. The asymmetric bet is on the controller IP, compiler, and tooling layer that standardized PIM will require.
 
@@ -91,7 +72,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 5 — In-Die / In-Package Optical Routing: the Next Architectural Discontinuity
+## Opportunity 4 — In-Die / In-Package Optical Routing: the Next Architectural Discontinuity
 
 **Thesis.** The CPO trade is now consensus. The under-the-radar bet is one generation further out: *in-die optical I/O and dynamic in-package optical routing.* The corpus contains a concrete proof point — CEA-Leti's ISSCC 2026 electro-optical router at 3.19 pJ/bit with 18 ns dynamic switching — and Marvell's $3.25B Celestial AI acquisition explicitly targets in-die optical. This is a 3–5 year payoff with very low current market attention relative to CPO.
 
@@ -106,7 +87,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 6 — The Open-Interconnect Ecosystem's Delayed-but-Real Window (UALink / UEC / UCIe)
+## Opportunity 5 — The Open-Interconnect Ecosystem's Delayed-but-Real Window (UALink / UEC / UCIe)
 
 **Thesis.** Every sector that covers interconnects reaches the same conclusion — open standards lag NVLink by 2–4 years — and the market reads this as "open standards lose." That is the consensus and it is over-priced. The corpus also shows UALink/UEC have unprecedented hyperscaler backing (75-member consortium, every major cloud) and that hyperscalers are *funding the open path as a deliberate hedge*. When UALink silicon ships (late 2026/2027), the switching-cost story inverts for new cluster builds.
 
@@ -121,7 +102,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 7 — Glass Substrates Transitioning from R&D to Qualification
+## Opportunity 6 — Glass Substrates Transitioning from R&D to Qualification
 
 **Thesis.** Glass core substrates offer a measured +40% speed and -30% power versus organic laminate, with CTE matched far closer to silicon. Intel debuted EMIB-on-glass at NEPCON Japan January 2026; AMD is qualifying samples. The technology is at the qualification inflection — the highest-leverage point to back a materials transition before it is priced as inevitable.
 
@@ -135,22 +116,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 8 — Inference-Specialized ASICs for the Prefill/Decode Split
-
-**Thesis.** The corpus documents a decisive architectural finding: prefill (compute-bound, ~2 FLOPs/byte) and decode (severely memory-bound, ~0.2 FLOPs/byte) are now divergent enough to justify *separate silicon for each phase*. Google is splitting TPU v8 into dedicated training and inference chips; NVIDIA licensed Groq's LPU for the decode phase. The opportunity is purpose-built decode silicon (deterministic, SRAM-heavy, bandwidth-optimized) and the orchestration layer that disaggregates the two phases.
-
-**Supporting evidence.**
-- AI_accelerators/research.md: "The End of General-Purpose AI Accelerators" — TPU v8 split, Rubin CPX, Groq LPU (Observation 1, paper-014); NVIDIA $20B Groq LPU license (paper-007, Insight 1).
-- GPUs/research.md: inference dominates GPU architecture decisions; prefill/decode disaggregation default at hyperscalers (Trend 1).
-- memory/research.md: LLM inference workload reshaping memory priorities — low-batch decode is purely bandwidth-bound (Trend 5).
-
-**Risk factors.** SSM/Mamba-transformer hybrid models change the compute profile; NVIDIA's integrated Rubin+LPU platform captures the disaggregation value internally.
-
-**Time horizon.** Medium. **Confidence.** medium.
-
----
-
-## Opportunity 9 — RISC-V Datacenter Silicon Post-Ventana
+## Opportunity 7 — RISC-V Datacenter Silicon Post-Ventana
 
 **Thesis.** RISC-V crossed the datacenter credibility threshold in this exact window — Qualcomm paid $2.4B for Ventana, SiFive shipped P570 Gen 3, Condor Cuzco presented production silicon at Hot Chips 2025. The market still prices RISC-V as embedded-only. The asymmetric bet is on RISC-V server and AI silicon riding the open-ISA cost advantage — particularly into sovereign-chip programs and high-volume custom deployments.
 
@@ -165,7 +131,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 10 — High-NA EUV First-Mover Window: Intel and Samsung vs TSMC's 2029 Delay *(NEW — Run #3)*
+## Opportunity 8 — High-NA EUV First-Mover Window: Intel and Samsung vs TSMC's 2029 Delay *(NEW — Run #3)*
 
 **Thesis.** ASML CEO Christophe Fouquet confirmed on May 20, 2026 that the first High-NA EUV memory and logic products are expected "within months" — while simultaneously TSMC announced it will not deploy High-NA EUV before 2029 due to the $360–400M per-unit cost. This creates a **2-year technology window** (2026–2028) where Intel (14A logic) and Samsung/SK Hynix (HBM5, LPDDR6 memory) are on High-NA while TSMC stays at conventional EUV. The asymmetric bet: Intel's foundry positioning improves meaningfully through this window, and Samsung's HBM5 specification may exceed TSMC-process-based HBM5 in specific density/bandwidth metrics during the overlap.
 
@@ -183,7 +149,7 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 ---
 
-## Opportunity 11 — China Sovereign AI Chip Supply Chain at Scale *(NEW — Run #3)*
+## Opportunity 9 — China Sovereign AI Chip Supply Chain at Scale *(NEW — Run #3)*
 
 **Thesis.** The Alibaba T-Head Zhenwu M890 announcement (May 20, 2026) confirms that China's domestic AI chip supply chain has reached operational scale with 560,000 units deployed to 400+ customers — without NVIDIA's export-restricted H100/H800/H20 family. The M890's explicit agentic-AI architecture (144 GB HBM3, 800 GB/s inter-chip bandwidth) and its publicly disclosed roadmap through 2028 (V900: 216 GB, 1.2 TB/s; J900: next-generation) establish T-Head as a viable long-context inference compute platform. The asymmetric opportunity: the AI compute buildout in China is structurally decoupled from NVIDIA's roadmap in ways that have not been fully priced into either NVIDIA's long-term TAM models or into Chinese AI infrastructure equities.
 
@@ -204,14 +170,12 @@ This is the second recurring-cycle rewrite of market_opportunities.md. Run #3 fo
 
 | # | Opportunity | Horizon | Confidence | Core bet |
 |---|-------------|---------|------------|----------|
-| 1 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack; Rubin supply constraint extends demand duration |
-| 2 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | GF SCALE CPO adds demand; 30–60% shortfall thesis holds |
-| 3 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | Dedicated NPU co-processor + thermal isolation = winning architecture; LlamaWeb validates cross-device inference viability |
-| 4 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand |
-| 5 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity |
-| 6 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag; UALink 2.0 four-spec release April 2026 |
-| 7 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable |
-| 8 | Prefill/decode-specialized inference ASICs | medium | medium | Phase divergence justifies separate silicon |
-| 9 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI |
-| 10 | High-NA EUV first-mover: Intel + Samsung vs TSMC 2029 delay | medium | medium | 2-year window where Samsung HBM5 + Intel 14A are on High-NA while TSMC is not |
-| 11 | China sovereign AI chip supply chain (T-Head Zhenwu scale) | long | medium | 560K M890 units deployed reduces NVIDIA's China rebound TAM assumption |
+| 1 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | GF SCALE CPO adds demand; 30–60% shortfall thesis holds |
+| 2 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | Dedicated NPU co-processor + thermal isolation = winning architecture; LlamaWeb validates cross-device inference viability |
+| 3 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand |
+| 4 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity |
+| 5 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag; UALink 2.0 four-spec release April 2026 |
+| 6 | Glass substrates at the qualification inflection | medium–long | medium | Materials transition before it is priced as inevitable |
+| 7 | RISC-V datacenter silicon post-Ventana | long | medium | Open-ISA cost advantage moving up into servers/AI |
+| 8 | High-NA EUV first-mover: Intel + Samsung vs TSMC 2029 delay | medium | medium | 2-year window where Samsung HBM5 + Intel 14A are on High-NA while TSMC is not |
+| 9 | China sovereign AI chip supply chain (T-Head Zhenwu scale) | long | medium | 560K M890 units deployed reduces NVIDIA's China rebound TAM assumption |
