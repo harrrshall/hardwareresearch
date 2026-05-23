@@ -101,11 +101,11 @@
   .frame {
     max-width: 76rem;
     margin: 0 auto;
-    padding: 2.5rem 1.05rem 4rem;
+    padding: 1.1rem 1.05rem 3rem;
     position: relative;
     z-index: 2;
   }
-  @media (min-width: 740px) { .frame { padding: 4rem 2rem 6rem; } }
+  @media (min-width: 740px) { .frame { padding: 1.75rem 2rem 5rem; } }
   @media (min-width: 1080px) {
     .frame {
       display: grid;
@@ -126,7 +126,7 @@
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: var(--muted);
-    margin: 0 0 1.6rem;
+    margin: 0 0 0.7rem;
     text-align: center;
   }
   .preprint .dot { padding: 0 0.45rem; opacity: 0.55; }
@@ -134,9 +134,9 @@
   /* Hero ornament */
   .hero-orn {
     display: block;
-    margin: 0 auto 1.4rem;
+    margin: 0 auto 0.8rem;
     color: var(--accent);
-    width: 56px; height: auto;
+    width: 46px; height: auto;
     opacity: 0.85;
   }
   @media (prefers-color-scheme: dark) { .hero-orn { opacity: 0.7; } }
@@ -191,7 +191,7 @@
 
   /* Hero illustration */
   figure.hero {
-    margin: 2.6rem auto 1.5rem;
+    margin: 1.6rem auto 1.5rem;
     max-width: 540px;
     text-align: center;
   }
@@ -254,6 +254,31 @@
     margin: 0 0 0.8rem;
   }
   .abstract p { margin: 0; }
+  .abstract-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .abstract-list li {
+    position: relative;
+    padding: 0.4rem 0 0.4rem 1.4rem;
+    margin: 0;
+    text-align: left;
+    hyphens: manual;
+  }
+  .abstract-list li + li { border-top: 1px solid var(--rule); }
+  .abstract-list li::before {
+    content: "§";
+    position: absolute;
+    left: 0;
+    top: 0.45rem;
+    font-family: var(--display);
+    font-style: italic;
+    color: var(--accent);
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+  .abstract-list em { font-style: italic; color: var(--ink-2); }
   .abstract p::first-letter {
     font-family: var(--display);
     font-weight: 700;
@@ -617,13 +642,6 @@
 
     <h1 class="title">A Cross-Sector Synthesis of the <em>AI &amp; Semiconductor</em> Hardware Stack</h1>
     <p class="subtitle">Ten sectors, two hundred and thirty papers, one continuously verified reading of where the bottlenecks actually are</p>
-    <p class="byline">Hardware Research Pipeline &nbsp;·&nbsp; multi-agent orchestration</p>
-    <p class="byline"><a href="https://github.com/harrrshall/hardware-research-2026">github.com/harrrshall/hardware-research-2026</a></p>
-
-    <p class="stamp">
-      recency window<span class="dot">·</span>2025-11-22 → 2026-05-23<span class="dot">·</span><span id="run-label">Run #2 active</span>
-      <span class="updated" id="last-update">last update — fetching</span>
-    </p>
 
     <!-- Hero specimen-plate illustration: a chip die rendered as 19th-century natural-history plate -->
     <figure class="hero">
@@ -744,7 +762,14 @@
 
     <div class="abstract">
       <p class="abstract-label">Abstract</p>
-      <p>This continuously-updated repository presents a retrospective on the AI and semiconductor hardware stack across ten sectors: GPUs, CPUs, memory, chip fabrication, AI accelerators, advanced packaging, photonics, interconnects, datacenter hardware, and edge AI hardware. Approximately two hundred and thirty primary sources published between November 2025 and May 2026 are validated against six recency, methodology, and attribution criteria. A cross-sector permutation pass produces ranked non-consensus findings, each of which is then independently checked against current sell-side, vendor, and trade-press consensus by a separate verification agent. The pipeline re-executes every five hours; already-priced-in findings are cleanly removed from the synthesis to preserve signal. Of the eighteen claims scrutinized in Run&nbsp;#1, two cleanly survived as genuinely non-consensus: <em>(i)</em> the PCIe&nbsp;7.0 compliance slip displaces the CXL&nbsp;4.0 memory-wall fix to approximately 2029, and <em>(ii)</em> compute-grade HBM together with CXL&nbsp;4.0 disaggregation jointly attack per-GPU silicon-interposer demand. Nine further claims are partially priced; seven were retired as already absorbed by mainstream analyst coverage. The methodology, audit trail, and complete sector reports are reproduced in the sections that follow.</p>
+      <ul class="abstract-list">
+        <li>Retrospective covering ten sectors: GPUs, CPUs, memory, chip fabrication, AI accelerators, advanced packaging, photonics, interconnects, datacenter hardware, and edge AI hardware.</li>
+        <li>Approximately two hundred and thirty primary sources published between November 2025 and May 2026, validated against six recency, methodology, and attribution criteria.</li>
+        <li>A cross-sector permutation pass produces ranked non-consensus findings, each independently checked against current sell-side, vendor, and trade-press consensus by a separate verification agent.</li>
+        <li>The pipeline re-executes every five hours; already-priced-in findings are cleanly removed from the synthesis to preserve signal.</li>
+        <li>Two findings cleanly survived as genuinely non-consensus in Run&nbsp;#1: <em>(i)</em> the PCIe&nbsp;7.0 compliance slip displaces the CXL&nbsp;4.0 memory-wall fix to approximately 2029, and <em>(ii)</em> compute-grade HBM together with CXL&nbsp;4.0 disaggregation jointly attack per-GPU silicon-interposer demand.</li>
+        <li>Nine further claims are partially priced; seven were retired as already absorbed by mainstream analyst coverage.</li>
+      </ul>
     </div>
 
     <div class="rule-orn" role="presentation">
@@ -755,14 +780,8 @@
       </svg>
     </div>
 
-    <!-- I. Methodology -->
-    <h2 class="sec"><span class="num">§ I &nbsp;·&nbsp; the method</span>Three stages, sequentially within each, parallel across ten</h2>
-    <div class="body">
-      <p>The pipeline operates in three stages. <em>Stage I</em> sends ten parallel sector teams through a strict four-agent chain — Collector, Deep Analyzer, Validator, Writer — over a six-month recency window, producing per-sector sources, paper analyses, validation logs, and a synthesis. <em>Stage II</em>, gated by a hard synchronization barrier, writes the conclusion, market-opportunity, future-trends, and cross-sector alpha files. <em>Stage III</em> is the discipline of the whole apparatus: an independent Market-Pricing Verification Agent reads the synthesis with no access to the synthesis author's reasoning, performs fresh web searches against sell-side notes, specialist research, trade press, and vendor disclosures, and assigns each non-consensus claim one of <code>VERIFIED-NOT-PRICED-IN</code>, <code>PARTIALLY-PRICED-IN</code>, or <code>ALREADY-PRICED-IN</code>, with dated evidence URLs. Already-priced-in claims are then deleted from the synthesis files — no marks, no breadcrumbs — and the verification log retains the complete audit trail.</p>
-    </div>
-
-    <!-- II. Contents — with editorial dingbats per group -->
-    <h2 class="sec"><span class="num">§ II &nbsp;·&nbsp; what's in this collection</span>Contents, by intended reader</h2>
+    <!-- Contents — with editorial dingbats per group -->
+    <h2 class="sec">Contents, by intended reader</h2>
     <div class="toc-section" id="toc">
 
       <!-- A. Action — compass rose -->
@@ -788,9 +807,9 @@
             <span class="group-desc">Where to bet. Curated by post-verification verdict; signal only.</span>
           </h3>
           <ul class="toc-items">
-            <li class="toc-row"><span class="num">A.1</span><span class="title-cell"><a data-file="research/opportunity.md" href="#opportunity">Opportunity list</a> <span class="desc">— curated post-verification action items</span></span><span class="file">opportunity.md</span></li>
-            <li class="toc-row"><span class="num">A.2</span><span class="title-cell"><a data-file="research/cross_sector_alpha.md" href="#cross_sector_alpha">Cross-sector alpha</a> <span class="desc">— 45-cell pairwise matrix, ranked deep dives</span></span><span class="file">cross_sector_alpha.md</span></li>
-            <li class="toc-row"><span class="num">A.3</span><span class="title-cell"><a data-file="research/market_opportunities.md" href="#market_opportunities">Market opportunities</a></span><span class="file">market_opportunities.md</span></li>
+            <li class="toc-row"><span class="num">A.1</span><span class="title-cell"><a data-file="research/opportunity.md" href="#opportunity">Opportunity list</a> <span class="desc">— curated post-verification action items</span></span></li>
+            <li class="toc-row"><span class="num">A.2</span><span class="title-cell"><a data-file="research/cross_sector_alpha.md" href="#cross_sector_alpha">Cross-sector alpha</a> <span class="desc">— 45-cell pairwise matrix, ranked deep dives</span></span></li>
+            <li class="toc-row"><span class="num">A.3</span><span class="title-cell"><a data-file="research/market_opportunities.md" href="#market_opportunities">Market opportunities</a></span></li>
           </ul>
         </div>
       </div>
@@ -818,8 +837,8 @@
             <span class="group-desc">What's happening across all ten sectors, where the walls are, and where they're moving.</span>
           </h3>
           <ul class="toc-items">
-            <li class="toc-row"><span class="num">B.1</span><span class="title-cell"><a data-file="research/conclusion.md" href="#conclusion">Conclusion</a> <span class="desc">— cross-sector findings &amp; bottlenecks</span></span><span class="file">conclusion.md</span></li>
-            <li class="toc-row"><span class="num">B.2</span><span class="title-cell"><a data-file="research/future_trends.md" href="#future_trends">Future trends</a> <span class="desc">— near-term, 12–24 mo, 3–5 yr</span></span><span class="file">future_trends.md</span></li>
+            <li class="toc-row"><span class="num">B.1</span><span class="title-cell"><a data-file="research/conclusion.md" href="#conclusion">Conclusion</a> <span class="desc">— cross-sector findings &amp; bottlenecks</span></span></li>
+            <li class="toc-row"><span class="num">B.2</span><span class="title-cell"><a data-file="research/future_trends.md" href="#future_trends">Future trends</a> <span class="desc">— near-term, 12–24 mo, 3–5 yr</span></span></li>
           </ul>
         </div>
       </div>
@@ -850,8 +869,8 @@
             <span class="group-desc">The audit trail: what survived independent market-pricing review, what didn't.</span>
           </h3>
           <ul class="toc-items">
-            <li class="toc-row"><span class="num">C.1</span><span class="title-cell"><a data-file="research/verification_log.md" href="#verification_log">Verification log</a> <span class="desc">— 18 claims, dated evidence</span></span><span class="file">verification_log.md</span></li>
-            <li class="toc-row"><span class="num">C.2</span><span class="title-cell"><a data-file="research/run_history.md" href="#run_history">Run history</a> <span class="desc">— cycle-by-cycle verdicts</span></span><span class="file">run_history.md</span></li>
+            <li class="toc-row"><span class="num">C.1</span><span class="title-cell"><a data-file="research/verification_log.md" href="#verification_log">Verification log</a> <span class="desc">— 18 claims, dated evidence</span></span></li>
+            <li class="toc-row"><span class="num">C.2</span><span class="title-cell"><a data-file="research/run_history.md" href="#run_history">Run history</a> <span class="desc">— cycle-by-cycle verdicts</span></span></li>
           </ul>
         </div>
       </div>
@@ -880,21 +899,20 @@
             <span class="group-desc">Long-form per-sector synthesis. Each report has eleven standard sections, ≥30 validated sources, and a full paper index.</span>
           </h3>
           <ul class="toc-items">
-            <li class="toc-row"><span class="num">D.1</span><span class="title-cell"><a data-file="research/GPUs/research.md" href="#GPUs">GPUs</a></span><span class="file">GPUs/research.md</span></li>
-            <li class="toc-row"><span class="num">D.2</span><span class="title-cell"><a data-file="research/CPUs/research.md" href="#CPUs">CPUs</a></span><span class="file">CPUs/research.md</span></li>
-            <li class="toc-row"><span class="num">D.3</span><span class="title-cell"><a data-file="research/memory/research.md" href="#memory">Memory</a></span><span class="file">memory/research.md</span></li>
-            <li class="toc-row"><span class="num">D.4</span><span class="title-cell"><a data-file="research/chip_fabrication/research.md" href="#chip_fabrication">Chip fabrication</a></span><span class="file">chip_fabrication/research.md</span></li>
-            <li class="toc-row"><span class="num">D.5</span><span class="title-cell"><a data-file="research/AI_accelerators/research.md" href="#AI_accelerators">AI accelerators</a></span><span class="file">AI_accelerators/research.md</span></li>
-            <li class="toc-row"><span class="num">D.6</span><span class="title-cell"><a data-file="research/packaging/research.md" href="#packaging">Advanced packaging</a></span><span class="file">packaging/research.md</span></li>
-            <li class="toc-row"><span class="num">D.7</span><span class="title-cell"><a data-file="research/photonics/research.md" href="#photonics">Photonics</a></span><span class="file">photonics/research.md</span></li>
-            <li class="toc-row"><span class="num">D.8</span><span class="title-cell"><a data-file="research/interconnects/research.md" href="#interconnects">Interconnects</a></span><span class="file">interconnects/research.md</span></li>
-            <li class="toc-row"><span class="num">D.9</span><span class="title-cell"><a data-file="research/datacenter_hardware/research.md" href="#datacenter_hardware">Datacenter hardware</a></span><span class="file">datacenter_hardware/research.md</span></li>
-            <li class="toc-row"><span class="num">D.10</span><span class="title-cell"><a data-file="research/edge_AI_hardware/research.md" href="#edge_AI_hardware">Edge AI hardware</a></span><span class="file">edge_AI_hardware/research.md</span></li>
+            <li class="toc-row"><span class="num">D.1</span><span class="title-cell"><a data-file="research/GPUs/research.md" href="#GPUs">GPUs</a></span></li>
+            <li class="toc-row"><span class="num">D.2</span><span class="title-cell"><a data-file="research/CPUs/research.md" href="#CPUs">CPUs</a></span></li>
+            <li class="toc-row"><span class="num">D.3</span><span class="title-cell"><a data-file="research/memory/research.md" href="#memory">Memory</a></span></li>
+            <li class="toc-row"><span class="num">D.4</span><span class="title-cell"><a data-file="research/chip_fabrication/research.md" href="#chip_fabrication">Chip fabrication</a></span></li>
+            <li class="toc-row"><span class="num">D.5</span><span class="title-cell"><a data-file="research/AI_accelerators/research.md" href="#AI_accelerators">AI accelerators</a></span></li>
+            <li class="toc-row"><span class="num">D.6</span><span class="title-cell"><a data-file="research/packaging/research.md" href="#packaging">Advanced packaging</a></span></li>
+            <li class="toc-row"><span class="num">D.7</span><span class="title-cell"><a data-file="research/photonics/research.md" href="#photonics">Photonics</a></span></li>
+            <li class="toc-row"><span class="num">D.8</span><span class="title-cell"><a data-file="research/interconnects/research.md" href="#interconnects">Interconnects</a></span></li>
+            <li class="toc-row"><span class="num">D.9</span><span class="title-cell"><a data-file="research/datacenter_hardware/research.md" href="#datacenter_hardware">Datacenter hardware</a></span></li>
+            <li class="toc-row"><span class="num">D.10</span><span class="title-cell"><a data-file="research/edge_AI_hardware/research.md" href="#edge_AI_hardware">Edge AI hardware</a></span></li>
           </ul>
         </div>
       </div>
 
-      <p class="note">Each report is fetched from the repository on demand; the site holds no cache. Push to <code>main</code> and the change appears within a minute. The pipeline regenerates this collection every five hours.</p>
     </div>
 
   </section>
@@ -905,20 +923,6 @@
     <p class="note" style="margin-top: 3rem;"><a href="#frontmatter">↑ return to frontmatter &amp; contents</a></p>
   </section>
 
-  <footer class="colophon full">
-    <span class="orn" aria-hidden="true">
-      <svg width="36" height="14" viewBox="0 0 36 14" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
-        <line x1="2" y1="7" x2="13" y2="7"/>
-        <line x1="23" y1="7" x2="34" y2="7"/>
-        <path d="M14 7 Q18 2 22 7 Q18 12 14 7 Z" fill="currentColor" fill-opacity="0.15"/>
-      </svg>
-    </span>
-    <p>Continuously regenerated. Independently verified. Already-priced-in claims are silently removed.</p>
-    <p class="meta">
-      <a href="https://github.com/harrrshall/hardware-research-2026">github.com/harrrshall/hardware-research-2026</a>
-      &nbsp;·&nbsp; set in EB Garamond &amp; Source Serif 4
-    </p>
-  </footer>
 
 </div>
 
@@ -1002,51 +1006,6 @@
   // Set today (the actual current UTC date)
   const today = new Date();
   $('#today').textContent = today.toISOString().slice(0,10);
-
-  // Fetch last commit time from GitHub for "last update" stamp
-  function humanizeAgo(d) {
-    const ms = Date.now() - d.getTime();
-    const sec = Math.round(ms / 1000);
-    if (sec < 60)   return 'just now';
-    const min = Math.round(sec / 60);
-    if (min < 60)   return min + ' min ago';
-    const hr = Math.round(min / 60);
-    if (hr < 24)    return hr + ' hr ago';
-    const dy = Math.round(hr / 24);
-    if (dy < 30)    return dy + ' days ago';
-    return d.toISOString().slice(0,10);
-  }
-  async function fetchLastUpdate() {
-    try {
-      const res = await fetch('https://api.github.com/repos/harrrshall/hardware-research-2026/commits/main');
-      if (!res.ok) return;
-      const j = await res.json();
-      const date = new Date(j.commit.committer.date);
-      const ago  = humanizeAgo(date);
-      const iso  = date.toISOString().replace('T',' ').slice(0,16) + ' UTC';
-      const subj = (j.commit.message || '').split('\n')[0].slice(0, 70);
-      $('#last-update').innerHTML = 'last update ' + ago + ' (' + iso + ') — &ldquo;' + subj.replace(/[<>]/g,'') + '&rdquo;';
-    } catch (e) {
-      $('#last-update').textContent = 'last update — unavailable';
-    }
-  }
-  // Parse run_history.md for current Run #N label
-  async function fetchRunLabel() {
-    try {
-      const res = await fetch('research/run_history.md?t=' + Date.now(), { cache: 'no-store' });
-      if (!res.ok) return;
-      const txt = await res.text();
-      const matches = Array.from(txt.matchAll(/## Run #(\d+)\s*(?:—|--)?\s*([^\n]*)/g));
-      if (matches.length) {
-        const last = matches[matches.length - 1];
-        const n = last[1];
-        const tail = (last[2] || '').trim();
-        $('#run-label').textContent = 'Run #' + n + (tail ? ' (' + tail.split('|')[0].trim() + ')' : '');
-      }
-    } catch {}
-  }
-  fetchLastUpdate();
-  fetchRunLabel();
 
   route();
 </script>
