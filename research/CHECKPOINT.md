@@ -2,7 +2,7 @@
 **Last updated**: 2026-05-22  
 **Research Window**: 2025-11-22 – 2026-05-22  
 **Source task file**: `hardware_research_orchestration.md` (in repo root)  
-**GitHub repo**: https://github.com/harrrshall/hardware-research-2026
+**GitHub repo**: https://github.com/harrrshall/hardwareresearch
 
 ---
 
@@ -68,6 +68,6 @@
 
 ## Directory
 ```
-/home/user/hardware-research-2026/research/   (local)
-github.com/harrrshall/hardware-research-2026  (remote)
+/home/user/hardwareresearch/research/   (local)
+github.com/harrrshall/hardwareresearch  (remote)
 ```

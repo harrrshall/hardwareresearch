@@ -5,8 +5,8 @@ Maintain a continuously-updated, peer-reviewed-grade research dataset on the AI 
 
 ## Repository
 - **Local**: `/home/cybernovas/Desktop/2026/experiments/hardware`
-- **Remote**: `https://github.com/harrrshall/hardware-research-2026`
-- **Live site**: `https://harrrshall.github.io/hardware-research-2026/` (GitHub Pages, mobile-first viewer)
+- **Remote**: `https://github.com/harrrshall/hardwareresearch`
+- **Live site**: `https://harrrshall.github.io/hardwareresearch/` (GitHub Pages, mobile-first viewer)
 - **Master spec**: `hardware_research_orchestration.md` (sector pipeline + global synthesis spec)
 - **Research outputs**: `research/`
 - **Run tracker**: `research/run_history.md`
@@ -124,7 +124,7 @@ Append a new section:
 If nothing new was found, **say so explicitly**. Not every run must produce novelty.
 
 ### Step 8.5 — Keep `index.html` in sync with the latest run
-The live site at `https://harrrshall.github.io/hardware-research-2026/` is a single static HTML file (`index.html` at repo root) that fetches markdown at runtime. The markdown fetcher means most updates need no HTML change. BUT the abstract block on the frontmatter contains hard-coded text that summarizes the current verification verdict — that text must be refreshed each cycle.
+The live site at `https://harrrshall.github.io/hardwareresearch/` is a single static HTML file (`index.html` at repo root) that fetches markdown at runtime. The markdown fetcher means most updates need no HTML change. BUT the abstract block on the frontmatter contains hard-coded text that summarizes the current verification verdict — that text must be refreshed each cycle.
 
 Specifically, locate the `<ul class="abstract-list">` inside `<section id="frontmatter">` in `index.html`. Update its `<li>` items so they reflect:
 - The current count of validated sources (e.g. "Approximately N primary sources…")
