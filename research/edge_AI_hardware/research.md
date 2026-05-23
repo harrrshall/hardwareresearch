@@ -1,6 +1,6 @@
 # edge_AI_hardware — Research Summary
 
-Generated: 2026-05-22 | Window: 2025-11-22 – 2026-05-22 | Validated sources: 52
+Generated: 2026-05-23 (Run #1) | Window: 2025-11-23 – 2026-05-23 | Validated sources: 53 (1 new this run: paper-023 VALIDATED)
 
 ---
 
@@ -107,6 +107,9 @@ First test-time scaling of LLMs on mobile NPUs. Hardware-aware tile quantization
 
 **paper-003 – LLM Inference Edge Trade-offs Under Sustained Load (arXiv 2026-03)**  
 Four-platform benchmark: Pi5+Hailo-10H, Galaxy S24 Ultra, iPhone 16 Pro, RTX 4050. Critical finding: iPhone 16 Pro loses 50% throughput within 2 inference iterations; S24 Ultra's OS thermal governor terminates inference entirely. NPU outperforms GPU for LLM-specific workloads via DMA efficiency.
+
+**paper-023 – Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated Single-Board Computers (arXiv:2604.24785, 2026-04) [NEW — Run #1]**  
+Extends the thermal-constraint story to the 1–5W SBC tier. Hailo-10H NPU (Raspberry Pi 5 co-processor) achieves near-zero throughput variance across 20+ inference iterations — thermally stable — where mobile phones throttle severely within 6. Key architectural implication: separating inference compute onto a dedicated NPU module (external thermal domain) solves the phone's throttling problem. Validates dedicated-NPU co-processor as the edge hardware template for always-on, power-sensitive deployments (IoT, automotive, security).
 
 **paper-005 – Sustainable LLM Inference: Quantization Energy/Accuracy Study (ACM ToIoT, Apr 2025)**  
 28 quantized models on Raspberry Pi 4. q3/q4 reduce energy up to 79% vs FP16. FLOP-based energy proxies underestimate real energy by 2-6×. Mathematical reasoning degrades significantly below q4.
@@ -492,6 +495,7 @@ The field has largely solved inference at the extremes: sub-10mW for tinyML (Eth
 | 50 | Benchmarking Energy and Latency in TinyML | 2505.15622 | 2025-05 |
 | 51 | Efficient MoE LLM on Apple NPUs | 2604.18788 | 2026-04 |
 | 52 | CPU vs GPU for On-Device LLM | 2505.06461 | 2025-05 |
+| 53 | Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated SBCs | 2604.24785 | 2026-04 |
 
 ### Vendor Announcements and Industry Sources
 

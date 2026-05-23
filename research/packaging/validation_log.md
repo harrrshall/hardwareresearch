@@ -156,3 +156,17 @@
 2. VLSI Symposium 2025 packaging session details rely on imec's published results rather than a complete conference proceedings review.
 3. Some market size figures vary significantly across analysts (e.g., 2025 advanced packaging market: $39.6B to $51.6B range) — all figures are presented with source attribution in research.md.
 4. Intel Foveros Direct pitch claims (<10 μm) are from Intel's own technology briefs; independent third-party verification not yet published.
+
+---
+
+## Run #1 Validation (2026-05-23) — New Paper: paper-026
+
+### paper-026 — Samsung Accelerates Advanced Packaging, 3.3D Technology, HCB (2026-05-14)
+- **Status:** VALIDATED
+- **Recency:** Published 2026-05-14 — within window ✓
+- **Cross-reference:** Samsung 3.3D packaging confirmed in Samsung Semiconductor newsroom (GTC 2026, March 2026). HCB 20% thermal improvement referenced in Samsung's HBM4E announcement (March 2026, GTC 2026 presentations). Digitimes is Tier 3 corroborated by Samsung Tier 4 primary source ✓
+- **Methodology disclosure:** Production timeline (Q2 2026 mass production) and thermal specs (20% improvement) disclosed. Packaging node specs less detailed ✓
+- **Benchmark fairness:** No performance comparison against competitors in this announcement — N/A ✓
+- **No rebuttal:** No public rebuttal found ✓
+- **Attribution:** Digitimes URL captured; Samsung newsroom primary source cross-referenced ✓
+- **Decision:** VALIDATED — confirms Samsung as second production-scale advanced packaging vendor for AI chips; materially updates the CoWoS-concentration story

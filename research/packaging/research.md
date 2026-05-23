@@ -1,5 +1,5 @@
 # packaging — Research Summary
-Generated: 2026-05-22 | Window: 2025-11-22 – 2026-05-22 | Validated sources: 61
+Generated: 2026-05-23 (Run #1) | Window: 2025-11-23 – 2026-05-23 | Validated sources: 67 (1 new this run: paper-026 VALIDATED)
 
 ---
 
@@ -91,6 +91,11 @@ The six months from November 2025 to May 2026 mark an inflection point in semico
 - I-CubeE: 2.5D integration scaling to 12 HBM stacks mass production (2025)
 - Samsung HBM capacity share: ~25% globally (2025)
 - Samsung MR-MUF process for HBM stacking (vs. TC-NCF); enables higher stack counts
+- **[Run #1]** Samsung 3.3D advanced packaging: mass production targeted Q2 2026 for AI semiconductor chips (paper-026, Digitimes May 14, 2026, VALIDATED)
+- **[Run #1]** HCB (Hybrid Copper Bonding): Samsung's HCB improves thermal resistance by 20% vs. previous bonding methods, enabling reliable 16-Hi HBM stacks (≥16 layers); validated with HBM4 production
+- **[Run #1]** Samsung HBM4 in HVM as of Q1 2026: 3.3 TB/s per stack, 13 Gbps per pin
+- **[Run #1]** Samsung HBM4E unveiled at GTC 2026 (March 2026): 4.0 TB/s, 16 Gbps, 48 GB per stack — requires 3.3D packaging capability
+- **[Run #1]** Samsung "3.3D" terminology: proprietary designation for a packaging architecture between 2.5D interposer and full 3D stacking; likely face-to-back or advanced bond-via approach; distinct from TSMC CoWoS but comparable in function for AI accelerator-class packages
 
 ### HBM4 Memory Packaging
 
@@ -202,6 +207,7 @@ The six months from November 2025 to May 2026 mark an inflection point in semico
 | 023 | Yield and Reliability | 88–92% SoIC yield; $50–200 KGD; 100 μm warpage | yield, reliability, ECTC |
 | 024 | RDL Ultra-Fine Pitch | 2 μm L/S production; <1 μm target; 15–25% cost | RDL, fine-line, packaging |
 | 025 | HIR 2025 Roadmap | 6 μm → 1-2 μm by 2030; 10 Tbps/mm² target | HIR, roadmap, heterogeneous |
+| 026 | Samsung 3.3D Packaging + HCB Acceleration (Run #1) | Mass production Q2 2026; HCB 20% thermal improvement; HBM4E 4.0 TB/s | Samsung, 3.3D-packaging, HCB, HBM4E |
 
 ---
 
@@ -471,6 +477,8 @@ Pure-play OSATs (ASE, Amkor) are being squeezed to: either invest heavily in adv
 
 CoWoS is a TSMC near-monopoly (>95% share). Intel EMIB ramping in H2 2026 and Samsung H-Cube offer alternatives — but neither matches CoWoS-L's current capability for the largest AI packages. The 2027 state of EMIB production yield and Samsung H-Cube capacity will determine whether customers have genuine choice.
 
+**[Run #1 update]** Samsung 3.3D packaging targeting mass production Q2 2026 (paper-026, VALIDATED) advances Samsung as a credible second advanced-packaging supplier. The HCB 20% thermal improvement for 16-Hi stacks is the enabling technology for HBM4E (4.0 TB/s, 48 GB). However, Samsung 3.3D is primarily positioned for Samsung's own HBM4/HBM4E products — it expands memory-package capacity but does not directly compete for GPU-logic packages where TSMC CoWoS-L is most constrained. If Q2 2026 mass-production target is confirmed, Samsung joins TSMC as the only vendors at >1,000-wpm scale for AI-accelerator-class packages, reducing (but not eliminating) single-source concentration risk.
+
 ### 4. Memory Packaging Investment Dwarfs Logic Packaging
 
 SK Hynix's $13B HBM packaging plant is a data point: memory packaging investment is now comparable to logic packaging investment. The strategic priority is securing HBM supply more than GPU die supply — HBM is the scarcity that constrains AI system deployment.
@@ -575,6 +583,7 @@ The January 2026 US-Taiwan $250B semiconductor agreement, combined with CHIPS Ac
 | 64 | First Truly 3D Chip at US Foundry (Stanford) | Tom's Hardware | 2025 | monolithic-3D |
 | 65 | NVIDIA GB200 Supply Chain Explained | IntuitionLabs | 2025-12 | CoWoS-L, NVIDIA, HBM3e |
 | 66 | ISSCC 2026: NVIDIA/Broadcom CPO, HBM4, TSMC | SemiAnalysis | 2026-02 | CPO, HBM4, NVIDIA |
+| 67 | Samsung Accelerates 3D NAND, Adv. Packaging, Substrate Plans | Digitimes | 2026-05-14 | Samsung, 3.3D-packaging, HCB, HBM4E |
 
 ---
 

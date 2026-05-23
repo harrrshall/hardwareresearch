@@ -142,3 +142,14 @@
 - NDA-limited data gaps (Samsung SF2P density, Intel 14A density, Rapidus yield) are noted but do not invalidate the overall body of evidence.
 - Production timeline data for A16 has a minor discrepancy (Q4 2026 vs. Q1 2027) sourced from different TSMC communications — both timeframes are reported with context in the research summary.
 - All 6 mandatory theme tags are covered with high depth and specificity.
+
+---
+
+## Run #1 Validation (2026-05-23) — New Paper: paper-025
+
+### paper-025 — Meta/Broadcom/Synopsys $125M UCLA Semiconductor Hub (2026-05-22)
+- **Status:** CONTEXT-ONLY
+- **Recency:** Announced 2026-05-22 — within window ✓
+- **Cross-reference:** Corroborated across multiple tech press outlets. Partnership between named companies verifiable via public corporate statements ✓
+- **Methodology disclosure:** Partnership announcement — no technical findings; marked CONTEXT-ONLY appropriately ✓
+- **Decision:** CONTEXT-ONLY — ecosystem/talent-pipeline context relevant to long-term chip fabrication outlook; no immediate technical finding to validate

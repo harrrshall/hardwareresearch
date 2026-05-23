@@ -166,3 +166,17 @@ Six criteria applied to all 52 sources and 22 papers:
 ## Conclusion
 
 The 52 sources represent a high-quality, well-validated corpus for the edge AI hardware research window. All 22 papers derive from validated sources. High-confidence sources (32 of 52) include direct vendor announcements, peer-reviewed conference papers (ASPLOS, EuroSys), and arXiv preprints with institutional authorship. The research findings are well-supported.
+
+---
+
+## Run #1 Validation (2026-05-23) — New Paper: paper-023
+
+### paper-023 — Cloud to Edge: Benchmarking LLM Inference on Hardware-Accelerated SBCs (arXiv:2604.24785, 2026-04-24)
+- **Status:** VALIDATED
+- **Recency:** Submitted 2026-04-24 — within window ✓
+- **Cross-reference:** Complements paper-006 (arXiv:2603.23640) — companion study from same research group with consistent methodology and finding that mobile phones throttle within 2–6 iterations. Hailo-10H NPU specs independently documented (Hailo datasheets). Raspberry Pi 5 thermal specs publicly documented ✓
+- **Methodology disclosure:** 20-iteration sustained inference with fixed 258-token prompt; throughput and thermal behavior measured. Model and quantization (Qwen 2.5 1.5B, 4-bit) clearly stated ✓
+- **Benchmark fairness:** Compares SBC+NPU, mobile phones, and laptop GPU on identical tasks — direct apples-to-apples comparison within the study ✓
+- **No rebuttal:** No public rebuttal found ✓
+- **Attribution:** arXiv:2604.24785 URL captured ✓
+- **Decision:** VALIDATED — empirical benchmark with clear methodology; extends thermal-constraint story to sub-5W tier; adds to edge AI sector's evidence base

@@ -126,3 +126,24 @@ The following numerical claims are cross-validated by ≥2 independent sources:
 
 **Validation Status: COMPLETE — 52/52 sources VALIDATED**  
 **Confidence level: HIGH for commercial claims, MEDIUM-HIGH for research claims**
+
+---
+
+## Run #1 Validation (2026-05-23) — New Papers: paper-023, paper-024
+
+### paper-023 — GlobalFoundries SCALE CPO Platform (2026-05-04)
+- **Status:** VALIDATED
+- **Recency:** Published 2026-05-04 — within window ✓
+- **Cross-reference:** GF press release corroborated by HPCwire, GlobeNewswire, StockTitan, and The Globe and Mail coverage. OCI MSA compliance independently verifiable. Ecosystem partners (SENKO, Corning, EXFO, Siluxtek) publicly named ✓
+- **Methodology disclosure:** Platform specifications stated (DWDM 50/100Gbps MRM, 8λ/16λ); no power figures disclosed — noted ✓ (limitation documented in paper)
+- **Benchmark fairness:** No comparative performance claims made — N/A ✓
+- **No rebuttal:** No public rebuttal found ✓
+- **Attribution:** Primary GF press release URL captured ✓
+- **Decision:** VALIDATED — first OCI MSA CPO platform from a non-TSMC foundry; materially new for photonics sector
+
+### paper-024 — GF SiPho Revenue Forecast $1B by 2028 (2026-05-07)
+- **Status:** CONTEXT-ONLY
+- **Recency:** Published 2026-05-07 — within window ✓
+- **Cross-reference:** Revenue projection is GF management guidance (SEC Form 6-K Q1 2026); not independently verified. TrendForce is Tier 3, citing a Tier 4 (vendor) source ✓ (meets Tier 3 standard for financial context)
+- **Methodology disclosure:** Source is management guidance — baseline undisclosed; marked CONTEXT-ONLY ✓
+- **Decision:** CONTEXT-ONLY — financial market context, not a technical finding; useful for market_opportunities.md and for framing GF's SiPho strategic positioning

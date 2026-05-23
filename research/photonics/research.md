@@ -1,12 +1,14 @@
 # Photonics — Research Summary
 
-**Generated:** 2026-05-22 | **Window:** 2025-11-22 – 2026-05-22 | **Validated sources:** 52
+**Generated:** 2026-05-23 (Run #1) | **Window:** 2025-11-23 – 2026-05-23 | **Validated sources:** 54 (2 new this run: paper-023 VALIDATED, paper-024 CONTEXT-ONLY)
 
 ---
 
 ## Executive Summary
 
 The six-month period from November 2025 to May 2026 represents the single most consequential inflection in silicon photonics commercialization since the technology emerged. Three forces converged simultaneously: NVIDIA and Broadcom shipped the first large-scale co-packaged optics (CPO) products at 400 Tb/s and 102.4 Tbps respectively; the AI optical transceiver market surged 57% YoY to reach $26B; and a foundry war erupted with GlobalFoundries, Tower, TSMC, and imec all expanding silicon photonics capacity aggressively.
+
+**Run #1 update (2026-05-23):** GlobalFoundries launched SCALE (Silicon Photonics Co-packaged Advanced Light Engine) on May 4, 2026 — the industry's first OCI MSA-compliant CPO platform from a non-TSMC foundry. SCALE uses DWDM with 50 Gbps and 100 Gbps micro-ring modulators across 8λ and 16λ configurations, and targets AI data center scale-up architectures. GF expects SiPho revenue to double in 2026 and exceed $1B by 2028 (TrendForce, May 7, 2026). This confirms GF as a credible second CPO-foundry source alongside TSMC COUPE — directly addressing the Samsung CPO gap (target 2029) and partially resolving Open Question 10.
 
 The central tension of the period is supply vs demand. The 1.6T transceiver transition — enabled by 200G/lane EML lasers — creates a structural bottleneck with McKinsey projecting 30-60% supply shortfalls through 2027-2029. NVIDIA's $4B investment in Lumentum and Coherent in March 2026 is the clearest signal that optical component supply security has become a strategic priority at the hyperscaler level.
 
@@ -107,16 +109,24 @@ Energy efficiency improvements are real and significant: CPO saves 60-73% vs plu
 
 ### Silicon Photonics Foundry Ecosystem
 
-**GlobalFoundries (November 2025):**
+**GlobalFoundries (November 2025 + May 2026 updates):**
 - Acquired AMF (Singapore): largest pure-play SiPho foundry by revenue
 - Acquired Infinilink (Egypt): monolithic SiPho design IP
 - 2025 SiPho revenue: >$200M (doubled YoY)
-- 2026 target: ~$400M
-- Long-term target: $1B run-rate by end 2028
+- 2026 target: ~$400M (now revised upward with SCALE CPO ramp)
+- Long-term target: >$1B run-rate by end 2028 (confirmed May 7, 2026, TrendForce/GF Q1 earnings)
 - Manufacturing: AMF 200mm (roadmap to 300mm)
 - Current capability: 200G/lane production
 - Roadmap: 400G/lane and beyond
 - US Photonics Center: New York Advanced Packaging and Photonics Center (Jan 2025)
+
+**GF SCALE CPO Platform (May 4, 2026) — NEW (Run #1):**
+- SCALE = Silicon Photonics Co-packaged Advanced Light Engine
+- Industry's first OCI MSA (Optical Compute Interconnect Multi-Source Agreement)-compliant CPO platform
+- CWDM and DWDM bi-directional transmission; 8λ and 16λ configurations
+- 50 Gbps and 100 Gbps per lane via micro-ring modulators
+- Ecosystem: SENKO wafer-level detachable fiber interface; Corning/EXFO testing; Siluxtek 200G/lane SiPho receiver chips
+- Significance: First non-TSMC foundry to launch an OCI MSA CPO platform, directly competing with TSMC COUPE for AI accelerator interconnect sockets
 
 **Tower Semiconductor:**
 - CPO Foundry launched November 2025
@@ -622,3 +632,5 @@ This represents peak startup era for photonic interconnect — the subsequent ph
 | 50 | Photonic Neuromorphic Computing Landscape 2026 (PatSnap) | https://www.patsnap.com/resources/blog/articles/photonic-neuromorphic-computing-landscape-2026/ | 2026 | photonic-compute |
 | 51 | CPO Market 2026-2036 (IDTechEx) | https://www.idtechex.com/en/research-report/co-packaged-optics-cpo/1138 | 2026 | co-packaged-optics |
 | 52 | STARLight EU Consortium (imec) | https://www.imec-int.com/en/articles/imec-2025-overview | Sep 2025 | silicon-photonics |
+| 53 | GlobalFoundries Launches SCALE CPO — Industry's First OCI MSA Platform | https://gf.com/gf-press-release/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-optical-module-solution/ | 2026-05-04 | CPO, silicon-photonics, OCI-MSA, DWDM |
+| 54 | GlobalFoundries SiPho Revenue Doubling 2026, $1B by 2028 (TrendForce) | https://www.trendforce.com/news/2026/05/07/news-globalfoundries-reportedly-sees-silicon-photonics-revenue-doubling-in-2026-passing-1b-by-2028/ | 2026-05-07 | silicon-photonics, market-forecast, CPO |

@@ -5,7 +5,14 @@
     "url": "https://heqingele.com/blog/tsmc-2nm-yield-rates-mass-production-status-2026/",
     "source_type": "industry_analysis",
     "date_range": "2025-2026",
-    "topics": ["TSMC", "N2", "yield", "2nm", "GAA", "mass_production"],
+    "topics": [
+      "TSMC",
+      "N2",
+      "yield",
+      "2nm",
+      "GAA",
+      "mass_production"
+    ],
     "key_data": "TSMC N2 yield ~65-70%, 50K wpm by end 2025, 120-130K wpm by end 2026"
   },
   {
@@ -14,7 +21,13 @@
     "url": "https://www.bisinfotech.com/tsmc-begins-volume-production-of-2nm-n2-chips-advancing-semiconductor-innovation/",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["TSMC", "N2", "volume_production", "GAAFET", "2nm"],
+    "topics": [
+      "TSMC",
+      "N2",
+      "volume_production",
+      "GAAFET",
+      "2nm"
+    ],
     "key_data": "N2 volume production Q4 2025, 12% improvement over 3nm"
   },
   {
@@ -23,25 +36,45 @@
     "url": "https://www.semicone.com/article-252.html",
     "source_type": "industry_analysis",
     "date_range": "2025-2026",
-    "topics": ["2nm", "yield", "TSMC", "Intel", "Samsung", "comparison"],
+    "topics": [
+      "2nm",
+      "yield",
+      "TSMC",
+      "Intel",
+      "Samsung",
+      "comparison"
+    ],
     "key_data": "Comparative yield analysis across three leading foundries at 2nm node"
   },
   {
     "id": 4,
-    "title": "Intel's pivotal 18A process — yields only set to reach industry standard levels in 2027",
+    "title": "Intel's pivotal 18A process \u2014 yields only set to reach industry standard levels in 2027",
     "url": "https://www.tomshardware.com/pc-components/cpus/intels-pivotal-18a-process-is-making-steady-progress-but-still-lags-behind-yields-only-set-to-reach-industry-standard-levels-in-2027",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["Intel", "18A", "yield", "RibbonFET", "PowerVia"],
+    "topics": [
+      "Intel",
+      "18A",
+      "yield",
+      "RibbonFET",
+      "PowerVia"
+    ],
     "key_data": "18A yields at 60-65% in 2025, industry-standard by end 2026, ~7% monthly improvement"
   },
   {
     "id": 5,
-    "title": "Intel Foundry Roadmap Update — 18A-PT variant for 3D die stacking, 14A enablement",
+    "title": "Intel Foundry Roadmap Update \u2014 18A-PT variant for 3D die stacking, 14A enablement",
     "url": "https://www.tomshardware.com/pc-components/cpus/intel-foundry-roadmap-update-new-18a-pt-variant-that-enables-3d-die-stacking-14a-process-node-enablement",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["Intel", "18A", "18A-PT", "Foveros", "3D_stacking", "14A"],
+    "topics": [
+      "Intel",
+      "18A",
+      "18A-PT",
+      "Foveros",
+      "3D_stacking",
+      "14A"
+    ],
     "key_data": "18A-PT adds Foveros Direct 3D hybrid bonding; 14A PDKs in progress"
   },
   {
@@ -50,16 +83,28 @@
     "url": "https://semiwiki.com/forum/threads/intel-announces-18a-process-node-has-entered-risk-production.22454/",
     "source_type": "industry_analysis",
     "date_range": "2025",
-    "topics": ["Intel", "18A", "risk_production", "RibbonFET", "PowerVia"],
+    "topics": [
+      "Intel",
+      "18A",
+      "risk_production",
+      "RibbonFET",
+      "PowerVia"
+    ],
     "key_data": "Risk production started at Oregon Fab; Panther Lake built on 18A"
   },
   {
     "id": 7,
-    "title": "Samsung Reportedly Hits 55–60% 2nm Yields, Eyeing an Edge Through Early GAA Deployment",
+    "title": "Samsung Reportedly Hits 55\u201360% 2nm Yields, Eyeing an Edge Through Early GAA Deployment",
     "url": "https://www.trendforce.com/news/2025/11/25/news-samsung-reportedly-hits-55-60-2nm-yields-eyeing-an-edge-through-early-gaa-deployment/",
     "source_type": "news",
     "date_range": "2025-11",
-    "topics": ["Samsung", "2nm", "yield", "GAA", "SF2"],
+    "topics": [
+      "Samsung",
+      "2nm",
+      "yield",
+      "GAA",
+      "SF2"
+    ],
     "key_data": "Samsung SF2 yield 55-60% as of Nov 2025; early GAA deployment advantage"
   },
   {
@@ -68,7 +113,14 @@
     "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-1-30-samsung-hits-70-yield-on-2nm-gaa-sf2p-a-turning-point-for-the-ai-chip-supply-chain",
     "source_type": "industry_analysis",
     "date_range": "2026-01",
-    "topics": ["Samsung", "SF2P", "2nm", "yield", "GAA", "MBCFET"],
+    "topics": [
+      "Samsung",
+      "SF2P",
+      "2nm",
+      "yield",
+      "GAA",
+      "MBCFET"
+    ],
     "key_data": "SF2P reaches 70% yield in Jan 2026; 12% faster clocks, 25% better power efficiency vs SF2"
   },
   {
@@ -77,16 +129,28 @@
     "url": "https://www.trendforce.com/news/2025/12/19/news-samsung-officially-unveils-exynos-2600-industry-first-2nm-gaa-ap-with-113-ai-performance-uplift",
     "source_type": "news",
     "date_range": "2025-12",
-    "topics": ["Samsung", "Exynos_2600", "2nm", "GAA", "AI_performance"],
+    "topics": [
+      "Samsung",
+      "Exynos_2600",
+      "2nm",
+      "GAA",
+      "AI_performance"
+    ],
     "key_data": "World's first 2nm GAA application processor; 113% AI performance uplift"
   },
   {
     "id": 10,
-    "title": "ASML TWINSCAN NXE:3800E — EUV lithography system specifications",
+    "title": "ASML TWINSCAN NXE:3800E \u2014 EUV lithography system specifications",
     "url": "https://www.asml.com/en/products/euv-lithography-systems/twinscan-nxe-3800e",
     "source_type": "vendor_documentation",
     "date_range": "2025-2026",
-    "topics": ["ASML", "EUV", "NXE3800E", "throughput", "overlay"],
+    "topics": [
+      "ASML",
+      "EUV",
+      "NXE3800E",
+      "throughput",
+      "overlay"
+    ],
     "key_data": "NXE:3800E 195 wph baseline, upgradable to 230 wph; upgrade package released Q1 2026"
   },
   {
@@ -95,7 +159,13 @@
     "url": "https://www.trendforce.com/news/2025/07/17/news-asml-confirms-first-high-na-euv-exe5200-shipment-reportedly-prepping-for-intels-14a-in-2027/",
     "source_type": "news",
     "date_range": "2025-07",
-    "topics": ["ASML", "high-NA_EUV", "EXE5200", "Intel", "14A"],
+    "topics": [
+      "ASML",
+      "high-NA_EUV",
+      "EXE5200",
+      "Intel",
+      "14A"
+    ],
     "key_data": "First EXE:5200B shipped Q2 2025; 60% productivity increase over EXE:5000; 175+ wph"
   },
   {
@@ -104,7 +174,15 @@
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-lithograpy-roadmap-examined-from-duv-to-hyper-na",
     "source_type": "analysis",
     "date_range": "2025-2026",
-    "topics": ["ASML", "EUV", "high-NA", "hyper-NA", "NXE3800E", "EXE5000", "roadmap"],
+    "topics": [
+      "ASML",
+      "EUV",
+      "high-NA",
+      "hyper-NA",
+      "NXE3800E",
+      "EXE5000",
+      "roadmap"
+    ],
     "key_data": "NXE:3800F planned 2027-28; First High-NA acceptance completed end 2025"
   },
   {
@@ -113,7 +191,12 @@
     "url": "https://semiengineering.com/backside-power-delivery-creates-fab-tool-thermal-dissipation-barriers/",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["BSPDN", "power_delivery", "thermal", "fabrication"],
+    "topics": [
+      "BSPDN",
+      "power_delivery",
+      "thermal",
+      "fabrication"
+    ],
     "key_data": "BSPDN enables 20%+ circuit density increase, up to 30% power reduction; 2-3 backside metal layers vs 7-9 frontside"
   },
   {
@@ -122,7 +205,12 @@
     "url": "https://www.tomshardware.com/pc-components/cpus/samsung-to-introduce-backside-power-delivery-to-2nm-class-production-node-report",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["Samsung", "BSPDN", "SF2Z", "power_delivery"],
+    "topics": [
+      "Samsung",
+      "BSPDN",
+      "SF2Z",
+      "power_delivery"
+    ],
     "key_data": "Samsung SF2Z 2nm-class node with BSPDN entering production 2027"
   },
   {
@@ -131,7 +219,14 @@
     "url": "https://wccftech.com/tsmc-a16-node-promises-speed-boost-power-cut-over-2nm-backside-power-production-q4-2026/",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["TSMC", "A16", "BSPDN", "SPR", "angstrom", "1.6nm"],
+    "topics": [
+      "TSMC",
+      "A16",
+      "BSPDN",
+      "SPR",
+      "angstrom",
+      "1.6nm"
+    ],
     "key_data": "A16 vs N2P: 8-10% speed boost or 20% power reduction; Super Power Rail debut; Q4 2026 production"
   },
   {
@@ -140,7 +235,14 @@
     "url": "https://www.aminext.blog/en/post/tsmc-a16-process-technology",
     "source_type": "technical_analysis",
     "date_range": "2025-2026",
-    "topics": ["TSMC", "A16", "angstrom", "nanosheet", "GAAFET", "SPR"],
+    "topics": [
+      "TSMC",
+      "A16",
+      "angstrom",
+      "nanosheet",
+      "GAAFET",
+      "SPR"
+    ],
     "key_data": "A16 density 1.07-1.10x over N2P; GAAFET nanosheets with optimized dimensions"
   },
   {
@@ -149,8 +251,15 @@
     "url": "https://www.tomshardware.com/tech-industry/tsmcs-3nm-update-n3p-in-production-n3x-on-track",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["TSMC", "N3P", "N3E", "3nm", "FinFET", "density"],
-    "key_data": "N3P: ~224 MTr/mm² density, 4% density improvement over N3E; N3E 216 MTr/mm²; N3P in vol production H2 2024"
+    "topics": [
+      "TSMC",
+      "N3P",
+      "N3E",
+      "3nm",
+      "FinFET",
+      "density"
+    ],
+    "key_data": "N3P: ~224 MTr/mm\u00b2 density, 4% density improvement over N3E; N3E 216 MTr/mm\u00b2; N3P in vol production H2 2024"
   },
   {
     "id": 18,
@@ -158,7 +267,13 @@
     "url": "https://overclock3d.net/news/misc/tsmc_details_the_performance_uplifts_offered_by_their_3np_and_n2_nodes/",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["TSMC", "N3P", "N2", "performance", "power"],
+    "topics": [
+      "TSMC",
+      "N3P",
+      "N2",
+      "performance",
+      "power"
+    ],
     "key_data": "N3P: 5% higher speed at iso-power vs N3E; N3X: 5% more perf or 7% less power vs N3P"
   },
   {
@@ -167,7 +282,13 @@
     "url": "https://www.uciexpress.org/post/ucie-3-0-specification-redefining-chiplet-interconnects",
     "source_type": "standard",
     "date_range": "2025-08",
-    "topics": ["UCIe", "chiplet", "interconnect", "standard", "3.0"],
+    "topics": [
+      "UCIe",
+      "chiplet",
+      "interconnect",
+      "standard",
+      "3.0"
+    ],
     "key_data": "UCIe 3.0 released Aug 2025; doubles peak speed from 32 GT/s to 48/64 GT/s; runtime recalibration"
   },
   {
@@ -176,7 +297,13 @@
     "url": "https://semiwiki.com/ip/alphawave/360532-ucie-3-0-doubling-bandwidth-and-deepening-manageability-for-the-chiplet-era/",
     "source_type": "industry_analysis",
     "date_range": "2025",
-    "topics": ["UCIe", "chiplet", "3.0", "bandwidth", "interconnect"],
+    "topics": [
+      "UCIe",
+      "chiplet",
+      "3.0",
+      "bandwidth",
+      "interconnect"
+    ],
     "key_data": "Continuous transmission protocols; L2 Optimization; Raw Mode for SoC-DSP connectivity"
   },
   {
@@ -185,7 +312,12 @@
     "url": "https://semiwiki.com/forum/threads/cowos-capacity-set-to-skyrocket-by-2026-massive-growth-in-advanced-packaging.21773/",
     "source_type": "industry_analysis",
     "date_range": "2025-2026",
-    "topics": ["CoWoS", "advanced_packaging", "capacity", "TSMC"],
+    "topics": [
+      "CoWoS",
+      "advanced_packaging",
+      "capacity",
+      "TSMC"
+    ],
     "key_data": "CoWoS capacity from 35K wpm late 2024 to 130K wpm by end 2026"
   },
   {
@@ -194,7 +326,12 @@
     "url": "https://www.financialcontent.com/article/tokenring-2025-12-26-tsmc-boosts-cowos-capacity-as-nvidia-dominates-advanced-packaging-orders-through-2027",
     "source_type": "industry_analysis",
     "date_range": "2025-12",
-    "topics": ["CoWoS", "NVIDIA", "CoWoS-L", "packaging_capacity"],
+    "topics": [
+      "CoWoS",
+      "NVIDIA",
+      "CoWoS-L",
+      "packaging_capacity"
+    ],
     "key_data": "NVIDIA 2025 CoWoS needs ~400K wafers; 2026 demand ~700K wafers; 75%+ growth"
   },
   {
@@ -203,7 +340,13 @@
     "url": "https://en.7evenguy.com/what-are-cowos-s-cowos-r-and-cowos-l/",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["CoWoS-S", "CoWoS-L", "silicon_interposer", "TSV", "packaging"],
+    "topics": [
+      "CoWoS-S",
+      "CoWoS-L",
+      "silicon_interposer",
+      "TSV",
+      "packaging"
+    ],
     "key_data": "CoWoS-S: monolithic silicon interposer up to 3.3x reticle; CoWoS-L: RDL+LSI interposer for larger packages"
   },
   {
@@ -212,7 +355,12 @@
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmcs-details-next-gen-cowos-roadmap-over-14-reticle-packages-and-48x-leap-in-compute-power-expected-by-2029-massive-size-enables-24-hbm5e-stacks-and-additional-memory-bandwidth-jump",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["CoWoS", "roadmap", "HBM5E", "advanced_packaging"],
+    "topics": [
+      "CoWoS",
+      "roadmap",
+      "HBM5E",
+      "advanced_packaging"
+    ],
     "key_data": "2029 target: 14+ reticle packages, 24 HBM5E stacks, 48x compute increase"
   },
   {
@@ -221,7 +369,13 @@
     "url": "https://semiengineering.com/how-overlay-keeps-pace-with-euv-patterning/",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["EUV", "overlay", "patterning", "CDU", "lithography"],
+    "topics": [
+      "EUV",
+      "overlay",
+      "patterning",
+      "CDU",
+      "lithography"
+    ],
     "key_data": "Leading customers running 2-2.5nm on-product overlay; 30% of feature size tolerance threshold"
   },
   {
@@ -230,7 +384,13 @@
     "url": "https://www.nature.com/articles/s41598-025-29021-2",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["EUV", "stochastic", "LWR", "photoresist", "CDU"],
+    "topics": [
+      "EUV",
+      "stochastic",
+      "LWR",
+      "photoresist",
+      "CDU"
+    ],
     "key_data": "Material stochastic control most critical for pattern breakage prevention at sub-3nm"
   },
   {
@@ -239,7 +399,13 @@
     "url": "https://pubs.rsc.org/en/content/articlelanding/2025/na/d4na00784k",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["ALD", "ALE", "atomic_layer", "etching", "deposition"],
+    "topics": [
+      "ALD",
+      "ALE",
+      "atomic_layer",
+      "etching",
+      "deposition"
+    ],
     "key_data": "Area-selective deposition and atomic layer annealing emerging for <2nm node manufacturing"
   },
   {
@@ -248,7 +414,11 @@
     "url": "https://www.openpr.com/news/4514098/atomic-layer-deposition-market-to-reach-usd-6-87-billion-by-2033",
     "source_type": "market_research",
     "date_range": "2025-2026",
-    "topics": ["ALD", "market", "semiconductor_equipment"],
+    "topics": [
+      "ALD",
+      "market",
+      "semiconductor_equipment"
+    ],
     "key_data": "ALD market $2.70B in 2025; growing at 12.3% CAGR; driven by 2nm logic and 3D NAND"
   },
   {
@@ -257,17 +427,30 @@
     "url": "https://www.eetimes.com/vlsi-2025-outer-wall-forksheet-bridges-nanosheet-and-cfet-architectures/",
     "source_type": "conference_report",
     "date_range": "2025-06",
-    "topics": ["VLSI_2025", "forksheet", "nanosheet", "CFET", "imec", "A10"],
+    "topics": [
+      "VLSI_2025",
+      "forksheet",
+      "nanosheet",
+      "CFET",
+      "imec",
+      "A10"
+    ],
     "key_data": "Outer wall forksheet extends nanosheet era to A10; easier fabrication vs inner wall design"
   },
   {
     "id": 30,
-    "title": "IEDM 2025: TSMC 2nm Process Disclosure — How Does it Measure Up?",
+    "title": "IEDM 2025: TSMC 2nm Process Disclosure \u2014 How Does it Measure Up?",
     "url": "https://semiwiki.com/semiconductor-services/techinsights/352972-iedm-2025-tsmc-2nm-process-disclosure-how-does-it-measure-up/",
     "source_type": "conference_report",
     "date_range": "2025-12",
-    "topics": ["IEDM_2025", "TSMC", "N2", "nanosheet", "CFET"],
-    "key_data": "TSMC IEDM 2025: first functional CFET ring oscillator; 6T SRAM world-record density 38 Mb/mm²"
+    "topics": [
+      "IEDM_2025",
+      "TSMC",
+      "N2",
+      "nanosheet",
+      "CFET"
+    ],
+    "key_data": "TSMC IEDM 2025: first functional CFET ring oscillator; 6T SRAM world-record density 38 Mb/mm\u00b2"
   },
   {
     "id": 31,
@@ -275,7 +458,13 @@
     "url": "https://www.heisener.com/IndustryTrend/Intel-IEDM-2025-Focusing-on-Power-Delivery-Challenges-in-Transistors",
     "source_type": "conference_report",
     "date_range": "2025-12",
-    "topics": ["IEDM_2025", "Intel", "power_delivery", "MIM", "HfZrO"],
+    "topics": [
+      "IEDM_2025",
+      "Intel",
+      "power_delivery",
+      "MIM",
+      "HfZrO"
+    ],
     "key_data": "Intel demonstrated ferroelectric HZO MIM stacks for decoupling capacitors"
   },
   {
@@ -284,7 +473,13 @@
     "url": "https://averroes.ai/blog/artificial-intelligence-in-semiconductor-manufacturing",
     "source_type": "industry_analysis",
     "date_range": "2025",
-    "topics": ["AI", "yield_improvement", "SPC", "defect_detection", "manufacturing"],
+    "topics": [
+      "AI",
+      "yield_improvement",
+      "SPC",
+      "defect_detection",
+      "manufacturing"
+    ],
     "key_data": "AI-enabled SPC: up to 30% reduction in yield detraction; 99%+ accuracy in unknown defect detection"
   },
   {
@@ -293,25 +488,42 @@
     "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2025.2601804",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["yield_prediction", "machine_learning", "semiconductor_manufacturing"],
+    "topics": [
+      "yield_prediction",
+      "machine_learning",
+      "semiconductor_manufacturing"
+    ],
     "key_data": "Two-step ML model outperforms single-model approaches for yield prediction in complex process flows"
   },
   {
     "id": 34,
-    "title": "Rapidus Begins Test Production of 2nm Circuits — Pilot Line in Chitose",
+    "title": "Rapidus Begins Test Production of 2nm Circuits \u2014 Pilot Line in Chitose",
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/japanese-chipmaker-rapidus-begins-test-production-of-2nm-circuits-company-commits-to-single-wafer-processing-ahead-of-2027-mass-production-target",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["Rapidus", "2nm", "GAA", "Japan", "high-NA_EUV", "IBM"],
+    "topics": [
+      "Rapidus",
+      "2nm",
+      "GAA",
+      "Japan",
+      "high-NA_EUV",
+      "IBM"
+    ],
     "key_data": "Rapidus pilot line active in Chitose; first 2nm GAA transistors operational July 2025"
   },
   {
     "id": 35,
-    "title": "Rapidus Secures $1.7 Billion for 2nm Chip Production — Active Discussions with 60+ Customers",
+    "title": "Rapidus Secures $1.7 Billion for 2nm Chip Production \u2014 Active Discussions with 60+ Customers",
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-secures-1-7-billion-from-japans-government-and-private-investors",
     "source_type": "news",
     "date_range": "2026-02",
-    "topics": ["Rapidus", "funding", "2nm", "Japan", "AI_chips"],
+    "topics": [
+      "Rapidus",
+      "funding",
+      "2nm",
+      "Japan",
+      "AI_chips"
+    ],
     "key_data": "$1.7B raised; 60+ prospective customers in AI, robotics, edge computing; mass prod target 2027"
   },
   {
@@ -320,7 +532,13 @@
     "url": "https://www.oscoo.com/news/hbm4-the-memory-revolution-in-the-age-of-ai-computing/",
     "source_type": "standard",
     "date_range": "2025-04",
-    "topics": ["HBM4", "3D_stacking", "TSV", "memory", "JEDEC"],
+    "topics": [
+      "HBM4",
+      "3D_stacking",
+      "TSV",
+      "memory",
+      "JEDEC"
+    ],
     "key_data": "HBM4 JESD270-4 released April 2025; 2+ TB/s bandwidth; 64GB per stack via 16-Hi; logic base die on TSMC process"
   },
   {
@@ -329,7 +547,13 @@
     "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-30-the-great-memory-pivot-hbm4-and-the-3d-stacking-revolution-of-2026",
     "source_type": "industry_analysis",
     "date_range": "2025-12",
-    "topics": ["HBM4", "3D_stacking", "SK_Hynix", "Samsung", "AI_memory"],
+    "topics": [
+      "HBM4",
+      "3D_stacking",
+      "SK_Hynix",
+      "Samsung",
+      "AI_memory"
+    ],
     "key_data": "12-Hi HBM4 pilot runs by SK Hynix and Samsung by late 2025; 16-Hi stacks by mid-2026"
   },
   {
@@ -338,7 +562,14 @@
     "url": "https://spectrum.ieee.org/semiconductor-technology-roadmap",
     "source_type": "roadmap",
     "date_range": "2025",
-    "topics": ["imec", "CFET", "roadmap", "angstrom", "A7", "transistor_scaling"],
+    "topics": [
+      "imec",
+      "CFET",
+      "roadmap",
+      "angstrom",
+      "A7",
+      "transistor_scaling"
+    ],
     "key_data": "CFET commercial production from A7 node (~2033); nanosheet to last 3+ generations; forksheet bridges gap"
   },
   {
@@ -347,17 +578,31 @@
     "url": "https://www.imec-int.com/en/articles/outer-wall-forksheet-bridge-nanosheet-and-cfet-device-architectures-logic-technology",
     "source_type": "research",
     "date_range": "2025-06",
-    "topics": ["forksheet", "CFET", "nanosheet", "A10", "imec", "VLSI_2025"],
+    "topics": [
+      "forksheet",
+      "CFET",
+      "nanosheet",
+      "A10",
+      "imec",
+      "VLSI_2025"
+    ],
     "key_data": "Outer wall forksheet: connected n-p gates, full channel stress, A10 node targeting"
   },
   {
     "id": 40,
-    "title": "TSMC N2 IEDM Paper: 22nm Gate Length, 38 Mb/mm² SRAM Density",
+    "title": "TSMC N2 IEDM Paper: 22nm Gate Length, 38 Mb/mm\u00b2 SRAM Density",
     "url": "https://www.indiekings.com/2025/02/tsmc-2nm-process-unveiled-at-iedm-2025.html",
     "source_type": "conference_paper",
     "date_range": "2025-12",
-    "topics": ["TSMC", "N2", "nanosheet", "gate_length", "SRAM", "IEDM_2025"],
-    "key_data": "N2 nanosheet: 22nm gate length, 45nm channel width; SRAM 38 Mb/mm²; 70% Ion improvement NFET, 110% PFET"
+    "topics": [
+      "TSMC",
+      "N2",
+      "nanosheet",
+      "gate_length",
+      "SRAM",
+      "IEDM_2025"
+    ],
+    "key_data": "N2 nanosheet: 22nm gate length, 45nm channel width; SRAM 38 Mb/mm\u00b2; 70% Ion improvement NFET, 110% PFET"
   },
   {
     "id": 41,
@@ -365,7 +610,14 @@
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-details-18a-process-technology-boosts-performance-by-25-percent-or-lowers-power-consumption-by-36-percent",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["Intel", "18A", "RibbonFET", "PowerVia", "BSPDN", "density"],
+    "topics": [
+      "Intel",
+      "18A",
+      "RibbonFET",
+      "PowerVia",
+      "BSPDN",
+      "density"
+    ],
     "key_data": "18A: 30% density gain vs Intel 3; 36% power cut at same clocks; PowerVia 5-10% better standard cell utilization"
   },
   {
@@ -374,7 +626,14 @@
     "url": "https://markets.financialcontent.com/stocks/article/tokenring-2026-2-5-samsung-cracks-the-2nm-code-70-yield-milestone-for-sf2p-challenges-tsmcs-foundry-hegemony",
     "source_type": "industry_analysis",
     "date_range": "2026-02",
-    "topics": ["Samsung", "SF2P", "2nm", "performance", "MBCFET", "yield"],
+    "topics": [
+      "Samsung",
+      "SF2P",
+      "2nm",
+      "performance",
+      "MBCFET",
+      "yield"
+    ],
     "key_data": "SF2P: +12% clock speed, +25% power efficiency, -8% area vs SF2; 70% yield milestone"
   },
   {
@@ -383,34 +642,58 @@
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/how-tsmc-managed-to-increase-efficiency-of-asmls-euv-tools-system-level-optimizations-and-in-house-pellicles",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["EUV", "pellicle", "TSMC", "throughput", "efficiency"],
+    "topics": [
+      "EUV",
+      "pellicle",
+      "TSMC",
+      "throughput",
+      "efficiency"
+    ],
     "key_data": "TSMC in-house pellicle: 4x longer lifespan, 4.5x more wafers per pellicle, 80x defect reduction"
   },
   {
     "id": 44,
-    "title": "Carbon Nanotube EUV Pellicles: 97% Transmission, >1500°C Durability",
+    "title": "Carbon Nanotube EUV Pellicles: 97% Transmission, >1500\u00b0C Durability",
     "url": "https://bits-chips.com/article/asml-readies-next-gen-euv-pellicle-for-production/",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["EUV", "pellicle", "CNT", "carbon_nanotube", "throughput"],
+    "topics": [
+      "EUV",
+      "pellicle",
+      "CNT",
+      "carbon_nanotube",
+      "throughput"
+    ],
     "key_data": "CNT pellicle: 97% transmission; Mitsui building 5000 sheets/year capacity; commercialization 2025"
   },
   {
     "id": 45,
-    "title": "TSMC N2 Sets New SRAM Density at 38 Mb/mm² — Full Process Node Qualification 2025",
+    "title": "TSMC N2 Sets New SRAM Density at 38 Mb/mm\u00b2 \u2014 Full Process Node Qualification 2025",
     "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
     "source_type": "vendor_documentation",
     "date_range": "2025",
-    "topics": ["TSMC", "N2", "SRAM", "qualification", "2nm"],
-    "key_data": "N2 qualification completed 2025; SRAM world-record density 38 Mb/mm²; mass production 2026"
+    "topics": [
+      "TSMC",
+      "N2",
+      "SRAM",
+      "qualification",
+      "2nm"
+    ],
+    "key_data": "N2 qualification completed 2025; SRAM world-record density 38 Mb/mm\u00b2; mass production 2026"
   },
   {
     "id": 46,
-    "title": "Intel 18A Panther Lake CES 2026 Debut — Apple Joins Intel Foundry",
+    "title": "Intel 18A Panther Lake CES 2026 Debut \u2014 Apple Joins Intel Foundry",
     "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-15-intels-18a-era-panther-lake-debuts-at-ces-2026-as-apple-joins-the-intel-foundry-fold",
     "source_type": "news",
     "date_range": "2026-01",
-    "topics": ["Intel", "18A", "Panther_Lake", "CES_2026", "Apple"],
+    "topics": [
+      "Intel",
+      "18A",
+      "Panther_Lake",
+      "CES_2026",
+      "Apple"
+    ],
     "key_data": "Panther Lake formally announced CES 2026; Apple exploring Intel Foundry for select components"
   },
   {
@@ -419,7 +702,13 @@
     "url": "https://markets.financialcontent.com/wral/article/tokenring-2025-12-18-beyond-the-transistor-how-advanced-3d-ic-packaging-became-the-new-frontier-of-ai-dominance",
     "source_type": "market_research",
     "date_range": "2025",
-    "topics": ["SoIC", "Foveros", "3D_IC", "advanced_packaging", "AI_chips"],
+    "topics": [
+      "SoIC",
+      "Foveros",
+      "3D_IC",
+      "advanced_packaging",
+      "AI_chips"
+    ],
     "key_data": "Advanced packaging AI chip market $3.42B in 2025; TSMC SoIC and Intel Foveros in volume production"
   },
   {
@@ -428,7 +717,12 @@
     "url": "https://www.idtechex.com/en/research-report/thermal-management-for-advanced-semiconductor-packaging/1106",
     "source_type": "market_research",
     "date_range": "2025-2026",
-    "topics": ["thermal_management", "3D_IC", "liquid_cooling", "advanced_packaging"],
+    "topics": [
+      "thermal_management",
+      "3D_IC",
+      "liquid_cooling",
+      "advanced_packaging"
+    ],
     "key_data": "3D stacking power density challenges; microfluidic cooling and diamond substrates emerging"
   },
   {
@@ -437,8 +731,15 @@
     "url": "https://www.tomshardware.com/news/tsmc-readies-n2p-and-n2x-2nm-with-enhanced-performance",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["TSMC", "N2P", "N2X", "2nm", "BSPDN", "density"],
-    "key_data": "N2P: 236 MTr/mm² HD library; backside power; 18% speed + 36% power reduction vs N2 baseline. Vol prod H2 2026"
+    "topics": [
+      "TSMC",
+      "N2P",
+      "N2X",
+      "2nm",
+      "BSPDN",
+      "density"
+    ],
+    "key_data": "N2P: 236 MTr/mm\u00b2 HD library; backside power; 18% speed + 36% power reduction vs N2 baseline. Vol prod H2 2026"
   },
   {
     "id": 50,
@@ -446,7 +747,14 @@
     "url": "https://pubs.aip.org/aip/adv/article/15/3/035236/3340203/Impact-of-chemical-stochastics-in-extreme",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["EUV", "stochastic", "photoresist", "CDU", "LWR", "lithography"],
+    "topics": [
+      "EUV",
+      "stochastic",
+      "photoresist",
+      "CDU",
+      "LWR",
+      "lithography"
+    ],
     "key_data": "Monte Carlo simulation of PAG/base vertical distributions; bottom residue formation mechanism"
   },
   {
@@ -455,7 +763,13 @@
     "url": "https://www.mdpi.com/2072-666X/16/3/311",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["GAAFET", "nanosheet", "reliability", "hot_carrier", "degradation"],
+    "topics": [
+      "GAAFET",
+      "nanosheet",
+      "reliability",
+      "hot_carrier",
+      "degradation"
+    ],
     "key_data": "GAA architecture improves short channel control vs FinFET; hot carrier effects characterized at 3nm/2nm"
   },
   {
@@ -464,7 +778,13 @@
     "url": "https://www.researchgate.net/publication/381529300_Scaling_Challenges_of_Nanosheet_Field-Effect_Transistors_Into_Sub-2nm_Nodes",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["nanosheet", "scaling", "sub-2nm", "GAAFET", "gate_length"],
+    "topics": [
+      "nanosheet",
+      "scaling",
+      "sub-2nm",
+      "GAAFET",
+      "gate_length"
+    ],
     "key_data": "Gate length scaling to 10nm (ultimate) for sub-2nm; drive current challenges in narrow NS architectures"
   },
   {
@@ -473,7 +793,12 @@
     "url": "https://link.springer.com/article/10.1007/s12541-025-01337-z",
     "source_type": "research_paper",
     "date_range": "2025",
-    "topics": ["ALD", "ALE", "area_selective_deposition", "atomic_layer_annealing"],
+    "topics": [
+      "ALD",
+      "ALE",
+      "area_selective_deposition",
+      "atomic_layer_annealing"
+    ],
     "key_data": "ASD enables self-aligned deposition for sub-2nm; ALA for low thermal budget interface formation"
   },
   {
@@ -482,7 +807,13 @@
     "url": "https://www.trendforce.com/news/2025/01/01/news-tsmc-sets-up-2nm-pilot-line-aims-for-130000-wafers-monthly-by-2026/",
     "source_type": "news",
     "date_range": "2025",
-    "topics": ["TSMC", "N2", "fab_capacity", "Baoshan", "Kaohsiung"],
+    "topics": [
+      "TSMC",
+      "N2",
+      "fab_capacity",
+      "Baoshan",
+      "Kaohsiung"
+    ],
     "key_data": "Baoshan: 20-25K wpm by Q4 2025, 60-65K wpm by end 2026; Kaohsiung: 25-30K wpm by Q4 2025"
   },
   {
@@ -491,16 +822,28 @@
     "url": "https://www.macrumors.com/2025/08/28/apple-tsmc-2nm-production-iphone-18/",
     "source_type": "news",
     "date_range": "2025-08",
-    "topics": ["Apple", "TSMC", "N2", "iPhone_18", "A20_Bionic"],
+    "topics": [
+      "Apple",
+      "TSMC",
+      "N2",
+      "iPhone_18",
+      "A20_Bionic"
+    ],
     "key_data": "Apple A20 Bionic on N2; ~50% of TSMC initial N2 capacity reserved; 15% perf or 30% power improvement vs A19"
   },
   {
     "id": 56,
-    "title": "Intel 14A: PowerDirect + RibbonFET 2 — First Commercial High-NA EUV Process",
+    "title": "Intel 14A: PowerDirect + RibbonFET 2 \u2014 First Commercial High-NA EUV Process",
     "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-chip-roadmap-2026-2028",
     "source_type": "analysis",
     "date_range": "2025-2026",
-    "topics": ["Intel", "14A", "high-NA_EUV", "PowerDirect", "RibbonFET_2"],
+    "topics": [
+      "Intel",
+      "14A",
+      "high-NA_EUV",
+      "PowerDirect",
+      "RibbonFET_2"
+    ],
     "key_data": "14A: first commercial high-NA EUV; PowerDirect 2nd-gen BSPDN; target ~2027"
   },
   {
@@ -509,16 +852,29 @@
     "url": "https://www.euvlitho.com/2025/2025%20EUVL%20and%20Source%20Workshop%20Abstract%20Book.pdf",
     "source_type": "conference_proceedings",
     "date_range": "2025",
-    "topics": ["EUV", "source", "dose", "patterning", "UV_co-exposure"],
+    "topics": [
+      "EUV",
+      "source",
+      "dose",
+      "patterning",
+      "UV_co-exposure"
+    ],
     "key_data": "Intel UV+EUV co-exposure reduces required EUV dose by ~35 mJ; ASM IP and Lam Research dose-reduction approaches"
   },
   {
     "id": 58,
-    "title": "Samsung Begins Mass Production of 2nm GAA Chips — Tesla AI6 Contract",
+    "title": "Samsung Begins Mass Production of 2nm GAA Chips \u2014 Tesla AI6 Contract",
     "url": "https://anysilicon.com/news/samsung-begins-mass-production-of-advanced-2nm-gaa-chips-strengthening-its-foundry-leadership/",
     "source_type": "news",
     "date_range": "2025-2026",
-    "topics": ["Samsung", "2nm", "GAA", "Tesla", "AI_chips", "mass_production"],
+    "topics": [
+      "Samsung",
+      "2nm",
+      "GAA",
+      "Tesla",
+      "AI_chips",
+      "mass_production"
+    ],
     "key_data": "$16.5B Tesla AI6 chip contract; DeepX 2nm contract; Taylor, Texas fab operations 2026"
   },
   {
@@ -527,7 +883,13 @@
     "url": "https://frederickchen.substack.com/p/resist-loss-model-for-the-euv-stochastic",
     "source_type": "technical_analysis",
     "date_range": "2025",
-    "topics": ["EUV", "stochastic_defects", "resist", "LWR", "yield"],
+    "topics": [
+      "EUV",
+      "stochastic_defects",
+      "resist",
+      "LWR",
+      "yield"
+    ],
     "key_data": "CD variations amplify stochastic failures nonlinearly; resist loss model for predicting defectivity cliffs"
   },
   {
@@ -536,7 +898,27 @@
     "url": "https://www.isscc.org/program-overview",
     "source_type": "conference_proceedings",
     "date_range": "2026-02",
-    "topics": ["ISSCC_2026", "SoC", "circuit_design", "AI_accelerator"],
+    "topics": [
+      "ISSCC_2026",
+      "SoC",
+      "circuit_design",
+      "AI_accelerator"
+    ],
     "key_data": "Feb 15-19 2026; theme: 'Advancing AI with IC & SoC Innovations'; plenary + technical sessions"
+  },
+  {
+    "id": 61,
+    "title": "Meta, Broadcom, and Synopsys Launch $125M Semiconductor Hub at UCLA to Accelerate AI Chip Research",
+    "url": "https://techstartups.com/2026/05/22/meta-broadcom-and-synopsys-launch-125m-semiconductor-hub-at-ucla-to-accelerate-next-generation-ai-chip-breakthroughs/",
+    "source_type": "industry_news",
+    "date_range": "2026-05-22",
+    "topics": [
+      "AI-chip-design",
+      "semiconductor-research",
+      "GlobalFoundries",
+      "chip-fabrication",
+      "industry-academic-partnership"
+    ],
+    "key_data": "Meta, Broadcom, Applied Materials, GlobalFoundries, and Synopsys launch $125M Semiconductor Hub at UCLA. Connects students/faculty with chip design, manufacturing, AI infrastructure, and semiconductor software industry leaders. Addresses engineering talent gap and next-gen AI chip development pipeline."
   }
 ]

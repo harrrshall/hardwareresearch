@@ -1,10 +1,28 @@
 # Global Synthesis — Market Opportunities
 
-**Generated:** 2026-05-22 | **Research window:** 2025-11-22 – 2026-05-22
+**Generated:** 2026-05-23 (Run #2) | **Research window:** 2025-11-23 – 2026-05-23
 **Inputs:** 10 sector research files. Every opportunity below cross-links to specific sector research.md files and named sources.
 **Scope:** opportunities not yet fully priced in, underexplored hardware directions, and asymmetric bets (high payoff, low current attention). This file does NOT cover cross_sector_alpha.md territory (owned by a separate agent).
 
 **Confidence legend:** high · medium · speculative. **Time horizon:** short (0–12 mo) · medium (12–36 mo) · long (3–5 yr).
+
+---
+
+## Run #2 Status (2026-05-23)
+
+This is the first recurring-cycle rewrite of market_opportunities.md (Run #1 = initial baseline 2026-05-22). Three opportunities were removed post-Run #1 verification as ALREADY-PRICED-IN (CoWoS bottleneck beneficiaries, Liquid cooling CDU supply, Power infrastructure as AI moat — see verification_log.md). Nine opportunities carry forward. Five new papers added; 2 opportunities updated.
+
+| Opportunity | Status |
+|-------------|--------|
+| 1 HBM4 Base-Die Logic | **UNCHANGED** |
+| 2 CPO Laser Supply | **Run #2 update** — GF SCALE CPO increases aggregate EML demand |
+| 3 Edge AI Memory-Bandwidth Arbitrage | **Run #2 update** — arXiv 2604.24785 refines winning architecture |
+| 4 PIM at JEDEC | **UNCHANGED** |
+| 5 In-Die Optical Routing | **UNCHANGED** |
+| 6 Open-Interconnect Window | **UNCHANGED** |
+| 7 Glass Substrates | **UNCHANGED** |
+| 8 Prefill/Decode ASICs | **UNCHANGED** |
+| 9 RISC-V Datacenter | **UNCHANGED** |
 
 ---
 
@@ -32,6 +50,8 @@
 - interconnects/research.md: "optical component supply chain must scale 100x" by 2030 (Implication 5).
 - photonics/research.md: laser-free alternatives — Avicena GaN microLED (80–200 fJ/bit, eliminates III-V laser entirely), Intel OCI integrated InP laser (sources 35, 10).
 
+**[Run #2 update]:** GlobalFoundries launched SCALE CPO (photonics/paper-023, May 4, 2026, VALIDATED), an OCI MSA-compliant platform using DWDM micro-ring modulators at 50/100 Gbps. This increases aggregate CPO laser demand: ring-modulator CPO requires external CW laser sources, so a second CPO platform at scale amplifies the EML supply shortfall rather than relieving it. OCI MSA interoperability means a single EML qualifier serves both TSMC COUPE and GF SCALE customers — expanding the addressable market for 200G/lane qualifiers without separate qualification tracks. GF SCALE ecosystem partners (SENKO, Corning, EXFO, Siluxtek) cover connector and test layers; laser supply remains the single constraint.
+
 **Risk factors.** 2–3 additional EML manufacturers qualify 200G/lane faster than expected, normalizing supply by H2 2027 (photonics names this as the base case); microLED stays capped at low per-lane rates (GaN carrier-lifetime limit ~1 GHz, per photonics Open Question 6); AI networking capex correction.
 
 **Time horizon.** Short-to-medium. **Confidence.** high.
@@ -47,7 +67,9 @@
 - memory/research.md: GDDR7 at 48 Gbps creates a "mid-range inference" tier below HBM4 cost (Insight 6).
 - AI_accelerators/research.md: discrete edge accelerators (Axelera, Hailo) exploit the GPU arithmetic-intensity mismatch (§3.2).
 
-**Risk factors.** Mobile HBM arrives early and removes the bandwidth moat for everyone simultaneously; hyperscaler cloud inference stays cheap enough to suppress on-device demand; Qualcomm/Apple/MediaTek vertical integration leaves no room for merchant edge silicon.
+**[Run #2 update]:** arXiv 2604.24785 (edge_AI_hardware/paper-023, April 24, 2026, VALIDATED) sharpens the architecture specificity of this thesis. Comparing integrated SoC NPUs (Galaxy S24, Pixel 9) vs. dedicated NPU co-processors (Hailo-10H on Raspberry Pi 5), the study finds SoC NPUs throttle within 6 iterations (shared thermal domain) while Hailo-10H achieves near-zero variance across 20+ iterations (separate thermal domain). The investment thesis refines to: the winning edge silicon architecture is *dedicated co-processor + on-module LPDDR4X + separate thermal domain* — not just "more TOPS." Hailo-10H satisfies all three. The addressable market for this architecture is dedicated edge (industrial, automotive, robotics) rather than smartphones, where integrated SoC thermal budgets remain problematic.
+
+**Risk factors.** Mobile HBM arrives early and removes the bandwidth moat for everyone simultaneously; hyperscaler cloud inference stays cheap enough to suppress on-device demand; Qualcomm/Apple/MediaTek vertical integration leaves no room for merchant edge silicon; dedicated NPU co-processors remain niche relative to smartphone volume.
 
 **Time horizon.** Medium-to-long. **Confidence.** medium.
 
@@ -147,8 +169,8 @@
 | # | Opportunity | Horizon | Confidence | Core bet |
 |---|-------------|---------|------------|----------|
 | 1 | HBM4 base-die logic foundry revenue | medium | medium | New advanced-node logic category inside every HBM stack |
-| 2 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | 30–60% laser shortfall through 2027–2029 |
-| 3 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | TOPS-marketing mispricing vs sustained bandwidth-bound reality |
+| 2 | CPO laser supply (EML 2nd wave + laser-free) | short–medium | high | GF SCALE CPO adds demand; 30–60% shortfall thesis strengthened |
+| 3 | Edge AI memory-bandwidth arbitrage silicon | medium–long | medium | Dedicated NPU co-processor + thermal isolation = winning architecture |
 | 4 | Processing-in-memory at JEDEC standardization | medium | medium | LPDDR6-PIM standardization converts PIM to commodity demand |
 | 5 | In-die / in-package optical routing | long | speculative | The post-CPO architectural discontinuity |
 | 6 | Open-interconnect (UALink/UEC/UCIe) delayed window | medium | medium | Consensus over-prices the open-standard lag |
