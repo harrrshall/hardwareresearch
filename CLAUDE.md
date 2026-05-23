@@ -6,9 +6,19 @@ Maintain a continuously-updated, peer-reviewed-grade research dataset on the AI 
 ## Repository
 - **Local**: `/home/cybernovas/Desktop/2026/experiments/hardware`
 - **Remote**: `https://github.com/harrrshall/hardware-research-2026`
+- **Live site**: `https://harrrshall.github.io/hardware-research-2026/` (GitHub Pages, mobile-first viewer)
 - **Master spec**: `hardware_research_orchestration.md` (sector pipeline + global synthesis spec)
 - **Research outputs**: `research/`
 - **Run tracker**: `research/run_history.md`
+
+## Website (auto-updates)
+A static single-page viewer lives at `index.html` in the repo root, served via GitHub Pages from the `main` branch. It loads markdown files at runtime (`fetch` + `marked.js`), so **no rebuild step is required** — every `git push` to `main` automatically updates the live site within ~30–60 seconds.
+
+The recurring 5-hour cycle agent must:
+- NEVER delete `index.html` or `.nojekyll`
+- After each cycle's final commit + push, the site refreshes automatically. Nothing extra to do.
+- If new top-level markdown files are added at the research root, optionally add nav entries to `index.html` (otherwise they're still accessible by direct URL).
+- If `gh-pages` or `index.html` build issues appear, the agent should report this in `run_history.md` for the run — do not silently fail.
 
 ---
 
